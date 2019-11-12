@@ -29,7 +29,7 @@
 ### National Focus ###
 
  UEN_exploration:0 "Предварительная разведка"
- UEN_exploration_desc:0 "First things first. Send a patrol to see where we landed and what we have in this area."
+ UEN_exploration_desc:0 "Сперва-наперво мы отправим патруль, чтобы увидеть, где мы приземлились и что у нас имеется в этой области."
 
  UEN_first_contact:0 "Дальнейшая разведка"
  UEN_first_contact_desc:0 "Now that we have already mapped our arrival location we should send a small detachment to investigate those lights we saw over the horizon last night, perhaps civilization?"
@@ -547,181 +547,181 @@
 
  ### Decisions ###
 
- volunteers_hum:0 "Sends volunteers to the selected nation."
+ volunteers_hum:0 "Отправить добровольцев в выбранную страну."
 
- UEN_Mobilization:0 "Mobilization"
+ UEN_Mobilization:0 "Мобилизация"
  UEN_Mobilization_desc:0 "After crossing the gate our armed forces basically disbanded to organize basic police forces. Bu now that we know this world is inhabited by creatures of similar weaponry, it would be wise to remobilize our army."
 
- UEN_Mobilize_Line:0 "Mobilize Active Units"
+ UEN_Mobilize_Line:0 "Мобилизация активных подразделений"
  UEN_Mobilize_Line_desc:0 "Most of our active units were disbanded after our arrival, but now it's more than wise to recall them."
 
- UEN_Mobilize_reserve:0 "Mobilize Reserve Units"
+ UEN_Mobilize_reserve:0 "Мобилизация резервных подразделений"
  UEN_Mobilize_reserve_desc:0 "The reservists and conscripts of the Home guard are ready to be called up if needed, but we hope it don't have to."
 
- UEN_Mobilize_militia:0 "Form Militias"
+ UEN_Mobilize_militia:0 "Собрать ополчение"
  UEN_Mobilize_militia_desc:0 "Formed by volunteers, older conscripts and duty-driven civilians. Militias might be our last line of defense if we do encounter a numerically superior enemy."
 
  ### Events ###
 
- europe.20.t:0 "Mobilization of Active Units"
+ europe.20.t:0 "Мобилизация активных подразделений"
  europe.20.d:0 "Most of our active units were disbanded after our arrival, now that we have reformed them we now have a small but experimented base for our armed forces."
  europe.20.a:0 "Back to action!"
 
- europe.21.t:0 "Reservists Called for Duty"
+ europe.21.t:0 "Резервисты вызваны исполнять свой долг"
  europe.21.d:0 "The reservists were called up to bolster our numbers. They are quite experimented and properly equipped, they will be very useful to fill the holes in our frontlines."
  europe.21.a:0 "It's always good to have some reserves."
 
- europe.22.t:0 "Militias Form"
+ europe.22.t:0 "Формирование ополчения"
  europe.22.d:0 "We have hastily formed militia units by equipping several groups of volunteers with equipment, let's hope it's enough."
  europe.22.a:0 "Everyone to the frontline!"
 
- europe.23.t:0 "Ponies Join the Army"
+ europe.23.t:0 "Пони вступают в армию"
  europe.23.d:0 "A lot of members from the pony communities volunteered to join our armed forces, they were already trained and sent into their respective units. This event will hopefully bring to the locals a sense of fraternity and will drive them to be less shy in participating in our society. And as the radio broadcast said earlier this day: \n"We are proud to say that two generals have finished their studies at the Dappleshore Officers Academy, and are now ready to join the ranks of the European Army. \nThis is a great day for our nation, for humans and ponies alike.""
  europe.23.a:0 "Great!"
 
- europe.101.t:0 "First Recon Mission Report"
+ europe.101.t:0 "Отчет о первой разведывательной миссии"
  europe.101.d:0 "First reconnaissance reports show that we are apparently arrived at a peninsula. \nOur Scouts have also reported that this world has many things in common with Earth, of course there is a respirable atmosphere, but they've also found extremely similar flora and fauna. \nSome scouting parties have also reported seeing settlements, we need to be cautious in our next move."
  europe.101.a:0 "Indeed..."
 
- europe.102.t:0 "First Contact"
+ europe.102.t:0 "Первый контакт"
  europe.102.d:0 "[This.GetNewspaperHeader]It finally happened, one of our patrols made contact with the locals. Here is the report from the officer who personally meet them: \n"(...) we came face to face with a police force from the locals, namely ponies. Smaller than us, but bulkier, in pastel colors and equipped with weapons and helmets. They looked as surprised as us, but after a brief moment their leading officer walked toward us, I followed suit and did the same. He asked me in a perfect English: \n"Do you speak 'Equestrian'?" \nAnd I replied: \n"Back home we called it 'English'." \nAfter that we both exchanged our cigarettes and started to talk (...)" \n\nEven if this is incredible to meet a new sentient species, it come also comes with lots of problems for us, mainly how we settle down."
  europe.102.a:0 "Pastel-Coloured talking ponies...?"
 
- europe.103.t:0 "Settling Down"
+ europe.103.t:0 "Поселение"
  europe.103.d:0 "[This.GetNewspaperHeader]The president of the council went to meet Princess Celestia personally, and explained the situation of our nation. \nAfter hearing of the nightmarish situations our people suffered, she accepted immediately accept to give us control of the peninsula (a rural region known as Poninsula) and promised that she will send "Ponytarian" aid to us. \n\nIn exchange she asked us to treat the inhabitants of the region with respect."
  europe.103.a:0 "Our exodus comes to an end."
 
- europe.104.t:0 "The Grand Inauguration of the European Techno-Magical Institute!"
+ europe.104.t:0 "Грандиозное открытие Европейского Техномагического Института!"
  europe.104.d:0 "[This.GetNewspaperHeader]Many humans and ponies came today, to see the inauguration of the European Techno-Magic Institute at the capital of Unity. With the goals of to research and combine human technology and magic, scientists are already really positive about cure for some diseases and the creation of technology thought impossible to be achieved."
  europe.104.a:0 "I can't wait to try a magic-powered toaster!"
 
- europe.105.t:0 "Down With the Radiation!"
+ europe.105.t:0 "Долой радиацию!"
  europe.105.d:0 "[This.GetNewspaperHeader]Today came the first good news from our research team, as the first test to cure radiation sickness from a human was positive. The lead researcher of the project is confident about the possibilities of creating a vaccine of sorts in mass. The Equestrian team, leaded by Nova star a skilled unicorn and renowned scientist, aided the European team in their noble cause. "Without the help of Nova Star and her team we could not have developed a effective cure as fast as it was. They saved millions of lives." Declared the head of the European team at the Dappleshore Medical Institute. \n"After countless tests I can say for sure that we hold the key to create an effective cure against radioactivity, soon enough the vaccine will be made available." Stated Nova Star, right after the declaration of her European counterpart"
  europe.105.a:0 "Down with the radiation!"
 
- europe.106.t:0 "A European Embassy in Canterlot"
+ europe.106.t:0 "Европейское посольство в Кантерлоте"
  europe.106.d:0 "[This.GetNewspaperHeader]After some months of construction, the embassy finally was finished and saw the flag of the UEN fly on its top. It will now serve as the principal channel of communication between Equestrian and the us. \nAnd, apart some exceptions, many within both nations have hopeful expectations in building a lasting friendship between the our nations."
  europe.106.a:0 "I can't wait to visit Canterlot!"
 
- europe.107.t:0 "Recontacting the Other Humans"
+ europe.107.t:0 "Восстановление контактов с другими людьми"
  europe.107.d:0 "[This.GetNewspaperHeader]Our diplomats returned with news from the USA and USSR, the recontacting went smoothly. We we explained our current situations and promised to prepare a summit with all the human representatives in neutral ground."
  europe.107.a:0 "Alright."
 
- europe.108.t:0 "The Canterlot Summit"
+ europe.108.t:0 "Кантерлотский Саммит"
  europe.108.d:0 "[This.GetNewspaperHeader]With the arrival of the representatives at Canterlot, they were taken into a room specially prepared for them, and so discussion on the matters in hand began. \nMany hours later, the discussion was over, with an official cease-fire from all parties signed. Peace was finally made official. \nThe war claimed the lives of billions of humans and even our very home, Earth. May they rest in peace, for now we, hopefully, will do things right this time around."
  europe.108.a:0 "Peace at last."
 
- europe.109.t:0 "The Red Cross is Back to Action!"
+ europe.109.t:0 "Красный Крест снова в деле!"
  europe.109.d:0 "[This.GetNewspaperHeader]Today the first batch of the new human Red Cross Volunteers left to their assignment regions, in the past few months many volunteers showed up after the announcement the organization was being reopened. Now they will travel around in this new world and, like their former colleagues, help peoples in need across no matter their side, belief, or species."
  europe.109.a:0 "With humanity, towards peace!"
 
- europe.110.t:0 "Blue Helmet Resurrection"
+ europe.110.t:0 "Возрождение Голубых Касок"
  europe.110.d:0 "[This.GetNewspaperHeader]Today the first peacekeepers units were equipped and put en route to their destinations, originally created on Earth to limit the impact of war on civilian's population, they were bought back and repurposed to not only help this world inhabitants, but to also act as volunteer forces to aid other similar thinking regimes against their enemies. Let's hope the efforts of our peacekeepers will not be in vain."
  europe.110.a:0 "Another world, same fight."
 
- europe.111.t:0 "Humanity at Peace"
+ europe.111.t:0 "Человечество в мире"
  europe.111.d:0 "[This.GetNewspaperHeader]Today the news arrived that the three exile human nations finally signed a proper peace treaty, negotiations to create an alliance between the three nations are still going on. But there's no doubt that it will end probably end with an agreement."
  europe.111.a:0 "Together for victory."
 
- europe.112.t:0 "European Relief Aid on the Way"
+ europe.112.t:0 "Европейская помощь уже в пути!"
  europe.112.d:0 "[This.GetNewspaperHeader]Today the first humanitarian convoy crossed the border, with Manehattan and Canterlot as their final destinations. The objective of those convoys is to offer medical support for both sides, help the civilians and organize refugee camps."
  europe.112.a:0 "Let's hope the situation don't worsen."
 
- europe.113.t:0 "Equestrian-European Friendship"
+ europe.113.t:0 "Эквестрийско-Европейская помощь"
  europe.113.d:0 "[This.GetNewspaperHeader]Princess Celestia, accompanied by Princess Luna and Princess Cadence, today meet with representatives of the European Council at Canterlot. \nBefore the session started, Princess Celestia made a speech about how friendship and cooperation between species and nations was important and how it changed her world for the better in the past few decades. The two parties ended the meeting with the signature a friendship treaty and presented it high to the crowd waiting outside the castle. \nCheers erupted in the street as Humans and Ponies alike celebrated the event, waving flags and singing their national anthems. The future seems bright for both our species."
  europe.113.a:0 "Peace in our time!"
 
- europe.114.t:0 "Remembrance of the Fallen"
+ europe.114.t:0 "Память о погибших"
  europe.114.d:0 "[This.GetNewspaperHeader]A day of silence was held decreed today in the Union of European Nations, the Europeans stopped their routines and gathered to remember and pay respects to the millions of Europeans who did not have the chance to flee their dying planet. \nNear Dappleshore on a hill now rests a Monolith, with the map of the European continent and of Earth engraved on it. On the monolith is was written the following: \n"In memory of our home, Earth.""
  europe.114.a:0 "Never forget."
 
- europe.115.t:0 "The European Phoenix"
+ europe.115.t:0 "Европейский Феникс"
  europe.115.d:0 "[This.GetNewspaperHeader]A celebration took place today at the city of Unity, as the Council finally announced that the worst was over. \nSuffering from radiation, hunger and in an unknown land, Europeans prevailed against the odds and managed to rebuild their civilization. \nToday Europeans stop to admire this new world, ready to overcome any challenge it might throw at us."
  europe.115.a:0 "Unity forever!"
 
- europe.200.t:0 "Dealing with the Locals"
+ europe.200.t:0 "Общение с местными"
  europe.200.d:0 "Today one of the council members was sent as a representative to the locals living at Dappleshore, one of the problems reported by them is that they are feel like their voice is not heard in contrast of the human majority now living here. They also fear that their culture will be erased in the long run. What's our response?"
  europe.200.a:0 "It's none of our concerns."
  europe.200.b:0 "We will do everything in our power to preserve their culture and representation."
 
- europe.201.t:0 "Negotiations with the Locals"
+ europe.201.t:0 "Переговоры с местными"
  europe.201.d:0 "What is our answer to their demands?"
  europe.201.a:0 "We shall enact some reforms,"
  europe.201.b:0 "We can't afford to help them right now."
  europe.201.c:0 "If they are not happy here direct them at the border."
 
- europe.202.t:0 "A Pony at the Council?!"
+ europe.202.t:0 "Пони в Совете?!"
  europe.202.d:0 "Their final demand has been proposed, what's our anwser?"
  europe.202.a:0 "Sure! Every creature will be represented within our nation."
  europe.202.b:0 "No! The council is humans, and will stay human."
 
- europe.203.t:0 "Love"
+ europe.203.t:0 "Любовь"
  europe.203.d:0 "Even if inter-species relations between Humans and Ponies are nothing new in our country, those unions were never recognized nor protected by our laws. And on top of that such couples are repressed and demonized by both cultures, with many lovers choosing to maintain their relationships a secret from their families and societies. That was until a couple decided to step forward and campaign for free love for all, no matter their species, gender or anything else.  This movement came to be known as the "Free Love Movement", and it has gained massive support from Humans and Ponies alike, with several opposition groups protesting against them and even engaging in violent fights. \nNow we are faced with a choice, we either side with those who want to "have each species in their quarters" and those who want to "break the barries of love". Our government must take a clear and decisive stance on this issue."
  europe.203.a:0 "Why should we prevent two people from loving each other?"
  europe.203.b:0 "Don't you think we have more pressing matters at hands?"
  europe.203.c:0 "A Pony and a Human together?! What are you, a damn Zoophilic?"
 
- europe.300.t:0 "The Euro-Equestrian Alliance"
+ europe.300.t:0 "Эквестрийско-Европейский Альянс"
  europe.300.d:0 "The Europeans have expressed their wish to join our alliance and stand by our side to defend both of our nations. \nWhat is our response?"
  europe.300.a:0 "We accept, we could use their war experience."
  europe.300.b:0 "We refuse, we don't need them."
 
- europe.301.t:0 "Equestria Accepts"
+ europe.301.t:0 "Эквестрия согласилась!"
  europe.301.d:0 "Our request for membership in the United Ponies alliance was accepted! \nOur soldiers are eager to meet and help their fellow allied soldiers of the other nations."
  europe.301.a:0 "United we stand."
 
- europe.302.t:0 "Equestria Refuses"
+ europe.302.t:0 "Эквестрия отказалась"
  europe.302.d:0 "Our request for membership in the United Ponies alliance was refused by Equestria, they don't need us."
  europe.302.a:0 "Divided we fall."
 
- europe.303.t:0 "The Humans Propose an Alliance"
+ europe.303.t:0 "Люди предлагают альянс"
  europe.303.d:0 "Representatives from the so called "European State" today offered us the prospect of an alliance. It seems that both our nations have the same ambition of taking down the Equestrian yoke, their armed forces are also rumored to be extremely experimented and well equipped. What is you decision, queen?"
  europe.303.a:0 "We accept their offer, at least for now."
  europe.303.b:0 "We don't need those weaklings by our side, now get out of here!"
 
- europe.304.t:0 "The Changelings Accept"
+ europe.304.t:0 "Чейнджлинги согласны"
  europe.304.d:0 "Queen Chrysalis has accept our offer of cooperation, if we are to go at war with Equestria we need all the help we can get."
  europe.304.a:0 "All according to plan."
 
- europe.305.t:0 "The Changelings Refuse"
+ europe.305.t:0 "Чейнджлинги отказались"
  europe.305.d:0 "Queen Chrysalis has refused our offer of cooperation, stating that they don't have no need of such "weaklings" help against Equestria."
  europe.305.a:0 "Fine! We can deal with those overgrown bugs later."
 
- europe.306.t:0 "A Alliance with the Europeans?"
+ europe.306.t:0 "Альянс с европейцами?"
  europe.306.d:0 "The European proletariat has just recently overthrowed their oppressors and are now looking for help from fellow communists. They proposed to us the creation of a military alliance between both our nations. \nWhat is our response?"
  europe.306.a:0 "The revolution marches together!"
  europe.306.b:0 "To each their own revolution."
 
- europe.307.t:0 "Stalliongrad Accepts"
+ europe.307.t:0 "Сталлионград согласился"
  europe.307.d:0 "Our comrades from Stalliongrad have accepted our proposal! The workers of both sides now stand together, ready to fight side-by-side against the enemies of the revolution."
  europe.307.a:0 "No matter the world, the proletariat fights together!"
 
- europe.308.t:0 "Stalliongrad Refuses"
+ europe.308.t:0 "Сталлионград отказался"
  europe.308.d:0 "Our quadrupedal comrades from Stalliongrad refused our proposal. It seems that their flawed socialism has abandoned the ideals of unity between workers everywhere, we stand alone against the reactionaries."
  europe.308.a:0 "Do not worry comrades, you will not be oppressed forever by those so called "revolutionaries"."
 
- europe.309.t:0 "A Invitation to the United Nations"
+ europe.309.t:0 "Приглашение в ООН"
  europe.309.d:0 "The Europeans are inviting us to the newly formed United Nations, a organization that aims to unite all the world under the banner of peace and democracy. What is our response?"
  europe.309.a:0 "United we stand against tyranny everywhere!"
  europe.309.b:0 "The League of Nations failed, this organization is destined to the same fate."
 
- europe.310.t:0 "The United States Joins the United Nations"
+ europe.310.t:0 "США вступили в ООН"
  europe.310.d:0 "The Americans have accepted our proposal to join the United Nations."
  europe.310.a:0 "Welcome back, old friend."
 
- europe.311.t:0 "The United states Declines our Offer"
+ europe.311.t:0 "Соединенные Штаты отклонили наше предложение"
  europe.311.d:0 "The Americans have refused our proposal to join the United Nations."
  europe.311.a:0 "And they still call themselves the vanguard of liberty."
 
- europe.312.t:0 "A Invitation to the United Nations"
+ europe.312.t:0 "Приглашение в ООН"
  europe.312.d:0 "The Europeans are inviting us to the newly formed United Nations, a organization that aims to unite all the world under the banner of peace and democracy. What is our response?"
  europe.312.a:0 "United we stand against tyranny everywhere!"
  europe.312.b:0 "The League of Nations failed, this organization is destined to the same fate."
 
- europe.313.t:0 "The Soviet Union Joins the United Nations"
+ europe.313.t:0 "Советский Союз вступает в ООН"
  europe.313.d:0 "The Soviets have accepted our proposal to join the United Nations."
  europe.313.a:0 "Greeting, comrades."
 
- europe.314.t:0 "The Soviet union Declines our Offer"
+ europe.314.t:0 "Советский Союз отклонил наше предложение"
  europe.314.d:0 "The Soviets have refused our proposal to join the United Nations."
  europe.314.a:0 "Meh, I expected that already."
