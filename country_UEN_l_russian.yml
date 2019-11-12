@@ -28,304 +28,304 @@
 
 ### National Focus ###
 
- UEN_exploration:0 "Preliminary Exploration"
+ UEN_exploration:0 "Предварительная разведка"
  UEN_exploration_desc:0 "First things first. Send a patrol to see where we landed and what we have in this area."
 
- UEN_first_contact:0 "Further Exploration"
+ UEN_first_contact:0 "Дальнейшая разведка"
  UEN_first_contact_desc:0 "Now that we have already mapped our arrival location we should send a small detachment to investigate those lights we saw over the horizon last night, perhaps civilization?"
  
- UEN_settle:0 "Settling Down"
+ UEN_settle:0 "Основание поселения"
  UEN_settle_desc:0 "We might be in already inhabited land, but we simply got nowhere to go. We are tired and we are defenceless, we need to strike a deal with the locals before anything else."
 
- take_care_of_population:0 "Take Care of our Own"
+ take_care_of_population:0 "Позаботиться о себе"
  take_care_of_population_desc:0 "Our population suffered greatly during and after the war, and even more in having to leave their homeworld. We need to do everything in power to appease this situation."
  
- subsistence_agriculture:0 "Subsistence Agriculture"
+ subsistence_agriculture:0 "Натуральное сельское хозяйство"
  subsistence_agriculture_desc:0 "Our food reserves are quickly depleting, we need to start growing our own food and fast."
 
- fishing:0 "Kickstart the Fishing Industry"
+ fishing:0 "Запустить рыбную промышленность"
  fishing_desc:0 "Our crops can only grow so fast, if we plan on feeding our population in the time being we need to start fishing along our coast line."
 
- build_school_and_university:0 "Rebuild our Education System"
+ build_school_and_university:0 "Восстановить систему образования"
  build_school_and_university_desc:0 "Even if we find ourselves in a situation of emergency, we mustn't forget that knowledge is power. We need to learn everything about this new world and of the old one."
 
- techno_magic_institute:0 "The Techno-Magic Institute"
+ techno_magic_institute:0 "Техномагический институт"
  techno_magic_institute_desc:0 "Magic have many interesting properties and uses, from weather manipulation to teleportation. If we can learn how to use it we would be able to improve all areas of society, especially military and industry."
 
- cure_radiation:0 "Down with the Radiation!"
+ cure_radiation:0 "Долой радиацию!"
  cure_radiation_desc:0 "The sad legacy of WW3, still plaguing our population even here. But thanks to our acquired knowledge on magic, and help from the natives, we might be finally able to bring a end to it."
 
- open_the_border:0 "Open the Borders"
+ open_the_border:0 "Открыть границы"
  open_the_border_desc:0 "With basic infrastructure finished, our diseases dealt with and our people eating sufficiently again, we have no more reasons to enforce a policy of closed borders."
 
- re_industrialisation:0 "Re-Industrialisation"
+ re_industrialisation:0 "Реиндустриализация"
  re_industrialisation_desc:0 "We arrived in this world with no machinery whatsoever, our portals simply won't allow to take heavy machinery with us. But if we want to bring humanity back to its former glory we will need a powerful industry."
 
- UEN_construction_company:0 "Rebuild the Civil Industry"
+ UEN_construction_company:0 "Возродить гражданскую промышленность"
  UEN_construction_company_desc:0 "The first step towards reindustrialisation is to rebuild the civil industry, which will begin to extract the resources of the riches soils of this world and build the basic infrastructure we will need for heavy industries."
 
- establish_the_first_settlements:0 "Establish the First Settlements"
+ establish_the_first_settlements:0 "Основать первые поселения"
  establish_the_first_settlements_desc:0 "Currently our people live under tents in improvised camps, this can't go for long. We need to start building proper houses and bring basic sanitation back to our populace."
 
- phoenix_house:0 "Phoenix Houses"
+ phoenix_house:0 "Дома 'Феникс'"
  phoenix_house_desc:0 "Created after WW2 in France, these houses were made to be cheap and easy to build. With some tweaks to the original design we will be able to resettle our population much quickly."
 
- a_shelter_for_everyone:0 "A Shelter for Everyone"
+ a_shelter_for_everyone:0 "Пристанище для каждого"
  a_shelter_for_everyone_desc:0 "We have almost finished relocating our population into our new cities. Let's continue this way!"
 
- strenghen_the_country:0 "Strengthen our Nation"
+ strenghen_the_country:0 "Укрепить нацию"
  strenghen_the_country_desc:0 "Our efforts to safeguard a new future for our people are slowly but surely healing the wounds left from the last war. Let's keep up this pace!"
 
- international_market:0 "Enter the International Market"
+ international_market:0 "Войти в международный рынок"
  international_market_desc:0 "Thanks to our extensive knowledge in manufacturing methods and omnivore diet, we would benefit greatly from international trade. Let the money flow!"
 
- the_European_Phoenix:0 "The European Phoenix"
+ the_European_Phoenix:0 "Европейский Феникс"
  the_European_Phoenix_desc:0 "Like a phoenix we were reborn from our ashes, we survived a nuclear holocaust and build a nation to outlast the test of time. After so many years the future finally looks promising."
 
- armement_workshop:0 "Military Workshops"
+ armement_workshop:0 "Военные мастерские"
  armement_workshop_desc:0 "We don't have much room for a military industrial complex right now, but what we can do is to setup several workshops to at least provide maintenance for our weaponry."
 
- vehicle_workshop:0 "Automotive Workshops"
+ vehicle_workshop:0 "Автомастерские"
  vehicle_workshop_desc:0 "Not much to be honest, but those will be more than enough to keep our military vehicles in a decent state."
 
- union_arsenal:0 "National Arsenal"
+ union_arsenal:0 "Национальный арсенал"
  union_arsenal_desc:0 "We can't rely in workshops indefinitely, we need to establish even if a small military industrial complex to keep our equipment up-to-date."
 
- develop_new_weapons:0 "Develop New Weapons"
+ develop_new_weapons:0 "Разработать новое оружие"
  develop_new_weapons_desc:0 "Our scientists have been working in magical applications in the military sector, and we already have several projects merging standard weapons with magical components, if we manage to put those projects on the production lines it will help us greatly."
 
- expand_arsenal:0 "Expand the Arsenal"
+ expand_arsenal:0 "Расширить арсенал"
  expand_arsenal_desc:0 "Our current production rate won't do it, we need to produce more!"
 
- deal_with_the_locals:0 "Dealing with the Locals"
+ deal_with_the_locals:0 "Общение с местными"
  deal_with_the_locals_desc:0 "Even if Equestrians are said to be generally welcoming people there's still some citizens disturbed by our presence, many even formed groups preaching against our continued presence in the region. We need to open dialogue and see how to resolve this issue."
 
- UEN_negotiate_with_the_locals:0 "Negotiations with the Locals"
+ UEN_negotiate_with_the_locals:0 "Переговоры с местными"
  UEN_negotiate_with_the_locals_desc:0 "The negotiations with the local government continue, their leaders have asked our representatives how we are going to adapt our laws and policies to their people."
 
- UEN_pony_council:0 "A Pony in the Council?!"
+ UEN_pony_council:0 "Пони в Совете?!"
  UEN_pony_council_desc:0 "The final demand from the natives is to have a seat at the council reserved to one of their kind. It will finally ease the apprehension of the locals and having someone who know this land will help us a lot. On the other hand many within our own aren't too fond of having a non-human within their ranks. What should we do?"
 
- UEN_equestrian_civil_war:0 "The Equestrian Civil war"
+ UEN_equestrian_civil_war:0 "Гражданская война в Эквестрии"
  UEN_equestrian_civil_war_desc:0 "A civil war as erupted in Equestria! For now we aren't directly affected by the war, but if we don't do anything there's a real risk that the winner of the civil war might not be too fond of having non-humans in their homeland. We need to do something, and quick!"
 
- UEN_Stay_neutral:0 "Stay Neutral"
+ UEN_Stay_neutral:0 "Остаться в нейтралитете"
  UEN_Stay_neutral_desc:0 "We simply can't do anything to help, we need to concentrate on helping the refugees and fortify our border."
 
- UEN_Send_the_red_cross:0 "Send the Red Cross"
+ UEN_Send_the_red_cross:0 "Отправить Красный Крест"
  UEN_Send_the_red_cross_desc:0 "This civil war is going to hit the population of Equestria hard, we should send the red cross on both sides to help the civilians."
 
- UEN_support_celestia:0 "Support Celestia"
+ UEN_support_celestia:0 "Поддержать Селестию"
  UEN_support_celestia_desc:0 "It is no secret that Princess Celestia is a wise and peaceful leader, one which upholds democratic ideals and goes out of her way to ensure her people live in prosperity and peace. We need to send our support."
 
- UEN_send_cel_volunteers:0 "Send the Volunteers"
+ UEN_send_cel_volunteers:0 "Отправить добровольцев"
  UEN_send_cel_volunteers_desc:0 "Our soldiers are only awaiting the green light to join the struggle."
 
- UEN_support_luna:0 "Support Luna"
+ UEN_support_luna:0 "Поддержать Луну"
  UEN_support_luna_desc:0 "Celestia cleary has gone mad with power, even if her sister is not any better it's is wise to support them and guarantee ourselves a non-aggression pact."
 
- UEN_send_lun_volunteers:0 "Send the Volunteers"
+ UEN_send_lun_volunteers:0 "Отправить добровольцев"
  UEN_send_lun_volunteers_desc:0 "Our soldiers are only awaiting the green light to join the struggle."
 
- UEN_war:0 "War!"
+ UEN_war:0 "Война!"
  UEN_war_desc:0 "It seems like one time wasn't enough."
 
- UEN_last_stand:0 "Last Stand"
+ UEN_last_stand:0 "Последний бой"
  UEN_last_stand_desc:0 "This is not like any other war we fought, if we lose now our civilization will cease to exist as we know it, this is our last stand!"
 
- UEN_Humanity_will_go_down:0 "Going Down with a Fight"
+ UEN_Humanity_will_go_down:0 "Умереть в бою"
  UEN_Humanity_will_go_down_desc:0 "Even if we ultimately lose humanity will not go down without a fight! VICTORY OR DEATH!"
 
- open_diplomatic_relation:0 "Open Diplomatic Relations"
+ open_diplomatic_relation:0 "Открытые дипломатические отношения"
  open_diplomatic_relation_desc:0 "Now with everything in order we can finally start opening our diplomatic channels to the outside world."
 
- contact_equestria:0 "Contact our Neighbor"
+ contact_equestria:0 "Связаться с соседом"
  contact_equestria_desc:0 "The first step would be to establish formal relations with our neighbor, the nation of Equestria."
 
- UEN_establish_an_embassy_in_canterlot:0 "Establish an Embassy in Canterlot"
+ UEN_establish_an_embassy_in_canterlot:0 "Открыть посольство в Кантерлоте"
  UEN_establish_an_embassy_in_canterlot_desc:0 "If we plan to establish long-term relations with Equestria it would be wise to create an embassy in their capital city."
 
- strenghen_our_relation:0 "Strengthen our Relations"
+ strenghen_our_relation:0 "Укрепить отношения"
  strenghen_our_relation_desc:0 "Thank to Princess Celestia and her people we are now ready to enter this world's geopolitical scenario, we will help them as they have helped us!"
 
- open_relation_with_olenia:0 "Open Relations with Olenia"
+ open_relation_with_olenia:0 "Открытые отношения с Оленией"
  open_relation_with_olenia_desc:0 "Olenia is a realm far east of the continent we reside, known to be the homeland of the Deer, and mostly importantly, a potential profitable trade partner, we should establish formal relations with them."
 
- help_our_neighbour:0 "Euro-Equestrian Alliance"
+ help_our_neighbour:0 "Эквестрийско-Европейский Альянс"
  help_our_neighbour_desc:0 "Equestria has helped us greatly when we arrived in this strange new world, from restarting our industry to helping we feed our population. It only makes sense to pay back for what they did for us with a alliance between our nations."
 
- contact_the_griffon:0 "Contact the Griffons"
+ contact_the_griffon:0 "Связаться с грифонами"
  contact_the_griffon_desc:0 "Ponies aren't the only inhabitants of this world, on the continent to our east resides Griffonia, the homeland of the Griffons.\nEstabilishing formal relations with the many nations there would be nothing short of beneficial to us."
 
- contact_humans_nations:0 "Contact our Kind"
+ contact_humans_nations:0 "Связаться с нашими"
  contact_humans_nations_desc:0 "We were not the only ones of our kind to arrive in this planet, from the intel we received we know now that Soviet and American exiles also ended up here. Time to rectify past mistakes."
 
- summit_canterlot:0 "Request a Summit at Canterlot"
+ summit_canterlot:0 "Предложить Кантерлотский Саммит"
  summit_canterlot_desc:0 "The capital of Equestria is the perfect place to have the summit, seeing as it is neutral ground for all the involved nations. Once we get the response to our request we shall see how well this submit goes."
 
- avenge_europe:0 "Avenge Europe"
+ avenge_europe:0 "Отомстить за Европу"
  avenge_europe_desc:0 "Did they really think we would forgive and forget? No! They will pay for the millions that died and for the destruction of our whole planet, this will be the final showdown!"
 
- Cold_war_turned_hot:0 "Cold War Turned Hot"
+ Cold_war_turned_hot:0 "Холодная война стала горячей"
  Cold_war_turned_hot_desc:0 "Time to end this! We lost everything we had in the war, and now we will make sure that they will pay with their own blood for it. But we must carefully plan our next move, native countries can give us a lot of resources and industry, but we should careful. It's their planet after all, we are aliens to them, a alliance could be formed against us."
 
- crush_the_weak:0 "Slay the Weak"
+ crush_the_weak:0 "Избить слабых"
  crush_the_weak_desc:0 "By crushing the puniest nations first we will get a good foothold on this world, allowing us to achieve our plans."
 
- crush_haukland:0 "Crush Haukland"
+ crush_haukland:0 "Сокрушить Хавкленд"
  crush_haukland_desc:0 "This channel of islands is very poorly defended, if we capture them we will have good naval base for future incursions to both Equus and Griffonia."
 
- operation_drake:0 "Operation Drake"
+ operation_drake:0 "Операция 'Дрейк'"
  operation_drake_desc:0 "The Dragon Tribes are nothing more than backwards barbarians, we will crush them and put those lands to good use."
 
- red_ponies:0 "Operation Marx"
+ red_ponies:0 "Операция 'Маркс'"
  red_ponies_desc:0 "Even in this world the red plague followed us. Since the locals are too afraid to deal with it themselves we shall do it!"
 
- crush_USA:0 "Operation Columbia"
+ crush_USA:0 "Операция 'Колумбия'"
  crush_USA_desc:0 "They were never our allies! The only reason they joined our side was to exploit our weakened status to their own profit. This failed British colonial experiment has to be put down for good!"
 
- crush_USSR:0 "Operation Colossus"
+ crush_USSR:0 "Operation 'Колосс'"
  crush_USSR_desc:0 "The Soviet Union was a colossus in our world, before the war we could only tolerate their existence and hope for their collapse. But now the colossus is weakened, time to avenge the Revolution once for all!"
 
- fall_of_equestria:0 "Equestria Burns"
+ fall_of_equestria:0 "Эквестрия горит"
  fall_of_equestria_desc:0 "We finally did it, our biggest obstacle has been finally overcome. The banner of our nation flies triumphantly over the remnants of what once was Canterlot. Nothing can stop us now!"
 
- european_domination:0 "European Hegemony"
+ european_domination:0 "Гегемония Европы"
  european_domination_desc:0 "Once again Europe prevailed in the face of hardship, and once again our enemies lay defeated. SEMPER EUROPA!"
 
- never_again:0 "Never Again"
+ never_again:0 "Больше никогда"
  never_again_desc:0 "Our own madness and paranoia led us to destroy the only homeworld we ever had. It's time to sit down and work together to safeguard peace in this new world."
  
- United_Nations:0 "The United Nations"
+ United_Nations:0 "Организация Объединённых Наций"
  United_Nations_desc:0 "Back on Earth the United Nations attempted to preserve and keep peace. Even if it failed in the end, this time we might be able to actually achieve such goal. We all share the same world after all."
 
- an_alliance:0 "An Alliance"
+ an_alliance:0 "Альянс"
  an_alliance_desc:0 "The world around us is unknown and, as we came to realize, volatile. We should seek to formalize a alliance with the other two human nations, better safe than sorry."
 
- fund_the_red_cross:0 "Fund the Red Cross"
+ fund_the_red_cross:0 "Финансировать Красный Крест"
  fund_the_red_cross_desc:0 "Even in the worst period of WWIII, members of the Red Cross were all around the world trying their best to help civilians and soldiers alike. They more than need and deserve our funding."
  
- create_the_UN_Alliance:0 "Militarize the United Nations"
+ create_the_UN_Alliance:0 "Военизировать ООН"
  create_the_UN_Alliance_desc:0 "Old enemies, standing side-by-side as friends. United we shall be ready for any hardships in the future. Forward, for peace in our time!"
  
- invite_USA:0 "Invite the USA"
+ invite_USA:0 "Пригласить США"
  invite_USA_desc:0 "Seeing as they were already our ally back home, it's more than reasonable and sensible to invite them to our alliance."
  
- invite_USSR:0 "Invite the USSR"
+ invite_USSR:0 "Пригласить СССР"
  invite_USSR_desc:0 "Even if our nations never were in the best of terms, this time around things are different. We now know that we must coexist one way or another, for our own sake."
 
- resurrect_the_blue_helmet:0 "Resurrect the Blue Helmet"
+ resurrect_the_blue_helmet:0 "Возродить Голубые каски"
  resurrect_the_blue_helmet_desc:0 "The Blue Berets were an international peacekeeping force founded by the UN, they operated in conflict stricken regions around the world providing the civilian population with medical care and with basic needs. Maybe we could renovate them and turn them into a international force of peace?"
 
- human_history_saving_program:0 "Human History Saving Program"
+ human_history_saving_program:0 "Программа Сохранения Истории Человечества"
  human_history_saving_program_desc:0 "Our historical and cultural legacy immeasurable and irreplaceable. We will gather all the documentation, books, paintings, movies, everything we can in order to preserve our culture and history. Never forget where we came from."
 
- UEN_reorganize_the_army:0 "Reorganize the Army"
+ UEN_reorganize_the_army:0 "Реорганизовать армию"
  UEN_reorganize_the_army_desc:0 "After crossing the gate our armed forces basically disbanded to rejoin their families. Now that we know this world is inhabited by other sentient creatures with weaponry, that almost match ours, we must reorganize at once!"
 
- UEN_the_european_army:0 "The European Army"
+ UEN_the_european_army:0 "Европейская армия"
  UEN_the_european_army_desc:0 "Our army is composed of all the old armed forces of Europe, the Bundeswehr's, the Polish Ludowe Wojsko, the Italian Esercito, the French Armée, etc. It's a experienced and diversified force, but this multicultural army makes it hard to administer it efficiently sometimes. Let's see what we can do about that."
 
- reequip_our_infantry:0 "Reequip our Troops"
+ reequip_our_infantry:0 "Переоборудовать войска"
  reequip_our_infantry_desc:0 "Our troops are using salvaged firearms and even riot control equipment! What is this? We came back to the 1000s? Well, technically yes. But still, we need to reequip our army with proper weaponry if we wish to it to be a efficient armed force."
 
- UEN_home_guard_focus:0 "Home Guard"
+ UEN_home_guard_focus:0 "Ополчение"
  UEN_home_guard_focus_desc:0 "The Home Guard was our principal line of defense during the exodus, composed of many conscripts from around Europe. By expanding it we will be able to use it as a garrison force if the need ever comes."
 
- UEN_doctrine:0 "A New Doctrine"
+ UEN_doctrine:0 "Новая доктрина"
  UEN_doctrine_desc:0 "Even if things seem familiar in this world, we must reevaluate our war tactics and adapt to the several situations this new world has."
 
- wheeled_light_tank:0 "Armored Effort"
+ wheeled_light_tank:0 "Рывок в бронетехнике"
  wheeled_light_tank_desc:0 "Even if our current doctrine focuses around mobile defense and infantry tactics, we can't neglect our armored forces!"
 
- armor_technology:0 "Armor Research"
+ armor_technology:0 "Исследования в бронетехнике"
  armor_technology_desc:0 "Our armies back on Earth used to field several armored units, but as we crossed the gates we couldn't bring much of that with us. And with the new materials this world has to offer we only have to gain in researching ways to implement such in our own armour."
 
- basic_support_weapons:0 "Infantry Support Weapons"
+ basic_support_weapons:0 "Оружие поддержки пехоты"
  basic_support_weapons_desc:0 "Our infantry doesn't just need guns and uniforms, having support equipment suitable to counter anything the enemy can thrown at us is quintessential to have the high ground."
 
- field_artillery:0 "Field Artillery"
+ field_artillery:0 "Полевая артиллерия"
  field_artillery_desc:0 "Sometimes the best way to directly hit the enemy is to not directly engage them. For such research into the artillery sector are essential, bullets are cheap, our manpower is precious."
 
- mechanized_infantry:0 "Mechanized Infantry"
+ mechanized_infantry:0 "Мотопехота"
  mechanized_infantry_desc:0 "Unlike with trucks and similar vehicles, APCs and IFVs are able to transverse rough terrain easily and advance much quicker than regular infantry units. Their inclusion will allow us to outrun and fight the enemy with much more efficiency."
 
- motorize_the_infantry:0 "Mass Motorization"
+ motorize_the_infantry:0 "Массовая моторизация"
  motorize_the_infantry_desc:0 "With the advent of modern warfare infantry units relying on their own feet for transport is quickly becoming a obsolete concept. The quicker we motorize our forces, the better."
 
- UEN_we_fight_to_protect:0 "We Fight to Protect"
+ UEN_we_fight_to_protect:0 "Мы боремся, чтобы защитить."
  UEN_we_fight_to_protect_desc:0 "After several reforms we finally managed to transform a amalgamation of armies into a single cohesive fighting force. We no longer fight for different European nations, now we fight for Europe. EUROPA INVICTA!"
 
- UEN_cluster_ammo:0 "Cluster Munition"
+ UEN_cluster_ammo:0 "Кассетная бомба"
  UEN_cluster_ammo_desc:0 "A cluster munition is an explosive weapon that releases or ejects smaller submunitions, usually explosive bomblets designed to damage enemy troops and vehicles. By proving our army with such dealing with enemy units will become much easier."
 
- UEN_combat_drugs:0 "Combat Drugs"
+ UEN_combat_drugs:0 "Боевые наркотики"
  UEN_combat_drugs_desc:0 "Militaries worldwide have used various psychoactive drugs to improve performance of soldiers by suppressing hunger, increasing the ability to sustain effort without food, increasing and lengthening wakefulness and concentration, suppressing fear, reducing empathy, and improving reflexes and memory-recall, among other things. Introducing those drugs will greatly improve the efficiency of our soldiers."
 
- construct_airbase:0 "Construct an Airbase"
+ construct_airbase:0 "Построить авиабазу"
  construct_airbase_desc:0 "If we plan to ever build a air force we need to first build a airbase."
 
- fighter:0 "Fighter Jets"
+ fighter:0 "Реактивные истребители"
  fighter_desc:0 "Even if the jet engine is already something that gives us a advantage over the native aircraft, we can't let our guard down. Our simple presence here already will make this world's technological level much faster."
 
- interceptor:0 "Interceptors"
+ interceptor:0 "Перехватчики"
  interceptor_desc:0 "Interceptor aircraft are a type of fighter designed specifically for point defense interception role against an attacking enemy aircraft, particularly bombers and reconnaissance aircraft, as they approach. Investing in them is as important as investing in regular fighters."
 
- helicopters:0 "Helicopters"
+ helicopters:0 "Вертолёты"
  helicopters_desc:0 "Even if this world follows quite closely our technological level at the 30s, the natives did develop some early helicopters. We should see what their designs have of advantageous to be added to our own helicopters."
  
- naval_patrol_aircraft:0 "Maritime Patrol Aircraft"
+ naval_patrol_aircraft:0 "Морская патрульная авиация"
  naval_patrol_aircraft_desc:0 "Maritime patrol aircraft are fixed-wing aircraft designed to operate for long durations over water in maritime patrol roles, in particular naval warfare. Even if this world's navies are not really so developed in comparation to the ones back in Earth it's better to not take risks."
 
- UEN_tactical_bomber:0 "Tactical Bombers"
+ UEN_tactical_bomber:0 "Тактические бомбардировщики"
  UEN_tactical_bomber_desc:0 "Tactical bombers are military aircraft that have the primary role of carrying out airstrikes with greater precision than strategic bombers, prepared to encounter strong low-level air defenses while pressing the attack. Their development is essential."
 
- strategic_bomber:0 "Strategic Bombers"
+ strategic_bomber:0 "Стратегические бомбардировщики"
  strategic_bomber_desc:0 "Strategic bombers are medium to long range penetration aircrafts designed to drop large amounts of air-to-ground weaponry onto a distant target for the purposes of debilitating the enemy's capacity to wage war. Research into better bombs and in their overall design is going to greatly help us."
 
- better_engine:0 "Improved Jet Engines"
+ better_engine:0 "Улучшеные реактивные двигатели"
  better_engine_desc:0 "Yes, our jet engines beat any native fighter currently in operation. But they too are developing jet engines, let's show them how it's done!"
  
- AA_missiles_focus:0 "Guided Missiles"
+ AA_missiles_focus:0 "Управляемые ракеты"
  AA_missiles_focus_desc:0 "Modern air combat is done with missiles, not with canons or machine guns. Let's give our aircraft more and better missiles!"
 
- create_naval_base:0 "Create a Naval Base"
+ create_naval_base:0 "Построить военно-морскую базу"
  create_naval_base_desc:0 "Due to the limits of the gates we couldn't bring any ships with us, but we were sure to bring the blueprints with us. But before we can start building ships we first need a proper naval base!"
 
- coastal_navy:0 "A Flexible Fleet"
+ coastal_navy:0 "Гибкий флот"
  coastal_navy_desc:0 "We just can't afford to build a massive naval force, if anything the best option is to focus on lighter vessels like destroyers and submarines."
 
- atlantic_navy:0 "A Atlantic Fleet"
+ atlantic_navy:0 "Атлантический флот"
  atlantic_navy_desc:0 "Even if the term 'Atlantic' makes no sense here, it still applies to our naval doctrine, which focuses on having a massive naval force. Europe shall rules the waves!"
 
- torpedo_boat:0 "Fast Attack Craft"
+ torpedo_boat:0 "Скоростные ударные катера"
  torpedo_boat_desc:0 "Fast attack crafts are small, fast, agile and offensive warships armed with anti-ship missiles, gun or torpedoes. They are perfect for coastal defense duties and having them will make the escort of convoys much safer and efficient."
 
- design_new_destroyers:0 "A New Generation of Destroyers"
+ design_new_destroyers:0 "Новое поколение эсминцев"
  design_new_destroyers_desc:0 "As much as missile boats are useful, we need to design a much bigger and strong ship. A new kind of destroyer could fulfill that role perfectly!"
 
- ula_class_submarine:0 "Ula-Class"
+ ula_class_submarine:0 "Класс 'Ула'"
  ula_class_submarine_desc:0 "The Norwegian navy has the blueprint of a new, cheap, and small submarine designed especially for coastal defence duties. It will fulfill our need perfectly."
 
- gotland_class_submarine:0 "Gotland-Class"
+ gotland_class_submarine:0 "Класс 'Готланд'"
  gotland_class_submarine_desc:0 "The Swedish have developed a new submarine made for long period underwater operation and to be as stealthy as possible. Being able to stay under enemy seas for long periods of time would give us the upper hand in naval combat."
 
- new_cruiser:0 "New Cruisers"
+ new_cruiser:0 "Новые крейсера"
  new_cruiser_desc:0 "It's time to design a new cruiser, even if old designs would operate well enough a cruiser made for this world's seas would be a much better option."
 
- modern_cruiser:0 "Modern Cruisers"
+ modern_cruiser:0 "Современные крейсера"
  modern_cruiser_desc:0 "Even if the last models were great, they still lack the latest of technology in naval warfare seeing as they were our first attempts. Let's user our earned knowledge to make a much more advanced cruiser model."
 
- new_battleship:0 "Reintroduce Battleships"
+ new_battleship:0 "Восстановить линкоры"
  new_battleship_desc:0 "The introduction of aircraft carriers pratically killed the battleships, seeing as their cost of maintenance and construction were no longer worthy it. But maybe we could build some battleships for the time being."
 
- design_aircraft_carrier:0 "New Aircraft Carriers"
+ design_aircraft_carrier:0 "Новенькие авианосцы"
  design_aircraft_carrier_desc:0 "Aircraft carriers are the future of naval combat, allowing for aerial warfare to occur from the sea and to offer support for thhe rest of our fleet. With that in mind they should be put in production as soon as possible."
 
- missile_warfare:0 "Anti-Ship Missiles"
+ missile_warfare:0 "Противокорабельные ракеты"
  missile_warfare_desc:0 "Anti-ship missiles are guided missiles that are designed for use against ships and large boats, with several models being launched from naval vessels. It's more than time to equip our fleet with such missiles."
 
- master_of_atom:0 "Master of the Atom"
+ master_of_atom:0 "Хозяин атома"
  master_of_atom_desc:0 "We are much more advanced in nuclear science than the natives of this world, they are only starting to tap into that field. If anything we know what happens when two superpowers with nuclear bombs clash, we now know how to handle such power."
 
 ### Harmonist Branch ###
