@@ -24,41 +24,41 @@
  human_scientists:0 "Наука людей"
  human_scientists_desc:0 "Благодаря исследовательским договорам, эта страна теперь получает выгоду от сотрудничества с людьми в научной сфере."
 
- magic_laboratory:0 "Современные Л"
- magic_laboratory_desc:0 "With modern equipments and access to sufficient funding, research efforts will be able to advance much faster in this nation."
+ magic_laboratory:0 "Современные Лаборатории"
+ magic_laboratory_desc:0 "С современным оборудованием и доступом к достаточному финансированию, исследовательские проекты в этой стране могут продвигаться намного быстрее."
 
- AA_missile:0 "Guided Missiles"
- AA_missile_desc:0 "The introduction of Radar/Infrared missiles in our aircraft greatly improves their attack capabilities."
+ AA_missile:0 "Управляемые ракеты"
+ AA_missile_desc:0 "Введение радара и ИК-ракет в наши самолёты сильно увеличат их возможности в атаке."
 
  ASM_missile:0 "Anti-Ship Missiles"
- ASM_missile_desc:0 "The introduction of guided missiles on our ships greatly improve their attack capabilities."
+ ASM_missile_desc:0 "Введение управляемых ракет на наши судна сильно увеличат их возможности в атаке."
 
- human_history_program:0 "Human History Preservation Program"
- human_history_program_desc:0 "Thanks to our efforts, we managed to recovery a extensive archive of the history of humanity, spamming from before humanity to the modern age. We must learn from our mistakes to avoid committing them again."
+ human_history_program:0 "Программа Сохранения Истории Человечества"
+ human_history_program_desc:0 "Благодаря нашим усилиям, мы организовали экстенсивное архивирование истории человечества, начиная с дочеловеческой эпохи, и до современности. Мы должны учиться на наших ошибках, чтобы не допускать их в будущем."
 
- blue_helmet:0 "Blue Helmets"
- blue_helmet_desc:0 "Also know as the Blue Berets, they are a international peace enforcement unit which monitor and observe peace processes in post-conflict areas and assist ex-combatants in implementing the peace agreements they may have signed. Now they also double as a international volunteer force to harmonist countries fighting wars against undemocratic regimes."
+ blue_helmet:0 "Голубые каски"
+ blue_helmet_desc:0 "Также известны как Голубые Береты, они являются международными подразделениями для принуждения к миру, которые контролируют и наблюдают за мирными процессами в постконфликтных районах и помогает бывшим сторонам конфликта в осуществлении мирных соглашений, которые они, возможно, подписали. Теперь они также выступают в качестве международных добровольческих сил для гармонических стран, ведущих войны против недемократических режимов."
 
- humanity_will_not_go_down:0 "Humanity's Last Stand"
- humanity_will_not_go_down_desc:0 "We are not going to going down so easily, we will battle for our independence until the bitter end!"
+ humanity_will_not_go_down:0 "Последний Бой Человечества"
+ humanity_will_not_go_down_desc:0 "Мы так просто им не дадимся, мы будем сражаться за свою независимость до победного конца!"
 
- risk_of_famine:0 "Widespread Famine"
- risk_of_famine_desc:0 "We currently face a terrible famine, if we don't do anything we will soon enough consume all of our food reserves."  
+ risk_of_famine:0 "Широкомасштабный Голод"
+ risk_of_famine_desc:0 "В настоящее время мы сталкиваемся с ужасным голодом, и если мы ничего не сделаем, мы достаточно скоро съедим все наши запасы пищи."  
 
- HUM_Helicopter_supply:0 "Supply Helicopters"
- HUM_Helicopter_supply_desc:0 "Beyond reconnaissance, our helicopters are also able to quickly deliver supplies even to the most inhospitable battlefields."
+ HUM_Helicopter_supply:0 "Вертолёты Снабжения"
+ HUM_Helicopter_supply_desc:0 "Кроме разведки, наши вертолёты могут быстро доставлять припасы даже в самые суровые поля битвы."
 
- HUM_air_supply:0 "Supply Planes"
- HUM_air_supply_desc:0 "Even if not as efficient or organized as helicopters, planes are able to paradrop supplies to our troops on the ground."
+ HUM_air_supply:0 "Самолёты Снабжения"
+ HUM_air_supply_desc:0 "Хоть и не так эффективно или организовано, как вертолеты, всё же самолёты способны десантировать припасы нашим солдатам на земле."
 
- asserve_inferior:0 "Human Rights for Humans"
- asserve_inferior_desc:0 "Truth be told, the several differences between the native species and our own species only show that we can apply the same rights to them. Humans rights are for human only!"
+ asserve_inferior:0 "Права Человека для Людей."
+ asserve_inferior_desc:0 "Если честно, некоторые различия между местными видами и нашим только показывают, что мы можем применять к ним соответствующие права. Права человека только для людей!"
 
- racial_domination:0 "Racial Domination"
- racial_domination_desc:0 "We aren't scared of magic tricks and fancy sticks, the so called "sapient" creatures of this world are nothing but ants in comparation to the apex species we are. The sons of Gaia shall conquer their birth right!"
+ racial_domination:0 "Расовое Превосходство"
+ racial_domination_desc:0 "Нас не пугают магические трюки и причудливые палки, так называемые "разумные" существа этого мира просто муравьи по сравнению высшими существами, которыми мы и являемся. Сыны Геи должны завоевать их право на рождение!"
 
- republican_protest:0 "Republican Protests"
- republican_protest_desc:0 "Due to several actions of the government against democratic ideals several republican have spoke against such actions, and will continue to do so until we do something about it."
+ republican_protest:0 "Республиканские Протесты"
+ republican_protest_desc:0 "Из-за некоторых действий правительства против демократических идеалов, несколько республиканцев начали высказываться против этих действй, и будут продолжать это делать, пока мы что-то не сделаем с этим."
 
- HUM_reconstruction:0 "Reconstruction"
- HUM_reconstruction_desc:0 "With the absolutely necessary now done, we can now begin to work towards recreating our old glories from back home. The reconstruction begins!"
+ HUM_reconstruction:0 "Реконструкция"
+ HUM_reconstruction_desc:0 "Теперь, когда это абсолютно необходимо, мы можем начать работу по воссозданию наших старых славных мест из дома. Реконструкция начинается!"
