@@ -32,16 +32,16 @@
  UEN_exploration_desc:0 "Сперва-наперво мы отправим патруль, чтобы увидеть, где мы приземлились и что у нас имеется в этой области."
 
  UEN_first_contact:0 "Дальнейшая разведка"
- UEN_first_contact_desc:0 "Now that we have already mapped our arrival location we should send a small detachment to investigate those lights we saw over the horizon last night, perhaps civilization?"
+ UEN_first_contact_desc:0 "Теперь, когда мы уже определили место нашего прибытия, мы должны послать небольшой отряд, чтобы исследовать те огни, которые мы видели за горизонтом прошлой ночью, может быть это цивилизация?"
  
  UEN_settle:0 "Основание поселения"
- UEN_settle_desc:0 "We might be in already inhabited land, but we simply got nowhere to go. We are tired and we are defenceless, we need to strike a deal with the locals before anything else."
+ UEN_settle_desc:0 "Может мы и в уже населенной местности, но нам просто уже некуда идти. Мы уставшие и беззащитные. Мы, прежде всего, должны заключить сделку с местными жителями."
 
  take_care_of_population:0 "Позаботиться о себе"
- take_care_of_population_desc:0 "Our population suffered greatly during and after the war, and even more in having to leave their homeworld. We need to do everything in power to appease this situation."
+ take_care_of_population_desc:0 "Наше население очень сильно страдало во время и после войны, и ему даже пришлось покинуть свой родной мир. Нам нужно сделать всё, что есть в наших силах, чтобы успокоить его."
  
  subsistence_agriculture:0 "Натуральное сельское хозяйство"
- subsistence_agriculture_desc:0 "Our food reserves are quickly depleting, we need to start growing our own food and fast."
+ subsistence_agriculture_desc:0 "Наши продовольственные резервы быстро кончаются. Нам нужно как можно скорее начать выращивать собственную еду."
 
  fishing:0 "Запустить рыбную промышленность"
  fishing_desc:0 "Our crops can only grow so fast, if we plan on feeding our population in the time being we need to start fishing along our coast line."
