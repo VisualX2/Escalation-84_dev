@@ -1,4 +1,4 @@
-﻿l_russian:
+l_russian:
 
 ### Country Names ###
 
@@ -35,7 +35,7 @@
  UEN_first_contact_desc:0 "Теперь, когда мы уже определили место нашего прибытия, мы должны послать небольшой отряд, чтобы исследовать те огни, которые мы видели за горизонтом прошлой ночью, может быть это цивилизация?"
  
  UEN_settle:0 "Основание поселения"
- UEN_settle_desc:0 "Может мы и в уже населенной местности, но нам просто уже некуда идти. Мы уставшие и беззащитные. Мы, прежде всего, должны заключить сделку с местными жителями."
+ UEN_settle_desc:0 "Может мы и на уже занятой территории, но нам просто уже некуда идти. Мы уставшие и беззащитные. Мы, прежде всего, должны заключить сделку с местными жителями."
 
  take_care_of_population:0 "Позаботиться о себе"
  take_care_of_population_desc:0 "Наше население очень сильно страдало во время и после войны, и ему даже пришлось покинуть свой родной мир. Нам нужно сделать всё, что есть в наших силах, чтобы успокоить его."
@@ -44,40 +44,40 @@
  subsistence_agriculture_desc:0 "Наши продовольственные резервы быстро кончаются. Нам нужно как можно скорее начать выращивать собственную еду."
 
  fishing:0 "Запустить рыбную промышленность"
- fishing_desc:0 "Our crops can only grow so fast, if we plan on feeding our population in the time being we need to start fishing along our coast line."
+ fishing_desc:0 "Наши пищевые культуры могут рости долго, если мы планируем своевременно кормить наше население, мы должны начать ловить рыбу на нашей береговой линии."
 
  build_school_and_university:0 "Восстановить систему образования"
- build_school_and_university_desc:0 "Even if we find ourselves in a situation of emergency, we mustn't forget that knowledge is power. We need to learn everything about this new world and of the old one."
+ build_school_and_university_desc:0 "Хоть мы и находимся в чрезвычайной ситуации, мы не должны забывать о том, что знания - сила. Мы должны узнать всё об этом мире, и старом."
 
  techno_magic_institute:0 "Техномагический институт"
- techno_magic_institute_desc:0 "Magic have many interesting properties and uses, from weather manipulation to teleportation. If we can learn how to use it we would be able to improve all areas of society, especially military and industry."
+ techno_magic_institute_desc:0 "Магия имеет много интересных свойств и применений, вроде управления погодой и телепортации. Если мы сможем научится её применению, то мы сможем улучшить все сферы жизни общества, особенно военную и промышленную."
 
  cure_radiation:0 "Долой радиацию!"
- cure_radiation_desc:0 "The sad legacy of WW3, still plaguing our population even here. But thanks to our acquired knowledge on magic, and help from the natives, we might be finally able to bring a end to it."
+ cure_radiation_desc:0 "Это тяжёлое наследие Третьей Мировой, даже здесь, до сих пор житья не даёт нашему населению. Но благодаря нашим приобретённым знаниям в магии, а также помощью местных, мы можем наконец-то положить конец этому."
 
  open_the_border:0 "Открыть границы"
- open_the_border_desc:0 "With basic infrastructure finished, our diseases dealt with and our people eating sufficiently again, we have no more reasons to enforce a policy of closed borders."
+ open_the_border_desc:0 "Когда у нас завершена постройка базовой инфраструктуры, наши болезни излечены, а люди снова едят достаточно, у нас больше нет причин проводить политику закрытых границ."
 
  re_industrialisation:0 "Реиндустриализация"
- re_industrialisation_desc:0 "We arrived in this world with no machinery whatsoever, our portals simply won't allow to take heavy machinery with us. But if we want to bring humanity back to its former glory we will need a powerful industry."
+ re_industrialisation_desc:0 "Мы прибыли в этот мир без машинного оборудования, ведь наши порталы попросту не позволят взять с собой тяжелую технику. И, если мы хотим вернуть человечеству его былое величие, мы должны иметь мощную промышленность."
 
  UEN_construction_company:0 "Возродить гражданскую промышленность"
- UEN_construction_company_desc:0 "The first step towards reindustrialisation is to rebuild the civil industry, which will begin to extract the resources of the riches soils of this world and build the basic infrastructure we will need for heavy industries."
+ UEN_construction_company_desc:0 "Первым шагом в сторону реиндустриализации будет построение гражданской промышленности, которая начнёт добывать богатства этого мира и строить базовую инфраструктуру, которая нам нужна для тяжёлой промышленности."
 
  establish_the_first_settlements:0 "Основать первые поселения"
- establish_the_first_settlements_desc:0 "Currently our people live under tents in improvised camps, this can't go for long. We need to start building proper houses and bring basic sanitation back to our populace."
+ establish_the_first_settlements_desc:0 "В данный момент наши люди живут в палатках в импровизированных лагерях. Это не может долго продолжаться. Нам нужно начать строительство настоящих домов и вернуть базовые санитарные условия для нашего населения."
 
  phoenix_house:0 "Дома 'Феникс'"
- phoenix_house_desc:0 "Created after WW2 in France, these houses were made to be cheap and easy to build. With some tweaks to the original design we will be able to resettle our population much quickly."
+ phoenix_house_desc:0 "Спроектированые после второй мировой войны во Франции, эти дома были дешёвыми и лёгкими в строительстве. Немного изменив оригинальный дизайн, мы сможем переселить наше население быстрее."
 
  a_shelter_for_everyone:0 "Пристанище для каждого"
- a_shelter_for_everyone_desc:0 "We have almost finished relocating our population into our new cities. Let's continue this way!"
+ a_shelter_for_everyone_desc:0 "Мы уже почти закончили переселение нашего населения в наши новенькие города. Давайте продолжим этот путь!"
 
  strenghen_the_country:0 "Укрепить нацию"
- strenghen_the_country_desc:0 "Our efforts to safeguard a new future for our people are slowly but surely healing the wounds left from the last war. Let's keep up this pace!"
+ strenghen_the_country_desc:0 "Наши методы сохранения нового будущего для наших людей медленно, но уверенно исцеляют наши послевоенные раны. Давайте оставим этот темп!"
 
  international_market:0 "Войти в международный рынок"
- international_market_desc:0 "Thanks to our extensive knowledge in manufacturing methods and omnivore diet, we would benefit greatly from international trade. Let the money flow!"
+ international_market_desc:0 "Благодаря нашим обширным знаниям методов производства и всеядной диете, мы должны получать выгоду от международной торговли. Пусть деньги текут рекой!"
 
  the_European_Phoenix:0 "Европейский Феникс"
  the_European_Phoenix_desc:0 "Like a phoenix we were reborn from our ashes, we survived a nuclear holocaust and build a nation to outlast the test of time. After so many years the future finally looks promising."
