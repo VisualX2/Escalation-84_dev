@@ -1,0 +1,685 @@
+ideas = {
+
+political_advisor = {
+
+	RUS_oleg_baklanov = {
+
+		allowed = {
+			original_tag = RUS
+		}
+			
+		traits = { captain_of_industry }
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	RUS_pavel_finogenov  = {
+
+		allowed = {
+			original_tag = RUS
+		}
+		
+		traits = { war_industrialist }
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	RUS_eduard_shevardnadze  = {
+
+		allowed = {
+			original_tag = RUS
+		}
+
+		traits = { smooth_talking_charmer }
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+
+	RUS_andrei_gromyko = {
+
+		allowed = {
+			original_tag = RUS
+		}
+
+			available = {
+				NOT = { has_government = fascism }
+				}
+		
+		traits = { backroom_backstabber }
+	}
+
+
+	RUS_saddam_hussein = {
+
+		allowed = {
+			original_tag = RUS
+		}
+
+			available = {
+				NOT = { has_government = democratic }
+			}
+		
+		traits = { prince_of_terror }
+	}
+
+	RUS_Hafez_al_Assad = {
+
+		allowed = {
+			original_tag = RUS
+		}
+
+			available = {
+				NOT = { has_government = democratic }
+			}
+		
+		traits = { fascist_demagogue }
+	}
+}
+
+theorist = {
+
+	RUS_viktor_kulikov = {	
+				
+		allowed = {
+			original_tag = RUS
+		}
+		
+		research_bonus = {
+			cat_mass_assault = 0.10
+		}
+		
+		traits = { mass_assault_expert }
+	}
+
+	RUS_yefimov  = {
+			
+
+		allowed = {
+			original_tag = RUS
+		}
+		
+		research_bonus = {
+			air_doctrine = 0.10
+		}
+		
+		traits = { air_warfare_theorist }
+	}
+
+	RUS_Gorskov_th  = {
+		
+		allowed = {
+			original_tag = RUS
+		}
+		
+		research_bonus = {
+			air_doctrine = 0.10
+		}
+		
+		traits = { naval_theorist }
+	}
+}
+
+	# MILITARY
+	army_chief = {
+				
+		RUS_Ogarkov   = {
+			
+			allowed = {
+				original_tag = RUS
+			}
+			
+			traits = { army_chief_planning_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		RUS_Akhromeyev = {
+			
+			allowed = {
+				original_tag = RUS
+			}
+			
+			traits = { army_chief_morale_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+		RUS_pavel_kutakhov  = {
+
+			allowed = {
+				original_tag = RUS
+			}
+
+			traits = { air_close_air_support_2 } 
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		RUS_alexander_koldunov = {
+			
+			allowed = {
+				original_tag = RUS
+			}
+			
+			traits = { air_bomber_interception_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+	navy_chief = {
+		
+		RUS_Gorskov = {
+			
+			allowed = {
+				original_tag = RUS
+			}
+			
+
+			traits = { navy_chief_old_guard }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		RUS_Chernavin = {
+			
+			allowed = {
+				original_tag = RUS
+			}
+			
+			traits = { navy_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	
+	high_command = {
+		
+		RUS_andrei_grechko = {
+			
+			allowed = {
+				original_tag = RUS
+			}
+
+			available = {
+				if = {
+						OR = {
+							has_completed_focus = RUS_guard_motor_rifle
+					}
+				}
+			}
+			
+			traits = { army_cavalry_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		RUS_vasily_petrov = { 
+			
+			
+			allowed = {
+				original_tag = RUS
+			}
+			
+			traits = { army_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		RUS_sergey_sokolov = { 
+			
+
+			allowed = {
+				original_tag = RUS
+			}
+			
+			available = {
+				if = {
+						OR = {
+							has_completed_focus = rus_artillerymen
+					}
+				}
+			}
+
+			traits = { army_artillery_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		RUS_vasily_margelov = {
+			
+
+			allowed = {
+				original_tag = RUS
+			}
+			
+			traits = { air_airborne_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		RUS_vladimir_romanenko = {
+			
+
+			allowed = {
+				original_tag = RUS
+			}
+			
+			traits = { navy_amphibious_assault_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		RUS_qasem_ali = {
+			
+
+			allowed = {
+				original_tag = RUS
+			}
+			
+			available = {
+				NOT = { has_idea = RUS_arab_dispute }
+				}
+
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		RUS_jalil_zandi = {
+			
+			
+			allowed = {
+				original_tag = RUS
+			}
+			
+			traits = { air_air_combat_training_2 }
+
+			available = {
+				NOT = { has_government = fascism }
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	tank_manufacturer = {
+
+		designer = yes
+	
+		# TECHNOLOGY
+		RUS_uralvagonzavod = {
+						
+			allowed = {
+				original_tag = RUS
+			}
+						
+			research_bonus = {
+				armor = 0.10
+			}
+			
+
+			traits = { HUM_cheap_MBT_designer }
+		}
+	
+		RUS_malyshev = {
+						
+			allowed = {
+				original_tag = RUS
+			}
+						
+			research_bonus = {
+				armor = 0.05
+			}
+			
+
+			traits = { HUM_Heavy_MBT_designer }
+		}
+
+		RUS_morozov = {
+						
+			allowed = {
+				original_tag = RUS
+			}
+						
+			research_bonus = {
+				armor = 0.15
+			}
+			
+
+			traits = { tank_manufacturer }
+		}
+
+	}
+
+
+	aircraft_manufacturer = {
+			
+		designer = yes
+		
+		RUS_mig = {
+			
+			allowed = {
+				original_tag = RUS
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer  }
+		}
+
+		RUS_sukhoi = {
+						
+			allowed = {
+				original_tag = RUS
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		
+		RUS_mil = {
+			
+			allowed = {
+				original_tag = RUS
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { CAS_manufacturer }
+		}
+		
+		RUS_tupolev = {
+			
+			allowed = {
+				original_tag = RUS
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+		
+		RUS_yakolev = {
+						
+			allowed = {
+				original_tag = RUS
+			}
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+		}
+	}
+
+	naval_manufacturer = {
+
+		designer = yes
+		
+		RUS_sevmash = {
+						
+			allowed = {
+				original_tag = RUS
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+		}
+
+		RUS_lazurit = {
+						
+			allowed = {
+				original_tag = RUS
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { naval_manufacturer  }
+		}
+
+		RUS_Chernomorskiy = {
+						
+			allowed = {
+				original_tag = RUS
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer }
+		}
+	}
+
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		RUS_GAZ = {
+		
+			allowed = {
+				original_tag = RUS
+			}
+
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { HUM_mobile_mechanized_designer }
+
+		}
+
+		RUS_kharkiv = {
+		
+			allowed = {
+				original_tag = RUS
+			}
+
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { HUM_reliable_mechanized_designer }
+
+		}
+		
+		RUS_Kurganmashzavod = {
+		
+			allowed = {
+				original_tag = RUS
+			}
+
+			research_bonus = {
+				motorized_equipment = 0.05
+			}
+			
+			traits = { HUM_powerful_mechanized_designer }
+
+		}
+
+		RUS_tula = {
+
+			picture = mas
+						
+			allowed = {
+				original_tag = RUS
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { HUM_reliable_weapons_designer }
+		}
+
+		RUS_IZMACH = {
+						
+			allowed = {
+				original_tag = RUS
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { HUM_cheap_weapons_designer }
+		}
+	
+		RUS_bazalt = {
+						
+			allowed = {
+				original_tag = RUS
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.05
+			}
+			
+			traits = { HUM_powerful_weapons_designer }
+		}
+
+		RUS_splav = {
+						
+			allowed = {
+				original_tag = RUS
+			}		
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+
+	industrial_concern = {
+
+		RUS_kuwait_oil = {
+			
+			allowed = {
+				original_tag = RUS
+			}
+
+			available = {
+				NOT = { has_idea = RUS_arab_dispute }
+				}
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.15
+			}
+			
+			traits = { refinery_concern }
+		}
+		
+		RUS_krasny_oktyabr = {
+			
+			allowed = {
+				original_tag = RUS
+			}
+			
+			research_bonus = {
+				industry = 0.10
+				
+			}
+			ai_will_do = {
+				factor = 2
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		RUS_Radiotehnika = {
+			
+			allowed = {
+				original_tag = RUS
+			}
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+		}		
+
+		RUS_ministry = {
+			
+			allowed = {
+				original_tag = RUS
+			}
+			
+			research_bonus = {
+				industry = 0.05
+			}
+			
+			traits = { construction_company }
+		}
+
+		RUS_atommash = {
+			
+			allowed = {
+				original_tag = RUS
+			}
+			
+			research_bonus = {
+				nuclear = 0.15
+			}
+			
+			traits = { nuclear_scientist }
+		}	
+
+	}

@@ -1,0 +1,129 @@
+spriteTypes = {
+	
+#REPORT
+
+	spriteType = {
+		name = "GFX_report_event_arrival"
+		texturefile = "gfx/event_pictures/exploration.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_letters"
+		texturefile = "gfx/event_pictures/HUM_letters.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_social_problem"
+		texturefile = "gfx/event_pictures/social_problem.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_border_guard"
+		texturefile = "gfx/event_pictures/borderguardsov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_M151"
+		texturefile = "gfx/event_pictures/M151.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_cia"
+		texturefile = "gfx/event_pictures/CIA.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_UN"
+		texturefile = "gfx/event_pictures/united_nations_report.dds"
+	}
+
+#NEWS
+
+	spriteType = {
+		name = "GFX_news_event_first_contact"
+		texturefile = "gfx/event_pictures/firstcontact.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_settle"
+		texturefile = "gfx/event_pictures/settle.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_rad_nova"
+		texturefile = "gfx/event_pictures/rad_nova.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_hum_lab"
+		texturefile = "gfx/event_pictures/hum_lab.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_handshake"
+		texturefile = "gfx/event_pictures/humhandshake.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_cwdiplo"
+		texturefile = "gfx/event_pictures/cwdiplo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_fieldhospital"
+		texturefile = "gfx/event_pictures/field_hospital.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_peacekeepers"
+		texturefile = "gfx/event_pictures/peacekeepers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_fallen"
+		texturefile = "gfx/event_pictures/thefallen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_btr40"
+		texturefile = "gfx/event_pictures/BTR_40.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_news_soldier_silhouette"
+		texturefile = "gfx/event_pictures/soldiersilhouette.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_firework"
+		texturefile = "gfx/event_pictures/firework.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_curehum"
+		texturefile = "gfx/event_pictures/cure.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_usconvoy"
+		texturefile = "gfx/event_pictures/usconvoy.dds"
+	}
+
+#MOBILISATION
+	spriteType = {
+		name = "GFX_report_line_mobilization"
+		texturefile = "gfx/event_pictures/active_unit.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_reserve_mobilization"
+		texturefile = "gfx/event_pictures/reserve_units.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_militia_mobilization"
+		texturefile = "gfx/event_pictures/militia_units.dds"
+	}
+
+}

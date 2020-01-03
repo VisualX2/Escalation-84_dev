@@ -1,0 +1,1026 @@
+﻿add_namespace = RUS
+
+country_event = {
+	id = RUS.101
+	title = RUS.101.t
+	desc = RUS.101.d
+	picture = GFX_report_border_guard
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.101.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = RUS.102
+	title = RUS.102.t
+	desc = RUS.102.d
+	picture = GFX_news_btr40
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.102.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = RUS.103
+	title = RUS.103.t
+	desc = RUS.103.d
+	picture = GFX_news_soldier_silhouette
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.103.a
+		ai_chance = { factor = 100 }
+		add_political_power = 150
+	}
+}
+
+
+
+news_event = {
+	id = RUS.104
+	title = RUS.104.t
+	desc = RUS.104.d
+	picture = GFX_news_hum_lab
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.104.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = RUS.105
+	title = RUS.105.t
+	desc = RUS.105.d
+	picture = GFX_news_curehum
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.105.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = RUS.106
+	title = RUS.106.t
+	desc = RUS.106.d
+	picture = GFX_news_firework
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.106.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = RUS.107
+	title = RUS.107.t
+	desc = RUS.107.d
+	picture = GFX_news_handshake
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.107.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+
+news_event = {
+	id = RUS.108
+	title = RUS.108.t
+	desc = RUS.108.d
+	picture = GFX_news_handshake
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.108.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = RUS.109
+	title = RUS.109.t
+	desc = RUS.109.d
+	picture = GFX_news_handshake
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.109.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+
+news_event = {
+	id = RUS.110
+	title = RUS.110.t
+	desc = RUS.110.d
+	picture = GFX_news_event_changeling_hive
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.110.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+
+news_event = {
+	id = RUS.111
+	title = RUS.111.t
+	desc = RUS.111.d
+	picture = GFX_news_cwdiplo
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.111.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = RUS.112
+	title = RUS.112.t
+	desc = RUS.112.d
+	picture = GFX_news_cwdiplo
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.112.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = RUS.113
+	title = RUS.113.t
+	desc = RUS.113.d
+	picture = GFX_news_fieldhospital
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.113.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = RUS.114
+	title = RUS.114.t
+	desc = RUS.114.d
+	picture = GFX_news_peacekeepers
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.114.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = RUS.115
+	title = RUS.115.t
+	desc = RUS.115.d
+	picture = GFX_news_cwdiplo
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.115.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = RUS.116
+	title = RUS.116.t
+	desc = RUS.116.d
+	picture = GFX_news_handshake
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.116.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+
+#GIB CLAY OLENIA
+country_event = {
+	id = RUS.117
+	title = RUS.117.t
+	desc = RUS.117.d
+	picture = GFX_event_olenia_generic
+
+	is_triggered_only = yes
+	
+	option = {
+		name = RUS.117.a
+		ai_chance = { factor = 100 }
+		if = {
+		RUS = { country_event = RUS.118 }
+		}
+	}
+
+	option = {
+		name = RUS.117.b
+		ai_chance = { factor = 0 }
+		FROM = { 
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = small_decrease
+			}
+			RUS = { country_event = RUS.119 }
+			}
+		}
+	}
+
+# Olenia accepts request
+country_event = {
+	id = RUS.118
+	title = RUS.118.t
+	desc = RUS.118.d
+	picture = GFX_event_olenia_generic
+
+	is_triggered_only = yes
+
+	option = {
+		name = RUS.118.a
+		ai_chance = { factor = 100 }
+		if = {
+			limit = { 
+				OLE = { 
+					owns_state = 219
+					controls_state = 219 
+				}
+			}
+			transfer_state = 219
+		}
+			add_opinion_modifier = { target = OLE modifier = small_increase }
+			OLE = { add_ideas = human_scientists }	
+		}
+	}
+
+# Olenia denies request
+country_event = {
+	id = RUS.119
+	title = RUS.119.t
+	desc = RUS.119.d
+	picture = GFX_event_olenia_generic
+
+	is_triggered_only	= yes
+
+	option = {
+		name = RUS.119.a
+		ai_chance = { factor = 100 }
+	}
+}	
+
+
+											#SOCIETY
+
+
+country_event = {
+	id = RUS.200
+	title = RUS.200.t
+	desc = RUS.200.d
+	picture = GFX_report_social_problem
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.200.a
+		ai_chance = { factor = 100 }
+		add_political_power = -25
+		add_stability = 0.05
+		add_popularity = { ideology = democratic popularity = 0.05 }		
+	}
+
+	option = { 
+		name = RUS.200.b
+		ai_chance = { factor = 100 }
+		add_popularity = { ideology = communism popularity = 0.05 }	
+		add_popularity = { ideology = fascism popularity = 0.05 }	
+	}	
+}
+
+country_event = {
+	id = RUS.201
+	title = RUS.201.t
+	desc = RUS.201.d
+	picture = GFX_report_social_problem
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.201.a
+		ai_chance = { factor = 100 }
+		add_political_power = -25
+		add_stability = 0.05
+		add_popularity = { ideology = democratic popularity = 0.05 }		
+	}
+
+	option = { 
+		name = RUS.201.b
+		ai_chance = { factor = 100 }
+		add_popularity = { ideology = communism popularity = 0.05 }	
+		add_popularity = { ideology = fascism popularity = 0.05 }	
+	}	
+
+	option = { 
+		name = RUS.201.c
+		ai_chance = { factor = 100 }
+		add_stability = -0.05
+		add_opinion_modifier = { target = OLE modifier = medium_increase }
+		add_popularity = { ideology = communism popularity = 0.10 }	
+		add_popularity = { ideology = fascism popularity = 0.10 }	
+	}	
+}
+
+
+country_event = {
+	id = RUS.202
+	title = RUS.202.t
+	desc = RUS.202.d
+	picture = GFX_report_social_problem
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.202.a
+		ai_chance = { factor = 100 }
+		add_political_power = -25
+		add_stability = 0.05
+		add_popularity = { ideology = democratic popularity = 0.05 }
+		hidden_effect = { country_event = { id = RUS.23  days = 84 } } 	
+	}
+
+	option = { 
+		name = RUS.202.b
+		ai_chance = { factor = 100 }
+		add_political_power = -75		
+		add_popularity = { ideology = communism popularity = 0.20 }	
+		add_stability = 0.05
+		hidden_effect = { country_event = { id = RUS.23  days = 84 } } 
+	}	
+
+	option = { 
+		name = RUS.202.c
+		ai_chance = { factor = 100 }
+		add_stability = -0.05
+		add_political_power = +75
+		add_popularity = { ideology = fascism popularity = 0.10 }	
+	}	
+}
+
+country_event = {
+	id = RUS.203
+	title = RUS.203.t
+	desc = RUS.203.d
+	picture = GFX_report_social_problem
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UEN
+	}
+
+	option = { 
+		name = RUS.203.a
+		ai_chance = { factor = 100 }
+		add_popularity = { ideology = democratic popularity = 0.05 }
+		add_popularity = { ideology = fascism popularity = 0.02 }
+		add_political_power = -50
+		add_stability = 0.10		
+	}	
+
+	option = { 
+		name = RUS.203.b
+		ai_chance = { factor = 100 }
+		add_popularity = { ideology = communism popularity = -0.05 }		
+		add_political_power = -15
+		add_stability = -0.05	
+	}	
+
+	option = { 
+		name = RUS.203.b
+		ai_chance = { factor = 100 }
+		add_popularity = { ideology = fascism popularity = +0.05 }
+		add_political_power = 150
+		add_stability = -0.10		
+	}	
+
+}
+
+#MOBILIZATION
+
+country_event = {
+	id = RUS.20
+	title = RUS.20.t
+	desc = RUS.20.d
+	picture = GFX_report_line_mobilization
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = {
+		name = RUS.20.a
+		ai_chance = { factor = 100 }
+			hidden_effect = {
+			 load_oob = "RUS_Line"
+		}
+	}
+}
+
+country_event = {
+	id = RUS.21
+	title = RUS.21.t
+	desc = RUS.21.d
+	picture = GFX_report_reserve_mobilization
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.21.a
+		ai_chance = { factor = 100 }
+			hidden_effect = {
+			 load_oob = "RUS_Reserve"
+		}
+	}
+}
+
+country_event = {
+	id = RUS.22
+	title = RUS.22.t
+	desc = RUS.22.d
+	picture = GFX_report_militia_mobilization
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.22.a
+		ai_chance = { factor = 100 }
+			hidden_effect = {
+			 load_oob = "RUS_Militia"
+		}
+	}
+}
+
+country_event = {
+	id = RUS.23
+	title = RUS.23.t
+	desc = RUS.23.d
+	picture = GFX_event_pony_soldiers_sunset
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = RUS
+	}
+
+	option = { 
+		name = RUS.23.a
+		ai_chance = { factor = 100 }
+			army_experience = 25
+			remove_ideas = stranger
+			create_corps_commander = {
+
+				name = "Allu Ryti"
+				portrait_path = "gfx/leaders/OLE/Generic.tga"
+				traits = { ranger }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+
+			create_corps_commander = {
+				name = "Orange Field"
+				portrait_path = "gfx/leaders/Pony/portrait_pony_generic_land_2.tga"
+				traits = { }
+				skill = 2
+				attack_skill = 1
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 3
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+#JOIN EQUESTRIA FACTION
+country_event = {
+	id = RUS.300
+	title = RUS.300.t
+	desc = RUS.300.d
+	picture = GFX_event_canterlot
+
+	is_triggered_only = yes
+	
+	option = {
+		name = RUS.300.a
+		add_to_faction = FROM
+		FROM = {
+			add_ai_strategy = {
+				type = alliance
+				id = "ENG"
+				value = 200
+			}
+		}
+		FROM = { country_event = { id = RUS.301} }
+		EQS = { army_experience = 25 }	
+	}
+	
+	option = {
+		name = RUS.300.b
+		ai_chance = { factor = 0 }
+		FROM = { 
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = small_decrease
+			}
+			country_event = { id = RUS.302 }
+		}
+	}
+}
+
+# France - Britain accepts Ally request
+country_event = {
+	id = RUS.301
+	title = RUS.301.t
+	desc = RUS.301.d
+	picture = GFX_event_canterlot
+
+	is_triggered_only = yes
+
+	option = {
+		name = RUS.301.a
+	}
+}
+
+# France - Britain denies Ally request
+country_event = {
+	id = RUS.302
+	title = RUS.302.t
+	desc = RUS.302.d
+	picture = GFX_event_canterlot
+
+	is_triggered_only	= yes
+
+	option = {
+		name = RUS.302.a
+	}
+}	
+
+
+
+
+
+
+
+#JOIN Changeling FACTION
+country_event = {
+	id = RUS.303
+	title = RUS.303.t
+	desc = RUS.303.d
+	picture = GFX_event_swarm
+
+	is_triggered_only = yes
+	
+	option = {
+		name = RUS.303.a
+		add_to_faction = FROM
+		FROM = {
+			add_ai_strategy = {
+				type = alliance
+				id = "ENG"
+				value = 200
+			}
+		}
+		FROM = { country_event = { id = RUS.301} }
+		CHN = { army_experience = 25 }	
+	}
+	
+	option = {
+		name = RUS.303.b
+		ai_chance = { factor = 0 }
+		FROM = { 
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = small_decrease
+			}
+			country_event = { id = RUS.302 }
+		}
+	}
+}
+
+# France - Britain accepts Ally request
+country_event = {
+	id = RUS.304
+	title = RUS.304.t
+	desc = RUS.304.d
+	picture = GFX_event_swarm
+
+	is_triggered_only = yes
+
+	option = {
+		name = RUS.304.a
+	}
+}
+
+# France - Britain denies Ally request
+country_event = {
+	id = RUS.305
+	title = RUS.305.t
+	desc = RUS.305.d
+	picture = GFX_event_swarm
+
+	is_triggered_only	= yes
+
+	option = {
+		name = RUS.305.a
+	}
+}
+
+
+
+
+
+#Stalliongrad FACTION
+country_event = {
+	id = RUS.306
+	title = RUS.306.t
+	desc = RUS.306.d
+	picture = GFX_event_stalliongrad
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RUS.306.a
+		ai_chance = { factor = 90 }
+		RUS = {
+			country_event = RUS.307
+			add_to_faction = ROOT
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = "RUS"
+			value = 200
+		}
+		STG = { army_experience = 25 }
+	}
+
+	option = {
+		name = RUS.306.b
+		ai_chance = { factor = 10 }
+		RUS = { country_event = RUS.308 }
+	}
+}
+
+# [Country] Accepts
+country_event = {
+	id = RUS.307
+	title = RUS.307.t
+	desc = RUS.307.d
+	picture = GFX_event_stalliongrad
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RUS.307.a
+		effect_tooltip = {
+			add_to_faction = FROM
+		}
+	}
+}
+
+# [Country] Refuses
+country_event = {
+	id = RUS.308
+	title = RUS.308.t
+	desc = RUS.308.d
+	picture = GFX_event_stalliongrad
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RUS.308.a
+	}
+}
+
+
+
+#United Nations
+#UAS
+country_event = {
+	id = RUS.309
+	title = RUS.309.t
+	desc = RUS.309.d
+	picture = GFX_report_UN
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RUS.309.a
+		ai_chance = { factor = 90 }
+		RUS = {
+			country_event = RUS.310
+			add_to_faction = ROOT
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = "RUS"
+			value = 200
+		}
+	}
+
+	option = {
+		name = RUS.309.b
+		ai_chance = { factor = 10 }
+		RUS = { country_event = europe.311 }
+	}
+}
+
+# [Country] Accepts
+country_event = {
+	id = RUS.310
+	title = RUS.310.t
+	desc = RUS.310.d
+	picture = GFX_report_UN
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RUS.310.a
+		effect_tooltip = {
+			add_to_faction = FROM
+		}
+	}
+}
+
+# [Country] Refuses
+country_event = {
+	id = RUS.311
+	title = RUS.311.t
+	desc = RUS.311.d
+	picture = GFX_report_UN
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RUS.311.a
+	}
+}
+
+#UEN
+country_event = {
+	id = RUS.312
+	title = RUS.312.t
+	desc = RUS.312.d
+	picture = GFX_report_UN
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RUS.312.a
+		ai_chance = { factor = 90 }
+		RUS = {
+			country_event = RUS.313
+			add_to_faction = ROOT
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = "RUS"
+			value = 200
+		}
+	}
+
+	option = {
+		name = RUS.312.b
+		ai_chance = { factor = 10 }
+		RUS = { country_event = RUS.314 }
+	}
+}
+
+# [Country] Accepts
+country_event = {
+	id = RUS.313
+	title = RUS.313.t
+	desc = RUS.313.d
+	picture = GFX_report_UN
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RUS.313.a
+		effect_tooltip = {
+			add_to_faction = FROM
+		}
+	}
+}
+
+# [Country] Refuses
+country_event = {
+	id = RUS.314
+	title = RUS.314.t
+	desc = RUS.314.d
+	picture = GFX_report_UN
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RUS.314.a
+	}
+}

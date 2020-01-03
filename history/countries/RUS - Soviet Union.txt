@@ -1,0 +1,258 @@
+﻿capital = 216
+
+oob = "RUS_1984"
+
+set_research_slots = 1
+
+set_technology = {
+	melee_weapons = 1
+	melee_weapons1 = 1
+	pre_gw_artillery = 1
+	tech_support = 1
+	transport = 1
+	infantry_weapons= 1
+	motorised_infantry = 1
+    tech_engineers = 1
+    tech_recon = 1
+    tech_military_police = 1
+    tech_maintenance_company = 1
+    tech_field_hospital = 1
+    tech_logistics_company = 1
+    tech_signal_company = 1
+	tech_mountaineers = 1
+	marines = 1
+	paratroopers = 1
+
+	basic_machine_tools = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+}
+
+
+add_equipment_to_stockpile = {
+	type = artillery_equipment_0
+	amount = 150
+	producer = RUS
+}
+add_equipment_to_stockpile = {
+	type = melee_equipment_0
+	amount = 5000
+	producer = RUS
+}
+add_equipment_to_stockpile = {
+	type = melee_equipment_1
+	amount = 5000
+	producer = RUS
+}
+add_tech_bonus = {
+	name = fighter_bonus
+	bonus = 1
+	uses = 1
+	technology = early_fighter
+}
+add_tech_bonus = {
+	name = bomber_bonus
+	bonus = 1
+	uses = 1
+	category = tactical_bomber
+}
+
+
+add_ideas = {
+	disarmed_nation
+	pre_industrial_society
+	closed_economy
+	human_armies
+	human_air_force
+	precarious_condition
+	radiation_poisoning
+	stranger
+	RUS_arab_dispute
+	risk_of_famine
+}
+
+set_war_support = 0.2
+set_stability = 0.7
+
+set_popularities = {
+	democratic = 20
+	fascism = 2
+	communism = 73
+	neutrality = 5
+}
+
+set_politics = {
+
+	ruling_party = communism
+	last_election = "1000.10.10"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Mikhail Gorbachev"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "Gorbachev.tga"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		democratic_sympathies
+		stout_defender
+	}
+}
+
+create_country_leader = {
+	name = "Mikhail Gorbachev"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "Gorbachev.tga"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		democratic_sympathies
+		stout_defender
+	}
+}
+
+create_country_leader = {
+	name = "Vladimir Putin"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "vladimirputin.tga"
+	expire = "1965.1.1"
+	ideology = moderatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Siergiej Zugij"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "mrpresident.tga"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		warmonger 
+		dictator 
+	}
+}
+
+create_field_marshal = {
+	name = "Vladimir Orlovsky"
+	portrait_path = "gfx/leaders/RUS/SOVHQ.tga"
+	traits = { old_guard War_Hero }
+	skill = 5
+	attack_skill = 3
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Valerie Lebedjev"
+	portrait_path = "gfx/leaders/RUS/YUGHQ.tga"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Nikolai Malashenko"
+	portrait_path = "gfx/leaders/RUS/guardmotostrelki.tga"
+	traits = { trait_reckless cavalry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Isay Nikolay"
+	portrait_path = "gfx/leaders/RUS/Motostrelki.tga"
+	traits = { infantry_officer }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Romanov"
+	portrait_path = "gfx/leaders/RUS/Sovgrenadier.tga"
+	traits = { urban_assault_specialist }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Anatoly Lebed"
+	portrait_path = "gfx/leaders/RUS/VDV.tga"
+	traits = { commando paratrooper }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Valera Schemna"
+	portrait_path = "gfx/leaders/RUS/VDVScout.tga"
+	traits = { trickster paratrooper }
+	skill = 5
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Alexandr"
+	portrait_path = "gfx/leaders/RUS/Gornostrelki.tga"
+	traits = { trait_mountaineer hill_fighter }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Dnepr"
+	portrait_path = "gfx/leaders/RUS/Morskayapehota.tga"
+	traits = { naval_invader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Troika"
+	portrait_path = "gfx/leaders/RUS/Razdevka.tga"
+	traits = { trickster }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Serp"
+	portrait_path = "gfx/leaders/RUS/SpetnazVMF.tga"
+	traits = { commando }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Shakal"
+	portrait_path = "gfx/leaders/RUS/SpetnazGRU.tga"
+	traits = { commando }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}

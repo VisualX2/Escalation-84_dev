@@ -1,0 +1,704 @@
+
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+	UEN_infantry_idle
+	UEN_infantry_neutral_combat
+	UEN_infantry_positive_combat
+ }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+soundeffect = 
+{
+    name = "UEN_infantry_idle"
+    sounds = {
+		sound = UEN_Idle_001
+		sound = UEN_Idle_002
+		sound = UEN_Idle_003
+		sound = UEN_Idle_004
+		sound = UEN_Idle_005
+		sound = UEN_Idle_006
+		sound = UEN_Idle_007
+		sound = UEN_Idle_008
+		sound = UEN_Idle_009
+		sound = UEN_Idle_010
+		sound = UEN_Idle_011
+		sound = UEN_Idle_012
+		sound = UEN_Idle_013
+		sound = UEN_Idle_014
+		sound = UEN_Idle_015
+		sound = UEN_Idle_016
+		sound = UEN_Idle_017
+		sound = UEN_Idle_018
+
+
+		sound = UEN+_Idle_001
+		sound = UEN+_Idle_002
+		sound = UEN+_Idle_003
+		sound = UEN+_Idle_004
+		sound = UEN+_Idle_005
+		sound = UEN+_Idle_006
+		sound = UEN+_Idle_007
+		sound = UEN+_Idle_008
+		sound = UEN+_Idle_009
+		sound = UEN+_Idle_010
+		sound = UEN+_Idle_011
+		sound = UEN+_Idle_012
+		sound = UEN+_Idle_013
+		sound = UEN+_Idle_014
+		sound = UEN+_Idle_015
+		sound = UEN+_Idle_016
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.70
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect = 
+{
+    name = "UEN_infantry_neutral_combat"
+    sounds = {
+		sound = UEN_Neutral_001
+		sound = UEN_Neutral_002
+		sound = UEN_Neutral_003
+		sound = UEN_Neutral_004
+		sound = UEN_Neutral_005
+		sound = UEN_Neutral_006
+		sound = UEN_Neutral_007
+		sound = UEN_Neutral_008
+		sound = UEN_Neutral_009
+		sound = UEN_Neutral_010
+		sound = UEN_Neutral_011
+		sound = UEN_Neutral_012
+		sound = UEN_Neutral_013
+		sound = UEN_Neutral_014
+		sound = UEN_Neutral_015
+		sound = UEN_Neutral_016
+		sound = UEN_Neutral_017
+		sound = UEN_Neutral_018
+
+		sound = UEN+_Neutral_001
+		sound = UEN+_Neutral_002
+		sound = UEN+_Neutral_003
+		sound = UEN+_Neutral_004
+		sound = UEN+_Neutral_005
+		sound = UEN+_Neutral_006
+		sound = UEN+_Neutral_007
+		sound = UEN+_Neutral_008
+		sound = UEN+_Neutral_009
+		sound = UEN+_Neutral_010
+		sound = UEN+_Neutral_011
+		sound = UEN+_Neutral_012
+		sound = UEN+_Neutral_013
+		sound = UEN+_Neutral_014
+		sound = UEN+_Neutral_015
+		sound = UEN+_Neutral_016
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.70
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "UEN_infantry_positive_combat"
+    sounds = {
+        sound = UEN_Positive_001
+        sound = UEN_Positive_002
+		sound = UEN_Positive_003
+        sound = UEN_Positive_004
+        sound = UEN_Positive_005
+        sound = UEN_Positive_006
+        sound = UEN_Positive_007
+        sound = UEN_Positive_008
+        sound = UEN_Positive_009
+        sound = UEN_Positive_010
+        sound = UEN_Positive_011
+        sound = UEN_Positive_012
+        sound = UEN_Positive_013
+        sound = UEN_Positive_014
+        sound = UEN_Positive_015
+        sound = UEN_Positive_016
+        sound = UEN_Positive_017
+        sound = UEN_Positive_018
+
+        sound = UEN+_Positive_001
+        sound = UEN+_Positive_002
+		sound = UEN+_Positive_003
+        sound = UEN+_Positive_004
+        sound = UEN+_Positive_005
+        sound = UEN+_Positive_006
+        sound = UEN+_Positive_007
+        sound = UEN+_Positive_008
+        sound = UEN+_Positive_009
+        sound = UEN+_Positive_010
+        sound = UEN+_Positive_011
+        sound = UEN+_Positive_012
+        sound = UEN+_Positive_013
+        sound = UEN+_Positive_014
+        sound = UEN+_Positive_015
+        sound = UEN+_Positive_016
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.70
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+
+sound = 
+{
+	name = "UEN_Idle_001"
+	file = "UEN/UEN_Idle_001.wav"
+}
+sound = 
+{
+	name = "UEN_Idle_002"
+	file = "UEN/UEN_Idle_002.wav"
+}
+sound = 
+{
+	name = "UEN_Idle_003"
+	file = "UEN/UEN_Idle_003.wav"
+}
+sound = 
+{
+	name = "UEN_Idle_004"
+	file = "UEN/UEN_Idle_004.wav"
+}
+
+sound = 
+{
+	name = "UEN_Idle_005"
+	file = "UEN/UEN_Idle_005.wav"
+}
+
+sound = 
+{
+	name = "UEN_Idle_006"
+	file = "UEN/UEN_Idle_006.wav"
+}
+
+sound = 
+{
+	name = "UEN_Idle_007"
+	file = "UEN/UEN_Idle_007.wav"
+}
+sound = 
+{
+	name = "UEN_Idle_008"
+	file = "UEN/UEN_Idle_008.wav"
+}
+sound = 
+{
+	name = "UEN_Idle_009"
+	file = "UEN/UEN_Idle_009.wav"
+}
+sound = 
+{
+	name = "UEN_Idle_010"
+	file = "UEN/UEN_Idle_010.wav"
+}
+
+sound = 
+{
+	name = "UEN_Idle_011"
+	file = "UEN/UEN_Idle_011.wav"
+}
+
+sound = 
+{
+	name = "UEN_Idle_012"
+	file = "UEN/UEN_Idle_012.wav"
+}
+
+sound = 
+{
+	name = "UEN_Idle_013"
+	file = "UEN/UEN_Idle_013.wav"
+}
+sound = 
+{
+	name = "UEN_Idle_014"
+	file = "UEN/UEN_Idle_014.wav"
+}
+sound = 
+{
+	name = "UEN_Idle_015"
+	file = "UEN/UEN_Idle_015.wav"
+}
+sound = 
+{
+	name = "UEN_Idle_016"
+	file = "UEN/UEN_Idle_016.wav"
+}
+
+sound = 
+{
+	name = "UEN_Idle_017"
+	file = "UEN/UEN_Idle_017.wav"
+}
+
+sound = 
+{
+	name = "UEN_Idle_018"
+	file = "UEN/UEN_Idle_018.wav"
+}
+
+
+sound = 
+{
+	name = "UEN+_Idle_001"
+	file = "UEN/UEN+_Idle_001.wav"
+}
+sound = 
+{
+	name = "UEN+_Idle_002"
+	file = "UEN/UEN+_Idle_002.wav"
+}
+sound = 
+{
+	name = "UEN+_Idle_003"
+	file = "UEN/UEN+_Idle_003.wav"
+}
+sound = 
+{
+	name = "UEN+_Idle_004"
+	file = "UEN/UEN+_Idle_004.wav"
+}
+
+sound = 
+{
+	name = "UEN+_Idle_005"
+	file = "UEN/UEN+_Idle_005.wav"
+}
+
+sound = 
+{
+	name = "UEN+_Idle_006"
+	file = "UEN/UEN+_Idle_006.wav"
+}
+
+sound = 
+{
+	name = "UEN+_Idle_007"
+	file = "UEN/UEN+_Idle_007.wav"
+}
+sound = 
+{
+	name = "UEN+_Idle_008"
+	file = "UEN/UEN+_Idle_008.wav"
+}
+sound = 
+{
+	name = "UEN+_Idle_009"
+	file = "UEN/UEN+_Idle_009.wav"
+}
+sound = 
+{
+	name = "UEN+_Idle_010"
+	file = "UEN/UEN+_Idle_010.wav"
+}
+
+sound = 
+{
+	name = "UEN+_Idle_011"
+	file = "UEN/UEN+_Idle_011.wav"
+}
+
+sound = 
+{
+	name = "UEN+_Idle_012"
+	file = "UEN/UEN+_Idle_012.wav"
+}
+
+sound = 
+{
+	name = "UEN+_Idle_013"
+	file = "UEN/UEN+_Idle_013.wav"
+}
+sound = 
+{
+	name = "UEN+_Idle_014"
+	file = "UEN/UEN+_Idle_014.wav"
+}
+
+sound = 
+{
+	name = "UEN+_Idle_015"
+	file = "UEN/UEN+_Idle_015.wav"
+}
+sound = 
+{
+	name = "UEN+_Idle_016"
+	file = "UEN/UEN+_Idle_016.wav"
+}
+
+
+
+
+sound = 
+{
+	name = "UEN_Neutral_001"
+	file = "UEN/UEN_Neutral_001.wav"
+}
+sound = 
+{
+	name = "UEN_Neutral_002"
+	file = "UEN/UEN_Neutral_002.wav"
+}
+sound = 
+{
+	name = "UEN_Neutral_003"
+	file = "UEN/UEN_Neutral_003.wav"
+}
+sound = 
+{
+	name = "UEN_Neutral_004"
+	file = "UEN/UEN_Neutral_004.wav"
+}
+
+sound = 
+{
+	name = "UEN_Neutral_005"
+	file = "UEN/UEN_Neutral_005.wav"
+}
+sound = 
+{
+	name = "UEN_Neutral_006"
+	file = "UEN/UEN_Neutral_006.wav"
+}
+sound = 
+{
+	name = "UEN_Neutral_007"
+	file = "UEN/UEN_Neutral_007.wav"
+}
+sound = 
+{
+	name = "UEN_Neutral_008"
+	file = "UEN/UEN_Neutral_008.wav"
+}
+sound = 
+{
+	name = "UEN_Neutral_009"
+	file = "UEN/UEN_Neutral_009.wav"
+}
+sound = 
+{
+	name = "UEN_Neutral_010"
+	file = "UEN/UEN_Neutral_010.wav"
+}
+sound = 
+{
+	name = "UEN_Neutral_011"
+	file = "UEN/UEN_Neutral_011.wav"
+}
+sound = 
+{
+	name = "UEN_Neutral_012"
+	file = "UEN/UEN_Neutral_012.wav"
+}
+sound = 
+{
+	name = "UEN_Neutral_013"
+	file = "UEN/UEN_Neutral_013.wav"
+}
+sound = 
+{
+	name = "UEN_Neutral_014"
+	file = "UEN/UEN_Neutral_014.wav"
+}
+sound = 
+{
+	name = "UEN_Neutral_015"
+	file = "UEN/UEN_Neutral_015.wav"
+}
+sound = 
+{
+	name = "UEN_Neutral_016"
+	file = "UEN/UEN_Neutral_016.wav"
+}
+sound = 
+{
+	name = "UEN_Neutral_017"
+	file = "UEN/UEN_Neutral_017.wav"
+}
+sound = 
+{
+	name = "UEN_Neutral_018"
+	file = "UEN/UEN_Neutral_018.wav"
+}
+
+
+sound = 
+{
+	name = "UEN+_Neutral_001"
+	file = "UEN/UEN+_Neutral_001.wav"
+}
+sound = 
+{
+	name = "UEN+_Neutral_002"
+	file = "UEN/UEN+_Neutral_002.wav"
+}
+sound = 
+{
+	name = "UEN+_Neutral_003"
+	file = "UEN/UEN+_Neutral_003.wav"
+}
+sound = 
+{
+	name = "UEN+_Neutral_004"
+	file = "UEN/UEN+_Neutral_004.wav"
+}
+
+sound = 
+{
+	name = "UEN+_Neutral_005"
+	file = "UEN/UEN+_Neutral_005.wav"
+}
+sound = 
+{
+	name = "UEN+_Neutral_006"
+	file = "UEN/UEN+_Neutral_006.wav"
+}
+sound = 
+{
+	name = "UEN+_Neutral_007"
+	file = "UEN/UEN+_Neutral_007.wav"
+}
+sound = 
+{
+	name = "UEN+_Neutral_008"
+	file = "UEN/UEN+_Neutral_008.wav"
+}
+sound = 
+{
+	name = "UEN+_Neutral_009"
+	file = "UEN/UEN+_Neutral_009.wav"
+}
+sound = 
+{
+	name = "UEN+_Neutral_010"
+	file = "UEN/UEN+_Neutral_010.wav"
+}
+sound = 
+{
+	name = "UEN+_Neutral_011"
+	file = "UEN/UEN+_Neutral_011.wav"
+}
+sound = 
+{
+	name = "UEN+_Neutral_012"
+	file = "UEN/UEN+_Neutral_012.wav"
+}
+sound = 
+{
+	name = "UEN+_Neutral_013"
+	file = "UEN/UEN+_Neutral_013.wav"
+}
+sound = 
+{
+	name = "UEN+_Neutral_014"
+	file = "UEN/UEN+_Neutral_014.wav"
+}
+sound = 
+{
+	name = "UEN+_Neutral_015"
+	file = "UEN/UEN+_Neutral_015.wav"
+}
+sound = 
+{
+	name = "UEN+_Neutral_016"
+	file = "UEN/UEN+_Neutral_016.wav"
+}
+
+
+
+sound = 
+{
+	name = "UEN_Positive_001"
+	file = "UEN/UEN_Positive_001.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_002"
+	file = "UEN/UEN_Positive_002.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_003"
+	file = "UEN/UEN_Positive_003.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_004"
+	file = "UEN/UEN_Positive_004.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_005"
+	file = "UEN/UEN_Positive_005.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_006"
+	file = "UEN/UEN_Positive_006.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_007"
+	file = "UEN/UEN_Positive_007.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_008"
+	file = "UEN/UEN_Positive_008.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_009"
+	file = "UEN/UEN_Positive_009.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_010"
+	file = "UEN/UEN_Positive_010.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_011"
+	file = "UEN/UEN_Positive_011.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_012"
+	file = "UEN/UEN_Positive_012.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_013"
+	file = "UEN/UEN_Positive_013.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_014"
+	file = "UEN/UEN_Positive_014.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_015"
+	file = "UEN/UEN_Positive_015.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_016"
+	file = "UEN/UEN_Positive_016.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_017"
+	file = "UEN/UEN_Positive_017.wav"
+}
+sound = 
+{
+	name = "UEN_Positive_018"
+	file = "UEN/UEN_Positive_018.wav"
+}
+
+
+
+
+sound = 
+{
+	name = "UEN+_Positive_001"
+	file = "UEN/UEN+_Positive_001.wav"
+}
+sound = 
+{
+	name = "UEN+_Positive_002"
+	file = "UEN/UEN+_Positive_002.wav"
+}
+sound = 
+{
+	name = "UEN+_Positive_003"
+	file = "UEN/UEN+_Positive_003.wav"
+}
+sound = 
+{
+	name = "UEN+_Positive_004"
+	file = "UEN/UEN+_Positive_004.wav"
+}
+sound = 
+{
+	name = "UEN+_Positive_005"
+	file = "UEN/UEN+_Positive_005.wav"
+}
+sound = 
+{
+	name = "UEN+_Positive_006"
+	file = "UEN/UEN+_Positive_006.wav"
+}
+sound = 
+{
+	name = "UEN+_Positive_007"
+	file = "UEN/UEN+_Positive_007.wav"
+}
+sound = 
+{
+	name = "UEN+_Positive_008"
+	file = "UEN/UEN+_Positive_008.wav"
+}
+sound = 
+{
+	name = "UEN+_Positive_009"
+	file = "UEN/UEN+_Positive_009.wav"
+}
+sound = 
+{
+	name = "UEN+_Positive_010"
+	file = "UEN/UEN+_Positive_010.wav"
+}
+sound = 
+{
+	name = "UEN+_Positive_011"
+	file = "UEN/UEN+_Positive_011.wav"
+}
+sound = 
+{
+	name = "UEN+_Positive_012"
+	file = "UEN/UEN+_Positive_012.wav"
+}
+sound = 
+{
+	name = "UEN+_Positive_013"
+	file = "UEN/UEN+_Positive_013.wav"
+}
+sound = 
+{
+	name = "UEN+_Positive_014"
+	file = "UEN/UEN+_Positive_014.wav"
+}
+sound = 
+{
+	name = "UEN+_Positive_015"
+	file = "UEN/UEN+_Positive_015.wav"
+}
+sound = 
+{
+	name = "UEN+_Positive_016"
+	file = "UEN/UEN+_Positive_016.wav"
+}

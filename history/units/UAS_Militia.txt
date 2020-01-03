@@ -1,0 +1,68 @@
+﻿division_template = {
+	name = "Militia"			#Infantry Division
+	priority = 0
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+
+
+units = {
+	division = {
+		name = "National Guard Reserve"
+		location = 10106
+		division_template = "Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75 }
+	division = {
+		name = "Armed Police Departement"
+		location = 10106
+		division_template = "Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75 }
+	division = {
+		name = "Polícia Militar	(Bra.)"
+		location = 10106
+		division_template = "Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7 }
+	division = {
+		name = "Gendarmería nacional (Mex.)"
+		location = 10106
+		division_template = "Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7 }
+
+	division = {
+		name = "California State Military Reserve"
+		location = 10106
+		division_template = "Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6 }
+	division = {
+		name = "State militias"
+		location = 10106
+		division_template = "Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5 }
+	division = {
+		name = "Voluntarios"
+		location = 10106
+		division_template = "Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.45 }
+	division = {
+		name = "Milicia popular"
+		location = 10106
+		division_template = "Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4 }
+
+}

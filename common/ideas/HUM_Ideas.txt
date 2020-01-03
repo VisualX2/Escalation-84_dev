@@ -1,0 +1,1295 @@
+ideas = {
+
+	country = {
+
+		human_armies = {
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+
+			equipment_bonus = {
+				motorized_equipment = { build_cost_ic = -0.15 instant = yes }
+
+				CAS_equipment = {     air_agility = 0.20
+									  air_ground_attack = 0.05
+									  build_cost_ic = 0.10
+									instant = yes }
+				transport_plane_equipment = { maximum_speed = 0.10
+									  air_range = 0.50
+									instant = yes }
+			}
+			modifier = {
+				army_core_attack_factor = 0.50
+				army_core_defence_factor = 0.50
+				army_defence_factor = 0.15
+				army_attack_factor = 0.15
+				army_org = 10
+				navy_max_range_factor = 0.1
+				naval_speed_factor = 0.1
+				supply_consumption_factor = 0.025
+				winter_attrition_factor = 0.025
+			}
+		}
+	}
+
+
+	country = {
+
+		human_air_force = {
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				fighter_equipment = { maximum_speed = 0.50
+									  air_range = 0.25
+									  air_attack = 0.10
+									  build_cost_ic = 0.20
+									instant = yes }
+				jet_fighter_equipment = { maximum_speed = 0.50
+									  air_range = 0.25
+									  air_attack = 0.10
+									  build_cost_ic = 0.20
+									instant = yes }
+				heavy_fighter_equipment = { maximum_speed = 1.00
+									  air_range = 0.50
+									  air_attack = 0.05
+									  air_agility = -0.10
+									  build_cost_ic = 0.20
+									instant = yes }
+				tac_bomber_equipment = { maximum_speed = 0.50
+									  air_range = 0.25
+									  air_ground_attack = 0.10
+									  build_cost_ic = 0.20
+									instant = yes }
+				jet_tac_bomber_equipment = { maximum_speed = 0.50
+									  air_range = 0.25
+									  air_ground_attack = 0.10
+									  build_cost_ic = 0.20
+									instant = yes }
+				strat_bomber_equipment = { maximum_speed = 0.50
+									  air_range = 0.25
+									  air_bombing = 0.10
+									  build_cost_ic = 0.20
+									instant = yes }
+				jet_strat_bomber_equipment = { maximum_speed = 0.50
+									  air_range = 0.25
+									  air_bombing = 0.10
+									  build_cost_ic = 0.20
+									instant = yes }
+				nav_bomber_equipment = { maximum_speed = 0.50
+									  air_range = 0.25
+									  naval_strike_attack = 0.10
+									  build_cost_ic = 0.20
+									instant = yes }
+				cv_jet_fighter_equipment = { maximum_speed = 0.50
+									  air_range = 0.25
+									  air_attack = 0.10
+									  build_cost_ic = 0.20
+									instant = yes }
+				cv_fighter_equipment = { maximum_speed = 0.50
+									  air_range = 0.25
+									  air_attack = 0.10
+									  build_cost_ic = 0.20
+									instant = yes }
+				cv_CAS_equipment = { maximum_speed = 0.50
+									  air_range = 0.25
+									  naval_strike_attack = 0.10
+									  build_cost_ic = 0.20
+									instant = yes }
+				cv_nav_bomber_equipment = { maximum_speed = 0.50
+									  air_range = 0.25
+									  naval_strike_attack = 0.10
+									  build_cost_ic = 0.20
+									instant = yes }
+			}
+
+			modifier = {
+				air_night_penalty = -0.1
+			}
+		}
+	}
+
+	country = {
+		precarious_condition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.5
+				stability_factor = -0.15
+				research_speed_factor = -0.20
+				industrial_capacity_factory = -0.20
+				conscription_factor = -0.30
+			}
+		}
+	}
+
+	country = {
+		precarious_condition_2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.25
+				stability_factor = -0.05
+				research_speed_factor = -0.10
+				industrial_capacity_factory = -0.05
+				conscription_factor = -0.10
+			}
+		}
+	}
+
+	country = {
+		radiation_poisoning = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				industrial_capacity_factory = -0.10
+				conscription_factor = -0.30
+				MONTHLY_POPULATION = -0.70
+			}
+		}
+	}
+	
+	country = {
+		radiation_poisoning_2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.10
+				MONTHLY_POPULATION = -0.30
+			}
+		}
+	}
+
+	country = {
+		stranger = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				non_core_manpower = -0.01
+			}
+		}
+	}	
+
+	country = {
+		human_scientists = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.10
+			}
+		}
+	}
+
+	country = {
+		magic_laboratory = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.10
+			}
+		}
+	}
+
+	country = {
+		human_history_program = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.10
+			}
+		}
+	}
+
+	country = {
+		blue_helmet = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				send_volunteers_tension = -0.50
+				send_volunteer_divisions_required = -0.90
+			}
+		}
+	}
+
+
+	country = {
+		AA_missile = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				naval_strike_attack_factor = 0.2
+				air_interception_attack_factor = 0.2
+				air_air_superiority_attack_factor = 0.2
+				air_close_air_support_attack_factor = 0.2
+			}
+		}
+	}
+
+	country = {
+		ASM_missile = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				naval_hit_chance = 0.2
+				navy_anti_air_attack_factor = 0.2
+				navy_carrier_air_attack_factor = 0.2
+				navy_screen_attack_factor = 0.2
+				navy_capital_ship_attack_factor = 0.2
+				navy_submarine_attack_factor = 0.2
+			}
+		}
+	}
+
+	country = {
+		humanity_will_not_go_down = {
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_core_attack_factor = 0.20
+				army_core_defence_factor = 0.20
+				industrial_capacity_factory = 0.10
+				conscription_factor = 0.05
+			}
+		}
+	}
+
+	country = {
+		asserve_inferior = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				non_core_manpower = 0.025
+				industrial_capacity_factory = 0.10
+				local_resources_factor = 0.05
+				stability_factor = -0.05
+			}
+		}
+	}
+
+	country = {
+		racial_domination = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				non_core_manpower = 0.025
+				local_resources_factor = 0.1
+				stability_factor = -0.05
+			}
+		}
+	}
+
+	country = {
+		risk_of_famine = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				industrial_capacity_factory = -0.10
+				conscription_factor = -0.10
+			}
+		}
+	}
+
+	country = {
+		HUM_reconstruction = {
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+
+			modifier = {
+			production_factory_max_efficiency_factor = 0.1
+			production_factory_start_efficiency_factor = 0.1
+			production_factory_efficiency_gain_factor = 0.15
+			industrial_capacity_dockyard = 0.25
+			industrial_capacity_factory = 0.25
+			production_speed_buildings_factor = 0.15
+			conscription_factor = -0.025
+			}
+		}
+	}	
+
+
+	country = {
+		HUM_Helicopter_supply = {
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+
+			modifier = {
+				supply_consumption_factor = -0.04
+			}
+		}
+	}	
+
+	country = {
+		HUM_air_supply = {
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+
+			modifier = {
+				supply_consumption_factor = -0.04
+			}
+		}
+	}	
+
+############# UEN BONUS #############
+	country = {
+		UEN_internal_tension = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.10
+				army_morale_factor = -0.1
+				political_power_factor = -0.2
+				conscription_factor = -0.05
+			}
+		}
+	}
+
+	country = {
+		UEN_language = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				army_org = -5
+				encryption_factor = 0.15
+			}
+		}
+	}
+
+	country = {
+		UEN_motorized_focus = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			equipment_bonus = {
+				motorized_equipment = {
+				build_cost_ic = -0.1 instant = yes
+				}
+			}
+			modifier = {
+				motorized_attack_factor = 0.10
+				motorized_defence_factor = 0.10
+			}
+		}
+	}
+
+	country = {
+		UEN_european_phoenix = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.10
+				research_speed_factor = 0.10
+				industrial_capacity_factory = 0.20
+				conscription_factor = 0.02
+			}
+		}
+	}
+
+	country = {
+		UEN_home_guard = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.025
+				minimum_training_level = -0.1
+			}
+		}
+	}
+
+
+	country = {
+		UEN_we_fight_to_protect = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.02
+				army_defence_factor = 0.10
+				army_morale_factor = 0.2
+			}
+		}
+	}
+
+	country = {
+		UEN_cluster = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_artillery_attack_factor = 0.07
+				air_close_air_support_attack_factor = 0.07
+			}
+		}
+	}
+
+	country = {
+		UEN_drugs = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				attrition = 0.05
+				army_attack_factor = 0.1
+				army_speed_factor = 0.05
+			}
+		}
+	}
+
+	country = {
+		UEN_human_pony_friendship = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.05
+				trade_opinion_factor = 0.25
+				industrial_capacity_factory = 0.05
+			}
+		}
+	}
+
+	country = {
+		UEN_truth_prevail = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = 0.10
+			}
+		}
+	}
+
+	country = {
+		UEN_power_of_peoples = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.10
+				conscription_factor = 0.05
+			}
+		}
+	}
+
+	country = {
+		UEN_power_of_nations = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				justify_war_goal_time = -0.25
+				industrial_capacity_factory = 0.10
+			}
+		}
+	}
+
+############# RUS BONUS #############
+	country = {
+		RUS_chemical = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_artillery_attack_factor = 0.07
+			}
+		}
+	}
+
+	country = {
+		RUS_blinding_laser = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_defence_factor = 0.05
+				army_attack_factor = 0.05
+			}
+		}
+	}
+
+	country = {
+		RUS_arab_dispute = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				political_power_gain = -0.10
+				conscription_factor = -0.05
+			}
+		}
+	}
+
+	country = {
+		RUS_the_banner_fly = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.10
+				industrial_capacity_factory = 0.30
+				research_speed_factor = 0.10
+				conscription_factor = 0.02
+			}
+		}
+	}
+
+	country = {
+		RUS_red_banner = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_defence_factor = 0.10
+				army_attack_factor = 0.10
+			}
+		}
+	}
+
+	country = {
+		RUS_kgb = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				decryption_factor = 0.1
+				encryption_factor = 0.1
+			}
+		}
+	}
+
+	country = {
+		RUS_new_union = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.10
+				political_power_gain = 0.10
+			}
+		}
+	}
+
+	country = {
+		RUS_soviet_superpower = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.10
+				political_power_gain = 0.10
+			}
+		}
+	}
+
+	country = {
+		RUS_new_empire = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				justify_war_goal_time = -0.10
+				army_attack_factor = 0.10
+				non_core_manpower = 0.02
+			}
+		}
+	}
+
+############# UAS BONUS #############
+	country = {
+		UAS_biological = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_artillery_attack_factor = 0.07
+			}
+		}
+	}
+
+	country = {
+		UAS_napalm = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				air_close_air_support_attack_factor = 0.15
+			}
+		}
+	}
+
+	country = {
+		UAS_white_phosphorus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_artillery_attack_factor = 0.05
+				army_infantry_attack_factor = 0.05
+				attrition = 0.01
+			}
+		}
+	}
+
+	country = {
+		UAS_DU_round = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+				equipment_bonus = {
+					armor = {
+					hard_attack = 0.15
+					reliability = -0.05
+				}
+ 			}	
+		}
+	}
+
+	country = {
+		UAS_SA_rebels = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.15
+				stability_factor = -0.10
+				conscription_factor = -0.08
+			}
+		}
+	}	
+
+	country = {
+		UAS_canadian_resistance = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				industrial_capacity_factory = -0.10
+				conscription_factor = -0.02
+			}
+		}
+	}
+
+	country = {
+		UAS_star_sprangled = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.20
+				stability_factor = 0.1
+				industrial_capacity_factory = 0.20
+				research_speed_factor = 0.10
+			}
+		}
+	}
+
+	country = {
+		UAS_new_army = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 0.15
+				industrial_capacity_factory = 0.05
+			}
+		}
+	}
+
+	country = {
+		UAS_land_free = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.10
+				stability_factor = 0.10
+				army_defence_factor = 0.10
+			}
+		}
+	}
+
+	country = {
+		UAS_new_america = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.05
+				industrial_capacity_factory = 0.10
+				conscription_factor = 0.05
+			}
+		}
+	}
+
+	country = {
+		UAS_new_order_of_ages = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				army_attack_factor = 0.10
+			}
+		}
+	}
+
+	country = {
+		UAS_poor_training = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_infantry_attack_factor = -0.1
+				army_infantry_defence_factor = -0.1
+			}
+		}
+	}
+
+	country = {
+		UAS_good_training = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_infantry_attack_factor = 0.05
+				army_infantry_defence_factor = 0.05
+			}
+		}
+	}
+
+##### HUM DOMINATION #####
+	country = {
+		UEN_euro_domination = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				justify_war_goal_time = -0.10
+				army_attack_factor = 0.10
+				non_core_manpower = 0.02
+			}
+		}
+	}
+
+	country = {
+		RUS_soviet_domination = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				justify_war_goal_time = -0.10
+				army_attack_factor = 0.10
+				non_core_manpower = 0.02
+			}
+		}
+	}
+
+	country = {
+		UAS_taming = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				justify_war_goal_time = -0.10
+				army_attack_factor = 0.10
+				non_core_manpower = 0.02
+			}
+		}
+	}
+
+##### REBEL #####
+	country = {
+		republican_protest = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.10
+			}
+		}
+	}
+}

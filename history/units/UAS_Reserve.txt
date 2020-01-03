@@ -1,0 +1,52 @@
+﻿division_template = {
+	name = "National Guard Brigade"
+	division_names_group = UEN_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   # Pioneer Bn
+		artillery = { x = 0 y = 1 }		
+	}
+	priority = 1
+}
+
+
+
+units = {
+	division = {
+		name = "Texas National Guard"
+		location = 10106
+		division_template = "National Guard Brigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8 }
+	division = {
+		name = "South Carolina National Guard"
+		location = 10106
+		division_template = "National Guard Brigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8 }
+	division = {
+		name = "Guarda Nacional do Brasil"
+		location = 10106
+		division_template = "National Guard Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8 }
+	division = {
+		name = "Maine National Guard"
+		location = 10106
+		division_template = "National Guard Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75 }
+	division = {
+		name = "Washington National Guard"
+		location = 10106
+		division_template = "National Guard Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.70 }
+
+}

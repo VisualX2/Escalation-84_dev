@@ -1,0 +1,191 @@
+spriteTypes = {
+
+	#### Equestria At War 1984
+
+	SpriteType = {
+		name = "GFX_goal_blue_helmets"
+		texturefile = "gfx/interface/goals/blue_helmets.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_COMECON"
+		texturefile = "gfx/interface/goals/COMECON.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_PVO"
+		texturefile = "gfx/interface/goals/PVO.dds"
+	}	
+
+
+	SpriteType = {
+		name = "GFX_goal_UAS_symbol"
+		texturefile = "gfx/interface/goals/UAS_symbol.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_UEN_symbol"
+		texturefile = "gfx/interface/goals/UEN_symbol.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_symbol"
+		texturefile = "gfx/interface/goals/SOV_symbol.dds"
+	}	
+
+
+	SpriteType = {
+		name = "GFX_goal_sovheli"
+		texturefile = "gfx/interface/goals/sovheli.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_redgold"
+		texturefile = "gfx/interface/goals/redgold.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_UAS_napalm"
+		texturefile = "gfx/interface/goals/napalm_icon.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_goal_chemical"
+		texturefile = "gfx/interface/goals/chemical.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_biological"
+		texturefile = "gfx/interface/goals/biological.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_radioactive"
+		texturefile = "gfx/interface/goals/radioactive.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_goal_red_cross"
+		texturefile = "gfx/interface/goals/red_cross.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_AA_layer"
+		texturefile = "gfx/interface/goals/anti_air_layer.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_KGB"
+		texturefile = "gfx/interface/goals/KGB.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_goal_euratom"
+		texturefile = "gfx/interface/goals/euratom.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_united_nations"
+		texturefile = "gfx/interface/goals/united_nations.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_fishing_docks"
+		texturefile = "gfx/interface/goals/fishing_docks.dds"
+	}	
+
+
+	SpriteType = {
+		name = "GFX_goal_euratom"
+		texturefile = "gfx/interface/goals/euratom.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_united_nations"
+		texturefile = "gfx/interface/goals/united_nations.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_fishing_docks"
+		texturefile = "gfx/interface/goals/fishing_docks.dds"
+	}	
+
+
+	SpriteType = {
+		name = "GFX_goal_magic_AK"
+		texturefile = "gfx/interface/goals/magicalAK.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_strategicmissileforce"
+		texturefile = "gfx/interface/goals/strategicmissileforce.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_laserweapons"
+		texturefile = "gfx/interface/goals/laserweapons.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_goal_usmc"
+		texturefile = "gfx/interface/goals/usmc.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_FTAA"
+		texturefile = "gfx/interface/goals/FTAA.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_airnationalguard"
+		texturefile = "gfx/interface/goals/airnationalguard.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SACommand"
+		texturefile = "gfx/interface/goals/SACommand.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_field_arty"
+		texturefile = "gfx/interface/goals/field_arty.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ASM"
+		texturefile = "gfx/interface/goals/ASM.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_nationalguard"
+		texturefile = "gfx/interface/goals/SACommand.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_Guidedmissiles"
+		texturefile = "gfx/interface/goals/Guidedmissiles.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_combat_drug"
+		texturefile = "gfx/interface/goals/combat_drug.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_nationalguard"
+		texturefile = "gfx/interface/goals/nationalguard.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_Guidedmissiles"
+		texturefile = "gfx/interface/goals/Guidedmissiles.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_combat_drug"
+		texturefile = "gfx/interface/goals/combat_drug.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_goal_white_phos"
+		texturefile = "gfx/interface/goals/white_phos.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_thunderbolt"
+		texturefile = "gfx/interface/goals/thunderbolt.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_DUround"
+		texturefile = "gfx/interface/goals/DUround.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_aircav"
+		texturefile = "gfx/interface/goals/aircav.dds"
+	}	
+	SpriteType = {
+		name = "GFX_goal_clustermunition"
+		texturefile = "gfx/interface/goals/clustermunition.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_armoredcav"
+		texturefile = "gfx/interface/goals/armoredcav.dds"
+	}		

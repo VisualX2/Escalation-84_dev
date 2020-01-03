@@ -1,0 +1,52 @@
+﻿division_template = {
+	name = "Home Guard"
+	division_names_group = UEN_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   # Pioneer Bn
+		artillery = { x = 0 y = 1 }		
+	}
+	priority = 1
+}
+
+
+
+units = {
+	division = {
+		name = "Scandinavia Home Guard Division"
+		location = 4080
+		division_template = "Home Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8 }
+	division = {
+		name = "Iberian Home Guard Division"
+		location = 4080
+		division_template = "Home Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8 }
+	division = {
+		name = "Balkan Home Guard Division"
+		location = 4080
+		division_template = "Home Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8 }
+	division = {
+		name = "Benelux Home Guard Division"
+		location = 4080
+		division_template = "Home Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75 }
+	division = {
+		name = "CRBN reserve defence unit"
+		location = 4080
+		division_template = "Home Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.70 }
+
+}

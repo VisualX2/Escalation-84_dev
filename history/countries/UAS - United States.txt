@@ -1,0 +1,279 @@
+﻿capital = 363
+
+oob = "UAS_1984"
+
+set_research_slots = 1
+
+set_technology = {
+	melee_weapons = 1
+	melee_weapons1 = 1
+	pre_gw_artillery = 1
+	tech_support = 1
+	transport = 1
+	infantry_weapons= 1
+	motorised_infantry = 1
+    tech_engineers = 1
+    tech_recon = 1
+    tech_military_police = 1
+    tech_maintenance_company = 1
+    tech_field_hospital = 1
+    tech_logistics_company = 1
+    tech_signal_company = 1
+	tech_mountaineers = 1
+	marines = 1
+	paratroopers = 1
+
+	basic_machine_tools = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+}
+
+
+add_equipment_to_stockpile = {
+	type = artillery_equipment_0
+	amount = 150
+	producer = UAS
+}
+add_equipment_to_stockpile = {
+	type = melee_equipment_0
+	amount = 5000
+	producer = UAS
+}
+add_equipment_to_stockpile = {
+	type = melee_equipment_1
+	amount = 5000
+	producer = UAS
+}
+add_tech_bonus = {
+	name = fighter_bonus
+	bonus = 1
+	uses = 1
+	technology = early_fighter
+}
+add_tech_bonus = {
+	name = bomber_bonus
+	bonus = 1
+	uses = 1
+	category = tactical_bomber
+}
+
+
+add_ideas = {
+	disarmed_nation
+	pre_industrial_society
+	closed_economy
+	human_armies
+	human_air_force
+	UAS_poor_training
+	precarious_condition
+	radiation_poisoning
+	stranger
+	UAS_canadian_resistance
+	UAS_SA_rebels
+	risk_of_famine
+}
+
+set_war_support = 0.3
+set_stability = 0.7
+
+set_popularities = {
+	democratic = 35
+	fascism = 0
+	communism = 5
+	neutrality = 60
+}
+
+set_politics = {
+
+	ruling_party = neutrality
+	last_election = "1000.10.10"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Army Council"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "USjunta.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		generallissimo 
+	}
+}
+
+create_country_leader = {
+	name = "US Congress"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "UScongress.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+#create_country_leader = {
+#	name = "Ronald Reagan"
+#	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+#	picture = "ronaldr.tga"
+#	expire = "1965.1.1"
+#	ideology = conservatism
+#	traits = {
+#		#
+#	}
+#}
+
+#create_country_leader = {
+#	name = "Jimmy Carter"
+#	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+#	picture = "jimmyc.tga"
+#	expire = "1965.1.1"
+#	ideology = socialism
+#	traits = {
+#		#
+#	}
+#}
+
+create_country_leader = {
+	name = "Army Junta"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "USjunta.tga"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		generallissimo 
+	}
+}
+
+create_country_leader = {
+	name = "US Worker's Congress"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "UScom.tga"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Morgan"
+	portrait_path = "gfx/leaders/UAS/USAHQ.tga"
+	traits = { }
+	skill = 5
+	attack_skill = 2
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Mark Bannon"
+	portrait_path = "gfx/leaders/UAS/cavalryscout.tga"
+	traits = { trait_reckless armor_officer trickster War_Hero }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Parker"
+	portrait_path = "gfx/leaders/UAS/Riflemen.tga"
+	traits = { cavalry_officer }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Jeremiah Sawyer"
+	portrait_path = "gfx/leaders/UAS/Lightriflemen.tga"
+	traits = { ranger hill_fighter infantry_officer old_guard }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Anton Carino"
+	portrait_path = "gfx/leaders/UAS/assaultengineer.tga"
+	traits = { urban_assault_specialist fortress_buster }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "James Webb"
+	portrait_path = "gfx/leaders/UAS/Smaw.tga"
+	traits = { urban_assault_specialist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Vance"
+	portrait_path = "gfx/leaders/UAS/Rangers.tga"
+	traits = { ranger trickster }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Michael Thompson"
+	portrait_path = "gfx/leaders/UAS/Mountaineer.tga"
+	traits = { trait_mountaineer hill_fighter }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Earl Davis"
+	portrait_path = "gfx/leaders/UAS/Marines.tga"
+	traits = { naval_invader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Hanson"
+	portrait_path = "gfx/leaders/UAS/Delta.tga"
+	traits = { commando trickster }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Doe"
+	portrait_path = "gfx/leaders/UAS/SEAL.tga"
+	traits = { naval_invader commando  }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Uris"
+	portrait_path = "gfx/leaders/UAS/laadredeye.tga"
+	traits = { camouflage_expert }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}

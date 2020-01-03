@@ -1,0 +1,256 @@
+﻿capital = 108
+
+oob = "UEN_1984"
+
+set_research_slots = 1
+
+set_technology = {
+	melee_weapons = 1
+	melee_weapons1 = 1
+	pre_gw_artillery = 1
+	tech_support = 1
+	transport = 1
+	infantry_weapons= 1
+	motorised_infantry = 1
+    tech_engineers = 1
+    tech_recon = 1
+    tech_military_police = 1
+    tech_maintenance_company = 1
+    tech_field_hospital = 1
+    tech_logistics_company = 1
+    tech_signal_company = 1
+	tech_mountaineers = 1
+	marines = 1
+	paratroopers = 1
+
+	basic_machine_tools = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+}
+
+
+add_equipment_to_stockpile = {
+	type = artillery_equipment_0
+	amount = 150
+	producer = UEN
+}
+add_equipment_to_stockpile = {
+	type = melee_equipment_0
+	amount = 5000
+	producer = UEN
+}
+add_equipment_to_stockpile = {
+	type = melee_equipment_1
+	amount = 5000
+	producer = UEN
+}
+add_tech_bonus = {
+	name = fighter_bonus
+	bonus = 1
+	uses = 1
+	technology = early_fighter
+}
+add_tech_bonus = {
+	name = bomber_bonus
+	bonus = 1
+	uses = 1
+	category = tactical_bomber
+}
+
+
+add_ideas = {
+	disarmed_nation
+	pre_industrial_society
+	closed_economy
+	human_armies
+	human_air_force
+	precarious_condition
+	radiation_poisoning
+	stranger
+	UEN_language
+	risk_of_famine
+}
+
+set_war_support = 0.2
+set_stability = 0.7
+
+set_popularities = {
+	democratic = 65
+	fascism = 5
+	communism = 20
+	neutrality = 10
+}
+
+set_politics = {
+
+	ruling_party = democratic
+	last_election = "1000.10.10"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Federal Council"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "demportrait_council.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "People's Council"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "UENcom.tga"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Federal Council"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "demportrait_council.tga"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "High Council"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "highcouncileu.tga"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		warmonger
+	}
+}
+
+
+create_field_marshal = {
+	name = "Christian Sabatier"
+	portrait_path = "gfx/leaders/UEN/FRAHQ.tga"
+	traits = { }
+	skill = 5
+	attack_skill = 2
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Karel Novak"
+	portrait_path = "gfx/leaders/UEN/CZEHQ.tga"
+	traits = { hill_fighter }
+	skill = 3
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Damien huzard"
+	portrait_path = "gfx/leaders/UEN/hussard.tga"
+	traits = { trickster cavalry_officer }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Wilhemus Faas"
+	portrait_path = "gfx/leaders/UEN/huzaren.tga"
+	traits = { trickster cavalry_officer }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Karl Harald"
+	portrait_path = "gfx/leaders/UEN/stormpionjarer.tga"
+	traits = { urban_assault_specialist fortress_buster }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Jørgen Niklas"
+	portrait_path = "gfx/leaders/UEN/stormingenior.tga"
+	traits = { urban_assault_specialist fortress_buster }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Hans-Lothar Domröse"
+	portrait_path = "gfx/leaders/UEN/fallschirmjager.tga"
+	traits = { commando paratrooper }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Njord Åsmund"
+	portrait_path = "gfx/leaders/UEN/jaeger.tga"
+	traits = { commando infantry_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Peder Andreas"
+	portrait_path = "gfx/leaders/UEN/norrlandsjagare.tga"
+	traits = { ranger trait_mountaineer winter_specialist }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Henryk Tomek"
+	portrait_path = "gfx/leaders/UEN/niebeskiberety.tga"
+	traits = { naval_invader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Carl Kjell"
+	portrait_path = "gfx/leaders/UEN/RBS56.tga"
+	traits = { Ambusher }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Zacharie Vivien"
+	portrait_path = "gfx/leaders/UEN/Mistral.tga"
+	traits = { camouflage_expert }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}

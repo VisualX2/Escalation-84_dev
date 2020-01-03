@@ -1,0 +1,143 @@
+﻿division_template = {
+	name = "Pekhotnaya diviziya"
+	division_names_group = RUS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Rezervnaya brigada"
+	division_names_group = RUS_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }		
+	}
+	priority = 0
+}
+
+
+division_template = {
+	name = "Motostrelkovaya Diviziya"
+
+	regiments = {
+	motorized = { x = 0 y = 0 }
+	motorized = { x = 0 y = 1 }
+    motorized = { x = 0 y = 2 }
+    motorized = { x = 1 y = 0 }
+	motorized = { x = 1 y = 1 }
+    mot_artillery_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 } 
+	}
+}
+
+division_template = {
+	name = "Gvds. Mekhanizirovanaya Diviziya"
+
+	regiments = {
+	mechanized = { x = 0 y = 0 }
+	mechanized = { x = 0 y = 1 }
+    mechanized = { x = 0 y = 2 }
+    mechanized = { x = 1 y = 0 }
+	mechanized = { x = 1 y = 1 }
+    mot_artillery_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+	}
+}
+
+
+division_template = {
+	name = "Tankovaya Diviziya"
+	division_names_group = RUS_ARM_01
+
+	regiments = {
+	light_armor = { x = 0 y = 0 }
+	light_armor = { x = 0 y = 1 }
+        motorized = { x = 1 y = 0 }
+	motorized = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }		
+	}
+}
+
+division_template = {
+	name = "Vozdushno-Desantnaya Brigada"
+
+	regiments = {
+	paratrooper = { x = 0 y = 0 }
+	paratrooper = { x = 0 y = 1 }
+	paratrooper = { x = 0 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Brigada Morskoi Pekhoty"
+
+	regiments = {
+	marine = { x = 0 y = 0 }
+	marine = { x = 0 y = 1 }
+        marine = { x = 1 y = 0 }
+        marine = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Gornostrelkovaya Diviziya"
+
+	regiments = {
+	mountaineers = { x = 0 y = 0 }
+	mountaineers = { x = 0 y = 1 }
+    mountaineers = { x = 0 y = 2 }
+	mountaineers = { x = 1 y = 0 }
+	mountaineers = { x = 1 y = 1 }
+    mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}

@@ -1,0 +1,64 @@
+﻿l_english:
+ 
+ human_armies:0 "Human Armies"
+ human_armies_desc:0 "Warring since uncountable times, human armies have several advantages against many species of this world."
+
+ human_air_force:0 "Human Air Force"
+ human_air_force_desc:0 "Since the end of WWII air forces across the world changed drastically, with the creation of helicopters and the discovery of the jet engines our planes are now much stronger and faster, but as well much more costly to produce."
+
+ precarious_condition:0 "Precarious Conditions"
+ precarious_condition_desc:0 "Mere years ago, our citizens lived in skyscrapers and houses, had access to running water and food in abundance. But that has all been wrenched away from us, and we find ourselves reduced to living in makeshift tents and having barely enough to survive. Radical action must be undertaken to address these issues; camps need to be organized, food sources discovered, and sanitation measures initiated. If it is not then famine, disease outbreaks, or even open revolt will be just around the corner, and then humanity truly will be doomed."
+
+ precarious_condition_2:0 "Improving Life Conditions"
+ precarious_condition_2_desc:0 "Our situation is slowly but surely improving, it will take more time to fully heal the wounds of the war, but we will make it. Humanity still have a chance."
+
+ radiation_poisoning:0 "Radiation Sickness"
+ radiation_poisoning_desc:0 "Since we didn't made any distinctions as to who could enter the gates there's a significant percentage of the population that still suffers from the aftermath of the nuclear bombings back on Earth."
+
+ radiation_poisoning_2:0 "Radioactive Disinfection"
+ radiation_poisoning_2_desc:0 "With a cure from radiation finally in hands soon enough the infected ones among us will be able to fully enjoy their lives in this new world."
+
+ stranger:0 "Strangers from Another World"
+ stranger_desc:0 "Due to several anatomical, cultural, political and even linguistic factors most of the non-human populace within this country don't want to serve in the army."
+
+ human_scientists:0 "Human Science"
+ human_scientists_desc:0 "With research treaties in course, this nation's now benefits from cooperation with humans in the scientific field."
+
+ magic_laboratory:0 "Modern Laboratories"
+ magic_laboratory_desc:0 "With modern equipments and access to sufficient funding, research efforts will be able to advance much faster in this nation."
+
+ AA_missile:0 "Guided Missiles"
+ AA_missile_desc:0 "The introduction of Radar/Infrared missiles in our aircraft greatly improves their attack capabilities."
+
+ ASM_missile:0 "Anti-Ship Missiles"
+ ASM_missile_desc:0 "The introduction of guided missiles on our ships greatly improve their attack capabilities."
+
+ human_history_program:0 "Human History Preservation Program"
+ human_history_program_desc:0 "Thanks to our efforts, we managed to recovery a extensive archive of the history of humanity, spamming from before humanity to the modern age. We must learn from our mistakes to avoid committing them again."
+
+ blue_helmet:0 "Blue Helmets"
+ blue_helmet_desc:0 "Also know as the Blue Berets, they are a international peace enforcement unit which monitor and observe peace processes in post-conflict areas and assist ex-combatants in implementing the peace agreements they may have signed. Now they also double as a international volunteer force to harmonist countries fighting wars against undemocratic regimes."
+
+ humanity_will_not_go_down:0 "Humanity's Last Stand"
+ humanity_will_not_go_down_desc:0 "We are not going to going down so easily, we will battle for our independence until the bitter end!"
+
+ risk_of_famine:0 "Widespread Famine"
+ risk_of_famine_desc:0 "We currently face a terrible famine, if we don't do anything we will soon enough consume all of our food reserves."  
+
+ HUM_Helicopter_supply:0 "Supply Helicopters"
+ HUM_Helicopter_supply_desc:0 "Beyond reconnaissance, our helicopters are also able to quickly deliver supplies even to the most inhospitable battlefields."
+
+ HUM_air_supply:0 "Supply Planes"
+ HUM_air_supply_desc:0 "Even if not as efficient or organized as helicopters, planes are able to paradrop supplies to our troops on the ground."
+
+ asserve_inferior:0 "Human Rights for Humans"
+ asserve_inferior_desc:0 "Truth be told, the several differences between the native species and our own species only show that we can apply the same rights to them. Humans rights are for human only!"
+
+ racial_domination:0 "Racial Domination"
+ racial_domination_desc:0 "We aren't scared of magic tricks and fancy sticks, the so called "sapient" creatures of this world are nothing but ants in comparation to the apex species we are. The sons of Gaia shall conquer their birth right!"
+
+ republican_protest:0 "Republican Protests"
+ republican_protest_desc:0 "Due to several actions of the government against democratic ideals several republican have spoke against such actions, and will continue to do so until we do something about it."
+
+ HUM_reconstruction:0 "Reconstruction"
+ HUM_reconstruction_desc:0 "With the absolutely necessary now done, we can now begin to work towards recreating our old glories from back home. The reconstruction begins!"

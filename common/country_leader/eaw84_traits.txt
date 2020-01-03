@@ -1,0 +1,155 @@
+leader_traits = {
+
+	HUM_dulla_spirit = {
+		random = no
+		production_speed_bunker_factor = 0.2
+		army_morale_factor = 0.05
+		political_power_gain = 0.05
+		communism_drift = 0.05
+	}
+
+	HUM_man_of_the_peoples = {
+		random = no
+		political_power_gain = 0.1
+		stability_factor = 0.05
+	}
+
+
+	HUM_Heavy_MBT_designer = {
+		random = no
+		#generic
+
+		equipment_bonus = {
+			armor = {
+				armor_value = 0.05 hard_attack = 0.05 soft_attack = 0.05 build_cost_ic = 0.10
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+		HUM_mobile_MBT_designer = {
+		random = no
+		#generic
+
+		equipment_bonus = {
+			armor = {
+				reliability = 0.10 maximum_speed = 0.10
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+		HUM_cheap_MBT_designer = {
+		random = no
+		#generic
+
+		equipment_bonus = {
+			armor = {
+				reliability = 0.05 build_cost_ic = -0.10
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+
+		HUM_powerful_weapons_designer = {
+		random = no
+		#generic
+
+		equipment_bonus = {
+			infantry = {
+				hard_attack = 0.05 soft_attack = 0.10 build_cost_ic = 0.10
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+		HUM_reliable_weapons_designer = {
+		random = no
+		#generic
+
+		equipment_bonus = {
+			infantry = {
+				reliability = 0.10
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+		HUM_cheap_weapons_designer = {
+		random = no
+		#generic
+
+		equipment_bonus = {
+			infantry = {
+				reliability = 0.05 build_cost_ic = -0.10
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+
+		HUM_powerful_mechanized_designer = {
+		random = no
+		#generic
+
+		equipment_bonus = {
+			mechanized = {
+				armor_value = 0.05 hard_attack = 0.05 soft_attack = 0.05 build_cost_ic = 0.10
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+		HUM_reliable_mechanized_designer = {
+		random = no
+		#generic
+
+		equipment_bonus = {
+			mechanized = {
+				reliability = 0.05 build_cost_ic = -0.10
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+		HUM_mobile_mechanized_designer = {
+		random = no
+		#generic
+
+		equipment_bonus = {
+			mechanized = {
+				reliability = 0.10 maximum_speed = 0.10
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}

@@ -1,0 +1,910 @@
+﻿add_namespace = UAS
+
+country_event = {
+	id = UAS.101
+	title = UAS.101.t
+	desc = UAS.101.d
+	picture = GFX_report_M151
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.101.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = UAS.102
+	title = UAS.102.t
+	desc = UAS.102.d
+	picture = GFX_news_usconvoy
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.102.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = UAS.103
+	title = UAS.103.t
+	desc = UAS.103.d
+	picture = GFX_news_handshake
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.103.a
+		ai_chance = { factor = 100 }
+		add_political_power = 150
+	}
+}
+
+
+
+news_event = {
+	id = UAS.104
+	title = UAS.104.t
+	desc = UAS.104.d
+	picture = GFX_news_hum_lab
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.104.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = UAS.105
+	title = UAS.105.t
+	desc = UAS.105.d
+	picture = GFX_news_curehum
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.105.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = UAS.106
+	title = UAS.106.t
+	desc = UAS.106.d
+	picture = GFX_news_firework
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.106.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = UAS.107
+	title = UAS.107.t
+	desc = UAS.107.d
+	picture = GFX_news_handshake
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.107.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+
+country_event = {
+	id = UAS.108
+	title = UAS.108.t
+	desc = UAS.108.d
+	picture = GFX_report_cia
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.108.a
+		ai_chance = { factor = 100 }
+		JER = { add_equipment_to_stockpile = {
+		type = support_equipment_1
+		amount = 500
+		producer = UAS
+			}
+		}
+	}
+}
+
+news_event = {
+	id = UAS.109
+	title = UAS.109.t
+	desc = UAS.109.d
+	picture = GFX_news_handshake
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.109.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+
+news_event = {
+	id = UAS.110
+	title = UAS.110.t
+	desc = UAS.110.d
+	picture = GFX_news_cwdiplo
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.110.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = UAS.111
+	title = UAS.111.t
+	desc = UAS.111.d
+	picture = GFX_news_cwdiplo
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.111.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = UAS.112
+	title = UAS.112.t
+	desc = UAS.112.d
+	picture = GFX_news_fieldhospital
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.112.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = UAS.113
+	title = UAS.113.t
+	desc = UAS.113.d
+	picture = GFX_news_peacekeepers
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.113.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = UAS.114
+	title = UAS.114.t
+	desc = UAS.114.d
+	picture = GFX_news_cwdiplo
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.114.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+
+#TO DO
+
+news_event = {
+	id = UAS.115
+	title = UAS.115.t
+	desc = UAS.115.d
+	picture = GFX_news_handshake
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.15.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = UAS.116
+	title = UAS.116.t
+	desc = UAS.116.d
+	picture = GFX_news_handshake
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.116.a
+		ai_chance = { factor = 100 }
+			create_country_leader = {
+			name = "Ronald Reagan"
+			picture = ronaldr.tga	expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+					anti_communist 
+				}
+			}
+		add_popularity = { ideology = communism popularity = -0.05 }	
+		add_political_power = 25
+		add_stability = 0.05
+		}
+
+	option = { 
+		name = UAS.116.b
+		ai_chance = { factor = 100 }
+			create_country_leader = {
+			name = "Jimmy Carter"
+			picture = jimmyc.tga	expire = "1965.1.1"
+			ideology = socialism
+			traits = {
+				}
+			}
+		add_popularity = { ideology = fascism popularity = -0.05 }	
+		add_political_power = 25
+		add_stability = 0.05
+	}
+
+	option = { 
+		name = UAS.116.c
+		ai_chance = { factor = 100 }
+		add_political_power = 50
+		add_stability = 0.05
+	}	
+
+}
+
+news_event = {
+	id = UAS.117
+	title = UAS.117.t
+	desc = UAS.117.d
+	picture = GFX_news_handshake
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.117.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = UAS.118
+	title = UAS.118.t
+	desc = UAS.118.d
+	picture = GFX_news_handshake
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.118.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = {
+	id = UAS.119
+	title = UAS.119.t
+	desc = UAS.119.d
+	picture = GFX_news_handshake
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.119.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+											#SOCIETY
+
+country_event = {
+	id = UAS.200
+	title = UAS.200.t
+	desc = UAS.200.d
+	picture = GFX_report_social_problem
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.200.a
+		ai_chance = { factor = 100 }
+		add_political_power = 25
+		add_stability = -0.05
+		add_popularity = { ideology = communism popularity = 0.10 }	
+		add_popularity = { ideology = fascism popularity = 0.15 }		
+	}
+
+	option = { 
+		name = UAS.200.b
+		ai_chance = { factor = 100 }
+		add_popularity = { ideology = democratic popularity = 0.05 }	
+		add_stability = 0.05
+		add_political_power = -50
+	}	
+}
+
+country_event = {
+	id = UAS.201
+	title = UAS.201.t
+	desc = UAS.201.d
+	picture = GFX_report_social_problem
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.201.a
+		ai_chance = { factor = 100 }
+		add_political_power = -50
+		add_stability = -0.05
+		add_popularity = { ideology = democratic popularity = 0.05 }		
+		add_popularity = { ideology = communism popularity = 0.05 }	
+	}
+
+	option = { 
+		name = UAS.201.b
+		ai_chance = { factor = 100 }
+		add_political_power = -50
+		add_stability = -0.05
+		add_popularity = { ideology = democratic popularity = 0.05 }	
+		add_popularity = { ideology = fascism popularity = 0.05 }	
+	}	
+
+	option = { 
+		name = UAS.201.c
+		ai_chance = { factor = 100 }
+		add_political_power = -25
+		add_popularity = { ideology = democratic popularity = 0.05 }	
+		add_popularity = { ideology = fascism popularity = 0.05 }	
+	}	
+}
+
+
+country_event = {
+	id = UAS.202
+	title = UAS.202.t
+	desc = UAS.202.d
+	picture = GFX_report_social_problem
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.202.a
+		ai_chance = { factor = 100 }
+		add_political_power = -50
+		add_stability = 0.10
+		add_popularity = { ideology = democratic popularity = 0.15 }		
+		add_popularity = { ideology = communism popularity = 0.05 }	
+		hidden_effect = { country_event = { id = UAS.23  days = 84 } } 
+	}
+
+	option = { 
+		name = UAS.202.b
+		ai_chance = { factor = 100 }
+		add_political_power = 100		
+		add_stability = -0.05
+		add_popularity = { ideology = fascism popularity = 0.10 }	
+	}	
+
+}
+
+country_event = {
+	id = UAS.203
+	title = UAS.203.t
+	desc = UAS.203.d
+	picture = GFX_report_social_problem
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UEN
+	}
+
+	option = { 
+		name = UAS.203.a
+		ai_chance = { factor = 100 }
+		add_popularity = { ideology = democratic popularity = 0.05 }
+		add_popularity = { ideology = fascism popularity = 0.02 }
+		add_political_power = -50
+		add_stability = 0.10
+	}	
+
+	option = { 
+		name = UAS.203.b
+		ai_chance = { factor = 100 }
+		add_popularity = { ideology = fascism popularity = -0.05 }		
+		add_political_power = -15
+		add_stability = -0.05	
+	}	
+
+	option = { 
+		name = UAS.203.b
+		ai_chance = { factor = 100 }
+		add_popularity = { ideology = fascism popularity = +0.05 }
+		add_political_power = 150
+		add_stability = -0.10		
+	}	
+
+}
+
+#MOBILIZATION
+
+country_event = {
+	id = UAS.20
+	title = UAS.20.t
+	desc = UAS.20.d
+	picture = GFX_report_line_mobilization
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = {
+		name = UAS.20.a
+		ai_chance = { factor = 100 }
+			hidden_effect = {
+			 load_oob = "UAS_Line"
+		}
+	}
+}
+
+country_event = {
+	id = UAS.21
+	title = UAS.21.t
+	desc = UAS.21.d
+	picture = GFX_report_reserve_mobilization
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.21.a
+		ai_chance = { factor = 100 }
+			hidden_effect = {
+			 load_oob = "UAS_Reserve"
+		}
+	}
+}
+
+country_event = {
+	id = UAS.22
+	title = UAS.22.t
+	desc = UAS.22.d
+	picture = GFX_report_militia_mobilization
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.22.a
+		ai_chance = { factor = 100 }
+			hidden_effect = {
+			 load_oob = "UAS_Militia"
+		}
+	}
+}
+
+country_event = {
+	id = UAS.23
+	title = UAS.23.t
+	desc = UAS.23.d
+	picture = GFX_event_pony_soldiers_sunset
+
+	fire_only_once = yes
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		tag = UAS
+	}
+
+	option = { 
+		name = UAS.23.a
+		ai_chance = { factor = 100 }
+			army_experience = 25
+			remove_ideas = stranger
+			create_corps_commander = {
+
+				name = "Reinhald Freefeather"
+				portrait_path = "gfx/leaders/Asia/portrait_griffon_generic_land_15.tga"
+				traits = {  }
+				skill = 2
+				attack_skill = 3
+				defense_skill = 1
+				planning_skill = 2
+				logistics_skill = 2
+			}
+
+			create_corps_commander = {
+				name = "Velvet Solar"
+				portrait_path = "gfx/leaders/Pony/portrait_eqc_pony_generic_1.tga"
+				traits = { trickster }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 2
+			}
+		}
+	}
+
+
+#Stalliongrad FACTION
+country_event = {
+	id = UAS.300
+	title = UAS.300.t
+	desc = UAS.300.d
+	picture = GFX_event_stalliongrad
+
+	is_triggered_only = yes
+	
+	option = {
+		name = UAS.300.a
+		add_to_faction = FROM
+		FROM = {
+		add_ai_strategy = {
+			type = alliance
+			id = "UAS"
+			value = 200
+		}
+	}
+		FROM = { country_event = { id = UAS.301} }
+		STG = { army_experience = 25 }	
+	}
+	
+	option = {
+		name = UAS.300.b
+		ai_chance = { factor = 0 }
+		FROM = { 
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = small_decrease
+			}
+			country_event = { id = UAS.302 }
+		}
+	}
+}
+
+# France - Britain accepts Ally request
+country_event = {
+	id = UAS.301
+	title = UAS.301.t
+	desc = UAS.301.d
+	picture = GFX_event_stalliongrad
+
+	is_triggered_only = yes
+
+	option = {
+		name = UAS.301.a
+	}
+}
+
+# France - Britain denies Ally request
+country_event = {
+	id = UAS.302
+	title = UAS.302.t
+	desc = UAS.302.d
+	picture = GFX_event_stalliongrad
+
+	is_triggered_only	= yes
+
+	option = {
+		name = UAS.302.a
+	}
+}
+
+#United Nations
+#SOVIET
+country_event = {
+	id = UAS.312
+	title = UAS.312.t
+	desc = UAS.312.d
+	picture = GFX_report_UN
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UAS.312.a
+		ai_chance = { factor = 90 }
+		UAS = {
+			country_event = UAS.313
+			add_to_faction = ROOT
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = "UAS"
+			value = 200
+		}
+	}
+
+	option = {
+		name = UAS.312.b
+		ai_chance = { factor = 10 }
+		UAS = { country_event = UAS.314 }
+	}
+}
+
+# [Country] Accepts
+country_event = {
+	id = UAS.313
+	title = UAS.313.t
+	desc = UAS.313.d
+	picture = GFX_report_UN
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UAS.313.a
+		effect_tooltip = {
+			add_to_faction = FROM
+		}
+	}
+}
+
+# [Country] Refuses
+country_event = {
+	id = UAS.314
+	title = UAS.314.t
+	desc = UAS.314.d
+	picture = GFX_report_UN
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UAS.314.a
+	}
+}
+
+#UEN
+country_event = {
+	id = UAS.315
+	title = UAS.315.t
+	desc = UAS.315.d
+	picture = GFX_report_UN
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UAS.315.a
+		ai_chance = { factor = 90 }
+		UAS = {
+			country_event = UAS.316
+			add_to_faction = ROOT
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = "UAS"
+			value = 200
+		}
+	}
+
+	option = {
+		name = UAS.315.b
+		ai_chance = { factor = 10 }
+		UAS = { country_event = UAS.317 }
+	}
+}
+
+# [Country] Accepts
+country_event = {
+	id = UAS.316
+	title = UAS.316.t
+	desc = UAS.316.d
+	picture = GFX_report_UN
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UAS.316.a
+		effect_tooltip = {
+			add_to_faction = FROM
+		}
+	}
+}
+
+# [Country] Refuses
+country_event = {
+	id = UAS.317
+	title = UAS.317.t
+	desc = UAS.317.d
+	picture = GFX_report_UN
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UAS.317.a
+	}
+}

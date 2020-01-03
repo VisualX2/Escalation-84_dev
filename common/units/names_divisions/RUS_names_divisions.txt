@@ -1,0 +1,312 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, becRUSe
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+RUS_INF_01 = 
+{
+	name = "Infantry Division"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { RUS_INF_01 }
+
+	fallback_name = "%d. Pekhotnaya diviziya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		5 = { "%dya 'Vitebskaya' Strelk. Div." }
+		6 = { "%dya 'Orlovskaya' Strelk. Div." }
+		7 = { "%dya 'Chernigovskaya' Strelk. Div." }
+		8 = { "%dya 'Minskaya' Strelk. Div." }
+		16 = { "%dya 'Ul'yanovskaya' Strelk. Div." }
+		18 = { "%dya Strelkovaya Diviziya" }
+		21 = { "%dya 'Permskaya' Strelk. Div." }
+		22 = { "%dya 'Krasnodarskaya' Strelk. Div." }
+		23 = { "%dya 'Har'kovskaya' Strelk. Div." }
+		24 = { "%dya 'Samaro-Ul'yanov.' Strelk. Div." }
+		38 = { "%dya Strelkovaya Diviziya" }
+		49 = { "%dya Strelkovaya Diviziya" }
+		51 = { "%dya 'Perekopskaya' Strelk. Div." }
+		2 = { "%dya 'Belorusskaya' Strelk. Div." }
+		15 = { "%dya 'Sivashskaya' Strelk. Div." }
+		31 = { "%dya 'Stalingradskaya' Strelk. Div." }
+		37 = { "%dya Strelkovaya Diviziya" }
+		56 = { "%dya 'Moskva' Strelk. Div." }
+		57 = { "%dya 'Ural'skaya' Strelk. Div." }
+		17 = { "%dya 'Gor'kovskaya' Strelk. Div." }
+		27 = { "%dya 'Omskaya' Strelk. Div." }
+		29 = { "%dya 'Sibirskaya' Strelk. Div." }
+		33 = { "%dya 'Belorusskaya' Strelk. Div." }
+		48 = { "%dya ''Kashino-Tverskaya' Strelk. Div." }
+		10 = { "7. Firqat Musha (Irq.)" }
+		11 = { "11. Firqat Musha (Irq.)" }
+		12 = { "'Hussein Ali' liwa' almsha (Jor.)" }
+		13 = { "7. Firqat Musha (Egy.)" }
+		14 = { "2. Firqat Musha (Egy.)" }
+		25 = { "25. Firqat Musha (Syr.)" }
+		26 = { "15. liwa' almsha (Kuw.)" }
+
+	}
+}
+
+RUS_MOT_01 = 
+{
+	name = "Motorized Division"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { RUS_INF_01 }
+
+	fallback_name = "%d. Motostrelkovaya Diviziya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya 'Moskva Proletarskaya' Motostrelk. Div." }
+		2 = { "64ya Motostrelkovaya Diviziya" }
+		3 = { "3-r Morin Tsereg (Mon.)" }
+		36 = { "%dya 'Zabajkal'skaya'Motostrelk. Div." }
+		57 = { "%dya 'Ural'skaya' Motostrelk. Div." }
+		15 = { "%dya 'Sivashskaya' Motostrelk. Div." }
+		4 = { "4. 'Al Faw' Shuebat almashat alaly (Irq.)" }
+		7 = { "7. 'Adnan' Shuebat almashat alaly (Irq.)" }
+		82 = { "%dya Motostrelkovaya Diviziya" }
+		84 = { "%dya Motostrelkovaya Diviziya" }
+		29 = { "%dya 'Sibirskaya' Motostrelk. Div." }
+		69 = { "%dya Motostrelkovaya Diviziya" }
+	}
+}
+
+RUS_MEC_01 = 
+{
+	name = "Mechanized Division"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { RUS_INF_01 }
+
+	fallback_name = "%d. Gvds. Mekhanizirovanaya Diviziya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dya 'Moskva Proletarskaya' Mekh. Div." }
+		2 = { "221ya Motorizovannyy Diviza" }
+		7 = { "%dya 'Chernigovskaya' Mekh. Div." }
+		10 = { "7-r Myekhanik Khuyagt (Mon.)" }
+		15 = { "%dya 'Sivashskaya' Mekh. Div." }
+		29 = { "%dya 'Sibirskaya' Mekh. Div." }
+		3 = { "3rd 'Tawakalna ala-Allah' Mechanised Division (Irq.)" }
+		5 = { "5th 'Baghdad' Mechanised Division (Irq.)" }
+		12 = { "'Al Fatah' Brigade (Kuw.)" }
+	}
+}
+
+RUS_ARM_01 = 
+{
+	name = "Armored Division"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { RUS_ARM_01 }
+
+	fallback_name = "%d. Tankovaya Diviziya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "44ya Gvardeyskaya Tankovaya" }
+		4 = { "4ya Gvardeiskaya Tankovaya 'Kantemirovskaya' Divisiya" }
+		16 = { "16-ya gvardeyskaya tankovaya diviziya" }
+		10 = { "10-ya gvardeyskaya tankovaya diviziya" }
+		5 = { "1st 'Hammurabi' Armoured Division (Irq.)" }
+		7 = { "2nd 'al-Medinah' Armoured Division (Irq.)" }
+		12 = { "14th Armoured Brigade (Syr.)" }
+		14 = { "60th Armoured Brigade (Jor.)" }
+		15 = { "4th Armoured Division (Egy.)" }
+	}
+}
+
+RUS_PAR_01 = 
+{
+	name = "Paratrooper Division"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { RUS_INF_01 }
+
+	fallback_name = "%d. Vozdushno-Desantnaya Div"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		2 = { "414 liwa' almizallat (Egy.)" } 
+		5 = { "Tippe 55 Hawābord (Ira.)" }
+		107 = { "7ya Gvds. 'Cherkassy' Voz.-Desantnaya Bri." }
+		108 = { "8ya Gvds. Vozdushno-Desantnaya Div." }
+		109 = { "9ya Gvds. Vozdushno-Desantnaya Div." }
+		110 = { "10ya Gvds. Vozdushno-Desantnaya Div." }
+		111 = { "11ya Gvds. Vozdushno-Desantnaya Div." }
+		112 = { "12ya Gvds. Vozdushno-Desantnaya Div." }
+		113 = { "13ya Gvds. Vozdushno-Desantnaya Div." }
+		114 = { "14ya Gvds. Vozdushno-Desantnaya Div." }
+		115 = { "15ya Gvds. Vozdushno-Desantnaya Div." }
+		116 = { "16ya Gvds. Vozdushno-Desantnaya Div." }
+		121 = { "21ya Gvds. Vozdushno-Desantnaya Div." }
+		131 = { "31ya Gvds. Vozdushno-Desantnaya Div." }
+		176 = { "76ya Gvds. 'Chernigov' Voz.-Desantnaya Div." }
+		198 = { "98ya Gvds. 'Svir' Voz.-Desantnaya Div." }
+		203 = { "103ya Gvds. Vozdushno-Desantnaya Div." }
+		204 = { "104ya Gvds. Vozdushno-Desantnaya Div." }
+		206 = { "106ya Gvds. 'Tula' Voz.-Desantnaya Div." }
+		214 = { "114ya Gvds. Vozdushno-Desantnaya Div." }
+	}
+}
+
+RUS_MAR_01 = 
+{
+	name = "Marine Division"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { RUS_INF_01 }
+
+	fallback_name = "%d. Diviziya Morskoi Pekhoty"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "810ya Morskaya Brigada" } 
+		2 = { "130 liwa' biramayiyin bahriin (Egy.)" }
+	}
+}
+
+RUS_MNT_01 = 
+{
+	name = "Mountain Division"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { RUS_INF_01 }
+
+	fallback_name = "%d. Gornostrelkovaya Diviziya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "7ya gornaya brigada" }
+		2 = { "Fawj al-Maghaweer (Leb.)" } 
+		5 = { "Yehidat Ha'Alpinistim (Isr.)" }
+		9 = { "%dya 'Kavkazskaya' Gornostrelk.Div." }
+		20 = { "%dya 'Proletar. Donb.' Gornostrelk. Div." }
+		30 = { "%dya 'Irkutskaya' Gornostrelk. Div." }
+		44 = { "%dya 'Kievskaya' Gornostrelk. Div." }
+		47 = { "%dya 'Gruzinskaya' Gornostrelk. Diviziya" }
+		60 = { "%dya 'Kavkazskaya' Gornostrelk. Diviziya" }
+		76 = { "%dya 'Armyanskaya' Gornostrelk. Div." }
+		96 = { "%dya 'Vinnitskaya' Gornostrelk. Div." }
+		63 = { "%dya 'Gruzinskaya' Gornostrelk. Div." }
+		77 = { "%dya 'Azerbajdzhansk.' Gornostrelk. Div." }
+		83 = { "%dya 'Turkestanskaya' Gornostrelk. Div." }
+		58 = { "%dya Gornostrelkovaya Diviziya" }
+		72 = { "%dya 'Turkestanskaya' Gornostrelk. Div." }
+		68 = { "%dya 'Turkestanskaya' Gornostrelk. Div." }
+		28 = { "%dya 'Gorskaya' Gornostrelk. Div." }
+	}
+}
+
+RUS_GAR_01 = 
+{
+	name = "Garrison Division"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { RUS_GAR_01 }
+
+	fallback_name = "%d. Rezervnaya Diviziya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		10 = { "80. hajz liwa' almsha (Syr.)" }
+		5 = { "10-r Morin Tsereg (Mon.)" }
+	}
+}
+

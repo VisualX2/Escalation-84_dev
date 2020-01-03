@@ -1,0 +1,81 @@
+﻿division_template = {
+	name = "Motostrelkovaya Diviziya"
+
+	regiments = {
+	motorized = { x = 0 y = 0 }
+	motorized = { x = 0 y = 1 }
+    motorized = { x = 0 y = 2 }
+    motorized = { x = 1 y = 0 }
+	motorized = { x = 1 y = 1 }
+    mot_artillery_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Vozdushno-Desantnaya Brigada"
+
+	regiments = {
+	paratrooper = { x = 0 y = 0 }
+	paratrooper = { x = 0 y = 1 }
+	paratrooper = { x = 0 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Pekhotnaya diviziya"
+	division_names_group = RUS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		name = "114-ya gvardeyskaya VDV"
+		location = 767
+		division_template = "Vozdushno-Desantnaya Brigada"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9 }
+	division = {
+		name = "33-ya 'Belorusskaya' Strelk. Div."
+		location = 767
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9 }
+	division = {
+		name = "27-ya gv. motostrelkovaya diviziya"
+		location = 767
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.9 }
+	division = {
+		name = "1-ya gv. Moskovskaya motostrelkovaya diviziya"
+		location = 767
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.9 }
+
+}

@@ -1,0 +1,58 @@
+UAS_Mobilization = {
+
+	UAS_Mobilize_Line = {
+		icon = rifles
+			cost = 25
+			ai_will_do = {
+			factor = 50
+			modifier = {
+				factor = 50
+				10106 = { is_controlled_by = ROOT }
+			}
+		}
+		fire_only_once = yes
+          days_remove = 70
+          remove_effect = {
+			country_event = {
+				id = UAS.20 
+			}
+		}
+	}
+
+	UAS_Mobilize_reserve = {
+		icon = rifles
+			cost = 50
+			ai_will_do = {
+			factor = 50
+			modifier = {
+				factor = 50
+				10106 = { is_controlled_by = ROOT }
+			}
+		}
+		fire_only_once = yes
+          days_remove = 35
+          remove_effect = {
+			country_event = {
+				id = UAS.21 
+			}
+		}
+	}
+
+	UAS_Mobilize_militia = {
+		icon = rifles
+			cost = 75
+			ai_will_do = {
+			factor = 50
+			modifier = {
+				factor = 50
+				10106 = { is_controlled_by = ROOT }
+			}
+		}
+		fire_only_once = yes
+          days_remove = 14
+          remove_effect = {
+			country_event = {
+				id = UAS.22 
+			}
+		}
+	}

@@ -1,0 +1,84 @@
+﻿division_template = {
+	name = "Mobile Infantry Division"
+
+	regiments = {
+	motorized = { x = 0 y = 0 }
+	motorized = { x = 0 y = 1 }
+    motorized = { x = 0 y = 2 }
+    motorized = { x = 1 y = 0 }
+	motorized = { x = 1 y = 1 }
+    mot_artillery_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "UEN Infantry Division"
+	division_names_group = UEN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Alpine Infantry Division"
+
+	regiments = {
+	mountaineers = { x = 0 y = 0 }
+	mountaineers = { x = 0 y = 1 }
+	mountaineers = { x = 0 y = 2 }
+	mountaineers = { x = 1 y = 0 }
+	mountaineers = { x = 1 y = 1 }
+	mountaineers = { x = 1 y = 2 }	
+	}
+	support = {
+	artillery = { x = 0 y = 0 }
+	recon = { x = 0 y = 1 }
+	engineer = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "European Infantry Division"
+		location = 4080
+		division_template = "UEN Infantry Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9 }
+	division = {
+		name = "Franco-German Brigade"
+		location = 4080
+		division_template = "UEN Infantry Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9 }
+	division = {
+		name = "Scandinavian Infantry Division"
+		location = 4080
+		division_template = "Alpine Infantry Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.9 }
+	division = {
+		name = "Czech-Polish Motorized Division"
+		location = 4080
+		division_template = "Mobile Infantry Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.9 }
+
+}

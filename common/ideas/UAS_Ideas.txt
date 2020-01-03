@@ -1,0 +1,645 @@
+ideas = {
+
+political_advisor = {
+
+	UAS_philip_klutznick = {
+
+		allowed = {
+			original_tag = UAS
+		}
+		
+		
+		traits = { captain_of_industry }
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	UAS_nahuel_moreno  = {
+
+		allowed = {
+			original_tag = UAS
+		}
+		
+		
+		traits = { communist_revolutionary }
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	UAS_jose_sarney  = {
+
+		allowed = {
+			original_tag = UAS
+		}
+		
+			available = {
+				NOT = { has_government = fascism }
+				if = {
+						OR = {
+							has_completed_focus = UAS_Embassy_sunset
+					}
+				}
+			}
+
+		traits = { democratic_reformer }
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+
+	UAS_malcom_baldrige = {
+
+		allowed = {
+			original_tag = UAS
+		}
+		
+		traits = { smooth_talking_charmer }
+	}
+
+
+	UAS_william_webster = {
+
+		allowed = {
+			original_tag = UAS
+		}
+		
+		traits = { prince_of_terror }
+	}
+
+	UAS_augusto_pinochet = {
+
+		allowed = {
+			original_tag = UAS
+		}
+		
+		traits = { fascist_demagogue }
+	}
+}
+
+theorist = {
+
+	UAS_william_depuy = {	
+				
+		allowed = {
+			original_tag = UAS
+		}
+		
+		research_bonus = {
+			land_doctrine = 0.10
+		}
+		
+		traits = { superior_firepower_expert }
+	}
+
+	UAS_bennie_davis  = {
+				
+
+		allowed = {
+			original_tag = UAS
+		}
+		
+		research_bonus = {
+			air_doctrine = 0.10
+		}
+		
+		traits = { air_warfare_theorist }
+	}
+
+	UAS_jorge_anaya  = {
+						
+		allowed = {
+			original_tag = UAS
+		}
+		
+		research_bonus = {
+			air_doctrine = 0.10
+		}
+		
+		traits = { naval_theorist }
+	}
+}
+
+	# MILITARY
+	army_chief = {
+				
+		UAS_meyer_edward   = {
+			
+			allowed = {
+				original_tag = UAS
+			}
+			
+			traits = { army_chief_offensive_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		UAS_john_wickham = {
+			
+			allowed = {
+				original_tag = UAS
+			}
+			
+			traits = { army_chief_planning_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+		UAS_charles_gabriel  = {
+
+			allowed = {
+				original_tag = UAS
+			}
+
+			traits = { air_strategic_bombing_2 } 
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		UAS_larry_welch = {
+			
+			allowed = {
+				original_tag = UAS
+			}
+			
+			traits = { air_air_superiority_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+	navy_chief = {
+		
+		UAS_hayward_thomas = {
+			
+			allowed = {
+				original_tag = UAS
+			}
+			
+
+			traits = { navy_capital_ship_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		UAS_james_watkins = {
+			
+			allowed = {
+				original_tag = UAS
+			}
+			
+			traits = { navy_carrier_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	
+	high_command = {
+		
+		UAS_saint_crosbie = {
+			
+			allowed = {
+				original_tag = UAS
+			}
+
+			available = {
+				if = {
+						OR = {
+							has_completed_focus = UAS_armored_way
+					}
+				}
+			}
+			
+			traits = { army_armored_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		UAS_colin_powell = {
+			
+			
+			allowed = {
+				original_tag = UAS
+			}
+			
+			traits = { air_airborne_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		UAS_robert_barrow = {
+			
+			
+			allowed = {
+				original_tag = UAS
+			}
+			
+			traits = { navy_amphibious_assault_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		UAS_norman_schwartzkopf = {
+			
+			
+			allowed = {
+				original_tag = UAS
+			}
+
+			available = {
+				if = {
+						OR = {
+							has_completed_focus = UAS_train_NG
+					}
+				}
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		UAS_lew_allen = {
+			
+			
+			allowed = {
+				original_tag = UAS
+			}
+			
+			traits = { air_bomber_interception_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		UAS_joseph_metcalf  = {
+			
+			allowed = {
+				original_tag = UAS
+			}
+			
+			traits = { navy_chief_naval_aviation_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		UAS_basilio_lami  = {
+			
+			allowed = {
+				original_tag = UAS
+			}
+			
+			traits = { air_naval_strike_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	tank_manufacturer = {
+
+		designer = yes
+	
+		# TECHNOLOGY
+		UAS_lima_arms_plant = {
+						
+			allowed = {
+				original_tag = UAS
+			}
+						
+			research_bonus = {
+				armor = 0.05
+			}
+			
+
+			traits = { HUM_Heavy_MBT_designer }
+		}
+	
+		UAS_chrysler_defence = {
+						
+			allowed = {
+				original_tag = UAS
+			}
+						
+			research_bonus = {
+				armor = 0.10
+			}
+			
+
+			traits = { HUM_cheap_MBT_designer }
+		}
+	}
+
+
+	aircraft_manufacturer = {
+			
+		designer = yes
+		
+		UAS_rockwell = {
+			
+			allowed = {
+				original_tag = UAS
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer  }
+		}
+
+		UAS_mcdonnel_douglas = {
+						
+			allowed = {
+				original_tag = UAS
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		
+		UAS_general_dynamics = {
+			
+			allowed = {
+				original_tag = UAS
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		
+		UAS_embraer = {
+			
+			allowed = {
+				original_tag = UAS
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { CAS_manufacturer }
+		}
+		
+		UAS_Grumman = {
+						
+			allowed = {
+				original_tag = UAS
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { naval_aircraft_manufacturer  }
+		}
+	}
+
+	naval_manufacturer = {
+
+		designer = yes
+		
+		UAS_newsport_shipbuilding = {
+						
+			allowed = {
+				original_tag = UAS
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { battlefleet_designer }
+		}
+
+		UAS_ingalls_shipbuilding = {
+						
+			allowed = {
+				original_tag = UAS
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { pacific_fleet_naval_manufacturer }
+		}
+
+		UAS_general_dynamic_boats = {
+						
+			allowed = {
+				original_tag = UAS
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+		}
+	}
+
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		UAS_AM_General = {
+		
+			allowed = {
+				original_tag = UAS
+			}
+
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+
+		}
+
+		UAS_Engesa = {
+		
+			allowed = {
+				original_tag = UAS
+			}
+
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { HUM_reliable_mechanized_designer }
+
+		}
+		
+		UAS_FMC_corporation = {
+		
+			allowed = {
+				original_tag = UAS
+			}
+
+			research_bonus = {
+				motorized_equipment = 0.05
+			}
+			
+			traits = { HUM_powerful_mechanized_designer }
+
+		}
+
+		UAS_springfield = {
+
+			picture = mas
+						
+			allowed = {
+				original_tag = UAS
+			}
+						
+
+
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { HUM_reliable_weapons_designer }
+		}
+
+		UAS_colt = {
+						
+			allowed = {
+				original_tag = UAS
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { HUM_cheap_weapons_designer }
+		}
+	
+
+		UAS_rock_island = {
+						
+			allowed = {
+				original_tag = UAS
+			}		
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+
+	industrial_concern = {
+
+		UAS_texaco = {
+			
+			allowed = {
+				original_tag = UAS
+			}
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.15
+			}
+			
+			traits = { refinery_concern }
+		}
+		
+		UAS_general_motors = {
+			
+			allowed = {
+				original_tag = UAS
+			}
+			
+			research_bonus = {
+				industry = 0.10
+				
+			}
+			ai_will_do = {
+				factor = 2
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		UAS_IBM = {
+			
+			allowed = {
+				original_tag = UAS
+			}
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+		}	
+
+		UAS_Amtrak = {
+			
+			allowed = {
+				original_tag = UAS
+			}
+			
+			research_bonus = {
+				industry = 0.05
+			}
+			
+			traits = { construction_company }
+		}
+
+		UAS_USAEC = {
+			
+			allowed = {
+				original_tag = UAS
+			}
+			
+			research_bonus = {
+				nuclear = 0.15
+			}
+			
+			traits = { nuclear_scientist }
+		}	
+
+	}

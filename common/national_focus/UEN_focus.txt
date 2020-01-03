@@ -1,0 +1,4041 @@
+focus_tree = {
+	id = union_of_european_nations_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = UEN
+		}
+	}
+
+		default = no
+
+	continuous_focus_position = { x = 100 y = 2000 }
+	focus = {
+		id = UEN_exploration
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 8
+		y = 0
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = { days = 1 id = europe.101 }
+		}
+	}
+
+	focus = {
+		id = UEN_first_contact
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = UEN_exploration }
+		x = 8
+		y = 1
+		cost = 1
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			country_event = { days = 1 id = europe.102 }
+		}
+	}
+	
+	focus = {
+		id = UEN_settle
+		icon = GFX_goal_anschluss
+		prerequisite = { focus = UEN_first_contact }
+		x = 8
+		y = 2
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = { days = 1 id = europe.103 }
+		}
+	}
+
+#CIVILIAN PATH
+	focus = {
+		id = re_industrialisation
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = UEN_settle }
+		x = 5
+		y = 3
+		cost = 4
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus industrial_effort"#Auto-logging
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+				add_offsite_building = { type = industrial_complex level = 1 }
+			}
+		}
+	}
+
+	focus = {
+		id = take_care_of_population
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = re_industrialisation }
+		x = 4
+		y = 4
+		cost = 4
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+	focus = {
+		id = UEN_construction_company
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = re_industrialisation }
+		x = 6
+		y = 4
+		cost = 4
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}
+		}
+		
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 8
+				state = 108
+			}
+			log = "[Root.GetName]: Focus construction_effort"#Auto-logging
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 3
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 3
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = subsistence_agriculture
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = take_care_of_population }
+		x = 3
+		y = 5
+		cost = 4
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		
+		completion_reward = {
+			log = "[Root.GetName]: Focus construction_effort"#Auto-logging
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = establish_the_first_settlements
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = UEN_construction_company }
+		prerequisite = { focus = take_care_of_population }
+		x = 5
+		y = 5
+		cost = 4
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.10
+			
+			log = "[Root.GetName]: Focus construction_effort"#Auto-logging
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 3
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 3
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = armement_workshop
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = UEN_construction_company }
+		x = 7
+		y = 5
+		cost = 4
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		
+		completion_reward = {
+			log = "[Root.GetName]: Focus production_effort"#Auto-logging
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	
+	focus = {
+		id = fishing
+		icon = GFX_goal_fishing_docks
+		prerequisite = {
+		focus = subsistence_agriculture
+		focus = establish_the_first_settlements }
+		x = 4
+		y = 6
+		cost = 4
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+			any_state = {
+				is_coastal = yes
+				is_controlled_by = ROOT
+			}
+		}
+		
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = dockyard
+				level = 1
+				instant_build = yes
+			}
+		}
+		
+		completion_reward = {
+			remove_ideas = risk_of_famine
+			log = "[Root.GetName]: Focus naval_effort"#Auto-logging
+			add_political_power = 20
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 1
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					any_owned_state = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					NOT = {
+						any_owned_state = {
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+				}
+				random_state = {
+					limit = {
+						controller = { tag = ROOT }
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = vehicle_workshop
+		icon = GFX_focus_generic_tank_production
+		prerequisite = { 
+		focus = armement_workshop
+		focus = establish_the_first_settlements }
+		x = 6
+		y = 6
+		cost = 4
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		
+		completion_reward = {
+			log = "[Root.GetName]: Focus production_effort"#Auto-logging
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = build_school_and_university
+		icon = GFX_goal_KTG_Bookstack
+		prerequisite = { focus = fishing }
+		x = 3
+		y = 7
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+			}
+		}
+
+	focus = {
+		id = phoenix_house
+		icon = GFX_goal_construction_engineering
+		prerequisite = { focus = establish_the_first_settlements }
+		x = 5
+		y = 7
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus industrial_effort"#Auto-logging
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+		}
+	}
+
+	focus = {
+		id = union_arsenal
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = vehicle_workshop }
+		x = 7
+		y = 7
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus production_effort"#Auto-logging
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = a_shelter_for_everyone
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = phoenix_house }
+		prerequisite = { focus = build_school_and_university }
+		x = 4
+		y = 8
+		cost = 8
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = HUM_reconstruction
+			}
+		}
+
+	focus = {
+		id = expand_arsenal
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = phoenix_house }
+		prerequisite = { focus = union_arsenal }
+		x = 6
+		y = 8
+		cost = 8
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		
+		completion_reward = {
+			log = "[Root.GetName]: Focus production_effort"#Auto-logging
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = techno_magic_institute
+		icon = GFX_goal_white_magic_symbol
+		prerequisite = { focus = build_school_and_university }
+		x = 3
+		y = 9
+		cost = 8
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+			add_ideas = magic_laboratory
+			country_event = { days = 1 id = europe.104 }
+			}
+		}
+	
+	focus = {
+		id = strenghen_the_country
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = a_shelter_for_everyone }
+		prerequisite = { focus = expand_arsenal }
+		x = 5
+		y = 9
+		cost = 8
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+			has_idea = modern_society
+		}
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = infrastructure_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = infrastructure
+						size < 1
+					}
+				}
+			}
+		}
+		
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		
+		completion_reward = {
+		remove_ideas = precarious_condition
+		add_timed_idea = { idea = precarious_condition_2  days = 360 }
+			log = "[Root.GetName]: Focus griffon_political_effort"#Auto-logging
+			if = {
+				limit = { has_idea = outdated_industry }
+				add_ideas = modern_society
+			}
+			else_if = {
+				limit = { has_idea = pre_industrial_society }
+				add_ideas = outdated_industry
+			}
+
+			log = "[Root.GetName]: Focus infrastructure_effort"#Auto-logging
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = develop_new_weapons
+		icon = GFX_goal_magical_weapon_focus
+		prerequisite = { focus = union_arsenal }
+		x = 7
+		y = 9
+		cost = 8
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+
+			log = "[Root.GetName]: Focus FAT_new_schools"#Auto-logging
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.75
+				uses = 1
+				technology = magical_weapons
+				technology = magical_weapons1
+				technology = magical_weapons2
+				technology = magical_weapons3
+			}
+		}
+	}
+
+
+	focus = {
+		id = cure_radiation
+		icon = GFX_goal_magical_nukes
+		prerequisite = { 
+		focus = techno_magic_institute
+		focus = strenghen_the_country
+		focus = develop_new_weapons }
+		x = 5
+		y = 10
+		cost = 8
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			remove_ideas = radiation_poisoning
+			country_event = { days = 1 id = europe.105 }
+			add_timed_idea = { idea = radiation_poisoning_2  days = 360 }
+			}
+		}
+	
+	focus = {
+		id = open_the_border
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = cure_radiation }
+		x = 4
+		y = 11
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			add_opinion_modifier = { target = EQS modifier = medium_increase }
+			add_stability = 0.05
+			add_offsite_building = { type = industrial_complex level = 2 }
+	}
+}
+
+	focus = {
+		id = international_market
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = cure_radiation }
+		x = 6
+		y = 11
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+			has_idea = modern_society
+		}
+
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+			log = "[Root.GetName]: Focus griffon_political_effort"#Auto-logging
+			if = {
+				limit = { has_idea = outdated_industry }
+				add_ideas = modern_society
+			}
+			else_if = {
+				limit = { has_idea = pre_industrial_society }
+				add_ideas = outdated_industry
+			}
+		}
+	}
+
+#INDUSTRIAL FOCUS
+
+	focus = {
+		id = the_European_Phoenix
+		icon = GFX_goal_UEN_symbol
+		prerequisite = {
+			focus = international_market
+		}
+		prerequisite = {
+			focus = open_the_border
+		}
+		x = 5
+		y = 12
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 200
+			add_ideas = UEN_european_phoenix
+			country_event = { days = 1 id = europe.115 }
+			}
+		}
+
+#Military industry
+
+
+
+
+
+#Local problem
+	focus = {
+		id = deal_with_the_locals
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = UEN_settle }
+		x = 15
+		y = 4
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = { days = 1 id = europe.200 }
+			}
+		}
+
+	focus = {
+		id = UEN_negotiate_with_the_locals
+		icon = GFX_goal_generic_major_alliance_pony_griffon
+		prerequisite = { focus = deal_with_the_locals }
+		x = 15
+		y = 5
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = { days = 1 id = europe.201 }
+			}
+		}
+
+	focus = {
+		id = UEN_pony_council
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = UEN_negotiate_with_the_locals }
+		x = 15
+		y = 6
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = { days = 1 id = europe.202 }
+			}
+		}
+
+#EQS CIVIL WAR
+		focus = {
+		id = UEN_equestrian_civil_war
+		icon = GFX_goal_generic_major_war
+		available = {
+			has_government = democratic
+			any_country = {
+				original_tag = EQS
+				has_government = democratic
+				has_civil_war = yes
+			}
+			is_subject = no
+		}
+			
+		x = 15
+		y = 0
+		cost = 2
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		}
+
+		focus = {
+		id = UEN_Stay_neutral
+		icon = GFX_goal_generic_fortify_city
+		mutually_exclusive = { focus = UEN_support_luna }
+		mutually_exclusive = { focus = UEN_support_celestia }
+		prerequisite = { focus = UEN_equestrian_civil_war }			
+		x = 13
+		y = 1
+		cost = 2
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = NLR modifier = small_increase }
+			add_opinion_modifier = { target = EQS modifier = small_increase }
+			add_political_power = 50
+			add_stability = 0.05
+			}
+		}
+
+		focus = {
+		id = UEN_Send_the_red_cross
+		icon = GFX_goal_red_cross
+		prerequisite = { focus = UEN_Stay_neutral }
+		x = 13
+		y = 2
+		cost = 2
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.05
+			add_opinion_modifier = { target = NLR modifier = small_increase }
+			add_opinion_modifier = { target = EQS modifier = small_increase }
+
+			EQS = { add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 500
+				producer = UEN
+			} }
+
+			NLR = { add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 500
+				producer = UEN
+			} }
+
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.75
+				uses = 1
+				technology = tech_field_hospital
+				technology = tech_field_hospital2
+				technology = tech_field_hospital3
+				technology = tech_field_hospital4
+			}
+			country_event = { days = 1 id = europe.112 }
+		}
+	}
+
+		focus = {
+		id = UEN_support_celestia
+		icon = GFX_goal_support_equestria
+		mutually_exclusive = { focus = UEN_support_luna }
+		mutually_exclusive = { focus = UEN_Stay_neutral }
+		prerequisite = { focus = UEN_equestrian_civil_war }			
+		x = 15
+		y = 1
+		cost = 2
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = EQS modifier = medium_increase }
+			add_opinion_modifier = { target = NLR modifier = medium_decrease }
+			}
+		}
+
+		focus = {
+		id = UEN_send_cel_volunteers
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = UEN_support_celestia }			
+		x = 15
+		y = 2
+		cost = 2
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {	
+		add_opinion_modifier = { target = EQS modifier = medium_increase }
+		EQS = {	custom_effect_tooltip = volunteers_hum
+			hidden_effect = {	
+				division_template = {
+					name = "UEN Volunteers"
+					priority = 0
+					division_names_group = UEN_INF_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+					}
+				}
+	
+				random_owned_controlled_state = {
+					prioritize = { 3 }
+					create_unit = {
+						division = "name = \"Brigada Internacional I\" division_template = \"UEN Volunteers\" start_experience_factor = 1.0" 
+						owner = EQS
+					}
+					create_unit = {
+						division = "name = \"Brigata 'Vittorio Emmanuel III' \" division_template = \"UEN Volunteers\" start_experience_factor = 1.0" 
+						owner = EQS
+					}
+					create_unit = {
+						division = "name = \"II Spanish Legion Brigade 'Rey Alfonso XIII' \" division_template = \"UEN Volunteers\" start_experience_factor = 1.0" 
+						owner = EQS
+						}
+					}
+				}
+			}
+		}
+	}
+
+		focus = {
+		id = UEN_support_luna
+		icon = GFX_goal_nightmare_moon
+		mutually_exclusive = { focus = UEN_support_celestia }
+		mutually_exclusive = { focus = UEN_Stay_neutral }
+		prerequisite = { focus = UEN_equestrian_civil_war }			
+		x = 17
+		y = 1
+		cost = 2
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = NLR modifier = medium_increase }
+			add_opinion_modifier = { target = EQS modifier = medium_decrease }
+			}
+		}
+
+		focus = {
+		id = UEN_send_lun_volunteers
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = UEN_support_luna }			
+		x = 17
+		y = 2
+		cost = 2
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {	
+		add_opinion_modifier = { target = NLR modifier = medium_increase }
+		NLR = {	custom_effect_tooltip = volunteers_hum
+			hidden_effect = {	
+				division_template = {
+					name = "UEN Volunteers"
+					priority = 0
+					division_names_group = UEN_INF_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+					}
+				}
+	
+				random_owned_controlled_state = {
+					prioritize = { 75 }
+					create_unit = {
+						division = "name = \"Benelux Volunteers Brigade\" division_template = \"UEN Volunteers\" start_experience_factor = 1.0" 
+						owner = NLR
+					}
+					create_unit = {
+						division = "name = \"Scandinavian Volunteers \" division_template = \"UEN Volunteers\" start_experience_factor = 1.0" 
+						owner = NLR
+					}
+					create_unit = {
+						division = "name = \"13e demi-brigade de Légion étrangère \" division_template = \"UEN Volunteers\" start_experience_factor = 1.0" 
+						owner = NLR
+						}
+					}
+				}
+			}
+		}
+	}
+
+#UEN WAR
+		focus = {
+		id = UEN_war
+		icon = GFX_goal_generic_major_war
+		available = {
+			has_war = yes
+		}
+		
+		x = 20
+		y = 0
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_war_support = 0.10
+			}
+		}
+
+		focus = {
+		id = UEN_last_stand
+		icon = GFX_focus_generic_home_defense
+		prerequisite = { focus = UEN_war }
+		available = {
+			has_war = yes
+			surrender_progress > 0.05
+		}
+			
+		x = 20
+		y = 1
+		cost = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_war_support = 0.10
+			add_ideas = extensive_conscription
+			}
+		}
+
+		focus = {
+		id = UEN_Humanity_will_go_down
+		icon = GFX_goal_liberty
+		prerequisite = { focus = UEN_last_stand	}
+
+		x = 20
+		y = 2
+		cost = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_war_support = 0.05
+			add_ideas = humanity_will_not_go_down
+			}
+		}
+
+#ARMY FOCUS		
+		focus = {
+		id = UEN_reorganize_the_army
+		icon = GFX_goal_generic_army_doctrines
+		available = {
+			has_completed_focus = UEN_settle
+		}
+
+		x = 31
+		y = 0
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				bonus =1
+				uses = 1
+				category = artillery
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 3000
+				producer = UEN
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 500
+				producer = UEN
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 500
+				producer = UEN
+			}
+		}
+	}
+
+		focus = {
+		id = UEN_the_european_army
+		icon = GFX_focus_generic_combined_arms
+		prerequisite = { focus = UEN_reorganize_the_army }
+		x = 25
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 25
+			}
+		}
+
+		focus = {
+		id = reequip_our_infantry
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = UEN_the_european_army }
+		x = 24
+		y = 2
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus equipment_effort"#Auto-logging
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1
+				uses = 2
+				category = infantry_weapons
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 5000
+				producer = UEN
+			}
+		}
+	}
+
+		focus = {
+		id = UEN_home_guard_focus
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = UEN_the_european_army }
+		x = 26
+		y = 2
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = UEN_home_guard
+			}
+		}
+
+		focus = {
+		id = UEN_doctrine
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = reequip_our_infantry }
+		prerequisite = { focus = UEN_home_guard_focus }
+		x = 25
+		y = 3
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus doctrine_effort"#Auto-logging
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1
+				uses = 3
+				category = land_doctrine
+			}
+		}
+	}
+
+		focus = {
+		id = wheeled_light_tank
+		icon = GFX_goal_continuous_armor_production
+		prerequisite = { focus = UEN_doctrine }
+		x = 25
+		y = 4
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus armor_effort"#Auto-logging
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1
+				uses = 1
+				category = armor
+			}
+		}
+	}
+
+		focus = {
+		id = armor_technology
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = wheeled_light_tank }
+		x = 25
+		y = 5
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus armor_effort"#Auto-logging
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1
+				uses = 2
+				category = armor
+			}
+		}
+	}
+
+		focus = {
+		id = basic_support_weapons
+		icon = GFX_focus_generic_combined_arms
+		prerequisite = { focus = UEN_doctrine }
+		x = 23
+		y = 4
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus equipment_effort_3"#Auto-logging
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				ahead_reduction = 1
+				bonus = 1
+				uses = 2
+				category = artillery
+			}
+		}
+	}
+
+		focus = {
+		id = field_artillery
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = basic_support_weapons }
+		x = 23
+		y = 5
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus equipment_effort_3"#Auto-logging
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				ahead_reduction = 1
+				bonus = 1
+				uses = 2
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+
+		focus = {
+		id = mechanized_infantry
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = UEN_doctrine }
+		x = 27
+		y = 4
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus mechanization_effort"#Auto-logging
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 5
+				bonus = 1
+				uses = 2
+				category = motorized_equipment
+			}
+		}
+	}
+
+		focus = {
+		id = motorize_the_infantry
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = mechanized_infantry }
+		x = 27
+		y = 5
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = UEN_motorized_focus
+			}
+		}
+
+		focus = {
+		id = UEN_cluster_ammo
+		icon = GFX_goal_clustermunition
+		prerequisite = { focus = field_artillery }
+		x = 23
+		y = 6
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = UEN_cluster
+			add_stability = -0.05
+			add_war_support = -0.05
+			}
+		}
+
+		focus = {
+		id = UEN_combat_drugs
+		icon = GFX_goal_combat_drug
+		prerequisite = { focus = motorize_the_infantry }
+		x = 27
+		y = 6
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = UEN_drugs
+			add_stability = -0.05
+			add_war_support = -0.05
+			}
+		}
+
+		focus = {
+		id = UEN_we_fight_to_protect
+		icon = GFX_goal_UEN_symbol
+		prerequisite = { focus = motorize_the_infantry }
+		prerequisite = { focus = field_artillery }
+		prerequisite = { focus = armor_technology }
+		x = 25
+		y = 6
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = UEN_we_fight_to_protect
+			remove_ideas = stranger
+
+			}
+		}
+
+#AIR FORCE
+		focus = {
+		id = construct_airbase
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = UEN_reorganize_the_army }
+		x = 31
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			air_experience = 25
+			if = { limit = { has_country_flag = aviation_effort_AB }
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+		
+		completion_reward = {
+			log = "[Root.GetName]: Focus aviation_effort"#Auto-logging
+			air_experience = 25
+			
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+
+		focus = {
+		id = fighter
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = construct_airbase }
+		x = 31
+		y = 2
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus fighter_focus"#Auto-logging
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 2
+				technology = early_fighter
+				technology = fighter1
+				technology = fighter2
+				technology = fighter3
+			}
+		}
+	}
+
+		focus = {
+		id = interceptor
+		icon = GFX_goal_generic_air_fighter2
+		prerequisite = { focus = fighter }
+		x = 31
+		y = 3
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus fighter_focus"#Auto-logging
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 2
+				technology = heavy_fighter1
+				technology = heavy_fighter2
+				technology = heavy_fighter3
+			}
+		}
+	}
+
+		focus = {
+		id = helicopters
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = construct_airbase }
+		x = 29
+		y = 2
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = HUM_Helicopter_supply
+			log = "[Root.GetName]: Focus CAS_effort"#Auto-logging
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+		focus = {
+		id = naval_patrol_aircraft
+		icon = GFX_goal_generic_air_naval_bomber
+		prerequisite = { focus = helicopters }
+		x = 29
+		y = 3
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus NAV_effort"#Auto-logging
+			add_tech_bonus = {
+				name = nav_bomber_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = naval_bomber
+			}
+		}
+	}
+
+		focus = {
+		id = UEN_tactical_bomber
+		icon = GFX_goal_generic_air_bomber
+		prerequisite = { focus = construct_airbase }
+		x = 33
+		y = 2
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = HUM_air_supply
+			log = "[Root.GetName]: Focus bomber_focus"#Auto-logging
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 2
+				technology = tactical_bomber1
+				technology = tactical_bomber2
+				technology = tactical_bomber3
+				category = tactical_bomber
+			}
+		}
+	}
+
+		focus = {
+		id = strategic_bomber
+		icon = GFX_goal_generic_air_bomber
+		prerequisite = { focus = UEN_tactical_bomber }
+		x = 33
+		y = 3
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus bomber_focus"#Auto-logging
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 2
+				technology = strategic_bomber1
+				technology = strategic_bomber2
+				technology = strategic_bomber3
+				category = tactical_bomber
+			}
+		}
+	}
+
+		focus = {
+		id = better_engine
+		icon = GFX_goal_generic_build_airforce
+		prerequisite = { 
+		focus = strategic_bomber
+		focus = naval_patrol_aircraft
+		focus = interceptor }
+		x = 31
+		y = 4
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus rocket_effort"#Auto-logging
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				ahead_reduction = 1
+				bonus = 1
+				uses = 2
+				category = rocketry
+				category = jet_technology
+			}
+		}
+	}
+
+		focus = {
+		id = AA_missiles_focus
+		icon = GFX_goal_Guidedmissiles
+		prerequisite = { focus = better_engine }
+		x = 31
+		y = 6
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = AA_missile
+			}
+		}
+
+#NAVAL FOCUS
+		focus = {
+		id = create_naval_base
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = { focus = UEN_reorganize_the_army }
+		x = 38
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+			any_state = {
+				is_coastal = yes
+				is_controlled_by = ROOT
+			}
+		}
+		
+		completion_reward = {
+			navy_experience = 50
+			108 = {
+				add_building_construction = {
+					type = naval_base
+					province = 4080
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+		focus = {
+		id = coastal_navy
+		icon = GFX_goal_generic_navy_cruiser
+		mutually_exclusive = { focus = atlantic_navy }
+		prerequisite = { focus = create_naval_base }
+		x = 37
+		y = 2
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 50
+			log = "[Root.GetName]: Focus flexible_navy"#Auto-logging
+			add_tech_bonus = {
+				name = sub_op_bonus
+				bonus = 0.5
+				uses = 2
+				technology = convoy_interdiction_ti
+				technology = unrestricted_submarine_warfare
+				technology = wolfpacks
+				technology = advanced_submarine_warfare
+				technology = combined_operations_raiding
+			}
+		}
+	}
+
+		focus = {
+		id = atlantic_navy
+		icon = GFX_goal_generic_navy_battleship
+		mutually_exclusive = { focus = coastal_navy }
+		prerequisite = { focus = create_naval_base }
+		x = 39
+		y = 2
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 50
+			log = "[Root.GetName]: Focus large_navy"#Auto-logging
+			add_tech_bonus = {
+				name = fleet_in_being_bonus
+				bonus = 0.5
+				uses = 2
+				category = fleet_in_being_tree
+			}
+		}
+	}
+#COASTAL NAVY
+
+		focus = {
+		id = torpedo_boat
+		icon = GFX_focus_generic_destroyer
+		prerequisite = { focus = coastal_navy }
+		x = 37
+		y = 3
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus destroyer_effort"#Auto-logging
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1
+				ahead_reduction = 1
+				uses = 1
+				technology = early_destroyer
+				technology = basic_destroyer
+				technology = improved_destroyer
+				technology = advanced_destroyer
+			}
+		}
+	}
+
+		focus = {
+		id = design_new_destroyers
+		icon = GFX_focus_generic_destroyer
+		prerequisite = { focus = torpedo_boat }
+		x = 37
+		y = 4
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus destroyer_effort"#Auto-logging
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1
+				ahead_reduction = 1
+				uses = 1
+				technology = early_destroyer
+				technology = basic_destroyer
+				technology = improved_destroyer
+				technology = advanced_destroyer
+			}
+		}
+	}
+
+		focus = {
+		id = ula_class_submarine
+		icon = GFX_goal_generic_navy_submarine
+		prerequisite = { focus = coastal_navy }
+		x = 35
+		y = 3
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus submarine_effort"#Auto-logging
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 1
+				ahead_reduction = 1
+				uses = 1
+				technology = early_submarine
+				technology = basic_submarine
+				technology = improved_submarine
+				technology = advanced_submarine
+			}
+		}
+	}
+
+		focus = {
+		id = gotland_class_submarine
+		icon = GFX_goal_generic_navy_submarine
+		prerequisite = { focus = ula_class_submarine }
+		x = 35
+		y = 4
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus submarine_effort"#Auto-logging
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 1
+				ahead_reduction = 1
+				uses = 1
+				technology = early_submarine
+				technology = basic_submarine
+				technology = improved_submarine
+				technology = advanced_submarine
+			}
+		}
+	}
+
+#Atlantic NAVY
+
+		focus = {
+		id = new_cruiser
+		icon = GFX_focus_generic_cruiser2
+		prerequisite = { focus = atlantic_navy }
+		x = 39
+		y = 3
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus cruiser_effort"#Auto-logging
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 1
+				ahead_reduction = 1
+				uses = 1
+				technology = improved_light_cruiser
+				technology = advanced_light_cruiser
+				technology = improved_heavy_cruiser
+				technology = advanced_heavy_cruiser
+			}
+		}
+	}
+
+		focus = {
+		id = modern_cruiser
+		icon = GFX_focus_generic_cruiser2
+		prerequisite = { focus = new_cruiser }
+		x = 39
+		y = 4
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus cruiser_effort"#Auto-logging
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 1
+				ahead_reduction = 1
+				uses = 1
+				technology = improved_light_cruiser
+				technology = advanced_light_cruiser
+				technology = improved_heavy_cruiser
+				technology = advanced_heavy_cruiser
+			}
+		}
+	}
+
+		focus = {
+		id = new_battleship
+		icon = GFX_focus_generic_navy_battleship2
+		prerequisite = { focus = atlantic_navy }
+		x = 41
+		y = 3
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus capital_ships_effort"#Auto-logging
+			navy_experience = 25
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 1
+				ahead_reduction = 1
+				uses = 1
+				technology = basic_battlecruiser
+				technology = basic_battleship
+				technology = improved_battleship
+				technology = advanced_battleship
+				technology = heavy_battleship
+				technology = heavy_battleship2
+			}
+		}
+	}
+
+		focus = {
+		id = design_aircraft_carrier
+		icon = GFX_goal_generic_navy_carrier
+		prerequisite = { focus = new_battleship }
+		x = 41
+		y = 4
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus capital_ships_effort"#Auto-logging
+			navy_experience = 25
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 1
+				ahead_reduction = 1
+				uses = 1
+				technology = early_carrier
+				technology = basic_carrier
+				technology = improved_carrier
+				technology = advanced_carrier
+			}
+		}
+	}
+
+
+		focus = {
+		id = missile_warfare
+		icon = GFX_goal_ASM
+	 	prerequisite = { 
+	 		focus = design_new_destroyers
+	 		focus = gotland_class_submarine
+	 		focus = modern_cruiser
+	 		focus = design_aircraft_carrier
+	 	}
+		x = 38
+		y = 6
+		cost = 10
+		
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_ideas = ASM_missile
+			}
+		}
+
+		focus = {
+		id = master_of_atom
+		icon = GFX_goal_euratom
+	 	prerequisite = { 
+	 		focus = missile_warfare
+	 		focus = AA_missiles_focus
+	 		focus = UEN_we_fight_to_protect
+	 	}
+		x = 31
+		y = 7
+		cost = 10
+		
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus remove_pre_industrial_society"#Auto-logging
+			add_tech_bonus = {
+				name = nuclear_bonus
+				ahead_reduction = 5
+				bonus = 1
+				uses = 4
+				category = nuclear
+			}
+			add_stability = -0.15
+			add_war_support = -0.15
+		}
+	}
+
+#DIPLOMACY
+		focus = {
+		id = open_diplomatic_relation
+		icon = GFX_goal_anschluss
+		prerequisite = { focus = UEN_pony_council }
+		x = 15
+		y = 7
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+		focus = {
+		id = contact_equestria
+		icon = GFX_goal_equestria
+		prerequisite = { focus = open_diplomatic_relation }
+		x = 36
+		y = 8
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = EQS modifier = small_increase }
+			}
+		}
+
+		focus = {
+		id = UEN_establish_an_embassy_in_canterlot
+		icon = GFX_goal_government_icon
+		prerequisite = { focus = contact_equestria }
+		x = 36
+		y = 9
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = EQS modifier = medium_increase }
+			}
+		}
+
+		focus = {
+		id = strenghen_our_relation
+		icon = GFX_goal_generic_alliance
+		prerequisite = { focus = UEN_establish_an_embassy_in_canterlot }
+
+	 	bypass = {
+	 		is_in_faction_with = EQS
+	 	}
+
+		x = 29
+		y = 10
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = EQS modifier = medium_increase }
+			add_political_power = 50
+			}
+		}
+
+		focus = {
+		id = open_relation_with_olenia
+		icon = GFX_goal_ole_velvet
+		prerequisite = { focus = UEN_establish_an_embassy_in_canterlot }
+		x = 42
+		y = 10
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = OLE modifier = medium_increase }
+			add_political_power = 50
+			}
+		}
+
+		focus = {
+		id = contact_the_griffon
+		icon = GFX_goal_griffonian_republic
+		prerequisite = { focus = UEN_establish_an_embassy_in_canterlot }
+		x = 36
+		y = 10
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = FAT modifier = medium_increase }
+			add_political_power = 50
+			}
+		}
+
+
+#HUMANITY PATH		
+		focus = {
+		id = contact_humans_nations
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = open_diplomatic_relation }
+		x = 12
+		y = 8
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+				OR = {
+		UAS = {	has_completed_focus = UAS_contact_humans_nations }
+		RUS = {	has_completed_focus = RUS_contact_humans_nations }
+			}
+		}
+
+		completion_reward = {
+			add_political_power = 50
+			country_event = { days = 1 id = europe.107 }
+			UAS = { country_event = { id = UAS.110 days = 2 } }
+			RUS = { country_event = { id = RUS.111 days = 2 } }
+			}
+		}
+
+		focus = {
+		id = summit_canterlot
+		icon = GFX_goal_eqs_canterlot
+		prerequisite = {
+			focus = contact_humans_nations
+		}
+		x = 12
+		y = 9
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+				OR = {
+		UAS = {	has_completed_focus = UAS_summit_canterlot }
+		RUS = {	has_completed_focus = RUS_summit_canterlot }
+		}
+	}
+		completion_reward = {
+			add_political_power = 50
+			country_event = { days = 1 id = europe.108 }
+			UAS = { country_event = { id = UAS.111 days = 2 } }
+			RUS = { country_event = { id = RUS.112 days = 2 } }
+			}
+		}
+
+		focus = {
+		id = avenge_europe
+		icon = GFX_focus_generic_strike_at_democracy2
+		mutually_exclusive = { focus = never_again }
+		prerequisite = { focus = summit_canterlot }
+		x = 10
+		y = 10
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+			NOT = { has_government = democratic }
+			is_subject = no
+			}
+
+		completion_reward = {
+			add_war_support = 0.05
+			}
+		}
+
+		focus = {
+		id = never_again
+		icon = GFX_goal_generic_national_unity
+		mutually_exclusive = { focus = avenge_europe }
+		prerequisite = { focus = summit_canterlot }
+		x = 14
+		y = 10
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+			has_war = no
+			has_government = democratic
+			is_subject = no
+			}
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		}
+
+#PATH OF WAR
+		focus = {
+		id = Cold_war_turned_hot
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = avenge_europe }
+		x = 10
+		y = 12
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_war_support = 0.05
+			}
+		}
+
+		focus = {
+		id = crush_the_weak
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = Cold_war_turned_hot }
+		x = 5
+		y = 13
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_war_support = 0.10
+			}
+		}
+
+		focus = {
+		id = crush_haukland
+		icon = GFX_goal_generic_amphibious_assault
+		available = {
+			is_subject = no
+			has_government = fascism
+		}
+		bypass = {
+			HAU = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+					has_war_with = ROOT
+				}
+			}
+		}
+
+		prerequisite = { focus = crush_the_weak }
+		x = 4
+		y = 14
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = HAU }
+			}
+		}
+
+		focus = {
+		id = operation_drake
+		available = {
+			is_subject = no
+		}
+		bypass = {
+			DRG = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+					has_war_with = ROOT
+				}
+			}
+		}
+
+		icon = GFX_goal_generic_amphibious_assault
+		prerequisite = { focus = crush_the_weak }
+		x = 6
+		y = 14
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = DRG }
+			}
+		}
+
+		focus = {
+		id = red_ponies
+		icon = GFX_focus_generic_support_the_left_right
+
+		available = {
+			is_subject = no
+		}
+		bypass = {
+			STG = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+					has_war_with = ROOT
+				}
+			}
+		}
+
+		prerequisite = { focus = Cold_war_turned_hot }
+		x = 8
+		y = 14
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = STG }
+			}
+		}
+
+		focus = {
+		id = crush_USA
+		icon = GFX_focus_generic_strike_at_democracy3
+		available = {
+			is_subject = no
+		}
+		bypass = {
+			UAS = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+					has_war_with = ROOT
+				}
+			}
+		}
+
+		prerequisite = { focus = Cold_war_turned_hot }
+		x = 12
+		y = 14
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = UAS }
+			}
+		}
+
+		focus = {
+		id = crush_USSR
+
+		available = {
+			is_subject = no
+		}
+		bypass = {
+			RUS = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+					has_war_with = ROOT
+				}
+			}
+		}
+
+		icon = GFX_focus_ger_strike_at_the_source
+		prerequisite = { focus = Cold_war_turned_hot }
+		x = 10
+		y = 14
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = RUS }
+			}
+		}
+
+		focus = {
+		id = fall_of_equestria
+
+		available = {
+			is_subject = no
+		}
+		bypass = {
+			EQS = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+					has_war_with = ROOT
+				}
+			}
+		}
+
+		icon = GFX_focus_strike_canterlot
+	 	prerequisite = { 
+	 		focus = crush_USSR
+	 		focus = crush_USA
+	 		focus = red_ponies
+	 		focus = operation_drake
+	 		focus = crush_haukland
+	 	}
+		x = 10
+		y = 15
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = EQS }
+			}
+		}
+
+		focus = {
+		id = european_domination
+		icon = GFX_goal_liberty
+		prerequisite = { focus = fall_of_equestria }
+		x = 10
+		y = 16
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = UEN_euro_domination
+			}
+		}
+
+#HARMONY PATH		
+		focus = {
+		id = United_Nations
+		icon = GFX_goal_united_nations
+		prerequisite = { focus = never_again }
+		x = 14
+		y = 11
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.05
+			}
+		}
+
+		focus = {
+		id = an_alliance
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = United_Nations }
+		x = 14
+		y = 12
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = UAS modifier = small_increase }
+			add_opinion_modifier = { target = RUS modifier = small_increase }
+			}
+		}
+
+		focus = {
+		id = create_the_UN_Alliance
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = an_alliance }
+		x = 14
+		y = 13
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+		UAS = {	has_completed_focus = UAS_create_the_UN_Alliance }
+		RUS = {	has_completed_focus = RUS_create_the_UN_Alliance }
+		}
+
+		completion_reward = {
+			country_event = { days = 1 id = europe.111 }
+			UAS = { country_event = { id = UAS.114 days = 2 } }
+			RUS = { country_event = { id = RUS.115 days = 2 } }
+
+			set_rule = { can_create_factions = yes }
+			create_faction = "United_Nations"
+			add_opinion_modifier = { target = UAS modifier = medium_increase }
+			add_opinion_modifier = { target = RUS modifier = medium_increase }
+			}
+		}
+
+		focus = {
+		id = invite_USA
+		icon = GFX_goal_generic_alliance
+		prerequisite = { focus = create_the_UN_Alliance }
+		x = 14
+		y = 14
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = UAS modifier = large_increase }
+			UAS = { country_event = { days = 1 id = europe.309 } }
+			}
+		}
+
+		focus = {
+		id = invite_USSR
+		icon = GFX_goal_generic_alliance
+		prerequisite = { focus = create_the_UN_Alliance }
+		x = 16
+		y = 14
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = RUS modifier = large_increase }
+			RUS = { country_event = { days = 1 id = europe.312 } }
+			}
+		}
+
+		focus = {
+		id = fund_the_red_cross
+		icon = GFX_goal_red_cross
+		prerequisite = { focus = United_Nations }
+		x = 18
+		y = 12
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[Root.GetName]: Focus FAT_new_schools"#Auto-logging
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.75
+				uses = 1
+				technology = tech_field_hospital
+				technology = tech_field_hospital2
+				technology = tech_field_hospital3
+				technology = tech_field_hospital4
+			}
+			country_event = { days = 1 id = europe.109 }
+		}
+	}
+
+		focus = {
+		id = resurrect_the_blue_helmet
+		icon = GFX_goal_blue_helmets
+		prerequisite = { focus = fund_the_red_cross }
+		x = 18
+		y = 13
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = blue_helmet
+			country_event = { days = 1 id = europe.110 }
+			}
+		}
+
+		focus = {
+		id = human_history_saving_program
+		icon = GFX_goal_KTG_Bookstack
+		prerequisite = { focus = resurrect_the_blue_helmet }
+		x = 18
+		y = 14
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = human_history_program
+			}
+		}
+
+#### REALPOLITIK ####
+
+		focus = {
+		id = UEN_our_way
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = strenghen_our_relation }
+		mutually_exclusive = { focus = UEN_nationalist_coup }
+		mutually_exclusive = { focus = UEN_communist_in_the_council }
+		x = 28
+		y = 11
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = { ideology = democratic popularity = 0.10 }
+			}
+		}
+
+		focus = {
+		id = UEN_strengthen_governement
+		icon = GFX_goal_government_icon
+		prerequisite = { focus = UEN_our_way }
+		x = 28
+		y = 12
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+			}
+		}
+		
+		focus = {
+		id = UEN_befriend_us
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = UEN_strengthen_governement }
+		x = 26
+		y = 13
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = UAS modifier = small_increase }
+			}
+		}
+
+		focus = {
+		id = UEN_support_congress
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = UEN_befriend_us }
+		x = 26
+		y = 14
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = UAS modifier = small_increase }
+			UAS = { add_ideas = republican_protest }
+			}
+		}
+
+		focus = {
+		id = UEN_befriend_soviet
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = UEN_strengthen_governement }
+		x = 30
+		y = 13
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = RUS modifier = small_increase }
+			}
+		}
+
+		focus = {
+		id = UEN_support_gorbachev
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = UEN_befriend_soviet }
+		x = 30
+		y = 14
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = RUS modifier = small_increase }
+			RUS = { add_ideas = republican_protest }
+			}
+		}
+
+		focus = {
+		id = UEN_unite_peoples
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = UEN_strengthen_governement }
+		x = 28
+		y = 14
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.10
+			}
+		}
+
+		focus = {
+		id = UEN_honor_fallen
+		icon = GFX_goal_graveyard
+		prerequisite = { focus = UEN_unite_peoples }
+		x = 28
+		y = 15
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.05
+			country_event = { days = 1 id = europe.114 }
+			}
+		}
+
+		focus = {
+		id = UEN_resolve_problems
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = UEN_honor_fallen }
+		x = 28
+		y = 16
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 50
+			}
+		}
+
+		focus = {
+		id = UEN_strenghen_council
+		icon = GFX_goal_government_icon
+		prerequisite = { focus = UEN_resolve_problems }
+		x = 28
+		y = 17
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			add_popularity = { ideology = democratic popularity = 0.05 }
+			}
+		}
+
+		focus = {
+		id = UEN_dappleshore_canterlot
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = UEN_unite_peoples }
+		x = 26
+		y = 15
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		
+		completion_reward = {
+			108 = {	add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			12 = {	add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			109 = {	add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			65 = {	add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			3 = {	add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+		focus = {
+		id = UEN_visit_crystal
+		icon = GFX_goal_crystal_empire
+		prerequisite = { focus = UEN_dappleshore_canterlot }
+		x = 26
+		y = 16
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = EQS modifier = small_increase }
+			add_opinion_modifier = { target = CRY modifier = medium_increase }
+			}
+		}
+
+		focus = {
+		id = UEN_pony_human_friend
+		icon = GFX_goal_crystal_fair
+		prerequisite = { focus = UEN_visit_crystal }
+		x = 26
+		y = 17
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = UEN_human_pony_friendship
+			EQS = { add_ideas = UEN_human_pony_friendship }
+			country_event = { days = 1 id = europe.113 }
+			}
+		}
+
+		focus = {
+		id = help_our_neighbour
+		icon = GFX_goal_support_equestria
+		prerequisite = { focus = UEN_pony_human_friend }
+		available = {
+			country_exists = EQS
+			EQS = { 
+				OR = {
+					is_subject = no
+					is_subject_of = ROOT
+				}
+			}
+			has_government = democratic
+			is_subject = no
+		}
+		x = 26
+		y = 18
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+			completion_reward = {
+			EQS = { add_ideas = human_scientists }
+			EQS = { country_event = { id = europe.300 } }
+			}
+		}
+
+		focus = {
+		id = UEN_war_horizon
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = UEN_unite_peoples }
+		x = 31
+		y = 15
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_war_support = 0.10
+			}
+		}
+
+		focus = {
+		id = UEN_an_alliance_own
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = UEN_war_horizon }
+		mutually_exclusive = { focus = UEN_changeling_rebel }
+		x = 30
+		y = 16
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+				set_rule = { can_create_factions = yes }
+			}
+		}
+
+		focus = {
+		id = UEN_strike_bug
+		icon = GFX_goal_planning_bonus
+		prerequisite = { focus = UEN_an_alliance_own }
+		available = {
+			is_subject = no
+		}
+		bypass = {
+			CHN = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+					has_war_with = ROOT
+				}
+			}
+		}
+
+		x = 30
+		y = 17
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = CHN }
+			}
+		}
+
+		focus = {
+		id = UEN_changeling_rebel
+		icon = GFX_goal_chn_changeling
+		prerequisite = { focus = UEN_war_horizon }
+		mutually_exclusive = { focus = UEN_an_alliance_own }
+		x = 32
+		y = 16
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			CHN = { add_popularity = { ideology = democratic popularity = 0.05 } }
+			}
+		}
+
+		focus = {
+		id = UEN_prepare_for_war
+		icon = GFX_focus_generic_coastal_fort
+		prerequisite = { focus = UEN_changeling_rebel }
+		x = 32
+		y = 17
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+					add_war_support = 0.10
+					add_ideas = war_economy
+			}
+		}
+
+		focus = {
+		id = UEN_thruth_prevail
+		icon = GFX_goal_UEN_symbol
+		prerequisite = { 
+		focus = UEN_prepare_for_war
+		focus = UEN_strike_bug
+		focus = UEN_pony_human_friend
+		focus = UEN_strenghen_council
+		}
+		x = 28
+		y = 18
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = UEN_truth_prevail
+			}
+		}
+
+
+
+		focus = {
+		id = UEN_communist_in_the_council
+		icon = GFX_focus_prc_agrarian_socialism
+		prerequisite = { focus = contact_the_griffon }
+		mutually_exclusive = { focus = UEN_nationalist_coup }
+		mutually_exclusive = { focus = UEN_our_way }
+		x = 36
+		y = 11
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = { ideology = communism popularity = 0.10 }
+			}
+		}
+
+		focus = {
+		id = UEN_demand_soviet_support
+		icon = GFX_goal_support_communism
+		prerequisite = { focus = UEN_communist_in_the_council }
+		x = 36
+		y = 12
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = internationalism
+			}
+		}
+
+		focus = {
+		id = UEN_civilian_coup
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = UEN_demand_soviet_support }
+		mutually_exclusive = { focus = UEN_military_coup }
+		x = 35
+		y = 13
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.10
+			add_political_power = -50
+			}
+		}
+
+		focus = {
+		id = UEN_military_coup
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = UEN_demand_soviet_support }
+		mutually_exclusive = { focus = UEN_civilian_coup }
+		x = 37
+		y = 13
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = -0.10
+			add_political_power = 50
+			}
+		}
+
+		focus = {
+		id = UEN_peaceful_transition
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = UEN_civilian_coup }
+		x = 35
+		y = 14
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = -50
+			add_popularity = { ideology = communism popularity = 0.10 }
+			set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+			}
+		}
+	}
+
+		focus = {
+		id = UEN_purge
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = UEN_military_coup }
+		x = 37
+		y = 14
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = +50
+			add_popularity = { ideology = democratic popularity = -0.20 }
+			add_stability = -0.10
+						set_politics = {
+									ruling_party = communism
+									elections_allowed = no
+			}
+		}
+	}
+
+		focus = {
+		id = UEN_reform_governement_com
+		icon = GFX_focus_generic_join_comintern
+		prerequisite = { 
+		focus = UEN_purge
+		focus = UEN_peaceful_transition
+		 }
+		x = 36
+		y = 15
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+			}
+		}
+
+		focus = {
+		id = UEN_strenghen_eurosoviet
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		prerequisite = { focus = UEN_reform_governement_com }
+		x = 36
+		y = 16
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = RUS modifier = large_increase }
+			}
+		}
+
+		focus = {
+		id = UEN_people_army
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = UEN_strenghen_eurosoviet }
+		x = 36
+		y = 17
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_war_support = 0.10
+			add_ideas = extensive_conscription
+			}
+		}
+
+		focus = {
+		id = UEN_contact_stalliongrad
+		icon = GFX_goal_stg_factory_production
+		prerequisite = { focus = UEN_reform_governement_com }
+		x = 34
+		y = 16
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = STG modifier = medium_increase }
+			}
+		}
+
+		focus = {
+		id = UEN_communist_alliance
+		icon = GFX_goal_improve_relations_pony_griffon
+
+		prerequisite = { focus = UEN_contact_stalliongrad }
+
+	 	bypass = {
+	 		is_in_faction_with = STG
+	 	}
+
+		x = 34
+		y = 17
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = STG modifier = medium_increase }
+			set_rule = { can_create_factions = yes }
+			STG = { create_faction = Socialist_Union }
+			STG = { country_event = europe.306 }
+			}
+		}
+
+		focus = {
+		id = UEN_influence_usa_com
+		icon = GFX_focus_chi_mission_to_the_us
+		prerequisite = { focus = UEN_reform_governement_com }
+		x = 38
+		y = 16
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = UAS modifier = small_increase }
+			}
+		}
+
+		focus = {
+		id = UEN_support_SA_rebel
+		icon = GFX_goal_support_communism
+		prerequisite = { focus = UEN_influence_usa_com }
+		x = 38
+		y = 17
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			UAS = { add_ideas = internationalism }
+			}
+		}
+
+		focus = {
+		id = UEN_power_of_people
+		icon = GFX_goal_red_star_gold_wreath
+		prerequisite = { 
+		focus = UEN_people_army
+		focus = UEN_communist_alliance
+		focus = UEN_support_SA_rebel
+		 }
+		x = 36
+		y = 18
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = UEN_power_of_peoples
+			}
+		}
+
+
+		focus = {
+		id = UEN_nationalist_coup
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = open_relation_with_olenia }
+		mutually_exclusive = { focus = UEN_communist_in_the_council }
+		mutually_exclusive = { focus = UEN_our_way }
+		x = 42
+		y = 11
+		cost = 7
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+				add_popularity = { ideology = fascism popularity = 0.10 }
+				add_political_power = 50
+				add_stability = -0.10
+			}
+		}
+
+		focus = {
+		id = UEN_hold_army
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = UEN_nationalist_coup }
+		mutually_exclusive = { focus = UEN_purge_the_republicans }
+		x = 43
+		y = 12
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+				add_stability = 0.05
+			}
+		}
+
+		focus = {
+		id = UEN_gain_popularity
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = UEN_hold_army }
+		x = 43
+		y = 13
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+				add_ideas = nationalism
+				add_stability = 0.05
+			}
+		}
+
+		focus = {
+		id = UEN_purge_the_republicans
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = UEN_nationalist_coup }
+		mutually_exclusive = { focus = UEN_hold_army }
+		x = 41
+		y = 12
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+				add_popularity = { ideology = democratic popularity = -0.20 }
+			}
+		}
+
+		focus = {
+		id = UEN_curfew
+		icon = GFX_goal_authority
+		prerequisite = { focus = UEN_purge_the_republicans }
+		x = 41
+		y = 13
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+				add_political_power = 100
+				add_stability = -0.05
+			}
+		}
+
+		focus = {
+		id = UEN_european_empire
+		icon = GFX_goal_support_fascism
+		prerequisite = { 
+		focus = UEN_gain_popularity
+		focus = UEN_curfew
+		 }
+		x = 42
+		y = 14
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_rule = { can_create_factions = yes }
+						set_politics = {
+									ruling_party = fascism
+									elections_allowed = no
+			}
+		}
+	}
+
+		focus = {
+		id = UEN_help_population
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = UEN_european_empire }
+		x = 42
+		y = 15
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+				add_stability = 0.05
+			}
+		}
+
+		focus = {
+		id = UEN_reform_constitution
+		icon = GFX_focus_renounce_the_treaty_of_triannon
+		prerequisite = { focus = UEN_help_population }
+		x = 42
+		y = 17
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+			}
+		}
+
+		focus = {
+		id = UEN_european_power
+		icon = GFX_focus_generic_home_defense
+		prerequisite = { focus = UEN_european_empire }
+		x = 40
+		y = 15
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.10
+			}
+		}
+
+		focus = {
+		id = UEN_past_empire
+		icon = GFX_goal_ideology_national_populist
+		prerequisite = { focus = UEN_european_power }
+		x = 40
+		y = 16
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_war_support = 0.10
+			}
+		}
+
+		focus = {
+		id = UEN_police_militarization
+		icon = GFX_goal_national_arsenal
+		prerequisite = { focus = UEN_past_empire }
+		x = 40
+		y = 17
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+				add_ideas = extensive_conscription
+				add_war_support = 0.10
+			}
+		}
+
+		focus = {
+		id = UEN_contact_changeling
+		icon = GFX_goal_chn_support_chrysalis
+		prerequisite = { focus = UEN_european_empire }
+		x = 44
+		y = 15
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = CHN modifier = small_increase }
+			}
+		}
+
+		focus = {
+		id = UEN_alliance_changeling
+		icon = GFX_goal_generic_changeling
+		prerequisite = { focus = UEN_contact_changeling }
+
+	 	bypass = {
+	 		is_in_faction_with = CHN
+	 	}
+
+		x = 44
+		y = 16
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = CHN modifier = huge_increase }
+			CHN = { country_event = { id = europe.303 } }
+			}
+		}
+
+		focus = {
+		id = UEN_operation_imperium
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = UEN_alliance_changeling }
+		available = {
+			is_subject = no
+		}
+		bypass = {
+			EQS = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+					has_war_with = ROOT
+				}
+			}
+		}
+
+		x = 44
+		y = 17
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+				create_wargoal = { type = annex_everything target = EQS }
+			}
+		}
+
+		focus = {
+		id = UEN_national_power
+		icon = GFX_goal_national_populism
+		prerequisite = { 
+		focus = UEN_operation_imperium
+		focus = UEN_police_militarization
+		focus = UEN_reform_constitution
+		 }
+		x = 42
+		y = 18
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+				add_ideas = UEN_power_of_nations
+			}
+		}
+	}
+}

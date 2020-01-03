@@ -1,0 +1,372 @@
+
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+	UAS_infantry_idle
+	UAS_infantry_neutral_combat
+	UAS_infantry_positive_combat
+ }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+soundeffect = 
+{
+    name = "UAS_infantry_idle"
+    sounds = {
+		sound = UAS_Idle_001
+      	sound = UAS_Idle_002
+        sound = UAS_Idle_003
+		sound = UAS_Idle_004
+		sound = UAS_Idle_005
+		sound = UAS_Idle_006
+		sound = UAS_Idle_007
+		sound = UAS_Idle_008
+ 
+		sound = UAS+_Idle_001
+      	sound = UAS+_Idle_002
+        sound = UAS+_Idle_003
+		sound = UAS+_Idle_004
+		sound = UAS+_Idle_005
+		sound = UAS+_Idle_006
+		sound = UAS+_Idle_007
+		sound = UAS+_Idle_008
+   }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.70
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect = 
+{
+    name = "UAS_infantry_neutral_combat"
+    sounds = {
+        sound = UAS_Neutral_001
+		sound = UAS_Neutral_002
+        sound = UAS_Neutral_003
+		sound = UAS_Neutral_004
+		sound = UAS_Neutral_005
+		sound = UAS_Neutral_006
+		sound = UAS_Neutral_007
+		sound = UAS_Neutral_008
+
+        sound = UAS+_Neutral_001
+		sound = UAS+_Neutral_002
+        sound = UAS+_Neutral_003
+		sound = UAS+_Neutral_004
+		sound = UAS+_Neutral_005
+		sound = UAS+_Neutral_006
+		sound = UAS+_Neutral_007
+		sound = UAS+_Neutral_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.70
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "UAS_infantry_positive_combat"
+    sounds = {
+        sound = UAS_Positive_001
+        sound = UAS_Positive_002
+		sound = UAS_Positive_003
+        sound = UAS_Positive_004
+		sound = UAS_Positive_005
+        sound = UAS_Positive_006
+       	sound = UAS_Positive_007
+        sound = UAS_Positive_008	
+
+        sound = UAS+_Positive_001
+        sound = UAS+_Positive_002
+		sound = UAS+_Positive_003
+        sound = UAS+_Positive_004
+		sound = UAS+_Positive_005
+        sound = UAS+_Positive_006
+       	sound = UAS+_Positive_007
+        sound = UAS+_Positive_008	
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.70
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+
+sound = 
+{
+	name = "UAS_Idle_001"
+	file = "UAS/UAS_Idle_001.wav"
+}
+sound = 
+{
+	name = "UAS_Idle_002"
+	file = "UAS/UAS_Idle_002.wav"
+}
+sound = 
+{
+	name = "UAS_Idle_003"
+	file = "UAS/UAS_Idle_003.wav"
+}
+sound = 
+{
+	name = "UAS_Idle_004"
+	file = "UAS/UAS_Idle_004.wav"
+}
+
+sound = 
+{
+	name = "UAS_Idle_005"
+	file = "UAS/UAS_Idle_005.wav"
+}
+
+sound = 
+{
+	name = "UAS_Idle_006"
+	file = "UAS/UAS_Idle_006.wav"
+}
+
+sound = 
+{
+	name = "UAS_Idle_007"
+	file = "UAS/UAS_Idle_007.wav"
+}
+
+sound = 
+{
+	name = "UAS_Idle_008"
+	file = "UAS/UAS_Idle_008.wav"
+}
+
+sound = 
+{
+	name = "UAS+_Idle_001"
+	file = "UAS/UAS+_Idle_001.wav"
+}
+sound = 
+{
+	name = "UAS+_Idle_002"
+	file = "UAS/UAS+_Idle_002.wav"
+}
+sound = 
+{
+	name = "UAS+_Idle_003"
+	file = "UAS/UAS+_Idle_003.wav"
+}
+sound = 
+{
+	name = "UAS+_Idle_004"
+	file = "UAS/UAS+_Idle_004.wav"
+}
+
+sound = 
+{
+	name = "UAS+_Idle_005"
+	file = "UAS/UAS+_Idle_005.wav"
+}
+
+sound = 
+{
+	name = "UAS+_Idle_006"
+	file = "UAS/UAS+_Idle_006.wav"
+}
+
+sound = 
+{
+	name = "UAS+_Idle_007"
+	file = "UAS/UAS+_Idle_007.wav"
+}
+
+sound = 
+{
+	name = "UAS+_Idle_008"
+	file = "UAS/UAS+_Idle_008.wav"
+}
+
+
+
+
+
+sound = 
+{
+	name = "UAS_Neutral_001"
+	file = "UAS/UAS_Neutral_001.wav"
+}
+sound = 
+{
+	name = "UAS_Neutral_002"
+	file = "UAS/UAS_Neutral_002.wav"
+}
+sound = 
+{
+	name = "UAS_Neutral_003"
+	file = "UAS/UAS_Neutral_003.wav"
+}
+sound = 
+{
+	name = "UAS_Neutral_004"
+	file = "UAS/UAS_Neutral_004.wav"
+}
+sound = 
+{
+	name = "UAS_Neutral_005"
+	file = "UAS/UAS_Neutral_005.wav"
+}
+sound = 
+{
+	name = "UAS_Neutral_006"
+	file = "UAS/UAS_Neutral_006.wav"
+}
+
+sound = 
+{
+	name = "UAS_Neutral_007"
+	file = "UAS/UAS_Neutral_007.wav"
+}
+sound = 
+{
+	name = "UAS_Neutral_008"
+	file = "UAS/UAS_Neutral_008.wav"
+}
+
+sound = 
+{
+	name = "UAS+_Neutral_001"
+	file = "UAS/UAS+_Neutral_001.wav"
+}
+sound = 
+{
+	name = "UAS+_Neutral_002"
+	file = "UAS/UAS+_Neutral_002.wav"
+}
+sound = 
+{
+	name = "UAS+_Neutral_003"
+	file = "UAS/UAS+_Neutral_003.wav"
+}
+sound = 
+{
+	name = "UAS+_Neutral_004"
+	file = "UAS/UAS+_Neutral_004.wav"
+}
+sound = 
+{
+	name = "UAS+_Neutral_005"
+	file = "UAS/UAS+_Neutral_005.wav"
+}
+sound = 
+{
+	name = "UAS+_Neutral_006"
+	file = "UAS/UAS+_Neutral_006.wav"
+}
+
+sound = 
+{
+	name = "UAS+_Neutral_007"
+	file = "UAS/UAS+_Neutral_007.wav"
+}
+sound = 
+{
+	name = "UAS+_Neutral_008"
+	file = "UAS/UAS+_Neutral_008.wav"
+}
+
+
+
+
+sound = 
+{
+	name = "UAS_Positive_001"
+	file = "UAS/UAS_Positive_001.wav"
+}
+sound = 
+{
+	name = "UAS_Positive_002"
+	file = "UAS/UAS_Positive_002.wav"
+}
+sound = 
+{
+	name = "UAS_Positive_003"
+	file = "UAS/UAS_Positive_003.wav"
+}
+sound = 
+{
+	name = "UAS_Positive_004"
+	file = "UAS/UAS_Positive_004.wav"
+}
+sound = 
+{
+	name = "UAS_Positive_005"
+	file = "UAS/UAS_Positive_005.wav"
+}
+sound = 
+{
+	name = "UAS_Positive_006"
+	file = "UAS/UAS_Positive_006.wav"
+}
+
+sound = 
+{
+	name = "UAS_Positive_007"
+	file = "UAS/UAS_Positive_007.wav"
+}
+sound = 
+{
+	name = "UAS_Positive_008"
+	file = "UAS/UAS_Positive_008.wav"
+}
+
+
+sound = 
+{
+	name = "UAS+_Positive_001"
+	file = "UAS/UAS+_Positive_001.wav"
+}
+sound = 
+{
+	name = "UAS+_Positive_002"
+	file = "UAS/UAS+_Positive_002.wav"
+}
+sound = 
+{
+	name = "UAS+_Positive_003"
+	file = "UAS/UAS+_Positive_003.wav"
+}
+sound = 
+{
+	name = "UAS+_Positive_004"
+	file = "UAS/UAS+_Positive_004.wav"
+}
+sound = 
+{
+	name = "UAS+_Positive_005"
+	file = "UAS/UAS+_Positive_005.wav"
+}
+sound = 
+{
+	name = "UAS+_Positive_006"
+	file = "UAS/UAS+_Positive_006.wav"
+}
+
+sound = 
+{
+	name = "UAS+_Positive_007"
+	file = "UAS/UAS+_Positive_007.wav"
+}
+sound = 
+{
+	name = "UAS+_Positive_008"
+	file = "UAS/UAS+_Positive_008.wav"
+}

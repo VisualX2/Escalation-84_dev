@@ -1,0 +1,26 @@
+UEN_Mobilization = {
+	allowed = {
+		tag = UEN
+	}
+	priority = {
+		base = 100
+	}
+}
+
+RUS_Mobilization = {
+	allowed = {
+		tag = RUS
+	}
+	priority = {
+		base = 100
+	}
+}
+
+UAS_Mobilization = {
+	allowed = {
+		tag = UAS
+	}
+	priority = {
+		base = 100
+	}
+}

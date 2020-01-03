@@ -1,0 +1,43 @@
+	
+#USAiet Union
+
+	
+	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+
+
+
+	
+	entity = {
+		clone = "USA_light_armor_entity"
+		name = "UAS_light_armor_entity"
+		pdxmesh = "USA_tank_light_mesh"
+		scale = 1
+
+	}
+	
+	entity = {
+		clone = "USA_medium_armor_entity"
+		name = "UAS_medium_armor_entity"
+		pdxmesh = "USA_tank_heavy_mesh"
+		scale = 1.1
+
+	}
+	
+	entity = {
+		clone = "USA_heavy_armor_entity"
+		name = "UAS_heavy_armor_entity"
+		pdxmesh = "USA_tank_heavy_mesh"
+		scale = 0.8
+
+	}
+	
+
+	#Modern Armor will only show up if you have Tank Skin Pack, otherwise Medium Armor.
+
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+#--------------------------------------------------------------------------------------------------------------------------------------------	
+
+
+	

@@ -1,0 +1,82 @@
+﻿division_template = {
+	name = "Motorized Infantry Division"
+
+	regiments = {
+	motorized = { x = 0 y = 0 }
+	motorized = { x = 0 y = 1 }
+    motorized = { x = 0 y = 2 }
+    motorized = { x = 1 y = 0 }
+	motorized = { x = 1 y = 1 }
+    mot_artillery_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Infantry Division"
+	division_names_group = UEN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "USMC expeditionary brigade"
+
+	regiments = {
+	marine = { x = 0 y = 0 }
+	marine = { x = 0 y = 1 }
+    marine = { x = 1 y = 0 }
+    marine = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st 'Big Red One' Division"
+		location = 10106
+		division_template = "Infantry Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9 }
+	division = {
+		name = "3rd Marine Expeditionary Brigade"
+		location = 10106
+		division_template = "USMC expeditionary brigade"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9 }
+	division = {
+		name = "1st 'Delta' Division"
+		location = 10106
+		division_template = "Motorized Infantry Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.9 }
+	division = {
+		name = "2nd 'Hurricane' Division"
+		location = 10106
+		division_template = "Motorized Infantry Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.9 }
+
+}

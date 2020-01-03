@@ -1,0 +1,449 @@
+
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+	RUS_infantry_idle
+	RUS_infantry_neutral_combat
+	RUS_infantry_positive_combat
+ }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+soundeffect = 
+{
+    name = "RUS_infantry_idle"
+    sounds = {
+		sound = RUS_Idle_001
+      	sound = RUS_Idle_002
+        sound = RUS_Idle_003
+		sound = RUS_Idle_004
+		sound = RUS_Idle_005
+		sound = RUS_Idle_006
+		sound = RUS_Idle_007
+		sound = RUS_Idle_008
+
+		sound = ARA_Idle_001
+		sound = ARA_Idle_002		
+
+		sound = RUS+_Idle_000
+		sound = RUS+_Idle_001
+      	sound = RUS+_Idle_002
+        sound = RUS+_Idle_003
+		sound = RUS+_Idle_004
+
+		sound = ARA+_Idle_001
+		sound = ARA+_Idle_002	
+		sound = MON+_Idle_001
+		sound = MON+_Idle_002	
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.70
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect = 
+{
+    name = "RUS_infantry_neutral_combat"
+    sounds = {
+        sound = RUS_Neutral_001
+		sound = RUS_Neutral_002
+        sound = RUS_Neutral_003
+		sound = RUS_Neutral_004
+		sound = RUS_Neutral_005
+		sound = RUS_Neutral_006
+		sound = RUS_Neutral_007
+		sound = RUS_Neutral_008
+
+		sound = ARA_Neutral_001
+		sound = ARA_Neutral_002
+
+        sound = RUS+_Neutral_000
+        sound = RUS+_Neutral_001
+		sound = RUS+_Neutral_002
+        sound = RUS+_Neutral_003
+		sound = RUS+_Neutral_004
+
+		sound = ARA+_Neutral_001
+		sound = ARA+_Neutral_002	
+		sound = MON+_Neutral_001
+		sound = MON+_Neutral_002	
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.70
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "RUS_infantry_positive_combat"
+    sounds = {
+        sound = RUS_Positive_001
+        sound = RUS_Positive_002
+		sound = RUS_Positive_003
+        sound = RUS_Positive_004
+		sound = RUS_Positive_005
+        sound = RUS_Positive_006	
+		sound = RUS_Positive_007
+		sound = RUS_Positive_008
+
+		sound = ARA_Positive_001
+		sound = ARA_Positive_002
+
+        sound = RUS+_Positive_000
+        sound = RUS+_Positive_001
+        sound = RUS+_Positive_002
+		sound = RUS+_Positive_003
+        sound = RUS+_Positive_004
+
+		sound = ARA+_Positive_001
+		sound = ARA+_Positive_002	
+		sound = MON+_Positive_001
+		sound = MON+_Positive_002	
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.70
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+
+sound = 
+{
+	name = "RUS_Idle_001"
+	file = "RUS/RUS_Idle_001.wav"
+}
+sound = 
+{
+	name = "RUS_Idle_002"
+	file = "RUS/RUS_Idle_002.wav"
+}
+sound = 
+{
+	name = "RUS_Idle_003"
+	file = "RUS/RUS_Idle_003.wav"
+}
+sound = 
+{
+	name = "RUS_Idle_004"
+	file = "RUS/RUS_Idle_004.wav"
+}
+
+sound = 
+{
+	name = "RUS_Idle_005"
+	file = "RUS/RUS_Idle_005.wav"
+}
+
+sound = 
+{
+	name = "RUS_Idle_006"
+	file = "RUS/RUS_Idle_006.wav"
+}
+
+sound = 
+{
+	name = "RUS_Idle_007"
+	file = "RUS/RUS_Idle_007.wav"
+}
+
+sound = 
+{
+	name = "RUS_Idle_008"
+	file = "RUS/RUS_Idle_008.wav"
+}
+
+sound = 
+{
+	name = "RUS+_Idle_000"
+	file = "RUS/RUS+_Idle_000.wav"
+}
+sound = 
+{
+	name = "RUS+_Idle_001"
+	file = "RUS/RUS+_Idle_001.wav"
+}
+sound = 
+{
+	name = "RUS+_Idle_002"
+	file = "RUS/RUS+_Idle_002.wav"
+}
+sound = 
+{
+	name = "RUS+_Idle_003"
+	file = "RUS/RUS+_Idle_003.wav"
+}
+sound = 
+{
+	name = "RUS+_Idle_004"
+	file = "RUS/RUS+_Idle_004.wav"
+}
+
+
+
+
+
+sound = 
+{
+	name = "RUS_Neutral_001"
+	file = "RUS/RUS_Neutral_001.wav"
+}
+sound = 
+{
+	name = "RUS_Neutral_002"
+	file = "RUS/RUS_Neutral_002.wav"
+}
+sound = 
+{
+	name = "RUS_Neutral_003"
+	file = "RUS/RUS_Neutral_003.wav"
+}
+sound = 
+{
+	name = "RUS_Neutral_004"
+	file = "RUS/RUS_Neutral_004.wav"
+}
+sound = 
+{
+	name = "RUS_Neutral_005"
+	file = "RUS/RUS_Neutral_005.wav"
+}
+sound = 
+{
+	name = "RUS_Neutral_006"
+	file = "RUS/RUS_Neutral_006.wav"
+}
+
+sound = 
+{
+	name = "RUS_Neutral_007"
+	file = "RUS/RUS_Neutral_007.wav"
+}
+sound = 
+{
+	name = "RUS_Neutral_008"
+	file = "RUS/RUS_Neutral_008.wav"
+}
+
+
+sound = 
+{
+	name = "RUS+_Neutral_000"
+	file = "RUS/RUS+_Neutral_000.wav"
+}
+sound = 
+{
+	name = "RUS+_Neutral_001"
+	file = "RUS/RUS+_Neutral_001.wav"
+}
+sound = 
+{
+	name = "RUS+_Neutral_002"
+	file = "RUS/RUS+_Neutral_002.wav"
+}
+sound = 
+{
+	name = "RUS+_Neutral_003"
+	file = "RUS/RUS+_Neutral_003.wav"
+}
+sound = 
+{
+	name = "RUS+_Neutral_004"
+	file = "RUS/RUS+_Neutral_004.wav"
+}
+
+
+
+
+sound = 
+{
+	name = "RUS_Positive_001"
+	file = "RUS/RUS_Positive_001.wav"
+}
+sound = 
+{
+	name = "RUS_Positive_002"
+	file = "RUS/RUS_Positive_002.wav"
+}
+sound = 
+{
+	name = "RUS_Positive_003"
+	file = "RUS/RUS_Positive_003.wav"
+}
+sound = 
+{
+	name = "RUS_Positive_004"
+	file = "RUS/RUS_Positive_004.wav"
+}
+sound = 
+{
+	name = "RUS_Positive_005"
+	file = "RUS/RUS_Positive_005.wav"
+}
+sound = 
+{
+	name = "RUS_Positive_006"
+	file = "RUS/RUS_Positive_006.wav"
+}
+
+sound = 
+{
+	name = "RUS_Positive_007"
+	file = "RUS/RUS_Positive_007.wav"
+}
+sound = 
+{
+	name = "RUS_Positive_008"
+	file = "RUS/RUS_Positive_008.wav"
+}
+
+
+sound = 
+{
+	name = "RUS+_Positive_000"
+	file = "RUS/RUS+_Positive_000.wav"
+}
+sound = 
+{
+	name = "RUS+_Positive_001"
+	file = "RUS/RUS+_Positive_001.wav"
+}
+sound = 
+{
+	name = "RUS+_Positive_002"
+	file = "RUS/RUS+_Positive_002.wav"
+}
+sound = 
+{
+	name = "RUS+_Positive_003"
+	file = "RUS/RUS+_Positive_003.wav"
+}
+sound = 
+{
+	name = "RUS+_Positive_004"
+	file = "RUS/RUS+_Positive_004.wav"
+}
+
+
+
+#ARABIAN AND MONGOLIAN
+
+sound = 
+{
+	name = "ARA_Idle_001"
+	file = "RUS/ARA_Idle_001.wav"
+}
+sound = 
+{
+	name = "ARA_Idle_002"
+	file = "RUS/ARA_Idle_002.wav"
+}
+
+sound = 
+{
+	name = "ARA_Neutral_001"
+	file = "RUS/ARA_Neutral_001.wav"
+}
+sound = 
+{
+	name = "ARA_Neutral_002"
+	file = "RUS/ARA_Neutral_002.wav"
+}
+
+sound = 
+{
+	name = "ARA_Positive_001"
+	file = "RUS/ARA_Positive_001.wav"
+}
+
+sound = 
+{
+	name = "ARA_Positive_002"
+	file = "RUS/ARA_Positive_002.wav"
+}
+
+
+
+sound = 
+{
+	name = "ARA+_Idle_001"
+	file = "RUS/ARA+_Idle_001.wav"
+}
+sound = 
+{
+	name = "ARA+_Idle_002"
+	file = "RUS/ARA+_Idle_002.wav"
+}
+
+sound = 
+{
+	name = "ARA+_Neutral_001"
+	file = "RUS/ARA+_Neutral_001.wav"
+}
+sound = 
+{
+	name = "ARA+_Neutral_002"
+	file = "RUS/ARA+_Neutral_002.wav"
+}
+
+sound = 
+{
+	name = "ARA+_Positive_001"
+	file = "RUS/ARA+_Positive_001.wav"
+}
+
+sound = 
+{
+	name = "ARA+_Positive_002"
+	file = "RUS/ARA+_Positive_002.wav"
+}
+
+
+
+
+sound = 
+{
+	name = "MON+_Idle_001"
+	file = "RUS/MON+_Idle_001.wav"
+}
+sound = 
+{
+	name = "MON+_Idle_002"
+	file = "RUS/MON+_Idle_002.wav"
+}
+
+sound = 
+{
+	name = "MON+_Neutral_001"
+	file = "RUS/MON+_Neutral_001.wav"
+}
+sound = 
+{
+	name = "MON+_Neutral_002"
+	file = "RUS/MON+_Neutral_002.wav"
+}
+
+sound = 
+{
+	name = "MON+_Positive_001"
+	file = "RUS/MON+_Positive_001.wav"
+}
+
+sound = 
+{
+	name = "MON+_Positive_002"
+	file = "RUS/MON+_Positive_002.wav"
+}

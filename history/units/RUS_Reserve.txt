@@ -1,0 +1,52 @@
+﻿division_template = {
+	name = "Rezervnaya brigada"
+	division_names_group = RUS_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   # Pioneer Bn
+		artillery = { x = 0 y = 1 }		
+	}
+	priority = 0
+}
+
+
+
+units = {
+	division = {
+		name = "1-ya Rezervnaya brigada"
+		location = 767
+		division_template = "Rezervnaya brigada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8 }
+	division = {
+		name = "2-ya Rezervnaya brigada"
+		location = 767
+		division_template = "Rezervnaya brigada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8 }
+	division = {
+		name = "80. hajz liwa' almsha (Syr.)"
+		location = 767
+		division_template = "Rezervnaya brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8 }
+	division = {
+		name = "10-r Morin Tsereg (Mon.)"
+		location = 767
+		division_template = "Rezervnaya brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75 }
+	division = {
+		name = "Sherut Milu'im (Isr.)"
+		location = 767
+		division_template = "Rezervnaya brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.70 }
+
+}

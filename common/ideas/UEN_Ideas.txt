@@ -1,0 +1,703 @@
+ideas = {
+
+political_advisor = {
+
+	UEN_olav_V = {
+
+		allowed = {
+			original_tag = UEN
+		}
+		
+		
+		traits = { popular_figurehead }
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	UEN_janos_kadar  = {
+
+		allowed = {
+			original_tag = UEN
+		}
+		
+		
+		traits = { communist_revolutionary }
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	UEN_vaclav_havel  = {
+
+		allowed = {
+			original_tag = UEN
+		}
+		
+		traits = { democratic_reformer }
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	UEN_enver_hoxha = {
+
+		allowed = {
+			original_tag = UEN
+		}
+
+			available = {
+				NOT = { has_government = fascism }
+				if = {
+						OR = {
+							has_completed_focus = UEN_communist_in_the_council
+						OR = {
+							has_completed_focus = UEN_unite_peoples
+						}
+					}
+				}
+			}
+			
+		traits = { HUM_dulla_spirit }
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	UEN_jacque_chirac = {
+
+		allowed = {
+			original_tag = UEN
+		}
+
+			available = {
+				NOT = { has_government = fascism }
+			}
+		
+		traits = { HUM_man_of_the_peoples }
+	}
+
+	UEN_richard_weizsacker = {
+
+		allowed = {
+			original_tag = UEN
+		}
+		
+		traits = { smooth_talking_charmer }
+	}
+
+
+	UEN_erich_mielke = {
+
+		allowed = {
+			original_tag = UEN
+		}
+		
+		traits = { prince_of_terror }
+	}
+
+	UEN_carmen_franco = {
+
+		allowed = {
+			original_tag = UEN
+		}
+		
+		traits = { fascist_demagogue }
+	}
+}
+
+theorist = {
+
+	UEN_jurgen_brandt = {	
+				
+		allowed = {
+			original_tag = UEN
+		}
+		
+		research_bonus = {
+			cat_mobile_warfare = 0.10
+		}
+		
+		traits = { mobile_warfare_expert }
+	}
+
+		UEN_petar_gracanin = {
+			
+			allowed = {
+				original_tag = UEN
+			}
+
+			available = {
+				NOT = { has_government = fascism }
+				if = {
+						OR = {
+							has_completed_focus = UEN_communist_in_the_council
+						OR = {
+							has_completed_focus = UEN_unite_peoples
+						}
+					}
+				}
+			}
+
+		research_bonus = {
+			cat_mass_assault = 0.10
+		}
+			
+			traits = { mass_assault_expert }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	UEN_bernard_capillon  = {
+				
+
+		allowed = {
+			original_tag = UEN
+		}
+		
+		research_bonus = {
+			air_doctrine = 0.10
+		}
+		
+		traits = { air_warfare_theorist }
+	}
+
+	UEN_lannuzel  = {
+						
+		allowed = {
+			original_tag = UEN
+		}
+		
+		research_bonus = {
+			air_doctrine = 0.10
+		}
+		
+		traits = { naval_theorist }
+	}
+}
+
+	# MILITARY
+	army_chief = {
+				
+		UEN_rene_imbot  = {
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		UEN_wolfgang_altenburg = {
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+		UEN_achille_lerche  = {
+
+			allowed = {
+				original_tag = UEN
+			}
+
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		UEN_harald_wust = {
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+	navy_chief = {
+		
+		UEN_saturnino_suanzes = {
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		UEN_bengt_goran_rasin = {
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+			traits = { navy_submarine_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	
+	high_command = {
+		
+		UEN_jozef_uzycki = {
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+			traits = { army_armored_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		UEN_umberto_cappuzzo = {
+			
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+			traits = { army_cavalry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		UEN_govert_huyser = {
+			
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+			traits = { army_logistics_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		UEN_heinz_kessler = {
+			
+			
+			allowed = {
+				original_tag = UEN
+			}
+
+			available = {
+				NOT = { has_government = fascism }
+				if = {
+						OR = {
+							has_completed_focus = UEN_communist_in_the_council
+						OR = {
+							has_completed_focus = UEN_unite_peoples
+						}
+					}
+				}
+			}
+			
+			traits = { army_infantry_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		UEN_jose_saenz = {
+			
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+			traits = { army_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		UEN_yves_Leenhardt  = {
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+			traits = { navy_chief_naval_aviation_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		UEN_franco_pisano  = {
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	tank_manufacturer = {
+
+		designer = yes
+	
+		# TECHNOLOGY
+		UEN_krauss_mafei = {
+						
+			allowed = {
+				original_tag = UEN
+			}
+						
+			research_bonus = {
+				armor = 0.05
+			}
+			
+
+			traits = { HUM_Heavy_MBT_designer }
+		}
+	
+		UEN_AMX = {
+						
+			allowed = {
+				original_tag = UEN
+			}
+						
+			research_bonus = {
+				armor = 0.10
+			}
+			
+
+			traits = { HUM_mobile_MBT_designer }
+		}
+
+		UEN_FIAT = {
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { HUM_cheap_MBT_designer }
+			
+			}
+		}
+
+	aircraft_manufacturer = {
+			
+		designer = yes
+		
+		UEN_Dassault = {
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		
+		UEN_SAAB = {
+						
+			allowed = {
+				original_tag = UEN
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+		
+		UEN_PZL = {
+						
+			allowed = {
+				original_tag = UEN
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { CAS_manufacturer }
+		}
+		
+		UEN_IAR = {
+						
+			allowed = {
+				original_tag = UEN
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+	}
+
+	naval_manufacturer = {
+
+		designer = yes
+		
+		UEN_DCAN = {
+						
+			allowed = {
+				original_tag = UEN
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { battlefleet_designer }
+		}
+		UEN_Fincanteri = {
+						
+			allowed = {
+				original_tag = UEN
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { coastal_defence_naval_manufacturer }
+		}
+		UEN_Hockums = {
+						
+			allowed = {
+				original_tag = UEN
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+		}
+		UEN_Blohm = {
+						
+			allowed = {
+				original_tag = UEN
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { naval_manufacturer }
+		}
+
+	}
+
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		UEN_Tatra = {
+		
+			allowed = {
+				original_tag = UEN
+			}
+
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { HUM_mobile_mechanized_designer }
+
+		}
+		
+		UEN_mas = {
+
+			picture = mas
+						
+			allowed = {
+				original_tag = UEN
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { HUM_reliable_weapons_designer }
+		}
+
+		UEN_HK = {
+						
+			allowed = {
+				original_tag = UEN
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.05
+			}
+			
+			traits = { HUM_powerful_weapons_designer }
+		}
+
+		UEN_CZUB = {
+						
+			allowed = {
+				original_tag = UEN
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { HUM_cheap_weapons_designer }
+		}
+	
+
+		UEN_Bofors = {
+						
+			allowed = {
+				original_tag = UEN
+			}		
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+
+	industrial_concern = {
+
+		UEN_shell = {
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.15
+			}
+			
+			traits = { refinery_concern }
+		}
+		
+		UEN_krupp = {
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+			research_bonus = {
+				industry = 0.10
+				
+			}
+			ai_will_do = {
+				factor = 2
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		UEN_tesla = {
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+		}		
+
+		UEN_JN = {
+			
+			allowed = {
+				original_tag = UEN
+			}
+
+			available = {
+				if = {
+						OR = {
+							has_completed_focus = UEN_communist_in_the_council
+						OR = {
+							has_completed_focus = UEN_unite_peoples
+						}
+					}
+				}
+			}
+			
+			research_bonus = {
+				industry = 0.05
+			}
+			
+			traits = { construction_company }
+		}
+
+		UEN_Euratom = {
+			
+			allowed = {
+				original_tag = UEN
+			}
+			
+			research_bonus = {
+				nuclear = 0.15
+			}
+			
+			traits = { nuclear_scientist }
+		}	
+
+	}

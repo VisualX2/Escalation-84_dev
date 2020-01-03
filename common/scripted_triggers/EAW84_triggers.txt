@@ -1,0 +1,18 @@
+#	Example:
+#
+
+
+country_with_custom_advisors = {
+	OR = {
+		original_tag = UEN
+		original_tag = RUS
+		original_tag = UAS
+	}
+}
+country_with_custom_designers = {
+	OR = {
+		original_tag = UEN
+		original_tag = RUS
+		original_tag = UAS
+	}
+}

@@ -1,0 +1,98 @@
+﻿ideas = {
+
+	country = {
+
+		human_armies = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = 0.25
+				army_core_defence_factor = 0.25
+			}
+		}
+
+		precarious_condition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.8
+				stability_factor = -0.10
+				research_time_factor = 0.35
+				industrial_capacity_factory = -0.10
+			}
+		}
+
+		radiation_poisoning = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				industrial_capacity_factory = -0.10
+				conscription = -0.2
+			}
+		}
+
+		no_industries = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.50
+
+			}
+		}
+
+		stranger = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			non_core_manpower = -0.50
+
+			}
+		}
+	}
+}

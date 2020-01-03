@@ -1,0 +1,58 @@
+RUS_Mobilization = {
+
+	RUS_Mobilize_Line = {
+		icon = rifles
+			cost = 25
+			ai_will_do = {
+			factor = 50
+			modifier = {
+				factor = 50
+				767 = { is_controlled_by = ROOT }
+			}
+		}
+		fire_only_once = yes
+          days_remove = 70
+          remove_effect = {
+			country_event = {
+				id = RUS.20 
+			}
+		}
+	}
+
+	RUS_Mobilize_reserve = {
+		icon = rifles
+			cost = 50
+			ai_will_do = {
+			factor = 50
+			modifier = {
+				factor = 50
+				767 = { is_controlled_by = ROOT }
+			}
+		}
+		fire_only_once = yes
+          days_remove = 35
+          remove_effect = {
+			country_event = {
+				id = RUS.21 
+			}
+		}
+	}
+
+	RUS_Mobilize_militia = {
+		icon = rifles
+			cost = 75
+			ai_will_do = {
+			factor = 50
+			modifier = {
+				factor = 50
+				767 = { is_controlled_by = ROOT }
+			}
+		}
+		fire_only_once = yes
+          days_remove = 14
+          remove_effect = {
+			country_event = {
+				id = RUS.22 
+			}
+		}
+	}
