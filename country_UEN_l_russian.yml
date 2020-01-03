@@ -83,22 +83,22 @@ l_russian:
  the_European_Phoenix_desc:0 "Как феникс, мы восстали из пепла. Мы выжили в ядерном холокосте и построили нацию, что переживёт испытание временем. Наконец-то, после стольких лет, будущее выглядит многообещяющим."
 
  armement_workshop:0 "Военные мастерские"
- armement_workshop_desc:0 "We don't have much room for a military industrial complex right now, but what we can do is to setup several workshops to at least provide maintenance for our weaponry."
+ armement_workshop_desc:0 "Мы не имеем достаточного пространства для ВПК прямо сейчас, но то что мы можем - это организовать несколько мастерских, чтобы хоть как-то обеспечить техобслуживание нашего оружия."
 
  vehicle_workshop:0 "Автомастерские"
- vehicle_workshop_desc:0 "Not much to be honest, but those will be more than enough to keep our military vehicles in a decent state."
+ vehicle_workshop_desc:0 "Немного, если быть честным,  этого будет вполне достаточно для поддержки нашей военной техники в надлежащем состоянии."
 
  union_arsenal:0 "Национальный арсенал"
- union_arsenal_desc:0 "We can't rely in workshops indefinitely, we need to establish even if a small military industrial complex to keep our equipment up-to-date."
+ union_arsenal_desc:0 "Мы не можем бесконечно полагаться только на мастерские, нам нужно основать даже малый ВПК для модернизации нашего снаряжения to keep our equipment up-to-date."
 
  develop_new_weapons:0 "Разработать новое оружие"
- develop_new_weapons_desc:0 "Our scientists have been working in magical applications in the military sector, and we already have several projects merging standard weapons with magical components, if we manage to put those projects on the production lines it will help us greatly."
+ develop_new_weapons_desc:0 "Наши учёные уже работали над применением магии в военном секторе, и мы уже имеем несколько проектов объединения стандартного оружия с магическими компонентами. Если нам удастся поставить эти проекты на производственный поток, то это нам очень сильно поможет."
 
  expand_arsenal:0 "Расширить арсенал"
- expand_arsenal_desc:0 "Our current production rate won't do it, we need to produce more!"
+ expand_arsenal_desc:0 "Наш текущий уровень производства этого не сделает этого, нам нужно больше производить!"
 
  deal_with_the_locals:0 "Общение с местными"
- deal_with_the_locals_desc:0 "Even if Equestrians are said to be generally welcoming people there's still some citizens disturbed by our presence, many even formed groups preaching against our continued presence in the region. We need to open dialogue and see how to resolve this issue."
+ deal_with_the_locals_desc:0 "Хоть и говорят, что Эквестрийцы в основном гостеприимные, всё ещё есть жители, которые обеспокоенны нашим присутствием, даже было сформировано множество групп, агитирующих против нашего продолжительного присутствия в регионе. Мы должны открыть диалог и посмотреть, как решить эту проблему."
 
  UEN_negotiate_with_the_locals:0 "Переговоры с местными"
  UEN_negotiate_with_the_locals_desc:0 "The negotiations with the local government continue, their leaders have asked our representatives how we are going to adapt our laws and policies to their people."
