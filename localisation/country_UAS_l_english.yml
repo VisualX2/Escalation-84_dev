@@ -1,11 +1,11 @@
-﻿l_english:
+l_english:
 
 ### Country Names ###
 
  UAS_fascism:0 "Nova Columbia" #
  UAS_fascism_DEF:0 "Nova Columbia" #Euro: I don't really agree with this name change. Maybe we could just let it be the U.S.A?
  UAS_democratic:0 "United States of the Americas"
- UAS_democratic_DEF:0 "The United Statesof the Americas"
+ UAS_democratic_DEF:0 "The United States of the Americas"
  UAS_neutrality:1 "United States of America"
  UAS_neutrality_DEF:1 "The United States of America"
  UAS_communism:0 "Communist States of the Americas"
@@ -20,346 +20,346 @@
  UAS_neutrality_party:0 "The Junta"
  UAS_neutrality_party_long:0 "The American Army Junta"
  UAS_communism_party:0 "ALF"
- UAS_communism_party_long:0 "Americas' Liberation Front"
+ UAS_communism_party_long:0 "American Liberation Front"
  UAS_democratic_party:0 "ARP"
- UAS_democratic_party_long:0 "Americas' Republican Party"
+ UAS_democratic_party_long:0 "American Republican Party"
  UAS_fascism_party:0 "AFP"
- UAS_fascism_party_long:0 "Americas' First Party"
+ UAS_fascism_party_long:0 "America First Party"
 
 ### National Focus ###
 
  UAS_exploration:0 "Preliminary Exploration"
- UAS_exploration_desc:0 "At last we have arrived! But there's no time to lose, we need to see what kind of place we have arrived before setting up our temporary habitation camps."
+ UAS_exploration_desc:0 "After two years of grueling hell, we have finally arrived at our new home, and to our luck it's similar to Earth. However, there's still much work to do. We need to see what kind of place we're situated in before setting up our temporary habitation camps and begin the process of rebuilding civilization."
 
  UAS_first_contact:0 "Further Exploration"
- UAS_first_contact_desc:0 "The 4th Recon Unit saw something strange on their reconnaissance mission, but what exactly?"
+ UAS_first_contact_desc:0 "The 4th Reconnaissance Unit saw something...strange on their reconnaissance mission. Roads and artifical structures, as well as signs of massive light pollution in the horizon. Are we not alone?"
 
  UAS_settle:0 "Settling Down"
- UAS_settle_desc:0 "Now that might be a problem, we landed in a already inhabited land! We need to strike a deal with the locals, we already came too far to just turn back."
+ UAS_settle_desc:0 "With our recon of the area complete, a new problem has surfaced, this land is inhabited by other intelligent lifeforms...pastal colored ponies and Griffons straight out of mythology at that. We need to strike a deal with the these strange locals, because we have come too far to just turn back now."
 
  UAS_take_care_of_population:0 "Take Care Of Our Own"
- UAS_take_care_of_population_desc:0 "Our population suffered greatly during and after the war, and even more in having to leave their only homeworld behind. We need to do everything in our power to appease this situation."
+ UAS_take_care_of_population_desc:0 "Our population suffered greatly during and after the war, and even more in having to leave our entire home planet behind. It has been two long years of unrelenting hell, and we need to do everything in our power to appease this situation, and alleviate this suffering."
 
- UAS_subsistence_agriculture:0 "Subsistence Agriculture"
- UAS_subsistence_agriculture_desc:0 "Our food reserves are quickly depleting, we need to start growing our own food and fast."
+ UAS_subsistence_agriculture:0 "Subsistent Agriculture"
+ UAS_subsistence_agriculture_desc:0 "Our food reserves are quickly depleting, and it won't be long before it's all gone. America will not die out to famine, we need to start growing our own food, fast."
 
  UAS_fishing:0 "Kickstart the Fishing Industry"
- UAS_fishing_desc:0 "Our crops can only grow so fast, if we plan on feeding our population in the time being we need to start fishing along our coast line."
+ UAS_fishing_desc:0 "Our crops can only grow so fast, and the waters around our land are rich in marine life, new and unique marine life at that. If we plan on feeding our population while waiting for our year's harvest, we need to start fishing along our coast line, and maybe create some new American delicacies?"
 
  UAS_educate_the_peoples:0 "Rebuild our Education System"
- UAS_educate_the_peoples_desc:0 "Even if we find ourselves in a situation of emergency, we mustn't forget that knowledge is power. We need to learn everything about this new world and of the old one."
+ UAS_educate_the_peoples_desc:0 "Even if we find ourselves in a situation of great emergency, we mustn't forget that knowledge is power, and the American youth are the future. We need to learn every single aspect about this new world, and teach our youth the mistakes of our past to make sure they're never repeated again."
 
  UAS_techno_magic_institute:0 "New Washington's University of Magic"
- UAS_techno_magic_institute_desc:0 "Magic has many interesting properties and uses, even if our species is unable to channel it naturally we can still use of other means to utilize such energies. And so we will be opening the first University of Magic in American soil, our scientists will be busy!"
+ UAS_techno_magic_institute_desc:0 "This new world has presented us with an unbelievable natural force, a force the locals call Magic. Magic has so many interesting properties and uses, and it is making our scientists giddy! Even if our species is unable to channel it naturally like the natives, we can still find other means of utilizing such energies. Therefore, we will be establishing the first University of Magic on American soil, and our scientists will sure as hell be busy!"
 
  UAS_cure_radiation:0 "Down with the Radiation!"
- UAS_cure_radiation_desc:0 "The sad legacy of WW3, still plaguing our population even here. But thanks to our acquired knowledge on magic, and help from the natives, we might be finally able to bring a end to it."
+ UAS_cure_radiation_desc:0 "The sad and defining legacy of WW3, and it is still plaguing our populous, even here. But thanks to our acquired knowledge on magic, and help from the generous natives, we might be finally able to bring an end to its sickening hold on the American people."
 
  UAS_state_reorganisation:0 "State Organization"
- UAS_state_reorganisation_desc:0 "Now that we finnaly settled down we need to now plan on how we will administrate our country, defining states borders and opening elective governmental positions is the first step to make the administration of our nation easier."
+ UAS_state_reorganisation_desc:0 "After hard and grueling work, we have finally settled down, however with that, we need to start planning out on how we will administrate our country and establish state borders. Opening elective governmental positions is the first step to make the administration of our nation easier. Because God only knows how long we'll be here."
 
  UAS_re_industrialisation:0 "Re-Industrialisation"
- UAS_re_industrialisation_desc:0 "We arrived in this world with no machinery whatsoever, our portals simply won't allow to take our machinery with us. But if we want to bring humanity back to its former glory we will need a powerful industry."
+ UAS_re_industrialisation_desc:0 "The portals we created could only do so much. There was simply no way to transport our entire industry and all of our machinery into this land, such a feat is practically impossible. America once possessed the most powerful industry on Earth, one that was matched only by the Soviets. If we want to bring humanity and America back to its former glory, we will need a powerful and mighty industry."
 
  UAS_committee_construction:0 "The Department of Civil Engineering and Development"
- UAS_committee_construction_desc:0 "We need to gather all the materials we will need to build our country; the soil is rich and we have a massive forest in the north ready to be exploited. \nBy forming this department we will ensure that our project for development will be in good hands."
+ UAS_committee_construction_desc:0 "It's essential that we begin the process of gathering all the materials we will need to rebuild our great nation. The soil is rich and nearly untapped, and we have a massive forest in the north ready to be exploited. \nBy forming this department, we will ensure that our project for development will be in good hands."
 
  UAS_establish_the_first_settlements:0 "Establish the First Settlements"
- UAS_establish_the_first_settlements_desc:0 "Currently our people live under tents in improvised camps, this can't go for long. We need to start building proper houses and bring basic sanitation back to our populace."
+ UAS_establish_the_first_settlements_desc:0 "Currently our population live under shanty tents in dirty improvised camps, this cannot continue any longer. The American people deserve better, which is why we need to start building proper housing, and bring basic sanitation back to our populace."
 
  UAS_phoenix_house:0 "Manufactured Homes"
- UAS_phoenix_house_desc:0 "While not being the most comfortable houses ever designed, they are extremely cheap and can be built under hours. It will not be pretty, but at least everyone will have a proper place to live."
+ UAS_phoenix_house_desc:0 "While not being the most comfortable houses ever designed, they are extremely cheap and can be built in hours. It will not be pretty, but at least everyone will have a proper place to live."
 
  UAS_a_shelter_for_everyone:0 "A Shelter for Everyone"
- UAS_a_shelter_for_everyone_desc:0 "We have almost finished relocating our population into our new cities. Let's continue this way!"
+ UAS_a_shelter_for_everyone_desc:0 "We have almost finished relocating our population into our new cities. Let's take the final steps to resolve this issue, once and for all!"
 
  UAS_strenghen_the_country:0 "Economic Planning"
- UAS_strenghen_the_country_desc:0 "Now that our population is now safe from the elements, we can now concentrate our efforts in building an economy for our nation."
+ UAS_strenghen_the_country_desc:0 "Now that our population is safe from the elements, we can now concentrate our efforts in building a thriving economy for the United States."
 
  UAS_international_market:0 "The Free Trade Area of the Americas"
- UAS_international_market_desc:0 "Our people is divided into dozens of groups, were are not only Americans but also Brazilian, Cuban, Argentine, and the list goes on. And they are still hold very strong grudges toward us and several actively riot to re-obtaining their independence. By establishing the Free Trade Area of the Americas, maybe we can encourage trade exchanges inside our borders and bring the South Americans closer to us by showing we do care for them."
+ UAS_international_market_desc:0 "Our people are divided into dozens of groups, we're are not only Americans, but also Brazilian, Cuban, Argentine, and the list goes on. Worst of all, they are still holding very strong grudges toward us, and several actively riot to re-obtain their independence. By establishing the Free Trade Area of the Americas, maybe we can encourage trade exchanges inside our borders, and bring the South Americans closer to us by showing them they're just as important."
 
  UAS_star_banner:0 "Star-Spangled Banner"
- UAS_star_banner_desc:0 "Despite the loss of our continent and world, we managed to strife once more in this brave new land. Even if our methods weren't exactly the most "democratic" our country still managed to survive the storm and, on a new world stage, thanks to hard work and dedication, we achieved a stable economic status and the future loos bright for our nation."
+ UAS_star_banner_desc:0 "Despite the loss of our great continent and beautiful world, we have managed to strive once more in this brave new land, like the pilgrims before us. Even if our methods weren't exactly the most "democratic," the United States of America has managed to survive the storm, and is now on a new world stage. Through the hard and arduous work and dedication of the American people, we have achieved a stable economic status, and the future looks bright for America. The Star-Spangled Banner now flys proudly over this enchanted land!"
 
  UAS_armement_workshop:0 "Military Workshops"
- UAS_armement_workshop_desc:0 "We don't have much room for a military industrial complex right now, but what we can do is to setup several workshops to at least provide maintenance for our weaponry."
+ UAS_armement_workshop_desc:0 "The territory we control on this island is small, and we don't have much room for a military industrial complex at the moment. That shouldn't stop us from establishing several decently sized workshops to at least provide maintenance for our weaponry."
 
  UAS_vehicle_workshop:0 "Automotive Workshops"
- UAS_vehicle_workshop_desc:0 "Not much to be honest, but those will be more than enough to keep our military vehicles in a decent state."
+ UAS_vehicle_workshop_desc:0 "It isn't anything too big, but building a few hardy workshops will be more than enough to keep our military vehicles in a decent state; maybe roll out some civil vehiclas in the future."
 
  UAS_union_arsenal:0 "Rebuild the Lima Army Tank Plant"
- UAS_union_arsenal_desc:0 "The Lima Army Tank Plant was built during WWI, and was renowned for the production of the M1 Abrams. They didn't fail us before and they will not, they will essential if we want to build a solid military industry!"
+ UAS_union_arsenal_desc:0 "The Lima Army Tank Plant was built during WWII, and was renowned for the production of the M1 Abrams. It didn't fail us before, and was incredibly reliable. Re-building it will be essential if we want to build a solid military industry!"
 
  UAS_develop_new_weapons:0 "Department of Magical Research"
- UAS_develop_new_weapons_desc:0 "Magic has interested many officers of our army, for it's seemingly limitless applications and power. It would be wise to create a department of research dedicated to study it, at this rate we will soon enough be using blasters from Star Wars!"
+ UAS_develop_new_weapons_desc:0 "Magic has done more than just interest the many officers of our military. It holds vast and almost godlike power and capibilites, many that can revolutionize warfare as we know it. Our scientists and officers have been more than eager to weaponize it, and use it for everyday life. It would be wise to dedicate an entire branch of research towards this unusual natural force. Star Wars blasters anyone?"
 
  UAS_expand_arsenal:0 "National Arsenal"
- UAS_expand_arsenal_desc:0 "We can't rely in workshops indefinitely, we need to establish even if a small military industrial complex to keep our equipment up-to-date."
+ UAS_expand_arsenal_desc:0 "As our military's demand for weapons and equipment become bigger and bigger, it's becoming clear we can't rely on these small workshops indefinitely. We need to establish at least a small military industrial complex to feed these demands."
 
  UAS_deal_with_the_locals:0 "Deal with the Locals"
- UAS_deal_with_the_locals_desc:0 "As we settled we didn't pay attention to the locals already living here, both Ponies and Griffons with their own ways of life and traditions. They are clearly intimidated by our gargantuan numbers, but fortunately we received requests from locals representatives asking to we to respect the autonomy of their towns and villages."
+ UAS_deal_with_the_locals_desc:0 "We've established ourseleves quite nicely, and it's time we turn our attention to the natives. Ponies, they're as bright and colorful as a rainbow, while griffions are something straight out of our mythology. However, they have their own ways of life and traditions, and have shown to be just as intelligent as humans. They are clearly intimidated by our gargantuan numbers, and we've been asked to respect the autonomy of their towns and villages. Do we want a repeat of the Native Americans?"
 
  UAS_negotiate_with_the_locals:0 "The Griffons"
- UAS_negotiate_with_the_locals_desc:0 "New Mareland is an mostly homogeneous colony, yet they is still Griffons minorities living all across the country. They themselves aren't bothering us much, but their old rivalry with Ponies is. Maybe we can try to open the dialogue between the two parties."
+ UAS_negotiate_with_the_locals_desc:0 "New Mareland is a mostly homogeneous colony, yet there are still Griffons minorities living all across the country. They themselves aren't bothering us much, in fact many have actually taken a liking to us, however their old rivalry with Ponies is still rampent. Perhaps we can try to open a dialogue between the two parties, and figure something out."
 
  UAS_pony_council:0 "Ponies and Griffons in the Government?!"
- UAS_pony_council_desc:0 "Quite a surprising demand, but both the Ponies and the Griffons want to have a place in our government, especially because they fear the human majority would conspire directly or indirectly against their ways of life."
+ UAS_pony_council_desc:0 "The demand that many have feared and looked forward to, has arrived. Ponies and Griffons have united together in one voice to announce they want positions in the US Government, espcially to represent their communities. Should we show the world the shining beacon of liberty and justice we are? Or is America, let alone humanity, just not ready for this yet?"
 
  UAS_Aquilean_civil_war:0 "Revolution in Aquileia"
- UAS_Aquilean_civil_war_desc:0 "To our north lies Aquileia, a country plagued by a conflict between Republicans and Royalists, and once again it scaled into a civil war. Given the victor of the civil war we could possibly be invaded by a expansionist government,  we can't just stay idle we have to do doing something about that!"
+ UAS_Aquilean_civil_war_desc:0 "To our north lies Aquileia, a country plagued by a domestic conflict between Republicans and Royalists. From what we're told, this is the second time it has scaled into a full blown civil war. Given whoever the victor of the civil war could be, there's a great possibly we could be invaded by an expansionist government. We can't just stay idle, we need to take action!"
 
  UAS_Stay_neutral:0 "Stay Neutral"
- UAS_Stay_neutral_desc:0 "This civil war doesn"t concern us, we should instead concentrate on helping the incoming refugees and reinforcing our coast with them."
+ UAS_Stay_neutral_desc:0 "We just got here, and frankly we can't just start immediately throwing ourselves in proxy wars again. Instead, we should concentrate on helping the incoming refugees, and reinforcing our coasts, in the case of an invasion."
 
  UAS_Send_the_red_cross:0 "Send the Red Cross"
- UAS_Send_the_red_cross_desc:0 "This civil war is going to ruin Aquileia, by sending the Red Cross we can at least make the recovery a tad easier."
+ UAS_Send_the_red_cross_desc:0 "This civil war is looking like it's going to decimate Aquileia. By sending in the Red Cross, we can at least make the recovery a tad bit easier, and build a reputation for ourselves in the process."
 
  UAS_support_revolution:0 "Support the Republicans"
- UAS_support_revolution_desc:0 "The people of Aquileia have risen up against the oppressors! Centuries ago nations all over the Americas rose against their oppressors and created countries free of their overlords, to not help those Republicans would be to betray our very founding fathers!"
+ UAS_support_revolution_desc:0 "The people of Aquileia have risen up against their oppressors! Centuries ago, nations all across the Americas, from Mexico, to Argentina, rose up against their oppressors, and created countries free of their decadent and inept overlords. To not help the Aquileian Republican cause, would be to betray the dreams of our founding fathers!"
 
  UAS_send_rev_volunteers:0 "Send Volunteers"
- UAS_send_rev_volunteers_desc:0 "Our soldiers are only awaiting the green light to join the struggle."
+ UAS_send_rev_volunteers_desc:0 "Our soldiers only await the green light to join the Aquileians struggle for freedom."
 
  UAS_support_monarchist:0 "Support the Monarchists"
- UAS_support_monarchist_desc:0 "The Monarchy in Aquileia aren't exactly angels, and are even disturbingly similar to some monarchies we had in the past of our world. But not only they want their country to have a stable and clear future, and also are pretty isolationists and won't want to attack us. We shall support them for our safety!"
+ UAS_support_monarchist_desc:0 "The monarchs in Aquileia...aren't exactly angels, and are even disturbingly similar to some monarchies we had in our past. But...not only do they want their country to have a stable and clear future, but they're pretty isolationist, and it's unlikey they would attack us. Despite massive backlash, we shall be supporting them for the sake of our national security."
 
  UAS_send_mon_volunteers:0 "Send Volunteers"
- UAS_send_mon_volunteers_desc:0 "Our soldiers are only awaiting the green light to join the struggle in Aquileia."
+ UAS_send_mon_volunteers_desc:0 "Our soldiers only await the green light to join the struggle for Aquileian stability."
 
  UAS_war:0 "War!"
- UAS_war_desc:0 "It seems like one time wasn't enough."
+ UAS_war_desc:0 "Once again, our great country finds itself at war once more. One must wonder when this nightmare will end."
 
  UAS_last_stand:0 "Last Stand"
- UAS_last_stand_desc:0 "This is not like any other war we fought, if we lose now our civilization will cease to exist as we know it, this is our last stand!"
+ UAS_last_stand_desc:0 "This...is not like any other war we fought. If we lose now, our civilization will cease to exist as we know it. This is our last stand!"
 
  UAS_Humanity_will_go_down:0 "Going Down with a Fight"
- UAS_Humanity_will_go_down_desc:0 "Even if we ultimately lose humanity will not go down without a fight! DEATH OR DISHONOUR!"
+ UAS_Humanity_will_go_down_desc:0 "Even if we ultimately face defeat...humanity will not go quietly into the night! We will not vanish, without a fight! Semper fortis! DEATH OR DISHONOR!"
 
  UAS_open_diplomatic_relation:0 "Open Diplomatic Relations"
- UAS_open_diplomatic_relation_desc:0 "Now with everything in order we can finally start opening our diplomatic channels to the outside world."
+ UAS_open_diplomatic_relation_desc:0 "Everything has been stablized, and the American people are at the very least safe and comfortable. We should start opening our diplomatic channels to the outside world."
 
  UAS_contact_neighbour:0 "Contact our Neighbors"
- UAS_contact_neighbour_desc:0 "It's has been quite some time since we arrived here, it's more than reasonable to us to open diplomatic channels to this world."
+ UAS_contact_neighbour_desc:0 "With diplomatic relations open, we are now fully aware of which nations surround us, and which ones interest us. Some have already contacted us and have expressed interest, but we have a list of nations that we should contact as soon as possible. Let's go see what this world has in store for us!"
 
  UAS_Embassy_sunset:0 "Establish an Embassy in Sunset"
- UAS_Embassy_sunset_desc:0 "Establishing an embassy at our neighbor's capital, a great start before trying to contact more countries!"
+ UAS_Embassy_sunset_desc:0 "New Mareland has helped us since the beginning, and we're in their debt. Therefore, establishing an embassy at their capital is a great start before stepping out further on the world stage."
 
  UAS_Contact_equestria:0 "Contact Equestria"
- UAS_Contact_equestria_desc:0 "New Mareland is a colony of Equestria, a country that lies in the other side of the ocean. They are said to be a very prosperous, peace-seeking and generous country, it would be wise to formally contact them."
+ UAS_Contact_equestria_desc:0 "New Mareland is a colony of Equestria, a country that lies in the other side of the ocean. They are said to be a very prosperous, peace-seeking and generous country, very similar to America in a sense. It would be wise to formally contact them, we can get along quite well."
 
  UAS_contact_Aquilea:0 "Contact Aquileia"
- UAS_contact_Aquilea_desc:0 "To our north lies Aquiliea, a kingdom who had a bloody revolution not too much time ago. Since they are so close to us why not contact them too?"
+ UAS_contact_Aquilea_desc:0 "It wasn't too long ago when the revolution in Aquiliea broke out, and we have definitely felt the effects of it. Since they're so close to us, it would be wise to establish formal communications with them."
 
  UAS_sec_support_republican:0 "Secretly Support the Republicans"
- UAS_sec_support_republican_desc:0 "According to our secret services, there is still a Democratic resistance in the country only awaiting the right moment to spark another revolution. We should try to support them as discretely as possible, death to all tyrants!"
+ UAS_sec_support_republican_desc:0 "We've recently been briefed by the CIA, informing us that there is still a large democratic resistance present in Aquileia, only awaiting the right moment to spark another grand revolution. For the sake of freedom across the continent, we should support them as discretely as possible."
 
  UAS_support_discret:0 "Strengthen Ties with the Discrets"
- UAS_support_discret_desc:0 "Even if we support the ideals of freedom, it won't be wise to challenge a relatively powerful country right off the bat. Some lend-lease will make them a bit more friendly to us, which will do for now."
+ UAS_support_discret_desc:0 "Even if we support the ideals of freedom, challenging a relatively powerful country right off the bat would be extremely dangerous. Establishing a small, but not too big lend-lease, will make them a bit more friendly to us."
 
  UAS_contact_gri_republic:0 "Contact the Republic"
- UAS_contact_gri_republic_desc:0 "In the north of Griffonia lies the Griffonian Republic, a rebel state originated from the remnants of a republican revolution that took place in he Griffonian Empire. We should contact them, liberty and democracy know no boundaries!"
+ UAS_contact_gri_republic_desc:0 "In the north of Griffonia lies the Griffonian Republic, a rebel state originated from the remnants of a republican revolution that took place in he Griffonian Empire. They're much like us Americans, we should contact them immediately, for liberty and democracy knows no boundaries!"
 
  UAS_contact_gri_empire:0 "Contact the Empire"
- UAS_contact_gri_empire_desc:0 "The Griffonian Empire is one of the oldest countries on this continent, and even as a shadow of its former self, it is still a power to be reckoned with. It would be wise to open our diplomatic channels with them."
+ UAS_contact_gri_empire_desc:0 "The Griffonian Empire. From what we're told, it's one of the oldest surviving countries on this continent, and even though it's nothing but a shadow of its former self, it is still a great power to be reckoned with. It would be wise to open our diplomatic channels with them to benefit both of our nations."
 
  UAS_contact_humans_nations:0 "Contact our Kind"
- UAS_contact_humans_nations_desc:0 ""We were not the only ones of our kind to arrive in this planet, from the intel we received we know now that Soviet and European exiles also ended up here. Time to rectify past mistakes."
+ UAS_contact_humans_nations_desc:0 ""We were not the only humans to arrive on this planet. From the intel we received, we now know that our cold war enemies, the Soviets, and our European allies, have ended up here in exile. It's time we discuss and rectify past mistakes."
 
  UAS_summit_canterlot:0 "Prepare a Summit at Canterlot"
- UAS_summit_canterlot_desc:0 "The capital of Equestria is the perfect place to have the summit, seeing as it is neutral ground for all the involved nations. Once we get the response to our request we shall see how well this submit goes."
+ UAS_summit_canterlot_desc:0 "The capital of Equestria is the perfect place to have the summit, seeing as it is neutral, and accessable ground for all the involved nations. Once we get the response from Princess Celestia and Luna about our request, we shall see how well this submit goes."
 
  UAS_vengeance:0 "Manifest Revenge"
- UAS_vengeance_desc:0 "Did they really think WE would forgive and forget? NO! They will pay for the millions that died and for the destruction of our WHOLE planet, this will be the FINAL showdown."
+ UAS_vengeance_desc:0 "Did those treacherous devils really think WE, the proud American people, would forgive and forget? NO! They will pay and suffer for the billions that died, and for the destruction of our ENTIRE planet! This is the FINAL showdown, and any nation that dare get in our way, will be crushed like pathetic roaches!"
 
  UAS_Cold_war_turned_hot:0 "Cold War Turned Hot"
- UAS_Cold_war_turned_hot_desc:0 "Time to end this! We lost everything we had in the war, and now we will make sure that they will pay with their own blood for it. But we must carefully plan our next move, native countries can give us a lot of resources and industry, but we should careful. It's their planet after all, we are aliens to them, a alliance could be formed against us."
+ UAS_Cold_war_turned_hot_desc:0 "The time has finally come to take our revenge upon these rats, and end this war! We lost everything we held dear in the all consuming nuclear flames, and now, we will make sure that they will bleed like pigs, and pay with their own crimson blood for everything that was lost! The native countries can give us a lot of resources and industry to fuel our war effort, but we must excercise caution. It's their planet after all, and an alliance could be formed against us."
 
  UAS_destroy_aquilea:0 "Defuse the Aquileian Powder Keg"
- UAS_destroy_aquilea_desc:0 "Aquileia is an unstable land, and ever since the Empire lost control over it, nothing but chaos has issued from the conflict between monarchists and republicans. If anything our conquest will be mercy compared to what they suffered under their several previous incompetent rulers."
+ UAS_destroy_aquilea_desc:0 "Aquileia is an unstable and treacherous land. Ever since the Empire's dirty claws were removed from it, nothing but discord and violence has occured in this disgusting land. Our conquest will be mercy compared to what they have suffered under their several previous incompetent and mindless rulers. Let the great liberation begin!"
 
  UAS_landing_hauckland:0 "Landing at Hauckland"
- UAS_landing_hauckland_desc:0 "This channel of islands is a strategic location, occupying them could give us a great air and naval base to project our power into Equus."
+ UAS_landing_hauckland_desc:0 "This channel of islands is a strategic location. Occupying them could give us a great air and naval base to project our great and mighty power into Equus. It's time Uncle Sam pays a visit"
 
  UAS_invade_Commonwealth:0 "Invade the Commonwealth"
- UAS_invade_Commonwealth_desc:0 "The Commonwealth of New Mareland is nothing but a puppet of Equestria, weak and submissive to their overlords. Invading it will provide us with much needed resources and industry."
+ UAS_invade_Commonwealth_desc:0 "The Commonwealth of New Mareland is nothing but a puny puppet of Equestria, weak and submissive to their overlords, who put on a idiotic play pretending to be demigods. The American people no longer need their help and pathetic friendship, invading them will provide us with much needed resources and industry; all the help we need"
 
  UAS_crush_USSR:0 "Operation Unthinkable"
- UAS_crush_USSR_desc:0 "The Soviet Union is the sole reason our world is no more! Because of them we lost everything we held dear, our very motherland broken into pieces. No more, this time we will once for all rain hell upon the reds!"
+ UAS_crush_USSR_desc:0 "Those vile communist roaches are the sole reason Earth lies barren and dead! They're the sole reason the remnants of our great civilization lie in a cold radioactive tomb! It's because of THEM we lost everything we held dear! Our history, our familes, friends, national treasures, America, and the very cradle that gave birth to humanity and sustained us for hundreds of thousands of years! No more, this time we WILL fight the right enemy, and once and for all rain ALL hell upon the vile communist rats!"
 
  UAS_crush_UEN:0 "Their True Overlords"
- UAS_crush_UEN_desc:0 "The European Union is nothing but a conglomerate of weak and quarrelsome European countries, a disjointed country created out of desperation. Taking them out will gives us a much needed foothold into Equus."
+ UAS_crush_UEN_desc:0 "The European Union is nothing but a sad conglomerate of weak, quarrelsome, and pathetic European countries; a disjointed country created out of desperation. They have been relient on the power and might of the United States and the Soviet Union since the end of WWII, eating away at our resources like a parasite. They're spoiled and weak, and haven't lifed a damn finger to do anything seriously substanial in decades! They will be an easy target, and taking them out will gives us a much needed foothold into Equus."
  
  UAS_fall_of_griffonia:0 "The Fall of Griffonia"
- UAS_fall_of_griffonia_desc:0 "Now that we are strong enough, it's time to face our greastest challenge yet: The Griffonian Empire. The age of kings and emperors has come to a end, but the the age of humanity has only began."
+ UAS_fall_of_griffonia_desc:0 "The United States has once again asserted itself as a mighty and dominant world power, and the time has come face our greatest challenge yet: The Griffonian Empire. The age of kings and emperors has come to a end, but the the age of humanity has only just began. We shall assert ourselves as gods amongst these primitive creatures, and NOTHING will dare challenge mankind and our glorious legacy!"
 
  UAS_Tame:0 "A New World Tames a Old World"
- UAS_Tame_desc:0 "We were born from the ashes of the Old World, and now the cycle comes to a end. Yet another old world is dominated by a new one."
+ UAS_Tame_desc:0 "Born from the ashes of the Old World, America has truely manifested its destiny, a destiny that has awaited us for over 200 years. Oh how glorious does it feel to finally bask in the holy light of destiny; we're now a beacon of human perserverence across this planet, an Empire of Liberty. The cycle comes to a end, no more do the old worlds of Europe, Equus, and Griffonia subjegate and bully us, we're their overlords now. First it was the Europeans, and now, yet another old world is dominated by a new one."
 
  UAS_never_again:0 "Never Again"
- UAS_never_again_desc:0 "Our own madness and paranoia led us to destroy the only homeworld we ever had. It's time to sit down and work together to safeguard peace in this new world."
+ UAS_never_again_desc:0 "No matter how you spin it, it was our own madness and paranoia led us to destroy the only homeworld we ever had, and it was our uncontained barbaric nature that casted the world into a nuclear fire. The time has finally come to sit down and work together as human beings, united in our common interests and ambitions. We will strive to safeguard peace and prosparity in this new world, and we will take up the mantle of responsibility as the guardians of life and all that exist. Our wisdom and guidence will act as a llumious sun, towards which all life will blossom!"
  
  UAS_United_Nations:0 "The United Nations"
- UAS_United_Nations_desc:0 "Back on Earth the United Nations attempted to preserve and keep peace. Even if it failed in the end, this time we might be able to actually achieve such goal. We all share the same world after all."
+ UAS_United_Nations_desc:0 "Back on Earth the United Nations acted as an attempt to preserve and keep peace. Even if it ultimately failed in the end, this time we might be able to actually achieve such a goal. We all share the same world after all, and we best not destroy our second chance."
 
  UAS_an_alliance:0 "An Alliance"
- UAS_an_alliance_desc:0 "The world around us is unknown and dangerous, we should formalize an alliance with the US and the Soviet Union to help each other in time of need."
+ UAS_an_alliance_desc:0 "While we have gotten to know it better, The world around us is still unknown and dangerous. We should formalize an alliance with the UEN and the Soviet Union to help each other in times of need. We're the only human nations on this planet after all."
 
  UAS_fund_the_red_cross:0 "Fund the Red Cross"
- UAS_fund_the_red_cross_desc:0 "Even in the worst period of WWIII, members of the Red Cross were all around the world trying their best to help civilians and soldiers alike. They more than need and deserve our funding."
+ UAS_fund_the_red_cross_desc:0 "Even in the worst period of WWIII, members of the Red Cross were all around the world trying their best to help civilians and soldiers alike. They more than just need and deserve our funding. The Red Cross will help us in our goal to protect and preserve all life."
  
  UAS_create_the_UN_Alliance:0 "Militarize the United Nations"
- UAS_create_the_UN_Alliance_desc:0 "Old enemies, standing side-by-side as friends. United we shall be ready for any hardships in the future. Forward, for peace in our time!"
+ UAS_create_the_UN_Alliance_desc:0 "Old enemies, standing side-by-side as allies and friends. United we stand, and we shall be ready for any hardships in the future in our pact of unity. Forward, for peace and prosperity in our time!"
  
  UAS_invite_USSR:0 "Invite the USSR"
- UAS_invite_USSR_desc:0 "Even if our nations never were in the best of terms, this time around things are different. We now know that we must coexist one way or another, for our own sake."
+ UAS_invite_USSR_desc:0 "Even if our nations never were on the best of terms, this time around things are different. We now know that we must coexist one way or another, because if we don't, this world is doomed to meet the same fate as Earth."
 
  UAS_invite_UEN:0 "Invite the UEN"
- UAS_invite_UEN_desc:0 "Seeing as they were already our ally back home, it's more than reasonable and sensible to invite them to our alliance."
+ UAS_invite_UEN_desc:0 "Seeing as they were already our ally back home, it's more than reasonable and sensible to invite our European friends to our alliance. We've done and accomplished so many things together, and we shall continue this legacy."
  
  UAS_resurrect_the_blue_helmet:0 "Resurrect the Blue Helmet"
- UAS_resurrect_the_blue_helmet_desc:0 "The Blue Berets were an international peacekeeping force founded by the UN, they operated in conflict stricken regions around the world providing the civilian population with medical care and with basic needs. Maybe we could renovate them and turn them into a international force of peace?"
+ UAS_resurrect_the_blue_helmet_desc:0 "The Blue Berets were an international peacekeeping force founded by the UN, they operated in conflict stricken regions around the world providing the civilian population with medical care and with basic needs. Perhaps we could renovate them and turn them into a international force of peace? After all, this world looks like it could need it right about now."
 
  UAS_human_history_saving_program:0 "Human History Saving Program"
- UAS_human_history_saving_program_desc:0 "Our historical and cultural legacy immeasurable and irreplaceable. We will gather all the documentation, books, paintings, movies, everything we can in order to preserve our culture and history. Never forget where we came from."
+ UAS_human_history_saving_program_desc:0 "Our historical and cultural legacy is absolutely immeasurable and irreplaceable; something worth far more than all the money and gold combined. We will begin a project to gather all the documentation, books, paintings, movies, everything we can find in order to preserve our amazing culture and history, from Ancient Egypt to now. We will never forget where we came from, and everything that came with it."
 
  UAS_reorganize_the_army:0 "Reorganize the Army"
- UAS_reorganize_the_army_desc:0 "After crossing the gate our armed forces basically disbanded to organize basic police forces. Now that we know this world is inhabited by other sentient creatures with weaponry, that almost match ours, we must reorganize at once!"
+ UAS_reorganize_the_army_desc:0 "When we crossed the gate into this world, our armed forces all but disbanded to organize a basic police force. However, now that we know this world is inhabited by other sentient creatures with weaponry that almost matches ours, we must begin the reorganization of the U.S. Armed Forces immediately!"
 
  UAS_defended:0 "This We'll Defend"
- UAS_defended_desc:0 "Our army took quite a beating back on Earth, we lost more than half of our qualified personnel in the ground forces, forcing us to draft massive numbers of green reserves into our troops. Even if some are quite motivated they seriously lack training. This seriously contrasts with some other units like the Armoured, which are mostly composed of regulars and veterans. \nEven with this, they have all pledged to defend our country, and will continue to do so."
+ UAS_defended_desc:0 "The American Armed Forces took more than just a beating back on Earth. We lost more than half of our qualified personnel in the ground forces, forcing us to draft massive numbers of green reserves into our military. Even if some are quite motivated and eager...they seriously lack training. This contrasts severely with some other units like the Armored, which are composed mostly of regulars and veterans. \nEven with this, they have all pledged to defend our country, and that's the most important part."
 
  UAS_train_NG:0 "Train the National Guard"
- UAS_train_NG_desc:0 "The National Guard is one of the biggest parts of our ground, mostly composed of volunteers, conscript and draftees, who are badly trained. Since things are calm for the moment, we should take the time to train the National guard."
+ UAS_train_NG_desc:0 "The National Guard plays one of the biggest parts in composing our ground forces, mostly composed of volunteers, conscripts, and draftees. They're undertrained though, and since things appear to be calm for the moment, we should take the time and effort to train our National guard."
 
- UAS_armored_way:0 "The Armoured way"
- UAS_armored_way_desc:0 "Infantry is important, but in this world, our technology is far more advanced than, the natives we should take advantage of that and built more Armoured vehicle, so that our army can be based on a solid base of fighting vehicle."
+ UAS_armored_way:0 "The Armored way"
+ UAS_armored_way_desc:0 "Infantry is without a doubt important, and the backbone of warfare as we know it. But in this world, our technology is far more advanced than the natives, with some of them still being stuck in a medieval state of society. We should take advantage of that factor, and begin the development of more Armored vehicles, so that our army can have the advantage of technological superiority over the natives."
 
  UAS_reform_infantry:0 "Reform the Infantry"
- UAS_reform_infantry_desc:0 "Its not just the National guard, but our whole infantry need to be reformed! Tanks are very important on the Battlefield but without infantry to support, they are toasted!"
+ UAS_reform_infantry_desc:0 "Its not just the National guard that needed a makeover, but our entire infantry force needs one as well! Tanks and other armored vehicles are very important on the battlefield, yes, but without infantry to support them, they might as well be useless! We need start the process of reformation immediately."
 
  UAS_artillery:0 "Field Artillery"
- UAS_artillery_desc:0 "‘King of Battle’ \nThere is a reason artillery is one of the corner stone of ground combat. We should not forget this branch, and deploy new regiment equipped with adequate equipment."
+ UAS_artillery_desc:0 "‘King of Battle’ \nThere is a reason artillery is one of the corner stones of ground combat. After all, it was artillery that Napoléon used to conquer almost all of Europe in the Napoleonic Wars. Forgetting this branch would be a mistake, we need to begin deploying new regiments equipped with such adequate equipment."
 
  UAS_airland_battle:0 "Airland Battle"
- UAS_airland_battle_desc:0 "Our newest doctrines that was being developed in 1982, The idea is to keep an aggressive and mobile defence line, with our support assets destroying the enemy reinforcement. If we can try to experiment and train our force with, we could be much more efficient."
+ UAS_airland_battle_desc:0 "One of our newest doctrines that was being developed in 1982. The idea is to keep an aggressive and mobile defence line, all the while our support assets destroy the enemy reinforcements. If we can try to experiment and train our forces with this doctrine of warfare, we could be far more efficient."
 
  UAS_CAS:0 "Close air support"
- UAS_CAS_desc:0 "‘Not a step without air cover!’ \nOur air force was the most powerful in the world, capable of guarding the sky, and breaking any enemy attack attempts a failure. Air support is extremely important for the Airland Battle doctrine we should invest more in Attack aircraft and Helicopter!"
+ UAS_CAS_desc:0 "‘Not a step without air cover!’ \nThe United States Air Force was without a doubt, the most powerful in the world. Capable of guarding the heavens, and any enemy incursion on our air force usually resulted in failure. Air support is extremely important for the Airland Battle doctrine, so it should go without saying that we should invest more in attack aircraft and helicopters!"
 
  UAS_patton:0 "Patton Series"
- UAS_patton_desc:0 "The Patton were our Main battle tank until the introduction of the Abrams, a reliable tank series combat proven for the oldest. Building them will be a great addition with a low cost."
+ UAS_patton_desc:0 "Named after General George S. Patton, The Patton was our Main battle tank until the introduction of the Abrams. Just like Patton himself, the Patton tank has shown to be a reliable tank series, and it has plenty of combat experience to show for that. Building them will be a great addition to our military, for a low cost."
 
- UAS_armored_cavalry:0 "Armoured Cavalry"
- UAS_armored_cavalry_desc:0 "The Cavalry is the spearhead of our army! Bringing the best element and equipment in some units will create unit with great cohesion capable of destroying the enemy line. \nBut First we need to research better model of Armor."
+ UAS_armored_cavalry:0 "Armored Cavalry"
+ UAS_armored_cavalry_desc:0 "The Cavalry is the spearhead of our army! Bringing the best elements and equipment to some of our units will create troops with great cohesion that will be capable of completely destroying the enemy line. \nHowever, first we need to research better armor models."
 
  UAS_biological_warfare:0 "Biological warfare"
- UAS_biological_warfare_desc:0 "‘A Bio Weapon use biological toxins or infectious agents such as bacteria, viruses and fungi with the intent to kill or incapacitate humans, animals or plants as an act of war.’ \nEven if those weapons were banned in 1972, our situation imply this kind of measure. This should help us when besieging the enemy... Lets just hope this don’t backfire."
+ UAS_biological_warfare_desc:0 "‘A Bio Weapon use biological toxins or infectious agents such as bacteria, viruses and fungi with the intent to kill or incapacitate humans, animals or plants as an act of war.’ \nSo goes the definition of bio weapons. Even though these terrible weapons were banned in 1972, our current situation is far too dire to leave out a field of warfare as damaging and powerful as this one. Biological weapons should help us when besieging the enemy... Let's just hope to God this don’t backfire."
 
  UAS_napalm:0 "Napalm"
- UAS_napalm_desc:0 "‘Napalm is an incendiary mixture of a gelling agent and a volatile petrochemical used to create a deadly incendiary weapon generally delivered by plane.‘ \nWidely used during the Vietnam war, napalm could help us greatly in this world. Dropping one or two canisters near... or on enemy position should be enough to break their morale."
+ UAS_napalm_desc:0 "‘Napalm is an incendiary mixture of a gelling agent and a volatile petrochemical used to create a deadly incendiary weapon generally delivered by plane.‘ \nNapalm was a widely used chemical weapon during our fight in Vietnam, and something like napalm could help us greatly in this world; especially since no other nation seems to know of its existance. Dropping one or two canisters near or on enemy positions should be enough to break their morale and send them scattering."
 
  UAS_phosphorus:0 "White Phosphorus"
- UAS_phosphorus_desc:0 "‘White phosphorus is a material with many militaries uses, tracer, smoke screen... But It’s also used as an offensive weapon creating deadly cloud and can burn an entire area and everything in it.’ \nWhite Phosphorus is a terrible weapon to use, but sometime you don’t have choice, especially when our species survival is at stake."
+ UAS_phosphorus_desc:0 "‘White phosphorus is a material with many militaries uses, tracer, smoke screen... But It’s also used as an offensive weapon creating deadly cloud and can burn an entire area and everything in it.’ \nWhite Phosphorus is an absolutely terrible weapon to use, some would even consider it dishonorable, and rightly so. But, unfortunately sometimes you don’t get to have a choice, especially when the survival of our species is at stake."
 
  UAS_DU_Shell:0 "Depleted Uranium Shell"
- UAS_DU_Shell_desc:0 "‘Depleted uranium round is vastly used in heavy ammo to enhance the penetrating capacity against armoured target.’ our engineer managed to developed a powerful anti-tank ammo with depleted uranium increasing the effectiveness of such ammo. We should be aware that this will result in contamination of the impact zone and may harm our troop in the long term."
+ UAS_DU_Shell_desc:0 "‘Depleted uranium round is vastly used in heavy ammo to enhance the penetrating capacity against armoured target.’ Our talented military engineers managed to developed a powerful and effective anti-tank ammo with depleted uranium. Adding depleted uranium into our anti-tank munitions will without a doubt increase the effectiveness of it. However, before taking this step forward, we should be aware that this will result in contamination of the impact zone, and may harm our ground troops in the long term."
 
  UAS_reform_USMC:0 "Reform the USMC"
- UAS_reform_USMC_desc:0 "The USMC or United States Marine Corps is one of our finest branches, mostly used to fight in landing zone and as a naval infantry, it’s quite autonomous, having access to its own air, artillery and Armored branch. Its already an incredible fighting force itself. But we Making it more fitting for its world will make it even more effective."
+ UAS_reform_USMC_desc:0 "The USMC, or The United States Marine Corps, is one of our finest branches of military. Mostly used to fight in landing zones, and as a naval infantry, it’s quite an autonomous and proud branch. With having access to its own air, artillery, and armored branch, its already an incredible fighting force in itself. But, in order to make the USMC an envy of the world once more, we will need to make it even more effective than it once was."
 
  UAS_the_new_army:0 "The New Army"
- UAS_the_new_army_desc:0 "Our army have gone a long way since we first began those reform! Its not as powerful as it was before the war, but its still strong enough to accomplish its job! \n\n‘First to fight for the right, and to build the Nation’s might, And the Army Goes Rolling Along...’"
+ UAS_the_new_army_desc:0 "The Armed Forces of the United States have come a long way since we began the reforms. While she isn't as powerful as she once was before the war, our proud military is still very well strong enough to accomplish its job of protecting and preserving the freedom of all Americans! \n\n‘First to fight for the right, and to build the Nation’s might, And the Army Goes Rolling Along...’"
 
  UAS_construct_airbase:0 "Construct an Airbase"
- UAS_construct_airbase_desc:0 "We should construct a simple airbase, if we want to rebuild our Airforce."
+ UAS_construct_airbase_desc:0 "The United States Air Force was one of the greatest air force's to sail the opulent heavens. If we're to have Lady Liberty spread her wings onces more, there's no better place to start than constructing a simple airbase."
 
  UAS_fighter:0 "Fighter"
- UAS_fighter_desc:0 "We need better fighter jet we want to have the air superiority!"
+ UAS_fighter_desc:0 "The natives of this world seem to display at most, a World War II era understanding of air technology and physics, and have yet to even comprehend the jet engine as far as we know. We have the clear technological edge, and it's important we begin the production of our first jet aircraft as soon as possible! The American eagle will soar and dominate the skies once more!"
 
  UAS_interceptor:0 "Air National Guard"
- UAS_interceptor_desc:0 "While our fighters are used on important part of the front, we should have squadron with a part of reservist that will serve to defend our airspace during a war."
+ UAS_interceptor_desc:0 "The Air National Guard is just as important as the land based National Guard. Becaused while our fighters are engaged in important parts of the front, it's important we have squadrons of reserve pilots and aircraft ready at all times to defend our airspace during a war. We should re-establish the Air National Guard, ASAP."
 
  UAS_helicopters:0 "Air Cavalry"
- UAS_helicopters_desc:0 "At the contrary of the nations of this world our army is equipped with helicopters, close in term of performance to their attack aircrafts. Massively used in Vietnam, combat and transport helicopter are a massive advantage for our army, we should start to build attack helicopter again!"
+ UAS_helicopters_desc:0 "An advantage we have currently have against the nations of this world, is we know how to create aircraft like helicopters. Massively used in the Vietnam War, combat and transport helicopters have a massive advantage for our army, and it would be wise to begin building helicopters once more."
 
- UAS_naval_patrol_aircraft:0 "Maritime patrol aircraft"
- UAS_naval_patrol_aircraft_desc:0 "Coast surveillance is important, we need to have Aircraft patrolling the coast of our country."
+ UAS_naval_patrol_aircraft:0 "Maritime Patrol Aircraft"
+ UAS_naval_patrol_aircraft_desc:0 "The surveillance of our coasts is far more important then we like to think. In a world where pirates seem far more present on the high seas, a the issue of privateering uncertain, we need to have aircraft patrolling the coast of our country. Next thing we want to deal with is a raid or surprise attack by our enemies."
  UAS_tactical_bomber:0 "Bomber"
- UAS_tactical_bomber_desc:0 "Helicopter aren’t good enough to strike behind the frontline and large group of enemies, we need to put bomber aircrafts back on the production line!"
+ UAS_tactical_bomber_desc:0 "Helicopters won't be good enough if we wish to strike behind enemy lines and large group of enemies. If we're to see sucess in our air campaign, we need bomber aircrafts back on the production line!"
  UAS_strategic_bomber:0 "Strategic Bomber"
- UAS_strategic_bomber_desc:0 "Why not destroying the industrial capabilities of our enemy with specialized bomber?"
- UAS_better_engine:0 "Better jet engine"
- UAS_better_engine_desc:0 "We need to improve the engine of our fighter, thank to our technology and the new material present on this world, our next generation of aircraft will be more powerful."
+ UAS_strategic_bomber_desc:0 "Creating a bomber specialized for the destruction of our enemies infrastructure and industry, has been a thing since the first world war. If we roll out our strategic bombers once more, the devestation we can cause to our enemies will be unmatched with our technological edge!"
+ UAS_better_engine:0 "Better Jet Engine"
+ UAS_better_engine_desc:0 "Our scientists have consulted us on an exciting new possiblity, better and improved jet engines! Taking advantage of magic, magic crystals, and plenty of other new minerials on this world, our next generation of aircraft will be far more powerful, deadlier, and faster then we have ever thought possible."
  UAS_AA_missiles_focus:0 "Guided Missile"
- UAS_AA_missiles_focus_desc:0 "Modern air combat is done with missile, not canon or machinegun. We were restricted to that until now, let’s give some missile to our planes."
+ UAS_AA_missiles_focus_desc:0 "Modern air combat as we know it, is done with high velocity missiles, not cannons or machine guns. We were restricted to those to wage air combat, until now. We should begin implementing guided misslies onto our fighters to assert absolute dominance over the skies."
 
  UAS_create_naval_base:0 "Create a Naval Base"
- UAS_create_naval_base_desc:0 "We did not bring any ship from our navy, but we still have the blueprints. But first we need a port and dockyard to build them."
+ UAS_create_naval_base_desc:0 "It would be an understatment to say that bringing any of our ships here into this world would've been impossible. However, we still have the blueprints for them, and that's all we need to resurrect our mighty fleet. But first, we need to construct a port and dockyard to build the proud American navy."
  UAS_atlantic_fleet:0 "An Atlantic Fleet"
- UAS_atlantic_fleet_desc:0 "There is no more Atlantic, but our Newborn fleet can be influenced by the old one."
+ UAS_atlantic_fleet_desc:0 "The waters of the Atlantic is where the United States Navy grew and asserted the most control and dominance after the Second World War. The ocean that seperates these continents resembles the Atlantic, it would be wise to enact an Atlantic fleet doctrine on this new ocean to make the American Navy a formitable force once again."
  UAS_pacific_fleet:0 "A Pacific Fleet"
- UAS_pacific_fleet_desc:0 "The US pacific got his glory during the pacific war, basing our fleet on doctrine based around aircraft carrier like how it was during the pacific war, will ensure us having the control of the sea."
- UAS_spruance:0 "Charles F. Adams-class destroyer"
- UAS_spruance_desc:0 "A veteran from the 60’s it will make a solid line of defence for our coast."
- UAS_Kidd:0 "Spruance-class"
- UAS_Kidd_desc:0 "A class from the 70’s, it doesn’t seem very strong at first, but its quite capable and can take two helicopters on board."
- UAS_los_angeles:0 "Los-Angeles class submarine"
- UAS_los_angeles_desc:0 "One of our most successful class of submarine, if used appropriately they will pose a threat to any invading force."
- UAS_ohio:0 "Ohio-class submarine"
- UAS_ohio_desc:0 "While we don’t have any ballistic missile, this class can still be useful to ambush the enemy fleet."
- UAS_virginia_class:0 "California-class cruiser"
- UAS_virginia_class_desc:0 "Built to escort Aircraft carriers, this solid class of cruiser is quite solid and will provide a great escort for our fleet."
- UAS_ticonderoga_class:0 "Virginia-class cruiser "
- UAS_ticonderoga_class_desc:0 "Big, armed to the teeth with a battery of radar and missiles, this class of ship will strengthen our navy greatly."
+ UAS_pacific_fleet_desc:0 "The United States showed her naval glory and her impervious power during the Pacific War against Japan. If we enact a Pacific fleet doctrine, which is based around aircraft carriers just like how it was during the Pacific War, it will all but assure total naval dominance, and send our enemies cowering and trembling in fear at the sight of America's navy!"
+ UAS_spruance:0 "Charles F. Adams-Class Destroyer"
+ UAS_spruance_desc:0 "A veteran from the 60’s and an incredibly reliable ship, the Charles F. Adams shall sail the seas of this foreign world, and make a strong line of defence for our vulnerable coast."
+ UAS_Kidd:0 "Spruance-Class"
+ UAS_Kidd_desc:0 "A far more modern class from the 70’s, the Spruance don't look that tough at a first glance, but she's quite capable class, and can even carry two helicopters on board her mighty hulls. If there's a tough and powerful ship that's small and easy to produce, while giving us a massive technologic edge, it's the Spruance-class."
+ UAS_los_angeles:0 "Los-Angeles Class Submarine"
+ UAS_los_angeles_desc:0 "One of our most successful class of submarine, the Los Angles class nuclear submarine is a silent and deadly killer that no nation on this planet will see coming. If used appropriately, these submarines will pose a major threat to any invading force."
+ UAS_ohio:0 "Ohio-Class Submarine"
+ UAS_ohio_desc:0 "The largest American submarine ever built, and the third largest submarine in the world, these nuclear killers of the deep are an absolute force to be reckoned with. While we don’t have any ballistic missiles or nuclear ICBM's to be used with them as of now, this class can still be useful to ambush and decimate enemy fleets."
+ UAS_virginia_class:0 "California-Class Cruiser"
+ UAS_virginia_class_desc:0 "A nuclear powered cruiser built to escort Aircraft carriers, this soild class of cruiser is quite tough, and will provide our fleet with great and tough escort vessels."
+ UAS_ticonderoga_class:0 "Virginia-Class Cruiser "
+ UAS_ticonderoga_class_desc:0 "Big, modern, and completely armed to the teeth with a battery of poweful radar, explosive missiles, and a nuclear reactor. The Virgina-class is simply too powerful to be left out of our plans to rebuild our navy, for it will be an extremely destructive and influential ship that will essential in making our navy assert authority over these seas."
  UAS_rebuild_the_missouri:0 "Rebuild the Missouri"
- UAS_rebuild_the_missouri_desc:0 "By the end of WWII, Battleship were obsolete, but we had several Iowa Class battleships that were still in service... \nIn this world, a battleship is far from being obsolete... With powerful guns, a battery of electronic, radar, and missile launchers, those beasts will be the most powerful warships in the world!"
+ UAS_rebuild_the_missouri_desc:0 "The Missouri, the legendary Iowa-class battleship that the Japanese Empire signed the offical documents of surrender on. While she was a mighty ship, By the end of WWII, Battleships were obsolete... \nIn this world however, battleships are far from being obsolete. With extremely powerful guns, a battery of modern electronics, radar, missile launchers, and a variety of 80's tech, the new Missouri-Class Battleship will be the most powerful warship that has ever graced the seas of this world!"
  UAS_aircraft_carrier:0 "Winner of the Pacific War"
- UAS_aircraft_carrier_desc:0 "Aircraft carrier are the king of naval battle, with the power of our planes and ships combined we will rule the Seas and Oceans."
+ UAS_aircraft_carrier_desc:0 "Aircraft carriers are the impervious kings of naval battle, and will continue to be so in this world as we revolutionize naval warfare. With the power of our jet fighters and advanced ships combined, the United States will rule the seas and oceans of this planet, just like how we did back on Earth."
  UAS_missile_warfare:0 "Reimplant Missile Warfare"
- UAS_missile_warfare_desc:0 "In 1982 naval battle are resolved with anti-ship missile, we need to reequip our ship with them."
+ UAS_missile_warfare_desc:0 "Naval battles and warfare in 1982 are resolved with anti-ship missiles. In the final step to rebuilding our navy and assering our naval dominance over this world, it's essential we re-equip our ships with them to devestate any and all remaining opposition."
 
  UAS_strategic_air_command:0 "Strategic Air Command"
- UAS_strategic_air_command_desc:0 "The strategic Air command was in charge of all the 2/3 of our nuclear arsenal, if we want to build up an arsenal of dissuasion, we need to recreate this branch... but... \nAre you sure it’s a good idea?"
+ UAS_strategic_air_command_desc:0 "Strategic Air command is a branch of the military that was in charge of managing two of the three components of our nuclear strike forces and arsenal, and showed it's real power when the bombs began dropping back on Earth. If we have intentions of building up an arsenal of nuclear destruction, we need to recreate this branch... but, we need to think for a second... \nAre we even sure this is a good idea? There's a chance this world could end up just like Earth.."
 
 ### Harmonist Branch ###
 
  UAS_calm_after_tempest:0 "Calm after the tempest"
- UAS_calm_after_tempest_desc:0 "Even if we are not out of the woods yet. We managed to survive, and we clearly passed the hardest part... Now that it’s a little calmer... We need to take back the power from those rogue generals."
+ UAS_calm_after_tempest_desc:0 "Even if we're not out of the woods yet, we have managed to endure the challenges this world had to throw at us, and survived, just like humanity always does. We have clearly passed the hardest part of adapting to this new world... However, now that things have calmed down, it's time we restore the dream and legacy of the Founding Fathers, and remove these rogue generals from power; restoring freedom and democracy to these United States."
  UAS_popular_support:0 "Popular Support"
- UAS_popular_support_desc:0 "The peoples of the USA and ex-occupied country want more freedom, they had enough of the war and having to suffer from the US army high command. It will be easy to rally the population to our cause."
+ UAS_popular_support_desc:0 "The proud citizens of the United States and ex-occupied countries grow fervorous for freedom and liberty. They have grown tired of having to deal with the ghosts of World War III, and suffering under the odious tyranny from the US Army High Command. Today, we rally the population to our cause, and they will answer the battle cry of freedom vehemently."
  UAS_SA_unit_support:0 "Support from SA units"
- UAS_SA_unit_support_desc:0 "Some units are formed with Draftees and volunteers from South America, they fight for their families but are angered by the invasion that occurred back on Earth. We should try to contact some of the officers, and try to convince them to join our effort against the generals!"
+ UAS_SA_unit_support_desc:0 "Within our military, there are units of South Americans composed of draftees and volunteers, and we have long suspected they have their own intentions to overthrow the government. They're angered by the invasion that occurred on their homelands back on Earth, and they have every right to be. We should make contact with some of these South American officers and soldiers, and attempt to convince them to join our effort in toppling these generals!"
  UAS_overthrow_generals:0 "Overthrow the Generals"
- UAS_overthrow_generals_desc:0 "With the South Americans and our populations against the power in place, the generals have no chance to win this. \nDown with them! For Democracy!"
+ UAS_overthrow_generals_desc:0 "Everything has been put into place and action. With the South Americans troops and swaths of volunteers on standby, we're ready to toppel the power in place. These generals have no chance to win the upcoming march on New Washington. \nDown with the tyranny! For the Republic, and America!"
 
- UAS_strenghen_congress:0 "Strengthen the congress"
- UAS_strenghen_congress_desc:0 "The congress isn’t what it used to be. With the death of many of its member, and with the tasks coming for us, we need to appoint new member, with the South Americans of course. \nWe also found one of the U.S President that finally decided to come out after the generals were overthrown. We should put it in command!"
- UAS_formal_relation_eqc:0 "Formal relation with New Mareland"
- UAS_formal_relation_eqc_desc:0 "The Army government didn’t care much about New Mareland. And at best accepted to received official from the country. We should change that and establish a strong relation with the country that kindly offered us those land."
+ UAS_strenghen_congress:0 "Strengthen Congress"
+ UAS_strenghen_congress_desc:0 "The trecherous generals have been overthrown, and it's time we bring back the Republic! However, the United States Congress isn’t what it used to be. Many former members of congress are no longer with us, and with the tasks of running the nation already coming in, we need to appoint new congress members; with the South Americans of course, and maybe some of the natives. \nSome good news however, President Ronald Reagan is still alive, and came out of hiding after the generals were overthrown! However, Reagan is purposing new elections to take place, we should follow his advice."
+ UAS_formal_relation_eqc:0 "Formal Relation with New Mareland"
+ UAS_formal_relation_eqc_desc:0 "Under the rule of the army, not much attention was given to New Mareland, and honestly they didn’t care much about the nation; at best they accepted to receive officials and diplomats from the country. It's time we change that, and going forth we shall establish a strong relation with the very country that kindly offered us these lands. We march into the future and the unknown, together."
  UAS_scientist_exchange:0 "Scientist Exchange"
- UAS_scientist_exchange_desc:0 "Representant from many countries around us, came to announce that their country was interested in our technology, and were considering buying some of them. New Mareland in particular seemed really interested in our technologies, maybe we could send some scientist to help their scientific research."
- UAS_open_border:0 "Open Border"
- UAS_open_border_desc:0 "The army government didn’t trust much our neighbour, as such, our border with our neighbour are still closed. We must change this situation re-establish normal circulation between our territories and New Mareland."
- UAS_latin_american:0 "Latin American"
- UAS_latin_american_desc:0 "In the months following the destruction of our country, the generals took power and decided to invade the rest of America, taking all of the resources and imposing a draft. We need to make a public apology to the Americans, and try to offer a compensation."
- UAS_apology:0 "Apology for invasion"
- UAS_apology_desc:0 "Canada was invaded after the nuclear holocaust to secure the northern front and get the precious oil field in there. Even if many Canadian managed to flee across the earth to continue the battle, there is still a lot of Canadian population in disagreement with our government... Maybe some public excuse and compensation will appease their minds."
- UAS_equals:0 "All equals!"
- UAS_equals_desc:0 "There is no difference between all human, may they be Canadian, Americans or Latino, we all share the same trait, if we want to advance in this world, we must put aside our little differences, and advance with the peoples of this world, even if they are drastically different than us."
- UAS_continental_freedom:0 "Continental Freedom in danger"
- UAS_continental_freedom_desc:0 "There isn’t much country with a democratic government on this continent, and many powerful countries are either monarchy or authoritarian regime! The freedom of this continent may be in danger."
+ UAS_scientist_exchange_desc:0 "Representants from nearly every country around us have come to announce that their countries and rulers alike, are interested in our advanced technology, and seem rather eager in possibly buying some. New Mareland, our friend, in particular seems really interested in a purchase or trade agreement related to our technologies. We shouldn't be handing out our technology like cake, so maybe instead we could send some scientists to help in their scientific research."
+ UAS_open_border:0 "Open the American-Marelander Border"
+ UAS_open_border_desc:0 "The army government didn’t trust New Mareland at all, as such, the border with our neighbor remains closed. Things have changed, and as such, the situation with our border must change as well. We should establish normal circulation between our territories and New Mareland to reap the benefits."
+ UAS_latin_american:0 "The Latin Americans"
+ UAS_latin_american_desc:0 "In the months following the total decimation of the United States, the generals of the armed forces took power, and decided to invade all of the Americas; taking all of her resources and imposing a draft. This act of aggression violates everything the United States swore to do in order to preserve continental freedom. We need to make a formal public apology to the Latin Americans, and try to offer a compensation for our acts."
+ UAS_apology:0 "Apology for the Invasion"
+ UAS_apology_desc:0 "Canada, our closest and most trusted friend on the North American continent, was invaded swiftly after the nuclear holocaust to secure the Northern Front, and secure the precious oil fields present in their borders. While many Canadians managed to flee across the Earth to continue the fight against us, there is still a lot of Canadians in our borders that are in mass disagreement with our government... Maybe some public excuses and compensation will bring them to our side once more."
+ UAS_equals:0 "All Equals!"
+ UAS_equals_desc:0 "We may draw lines and divisions between us all, but on the grand scale of things, there is no difference between all of us, we're all humans. Sure, we're Canadians, Americans, Mexicans, Columbians, Brazilians, and so forth. But we all share the same traits, and if we're to advance in this world, we need put aside our petty differences, and advance with the natives of this world. E Pluribus Unum, we're all in this together."
+ UAS_continental_freedom:0 "Continental Freedom in Danger"
+ UAS_continental_freedom_desc:0 "The amount of nations on this continent with a democratic government are unfortunately a rarity to behold. Many powerful countries are either a monarchy, or under the iron grip of an authoritarian regime! The freedom of this continent is in clear danger, and in a precarious position. We must take action for our sake, and the people of Griffonia!"
  UAS_crushed_revolution:0 "Crushed Revolution"
- UAS_crushed_revolution_desc:0 "Aquiliean were crushed in their attempt to install democracy in their country... They live under tyranny and fear... They dream of freedom and liberty, and we shall come to help them!"
+ UAS_crushed_revolution_desc:0 "The Aquilieans were utterly crushed in their attempt to install a fair and free democracy in their beautiful country... They live in everlasting fear under the rule of tyrants who care only for themselves and their own personal gain and wealth! The people of Aquilea dream of freedom and liberty, and Lady Liberty has heard the cry of freedom from Aquilea! It's time the tyrants of Aquilea get a visit from Uncle Sam..."
  UAS_free_aquilea:0 "Free Aquilea"
- UAS_free_aquilea_desc:0 "Our plans are ready, to liberate Aquileia and our army is only waiting for the green light. Let’s help those peoples!"
- UAS_wingbardy_nationalism:0 "Nationalism in Wingbardy"
- UAS_wingbardy_nationalism_desc:0 "Wingbardy has fallen to the grip of an Authoritarian leader, this country presents a threat to the freedom of southern Griffonia. We must prepare ourselves to defend our territory and our neighbour in case of an attack."
+ UAS_free_aquilea_desc:0 "Our plans have been carefully analyzed, and our proud army stands ready to liberate Aquileia and its people! They only await the green light... Christ hath loosed the fateful lightning of his terrible swift sword, and the tyrants of Aquilea shall feel its holy wraith!"
+ UAS_wingbardy_nationalism:0 "Ultranationalism in Wingbardy"
+ UAS_wingbardy_nationalism_desc:0 "Wingbardy has fallen to the iron grip of an authoritarian leader that bares striking resemblance to Benito Mussolini of Italy, if anything, it's him in Griffon form. Wingbardy presents a clear threat to not only America and it's people, but the very freedom of Southern Griffonia. We must prepare our nation and its people to defend our territory, and our neighbors in case of an attack."
  UAS_prepare_for_war:0 "Prepare for war"
- UAS_prepare_for_war_desc:0 "War seem inevitable with Wingbardy, we should mobilize our forces and prepare the populations for the attack. Maybe a preventive attack could be an idea to liberate Wingbardy from this dictator... \n...And for the oil too!"
+ UAS_prepare_for_war_desc:0 "At this point in time, war seems inevitable with Wingbardy. We should begin mobilizing our forces, and prepare the population for the inevitable attack. However, maybe a preventive attack could be an idea to liberate Wingbardy from this dictator... \n...Maybe pick up some of their oil on the way out?"
 
  UAS_land_of_the_free:0 "Land of the Free"
- UAS_land_of_the_free_desc:0 "Our country is now again a exemple of freedom and democracy for the world, we shall continue this way and make our way forward into the future!"
+ UAS_land_of_the_free_desc:0 "The United States of America, beaten down and bruised with the wraith of a thousand fiery stars, has remerged from the radioactive ashes of nuclear war like a flaming phoenix. She is more stronger and free then ever before, and throughout all the struggles and enemies of freedom that confronted her, she stuck to her core beliefs, the Constitution, and the vision of the Founding Fathers. Truly, their spirits and God watch over our free and proud nation. The United States is once again a beacon of freedom, liberty, and democracy, and shall set an example of freedom to the natives of this world. God bless America!"
 
 ### Communist Branch ###
 
@@ -400,88 +400,88 @@
 
 ### Fascist Branch ###
 
- UAS_harden_grip:0 "Harden the grip"
- UAS_harden_grip_desc:0 "If we don’t act fast, the peoples will take the power and another government of weak official will take our place and will doom our country. We need to Harden our grip!"
- UAS_suspend_congress:0 "Suspend the congress"
- UAS_suspend_congress_desc:0 "Relic of the past the congress is only here to block any of our action in this world, we need to get rid of them. Lets just suspend the congress, for question of ‘national security’"
- UAS_martial_law:0 "Install martial law"
- UAS_martial_law_desc:0 "The traitors foment in the dark. We need to send the army patrol at night to protect the nations against those terrorists."
- UAS_execute_rebel:0 "Execute the rebels"
- UAS_execute_rebel_desc:0 "We captured a lot of rebels lately, they are useless to our country... it would be a shame if there was a little ‘accident’ of them, or if they mysteriously ‘disappeared’"
- UAS_track_communist:0 "Track down the communist"
- UAS_track_communist_desc:0 "The communist from south America are hiding within our population, we need to track those elements, or they will become a threat to our power."
- UAS_path_clear:0 "The path is clear"
- UAS_path_clear_desc:0 "Now that we cleared all the ‘problem’ inside our country, we have a clear way to lead our country."
+ UAS_harden_grip:0 "Harden the Grip"
+ UAS_harden_grip_desc:0 "We took control of this goverment to ensure the safety, security, and stability of America. Surrounded by all sides by an alien menance, the United States is in an even more dire situation then it was in before. Unfortunately, the people of America wish to take back power, and install a government of weak officials that will forever doom our country. We need to harden our grip!"
+ UAS_suspend_congress:0 "Suspend Congress"
+ UAS_suspend_congress_desc:0 "A relic of a more democratic age, Congress now only presents a clear danger to the survival of the United States. They block nearly every action we take in this world, and if we're to secure, protect, and defend the people of the United States, we need to get rid of them. The suspension of Congress for sake of ‘national security’, will be the perfect excuse."
+ UAS_martial_law:0 "Install Martial Law"
+ UAS_martial_law_desc:0 "The traitors of America breed in the blackness of the night. The aliens and their foriegn ways also cannot be trusted. We need to begin sending army patrols at night to protect the nations against these terrorists."
+ UAS_execute_rebel:0 "Execute the Rebels"
+ UAS_execute_rebel_desc:0 "During our patrols, we have managed to capture a lot of rebels and traitors. These people are scum and waste of oxygen, they're useless to our country... it would be quite a shame if a little ‘accident’ occured, or if they mysteriously ‘disappeared.’"
+ UAS_track_communist:0 "Track Down the Communists"
+ UAS_track_communist_desc:0 "These communist parasites from South America are hiding within our population, and spreading their destructive ideals like a virus. The United States has suffered long enough from the plague of Communism destroying our society, We need to track these elements and cut the tumor, or they will become a threat to our power, and America itself."
+ UAS_path_clear:0 "The Path is Clear"
+ UAS_path_clear_desc:0 "Now that we have cleared all the ‘problems’ festering within our country, the path to glory and might is clear. America will become stronger and more powerful then it has ever been!"
 
- UAS_feed_hungry:0 "Feed the hungry"
- UAS_feed_hungry_desc:0 "The best way to get your peoples like you pass through the stomach. By giving them a weekly ration freely, we will ensure the popularity of our Government."
- UAS_reinforce_army:0 "Reinforce the army"
- UAS_reinforce_army_desc:0 "The Army is our principal tool, giving them better funding and promoting them to the peoples will be less tempted to join some ‘resistance movement’ and will trust our government."
- UAS_force_conscription:0 "Force conscription"
- UAS_force_conscription_desc:0 "By having new recruit and forming them to become a soldier of unquestionable loyalty, we will assure to have a bigger part of the population under our control."
+ UAS_feed_hungry:0 "Feed the Hungry"
+ UAS_feed_hungry_desc:0 "One of the greatest ways to get through with the people of a nation, is fill their bellies. By giving the proud citizens of America weekly rations without charge, we will ensure the people that the Government is on their side."
+ UAS_reinforce_army:0 "Reinforce the Army"
+ UAS_reinforce_army_desc:0 "The Army is our principal tool. By giving them better funding and promoting their greatness to the population, people will be less tempted to join some petty ‘resistance movement’ and will trust our government. Besides, why join some resistance when you can obtain glory and honor in our Armed Forces?"
+ UAS_force_conscription:0 "Forced Conscription"
+ UAS_force_conscription_desc:0 "By conscripting new recruits from the population and transforming them into soldiers of unquestionable loyalty, we will obtain a much larger part of the population under our control."
  UAS_slavery:0 "Slavery"
- UAS_slavery_desc:0 "Human life is precious, we can’t risk having our boys risking their lives in the frontline. Forcing the natives to serve as meat shield will help us... And maybe we can force them to work in diverse activity... What? Where is the problem? They aren’t humans!"
- UAS_maintain_pressure:0 "Maintain pressure"
- UAS_maintain_pressure_desc:0 "Not all the south American population is openly hostile toward us, but they don’t like us very much either. We must keep an eye on them."
- UAS_destroy_can_resistance:0 "destroy the Canadian resistance"
- UAS_destroy_can_resistance_desc:0 "From the day we came to save them, some Canadians formed resistance movement, that is still bothering us today. We cannot allow any resistance against our power, we need to crush them!"
- UAS_install_racial_superiority:0 "Install racial superiority"
- UAS_install_racial_superiority_desc:0 "Let’s get that clear, we will not let the human’s species be on par with some horses or mythological creatures."
- UAS_new_world:0 "A new world"
- UAS_new_world_desc:0 "A whole, new world to explore... and conquer!"
+ UAS_slavery_desc:0 "Human life is precious, especially in the current state of humanity. Because of this, we can't risk having our boys throwing their lives away on the frontline. Therefore, perhaps forcing the natives to serve as meat shields and bait in battle will help us... Perhaps maybe we can even force them into slave labor, revive the legacy of slavery in the United States...They aren't human, they're below us and there isn't a single problem with this. A new age of slavery shall be born. "
+ UAS_maintain_pressure:0 "Maintain Pressure"
+ UAS_maintain_pressure_desc:0 "It's a known fact that not the entire South American population is openly hostile toward us, but they don’t like us very much either. We must keep an eye on them, and maintain our pressure on supressing them and their rebellious antics."
+ UAS_destroy_can_resistance:0 "Destroy the Canadian Resistance"
+ UAS_destroy_can_resistance_desc:0 "Since the day we enacted our glorious liberation, some Canadians have gathered to form a pathetic resistance movement, one that is still causing problems to this day. We cannot allow any resistance to formulate against our power, we need to crush them! Besides, Canada is pretty much American."
+ UAS_install_racial_superiority:0 "Install Racial Superiority"
+ UAS_install_racial_superiority_desc:0 "The human form is pure and one of nature's most ingenious creations; a basic outline for something far greater. Evolving beyond instincts, evolving beyond nature, and bringing the animals of Earth to their knees, the human body and mind is truely one of the most powerful and deadlist things nature has ever produced. Let’s get that clear, we will not let the human species be on par with some pathetic colorful horses or insane mythological creatures. They will learn to bow before us."
+ UAS_new_world:0 "A New World"
+ UAS_new_world_desc:0 "A whole new world lies before us, a virgin world filled with new plants, animals, continents, unexplored lands, and a completely new natural force called Magic. However, this planet is inhabited by uncivilized savages, decently advanced technologically, but primitive in their mindset and insticts. While we must indulge in our fascination and curiousity for this world, that is a side project. Our primary project? The total conquest of this world! Terra Nova shall rise!"
 
  UAS_invade_mareland:0 "Invade New Mareland"
- UAS_invade_mareland_desc:0 "New Mareland is a simple colony from equestrian, poorly defended, it will be our first step before invading any other country."
+ UAS_invade_mareland_desc:0 "New Mareland is a simple and weak colonial nation ruled by their Equestrian overlords. Poorly defended, and barely even prepared for a true full on total war, the conquest of New Mareland will be the stepping stone into invading surrounding countries, and many more to come..."
  UAS_invade_aquilea:0 "Invade Aquileia"
- UAS_invade_aquilea_desc:0 "Aquileia is an unstable country, divided between barony and undermined by political turmoil, it will be easy to invade."
- UAS_invade_wingbardy:0 "Invade wingbardy"
- UAS_invade_wingbardy_desc:0 "The next logical step would be to take care of Wingbardy, a big country it will be a big challenge, but once we are done with them, we will have a good position on the continent and access to some oil reserve."
+ UAS_invade_aquilea_desc:0 "Aquileia is an unstable and self-destructing nation, divided between barony and undermined by political turmoil and instability. Just one explosive will send the entire rotten structure down, so it's only reasonable they're lead by a truly strong and powerful iron fist."
+ UAS_invade_wingbardy:0 "Invade Wingbardy"
+ UAS_invade_wingbardy_desc:0 "Wingbardy is a nation that mocks greatness by attempting their own pathetic little attempt at it. It's only logical that the next step would be to take care of Wingbardy, and remove this tumor from the planet! Due to their size, it will be a big challenge, but once we are done with them, we will have a good position on the continent and access to a decent oil reserve. They stand no chance against mighty American troops!"
  UAS_new_order:0 "New Order of the Ages"
- UAS_new_order_desc:0 "This is only the beginning our country will be a superpower once again, this world will now enter a new age, Under OUR supremacy."
+ UAS_new_order_desc:0 "While we have completely crushed the legacy and dreams of the Founding Fathers under our mighty boot, The United States of America is done with pathetic and weak things such as democracy and republicanism! From this day onward, America has entered a new age, an age of imperialism, strength, and power, a TRUE Empire of Liberty as Jefferson should've envisioned it! The United States will no longer hold restrain on our true power and potentinal for the sake of freedom and justice! Our troops will march across this world in an everlasting glory, a glory that will echo through the very fabric of time and space! This is merely the beginning, we will redem ourselves as the true and opulent superpower, and this world will enter a new age under the mighty supremacy of America!"
 
  ### Ideas ###
 
  UAS_biological:0 "Bio Weapons"
- UAS_biological_desc:0 "Carefully choosing our toxin and target, we can drastically decrease the ability to fight of our enemies forces."
+ UAS_biological_desc:0 "Carefully choosing our toxin and target, we can drastically decrease the ability of enemies forces to fight."
 
  UAS_napalm:0 "Napalm"
- UAS_napalm_desc:0 "Our bombers are now equipped with napalm bombs, they will be far more useful in their mission against light targets. Its 1969 again baby. \n\n'I love the smell of napalm in the morning.'"
+ UAS_napalm_desc:0 "Our bombers are now equipped with napalm bombs. They will be far more useful in their missions against light targets. Its 1969 again baby. \n\n'I love the smell of napalm in the morning.'"
 
- UAS_white_phosphorus:0 "White phosphorus"
- UAS_white_phosphorus_desc:0 "White phosphorus is an incendiary weapon extremely useful when attacking an entrenched enemy. Delivered by hand grenade or artillery shell."
+ UAS_white_phosphorus:0 "White Phosphorus"
+ UAS_white_phosphorus_desc:0 "White phosphorus is an incendiary weapon extremely useful when attacking an entrenched enemy. The weapon is delivered by a hand grenade or artillery shell." 
 
- UAS_DU_round:0 "DU round"
- UAS_DU_round_desc:0 "Having our tanks loading those shell increase their performance in tank to tank battle. The drawback is the radiation emitted by the remain of the shellHaving our tanks loading those shell increase their performance in tank to tank battle. The drawback is the radiation emitted by the remain of the shell which can still affect our troops."
+ UAS_DU_round:0 "DU Round"
+ UAS_DU_round_desc:0 "Having our tanks loaded with these shells increases their performance in tank to tank battle. The drawback is the radiation emitted by the remnants of the shell, which can still affect our troops."
 
- UAS_SA_rebels:0 "South American rebels"
- UAS_SA_rebels_desc:0 "'Patria o muerte, venceremos!'  \n\nEven if we saved them from a certain death back on earth, the Latin populations of our country didn’t take well the invasion of their homeland. We need to take care of those rebels."
+ UAS_SA_rebels:0 "South American Rebels"
+ UAS_SA_rebels_desc:0 "'Patria o muerte, venceremos!'  \n\nEven if we saved them from a certain death back on Earth, the Latin populations of our country didn’t take well to the invasion of their homeland. We need to take care of those rebels at some point." 
 
- UAS_canadian_resistance:0 "Canadian resistance"
- UAS_canadian_resistance_desc:0 "'From sea to sea!' \n\nEven if we saved them from a certain death back on earth, The Canadian minority of our country is resisting against our government. We should take care of those resistant."
+ UAS_canadian_resistance:0 "Canadian Resistance"
+ UAS_canadian_resistance_desc:0 "'From sea to sea!' \n\nEven if we saved them from a certain death back on Earth, The Canadian minority of our country is resisting against our government. We should take care of this resistance when we can." 
 
  UAS_star_sprangled:0 "Star-Spangled Banner"
- UAS_star_sprangled_desc:0 "Even if the states represented by the stars on our flag don’t exist anymore, it’s still our flag."
+ UAS_star_sprangled_desc:0 "Even if the states represented by the stars on our flag don’t exist anymore, it’s still our ragged old flag." 
 
- UAS_new_army:0 "The new Army"
- UAS_new_army_desc:0 "Uncle Sam is once again ready to show its strength with an army, now stronger than ever."
+ UAS_new_army:0 "The New Army"
+ UAS_new_army_desc:0 "Uncle Sam is once again ready to show his strength with an army, now stronger than ever." 
 
- UAS_land_free:0 "Land of the free"
- UAS_land_free_desc:0 "Our country is a beacon of democracy in this world. We will defend it ‘til the last drop of blood."
+ UAS_land_free:0 "Land of the Free"
+ UAS_land_free_desc:0 "Our country is a beacon of democracy in this world. We will defend it ‘til the last drop of blood." 
 
- UAS_new_america:0 "A new America"
- UAS_new_america_desc:0 "Thank to our Latin friend who showed us the way, America is now a country with equality for everyone."
+ UAS_new_america:0 "A New America"
+ UAS_new_america_desc:0 "Thanks to our Latin friends who showed us the way, America is now a country with equality for everyone."
 
- UAS_new_order_of_ages:0 "New order of the ages"
- UAS_new_order_of_ages_desc:0 "No more Peace. There is only vengeance."
+ UAS_new_order_of_ages:0 "New Order of the Ages"
+ UAS_new_order_of_ages_desc:0 "No more Peace. There is only vengeance. Anger and rage guide us." 
 
- UAS_poor_training:0 "Poorly trained infantry"
- UAS_poor_training_desc:0 "Unlike our mechanized units, our infantry is composed mostly of poorly trained and motived conscript."
+ UAS_poor_training:0 "Poorly Trained Infantry"
+ UAS_poor_training_desc:0 "Unlike our mechanized units, our infantry is composed mostly of poorly trained and motived conscripts." 
 
- UAS_good_training:0 "Trained infantry"
- UAS_good_training_desc:0 "After many trainings, exercises and wargames our infantry units have finally reached a good level of training."
+ UAS_good_training:0 "Trained Infantry"
+ UAS_good_training_desc:0 "After many months of training, exercises, and wargames, our infantry units have finally reached a mighty fine level of training."
 
- UAS_taming:0 "The new world tames a new one"
- UAS_taming_desc:0 "The new world take over the old ones!"
+ UAS_taming:0 "The New World Tames a New One"
+ UAS_taming_desc:0 "The new world now controls the old ones!"
 
  ### Advisors ###
 
