@@ -375,9 +375,9 @@ l_english:
  UAS_rebellion_desc:0 "The time of revolution has come! We will bring freedom, equality, and hope to America once more! To arms comrades!"
 
  UAS_contact_stalliongrad:0 "Contact Stalliongrad"
- UAS_contact_stalliongrad_desc:0 "Stalliongrad is a communist country, on the other side of the Ocean, it will be a good idea to contact them, and have an idea of what our four-legged comrade do on their side."
- UAS_begin_coop:0 "Begin co-operation"
- UAS_begin_coop_desc:0 "Stalliongrad scienstist have a lot to learn from us, lets send some of our scientist to help our Comrades."
+ UAS_contact_stalliongrad_desc:0 "Stalliongrad, it's name seemingly taking unintentional inspiration from Stalingrad, is a communist country on the other side of this vast ocean. It would be wise to establish communications with them, and have an idea of what our four-legged comrades do on their side."
+ UAS_begin_coop:0 "Begin Cooperation"
+ UAS_begin_coop_desc:0 "Things went well with our offical first contact with Stalliongrad! In a sign of friendship and cooperation between our two great nations, we will be sending some our most talented scientists to Stalliongrad! Stalliongrad scientists have a lot to learn from humanity.
  UAS_stg_alliance:0 "Alliance with Stalliongrad"
  UAS_stg_alliance_desc:0 "Even separated by an ocean, having a military alliance with a power like Stalliongrad is a good idea. Its not like we have much choice either."
  UAS_equality_all:0 "Equality for all"
