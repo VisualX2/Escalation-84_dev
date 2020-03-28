@@ -188,7 +188,7 @@ l_english:
  UAS_crush_USSR_desc:0 "Those vile communist roaches are the sole reason Earth lies barren and dead! They're the sole reason the remnants of our great civilization lie in a cold radioactive tomb! It's because of THEM we lost everything we held dear! Our history, our familes, friends, national treasures, America, and the very cradle that gave birth to humanity and sustained us for hundreds of thousands of years! No more, this time we WILL fight the right enemy, and once and for all rain ALL hell upon the vile communist rats!"
 
  UAS_crush_UEN:0 "Their True Overlords"
- UAS_crush_UEN_desc:0 "The European Union is nothing but a sad conglomerate of weak, quarrelsome, and pathetic European countries; a disjointed country created out of desperation. They have been relient on the power and might of the United States and the Soviet Union since the end of WWII, eating away at our resources like a parasite. They're spoiled and weak, and haven't lifed a damn finger to do anything seriously substanial in decades! They will be an easy target, and taking them out will gives us a much needed foothold into Equus."
+ UAS_crush_UEN_desc:0 "The European Union is nothing but a sad conglomerate of weak, quarrelsome, and pathetic European countries; a disjointed country created out of desperation. They have been relient on the power and might of the United States and the Soviet Union since the end of WWII, eating away at our resources like a parasite. They're spoiled and weak, and haven't lifed a damn finger to do anything seriously substanial in decades! They will be an easy target, and taking them out will gives us a much needed foothold into Equus. This time, America is the colonizer!"
  
  UAS_fall_of_griffonia:0 "The Fall of Griffonia"
  UAS_fall_of_griffonia_desc:0 "The United States has once again asserted itself as a mighty and dominant world power, and the time has come face our greatest challenge yet: The Griffonian Empire. The age of kings and emperors has come to a end, but the the age of humanity has only just began. We shall assert ourselves as gods amongst these primitive creatures, and NOTHING will dare challenge mankind and our glorious legacy!"
@@ -197,7 +197,7 @@ l_english:
  UAS_Tame_desc:0 "Born from the ashes of the Old World, America has truely manifested its destiny, a destiny that has awaited us for over 200 years. Oh how glorious does it feel to finally bask in the holy light of destiny; we're now a beacon of human perserverence across this planet, an Empire of Liberty. The cycle comes to a end, no more do the old worlds of Europe, Equus, and Griffonia subjegate and bully us, we're their overlords now. First it was the Europeans, and now, yet another old world is dominated by a new one."
 
  UAS_never_again:0 "Never Again"
- UAS_never_again_desc:0 "No matter how you spin it, it was our own madness and paranoia led us to destroy the only homeworld we ever had, and it was our uncontained barbaric nature that casted the world into a nuclear fire. The time has finally come to sit down and work together as human beings, united in our common interests and ambitions. We will strive to safeguard peace and prosparity in this new world, and we will take up the mantle of responsibility as the guardians of life and all that exist. Our wisdom and guidence will act as a llumious sun, towards which all life will blossom!"
+ UAS_never_again_desc:0 "No matter how you spin it, it was our own madness and paranoia that led us to destroy the only homeworld we ever had, and it was our uncontained barbaric nature that casted the world into a nuclear fire. The time has finally come to sit down and work together as human beings, united in our common interests and ambitions. We will strive to safeguard peace and prosparity in this new world, and we will take up the mantle of responsibility as the guardians of life and all that exist. Our wisdom and guidence will act as a llumious sun, towards which all life will blossom!"
  
  UAS_United_Nations:0 "The United Nations"
  UAS_United_Nations_desc:0 "Back on Earth the United Nations acted as an attempt to preserve and keep peace. Even if it ultimately failed in the end, this time we might be able to actually achieve such a goal. We all share the same world after all, and we best not destroy our second chance."
@@ -420,15 +420,15 @@ l_english:
  UAS_force_conscription:0 "Forced Conscription"
  UAS_force_conscription_desc:0 "By conscripting new recruits from the population and transforming them into soldiers of unquestionable loyalty, we will obtain a much larger part of the population under our control."
  UAS_slavery:0 "Slavery"
- UAS_slavery_desc:0 "Human life is precious, especially in the current state of humanity. Because of this, we can't risk having our boys throwing their lives away on the frontline. Therefore, perhaps forcing the natives to serve as meat shields and bait in battle will help us... Perhaps maybe we can even force them into slave labor, revive the legacy of slavery in the United States...They aren't human, they're below us and there isn't a single problem with this. A new age of slavery shall be born. "
+ UAS_slavery_desc:0 "Human life is precious, especially in the current state of humanity. Because of this, we can't risk having our boys throwing their lives away on the frontline. Therefore, perhaps forcing the natives to serve as meat shields and bait in battle will help us... Perhaps maybe we can even force them into slave labor, revive the legacy of slavery in the United States...They aren't human, they're below us and there isn't a single problem with this. Maybe the Confederates had a point after all; A new age of slavery shall be born. "
  UAS_maintain_pressure:0 "Maintain Pressure"
  UAS_maintain_pressure_desc:0 "It's a known fact that not the entire South American population is openly hostile toward us, but they don’t like us very much either. We must keep an eye on them, and maintain our pressure on supressing them and their rebellious antics."
  UAS_destroy_can_resistance:0 "Destroy the Canadian Resistance"
  UAS_destroy_can_resistance_desc:0 "Since the day we enacted our glorious liberation, some Canadians have gathered to form a pathetic resistance movement, one that is still causing problems to this day. We cannot allow any resistance to formulate against our power, we need to crush them! Besides, Canada is pretty much American."
  UAS_install_racial_superiority:0 "Install Racial Superiority"
- UAS_install_racial_superiority_desc:0 "The human form is pure and one of nature's most ingenious creations; a basic outline for something far greater. Evolving beyond instincts, evolving beyond nature, and bringing the animals of Earth to their knees, the human body and mind is truely one of the most powerful and deadlist things nature has ever produced. Let’s get that clear, we will not let the human species be on par with some pathetic colorful horses or insane mythological creatures. They will learn to bow before us."
+ UAS_install_racial_superiority_desc:0 "The human form is pure and one of nature's most ingenious creations; a basic outline for something far greater. Evolving beyond instincts, evolving beyond nature, and bringing the animals of Earth to their knees, the human body and mind is truely one of the most powerful and deadlist creations nature has ever produced. Let’s get that clear, we will not let the human species be on par with some pathetic colorful horses or insane mythological creatures. They will learn to bow before us, just like every other creature."
  UAS_new_world:0 "A New World"
- UAS_new_world_desc:0 "A whole new world lies before us, a virgin world filled with new plants, animals, continents, unexplored lands, and a completely new natural force called Magic. However, this planet is inhabited by uncivilized savages, decently advanced technologically, but primitive in their mindset and insticts. While we must indulge in our fascination and curiousity for this world, that is a side project. Our primary project? The total conquest of this world! Terra Nova shall rise!"
+ UAS_new_world_desc:0 "A whole new world lies before us, a virgin world filled with new plants, animals, continents, unexplored lands, and a completely new natural force called Magic. However, this planet is inhabited by uncivilized savages, decently advanced technologically, but primitive in their mindset and insticts. While we must indulge in our fascination and curiousity for this world, that is a side project. Our primary project? The total conquest of this world! Terra Nova shall rise! Eastward, the Star of Empire shall take its way!"
 
  UAS_invade_mareland:0 "Invade New Mareland"
  UAS_invade_mareland_desc:0 "New Mareland is a simple and weak colonial nation ruled by their Equestrian overlords. Poorly defended, and barely even prepared for a true full on total war, the conquest of New Mareland will be the stepping stone into invading surrounding countries, and many more to come..."
@@ -546,16 +546,16 @@ l_english:
  volunteers_hum:0 "Send volunteers to the selected nation."
 
  UAS_Mobilization:0 "Mobilization"
- UAS_Mobilization_desc:0 "Our army is totally disbanded or unorganized, we don't know what await us in this world... We need to remobilize our army fast!"
+ UAS_Mobilization_desc:0 "Our army is totally disbanded or unorganized, we don't know what awaits us in this world... We need to remobilize our army fast!"
 
  UAS_Mobilize_Line:0 "Mobilize Active units"
- UAS_Mobilize_Line_desc:0 "Most of our active unit were disbanded after our arrival, we should reform them as fast as we can."
+ UAS_Mobilize_Line_desc:0 "Most of our active units were disbanded after our arrival, we should reform them as fast as we can."
 
  UAS_Mobilize_reserve:0 "Mobilize the National guards."
- UAS_Mobilize_reserve_desc:0 "The reservists and conscript of the Home guard, are ready to be called up if needed"
+ UAS_Mobilize_reserve_desc:0 "The reservists and conscripts of the Home guard are ready to be called up if needed"
 
  UAS_Mobilize_militia:0 "Form Militia"
- UAS_Mobilize_militia_desc:0 "By calling up the police, volunteers and older conscript we could be able to form militia units in no time."
+ UAS_Mobilize_militia_desc:0 "By calling up the police, volunteers, and older conscripts, we could be able to form militia units in no time."
 
  ### Events ###
 
@@ -569,7 +569,7 @@ l_english:
 
  UAS.22.t:0 "Formation of Militia"
  UAS.22.d:0 "We have hastily formed militia units by equipping our population and police. Let’s hope Washington's spirit guides our milita to victory."
- UAS.22.a:0 "Everyone to the frontline."
+ UAS.22.a:0 "Everyone to the frontline!"
 
  UAS.23.t:0 "Ponies and Griffons Volunteers"
  UAS.23.d:0 "After successful contact and reform on our side, we've managed to bring the local Ponies and Griffons closer to us. This had the effect of motivating both the Ponies and the Griffons to join our army. \n two volunteers, finished their Officers class and are ready to be assigned. \nThere was no comment from the Army council."
@@ -639,7 +639,7 @@ l_english:
  UAS.116.d:0 "[This.GetNewspaperHeader]The coup succeeded! As we speak loyal soldier on our side are disarming the remnant renegade and taking the generals to custody. Our country is free from those tyrants!"
  UAS.116.a:0 "Ronald Reagan"
  UAS.116.b:0 "Jimmy Carter"
- UAS.116.c:0 "None, the congress will lead the country."
+ UAS.116.c:0 "None, Congress will lead the country."
 
  UAS.117.t:0 "Revolution!"
  UAS.117.d:0 "[This.GetNewspaperHeader]The signal for the uprising came with the sound of gunfire from South American barracks in the early morning. The gunfire quickly spread out in all of the city of New Freeside, with militia rushing to the government building. By the evening, all of the country apart from some resistance pockets, are in the hands of the population."
@@ -675,7 +675,7 @@ l_english:
  UAS.203.b:0 "Don’t you think we have more pressing matters?"
  UAS.203.c:0 "A griffon and a human together!? BAH! What's next?"
 
- UAS.300.t:0 "Friends from The Other Side of the Oceans"
+ UAS.300.t:0 "Friends from The Other Side of the Ocean"
  UAS.300.d:0 "Quite an unexpected surprise, the peoples of the United states have expressed the wish to make an alliance with us. If one of us was to be attacked, the other could quickly send help... \nWhat should we do?"
  UAS.300.a:0 "We need to mutually watch our back"
  UAS.300.b:0 "Sadly, we can’t do much"
