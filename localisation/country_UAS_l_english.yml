@@ -29,22 +29,22 @@ l_english:
 ### National Focus ###
 
  UAS_exploration:0 "Preliminary Exploration"
- UAS_exploration_desc:0 "After two years of grueling hell, we have finally arrived at our new home, and to our luck it's similar to Earth. However, there's still much work to do. We need to see what kind of place we're situated in before setting up our temporary habitation camps and begin the process of rebuilding civilization."
+ UAS_exploration_desc:0 "After two years of grueling hell, we have finally arrived at our new home, and to our luck it's similar to Earth. However, there's still much work to be done. We need to see what kind of place we're situated in before setting up our temporary habitation camps and begin the process of rebuilding civilization."
 
  UAS_first_contact:0 "Further Exploration"
  UAS_first_contact_desc:0 "The 4th Reconnaissance Unit saw something...strange on their reconnaissance mission. Roads and artifical structures, as well as signs of massive light pollution in the horizon. Are we not alone?"
 
  UAS_settle:0 "Settling Down"
- UAS_settle_desc:0 "With our recon of the area complete, a new problem has surfaced, this land is inhabited by other intelligent lifeforms...pastal colored ponies and Griffons straight out of mythology at that. We need to strike a deal with the these strange locals, because we have come too far to just turn back now."
+ UAS_settle_desc:0 "With our recon of the area complete, a new problem has surfaced, this land is inhabited by other intelligent lifeforms...pastal colored ponies, and Griffons straight out of mythology at that. Despite these oddities, we need to strike a deal with these strange locals, because we have come too far to just turn back now."
 
  UAS_take_care_of_population:0 "Take Care Of Our Own"
  UAS_take_care_of_population_desc:0 "Our population suffered greatly during and after the war, and even more in having to leave our entire home planet behind. It has been two long years of unrelenting hell, and we need to do everything in our power to appease this situation, and alleviate this suffering."
 
  UAS_subsistence_agriculture:0 "Subsistent Agriculture"
- UAS_subsistence_agriculture_desc:0 "Our food reserves are quickly depleting, and it won't be long before it's all gone. America will not die out to famine, we need to start growing our own food, fast."
+ UAS_subsistence_agriculture_desc:0 "Our food reserves are quickly depleting, and it won't be long before it's all gone. America will not die out to famine; we need to start growing our own food, fast."
 
  UAS_fishing:0 "Kickstart the Fishing Industry"
- UAS_fishing_desc:0 "Our crops can only grow so fast, and the waters around our land are rich in marine life, new and unique marine life at that. If we plan on feeding our population while waiting for our year's harvest, we need to start fishing along our coast line, and maybe create some new American delicacies?"
+ UAS_fishing_desc:0 "Crops can only grow so fast, and the waters around our land are rich in marine life, new and unique marine life at that. If we plan on feeding our population while waiting for our year's harvest, we need to start fishing along our coast line, and maybe create some new American delicacies?"
 
  UAS_educate_the_peoples:0 "Rebuild our Education System"
  UAS_educate_the_peoples_desc:0 "Even if we find ourselves in a situation of great emergency, we mustn't forget that knowledge is power, and the American youth are the future. We need to learn every single aspect about this new world, and teach our youth the mistakes of our past to make sure they're never repeated again."
@@ -59,7 +59,7 @@ l_english:
  UAS_state_reorganisation_desc:0 "After hard and grueling work, we have finally settled down, however with that, we need to start planning out on how we will administrate our country and establish state borders. Opening elective governmental positions is the first step to make the administration of our nation easier. Because God only knows how long we'll be here."
 
  UAS_re_industrialisation:0 "Re-Industrialisation"
- UAS_re_industrialisation_desc:0 "The portals we created could only do so much. There was simply no way to transport our entire industry and all of our machinery into this land, such a feat is practically impossible. America once possessed the most powerful industry on Earth, one that was matched only by the Soviets. If we want to bring humanity and America back to its former glory, we will need a powerful and mighty industry."
+ UAS_re_industrialisation_desc:0 "The capablities of the portals we created were limited. There was simply no way to transport the entire American industry and all of our machinery into this land, such a feat was practically impossible. America once possessed the most powerful industry on Earth, one that was matched only by the Soviets. If we want to bring humanity and America back to its former glory, we will need a powerful and mighty industry."
 
  UAS_committee_construction:0 "The Department of Civil Engineering and Development"
  UAS_committee_construction_desc:0 "It's essential that we begin the process of gathering all the materials we will need to rebuild our great nation. The soil is rich and nearly untapped, and we have a massive forest in the north ready to be exploited. \nBy forming this department, we will ensure that our project for development will be in good hands."
