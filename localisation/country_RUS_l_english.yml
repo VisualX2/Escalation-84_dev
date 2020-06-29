@@ -28,18 +28,18 @@
 ### National Focuses ###
 
  RUS_exploration:0 "Preliminary Exploration"
- RUS_exploration_desc:0 "Ironically we arrived somewhere with a similar climate to the one back at our motherland of Russia. But we don't have time to mourn our loses, we need to settle down and map the neighbouring."
+ RUS_exploration_desc:0 "To our outstanding luck, we arrived somewhere with a similar climate to the one back at our motherland of Russia. But, we don't have time to mourn our loses, we need to settle down and map the neighbouring vicinity."
  
  RUS_first_contact:0 "Further Exploration"
- RUS_first_contact_desc:0 "Smoke on the distance? Could it be that we arrived close to another exiled nation?"
+ RUS_first_contact_desc:0 "Smoke on the distance? Could it be that we arrived close to another exiled nation? There's only one way to find out."
  
  RUS_settle:0 "Settling Down"
- RUS_settle_desc:0 "Deers that speak Finnish? Fair enough. Now that we know that they speak a language we know we should get a meeting with their leaders, let's hope everything goes well or else we got no place to stay."
+ RUS_settle_desc:0 "Deers that speak Finnish? While we would love to ask questions as to how this is possible, we must focus on our priorities. Now that we know that they speak a language we know, we should organize a meeting with their leaders, let's hope everything goes well or else we'll have no place to stay."
 
  RUS_take_care_of_population:0 "Take Care Of Our Own"
- RUS_take_care_of_population_desc:0 "Our population suffered greatly during and after the war, and even more in having to leave their homeworld. We need to do everything in power to appease this situation."
+ RUS_take_care_of_population_desc:0 "The great people of Mother Russia have suffered far too much for far too long due to this war. Leaving our motherland behind was painful enough, but leaving Earth behind has torn the Russian spirit. We must renvigorate the Soviet people, and that starts by caring for their needs." 
  
- RUS_subsistence_agriculture:0 "Subsistence agriculture"
+ RUS_subsistence_agriculture:0 "Subsistence Agriculture."
  RUS_subsistence_agriculture_desc:0 "Our food reserves are almost empty, we need to grow our own food fast."
  
  RUS_fishing:0 "Fishing"
