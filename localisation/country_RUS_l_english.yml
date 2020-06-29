@@ -39,8 +39,8 @@
  RUS_take_care_of_population:0 "Take Care Of Our Own"
  RUS_take_care_of_population_desc:0 "The great people of Mother Russia have suffered far too much for far too long due to this war. Leaving our motherland behind was painful enough, but leaving Earth behind has torn the Russian spirit. We must renvigorate the Soviet people, and that starts by caring for their needs." 
  
- RUS_subsistence_agriculture:0 "Subsistence Agriculture."
- RUS_subsistence_agriculture_desc:0 "Our food reserves are almost empty, we need to grow our own food fast."
+ RUS_subsistence_agriculture:0 "Subsistent Agriculture."
+ RUS_subsistence_agriculture_desc:0 "We're once again faced with the terrible threat of faminie, however this is a faminie like no other. If we do not begin growing food now, we will loose control of the situation. Begin planting potatoes!"
  
  RUS_fishing:0 "Fishing"
  RUS_fishing_desc:0 "The coast and fjord of this region is rich in fish, we should take advantage of that!"
