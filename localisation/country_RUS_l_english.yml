@@ -40,19 +40,19 @@
  RUS_take_care_of_population_desc:0 "The great people of Mother Russia have suffered far too much for far too long due to this war. Leaving our motherland behind was painful enough, but leaving Earth behind has torn the Russian spirit. We must renvigorate the Soviet people, and that starts by caring for their needs." 
  
  RUS_subsistence_agriculture:0 "Subsistent Agriculture."
- RUS_subsistence_agriculture_desc:0 "We're once again faced with the terrible threat of faminie, however this is a faminie like no other. If we do not begin growing food now, we will loose control of the situation. Begin planting potatoes!"
+ RUS_subsistence_agriculture_desc:0 "We're once again faced with the terrible reality of faminie, however this is a faminie like no other. If we do not begin growing food now, we will loose control of the situation and country. Begin planting potatoes!"
  
  RUS_fishing:0 "Fishing"
- RUS_fishing_desc:0 "The coast and fjord of this region is rich in fish, we should take advantage of that!"
+ RUS_fishing_desc:0 "We are lucky to have been granted the luxary of a coast, and we must use this luxary to our advantage. The fjords of this region are insanely rich in fish and other marine life, espcially since the Deer are herbivores. We shall feed our comrades with this nearly untapped source of food!"
  
- RUS_educate_the_peoples:0 "Educate the peoples"
- RUS_educate_the_peoples_desc:0 "While most of our peoples are well educated, we should rebuild an educational system here, and learn everything about this new world... and teaching the lesson of the past."
+ RUS_educate_the_peoples:0 "Educate the People"
+ RUS_educate_the_peoples_desc:0 "Despite every citizen of the Soviet Union having access to education and being well-educated, we must rebuild our schools and universities in this new world. We're all in this great struggle together, and every Soviet citizen must know everything about this world, and the mistakes of the past."
  RUS_techno_magic_institute:0 "Create the State Techno/Magic Institute"
- RUS_techno_magic_institute_desc:0 "Magic have many interesting properties, we should create an institute with the locals to research all the application."
- RUS_cure_radiation:0 "Down with the radiation"
- RUS_cure_radiation_desc:0 "Heritage from world war III this plague slowly killed our peoples, thank to our newly acquired knowledge and with the help of our friend we should be able to cure this once and for all."
- RUS_Kolkhoze_reorganisation:0 "Kolkhozes reorganization"
- RUS_Kolkhoze_reorganisation_desc:0 "The Kolkhozes are currently our primary source of food, but we should update the organization of those cooperatives to increases their effectiveness."
+ RUS_techno_magic_institute_desc:0 "What was once merely present in fairytales, has now become a reality in this new world. Magic is present in almost every aspect of life here, and the properties it displays are astonishing. It shows great promise, we must create an institute with the locals to find out how we humans can use it."
+ RUS_cure_radiation:0 "Down with the Radiation"
+ RUS_cure_radiation_desc:0 "A horrific scar from the aftermath of World War III, the nightmarish effects from radiation posioning has been slowly killing our comrades, even now. With our newly acquired knowledge of magic, and with the help of our four-legged friends, we should be able to cure this once and for all."
+ RUS_Kolkhoze_reorganisation:0 "Kolkhozes Reorganization"
+ RUS_Kolkhoze_reorganisation_desc:0 "Our hard-working comrades on the Kolkhozes are currently our primary source of food, however to increase their effectiveness, we should update the organization of their cooperatives to get as much food out of our harvests as possible." 
 
  RUS_re_industrialisation:0 "Re-Industrialisation"
  RUS_re_industrialisation_desc:0 "We were one of the most industrialized country in the world. But most of them were destroyed or left on earth, if we want to have a new start, we need a powerful industry."
