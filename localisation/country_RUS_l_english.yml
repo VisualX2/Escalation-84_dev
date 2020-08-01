@@ -43,7 +43,7 @@
  RUS_subsistence_agriculture_desc:0 "We're once again faced with the terrible reality of faminie, however this is a faminie like no other. If we do not begin growing food now, we will loose control of the situation and country. Begin planting potatoes!"
  
  RUS_fishing:0 "Fishing"
- RUS_fishing_desc:0 "We are lucky to have been granted the luxary of a coast, and we must use this luxary to our advantage. The fjords of this region are insanely rich in fish and other marine life, espcially since the Deer are herbivores. We shall feed our comrades with this nearly untapped source of food!"
+ RUS_fishing_desc:0 "We are lucky to have been granted the luxary of a coast, and we must use this luxary to our advantage. The fjords of this region are insanely rich in fish and other marine life, espcially with the Deer being herbivores. We shall feed our comrades with this nearly untapped source of food!"
  
  RUS_educate_the_peoples:0 "Educate the People"
  RUS_educate_the_peoples_desc:0 "Despite every citizen of the Soviet Union having access to education and being well-educated, we must rebuild our schools and universities in this new world. We're all in this great struggle together, and every Soviet citizen must know everything about this world, and the mistakes of the past."
@@ -106,15 +106,15 @@
  RUS_send_joh_volunteers_desc:0 "Our soldiers await the green light to join the struggle against the Olenian rebellion."
 
  RUS_war:0 "War!"
- RUS_war_desc:0 "It seems like nobody remember the past mistake..."
- RUS_last_stand:0 "Last stand"
- RUS_last_stand_desc:0 "This is not like any war, if we fall now, our civilization will cease to exist as such, this is our last stand."
- RUS_Humanity_will_go_down:0 "Humanity will not go down quietly"
- RUS_Humanity_will_go_down_desc:0 "Even if we are going to lose, Humanity will not go down without a fight! To arms!"
+ RUS_war_desc:0 "The great Soviet people once again find themselves in a war for our very existance! Just like the fascist scum from before, we shall destroy those who dare threaten our Soviet motherland. To arms comrades!
+ RUS_last_stand:0 "Last Stand"
+ RUS_last_stand_desc:0 "The defenses of the motherland are failing, and those defenses that still stand are soon to be toppled. But the Soviet people shall not and will never cower before our enemy! Just like our last stand before against the Nazi pigs, we make our last stand here and now, and soon the entire world will know the unbreakable spirit of Soviet Russia!"
+ RUS_Humanity_will_go_down:0 "Humanity Will Not Go Down Quietly"
+ RUS_Humanity_will_go_down_desc:0 "We stand on the brink of defeat, and the entire future of not only Russia, but humanity depend on these next few days. Every man, woman, and child shall pick up a gun and fight for the motherland, and together...we will show our enemy not only the spirit of the Soviet people, but the spirit of humanity..."
 
  RUS_open_diplomatic_relation:0 "Open diplomatic relation"
  RUS_open_diplomatic_relation_desc:0 "We should seek new way of interacting with the peoples of this world."
- RUS_embassy_olenia:0 "Establish an embassy in Hjortland"
+ RUS_embassy_olenia:0 "Establish an Embassy in Hjortland"
  RUS_embassy_olenia_desc:0 "Even if Hjortland is close to us, we should create an embassy to facilitate the communication between our two country."
  RUS_appease_border:0 "Appease the border"
  RUS_appease_border_desc:0 "Even if the border with Olenia is traced, there is still a number of incidents between our border guards, while there are no killed yet, it would be terrible if there was a full-scale skirmish. We need to defuse the situation quick."
