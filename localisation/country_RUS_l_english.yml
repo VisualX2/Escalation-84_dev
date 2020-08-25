@@ -203,9 +203,9 @@
  RUS_red_banner_desc:0 "The Red Army has fought and triumphed through the deadliest war in history before, and with the Red Army fully rearmed and established, we are ready for anything. From the infantryman, to our tanks, to the artillerymen, and to the Radar operator, our proud soldiers will do anything for the Soviet people, and will show this world the might of Russia!"
 
  RUS_construct_airbase:0 "Construct an Airbase"
- RUS_construct_airbase_desc:0 "We should construct a simple airbase, if we want to rebuild our Airforce."
+ RUS_construct_airbase_desc:0 "There is no air force if we do not have a base to keep our aircraft. Constructing a simple airbase will be a good place to start if we want to rebuild our airforce."
  RUS_fighter:0 "Fighter"
- RUS_fighter_desc:0 "We need better fighter jet we want to have the air superiority!"
+ RUS_fighter_desc:0 "From the looks of the nations around us, they have yet to even develop jet engines! But, they seem to be on the verge of breakthrough, but even then our jet fighters rival any aircraft they have or will ever build as of now! We must re-introduce our most advanced jet fighters into our air force, and hopefully manage to roll out our most adcent jet fighter, the MG-29!
  RUS_interceptor:0 "Equip the PVO"
  RUS_interceptor_desc:0 "The PVO , or, Anti-Air Defence Troops are the one of the most prestigious troop in our army, protecting our sky from enemy planes, using interceptor or long-range anti-air missile. We should reequip them with more modern interceptor."
  RUS_helicopters:0 "Helicopters"
