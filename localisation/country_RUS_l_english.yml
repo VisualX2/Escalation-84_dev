@@ -274,27 +274,27 @@
  RUS_finish_reform:0 "Finish the Reforms"
  RUS_finish_reform_desc:0 "What seemed impossible just some few years ago, is finally accomplished. The great Soviet economy is stable and on the rise, our farms are producing more food then ever, our factories are better then ever, and overall the people seem to be pretty happy about all of these reforms! But with the country now in a much better and happy state, we should begin looking outside our borders to establish our Union's place in the world."
 
- RUS_visit_canterlot:0 "Official visit at Canterlot"
- RUS_visit_canterlot_desc:0 "Gorbachev maintain really good relation with the leaders of Equestria. why not strengthening our relation and signing a cultural and economic treaty with Equestria?"
- RUS_making_new_contact:0 "Making new contact"
- RUS_making_new_contact_desc:0 "This world is full of surprise, there is a lot of new peoples to meet, thank to our relation with Equestria we could contact many other nations around the world."
+ RUS_visit_canterlot:0 "Official Visit at Canterlot"
+ RUS_visit_canterlot_desc:0 "Gorbachev has managed to maintain friendly relations with Princess Celestia and Princess Luna, as well as some Equestrian nobles. While Equestria might be rather childish in it's beliefs and customs, we should work towards strengthening our relations with a formal diplomatic visit. Perhaps we could also look into signing a cultural and economic treaty with Equestria?"
+ RUS_making_new_contact:0 "Making New Contact"
+ RUS_making_new_contact_desc:0 "This world has shown to be full of surprises, especially when it comes to the locals and leaders. But here in this world, there is a lot of new and very friendly people to meet, and thanks to our cordial relations with Equestria, we can establish contact many other nations around the world. Hopefully we can make many more allies."
  RUS_Join_alliance:0 "Join the Alliance"
- RUS_Join_alliance_desc:0 "The relation between Equestria and our country are extremely good, facing the same enemy, the Changeling, joining their alliance seem a good idea. We shall stand with our four-legged comrades!"
+ RUS_Join_alliance_desc:0 "Our relations between Equestria and the Soviet Union could not be better. Pony and Human alike have been forging great friendships with each other, and both the Soviet and the Equestrian people appear to be getting along fantastically. However, there is an evil dawing upon the horizon, the Changelings, and they will not give us mercy. We shall join our forces together and stand tall with our four-legged comrades!"
  RUS_Democracy_olenia:0 "Democracy in Olenia"
- RUS_Democracy_olenia_desc:0 "The original Heir, Queen velvet finally returned to the throne, now that the country is fully democratic, we should, open serious diplomatic relation with our neighbour."
+ RUS_Democracy_olenia_desc:0 "The true heir to the Olenian throne and our friend, Queen Velvet, has offically returned to her place on the Olenian throne for some time now. However, we've been so caught up in rebuilding the Soviet Union and instituting our reforms, that we haven't had time to establish offical contact with Velvet and her kingdom. We should establish official communications, Velvet will be more then happy to hear from us."
  RUS_Olenia_Treaty:0 "Treaty with Olenia"
- RUS_Olenia_Treaty_desc:0 "Queen Velvet clearly announced that she wanted to strengthen tie between our two country. We should follow the same goal, it will only give benefit for both of our country."
+RUS_Olenia_Treaty_desc:0 "Not surprisingly, Queen Velvet has made a clear announcement that she wishes to further strengthen ties between our two countries. We should do the exact same thing and announce our intentions pursue Velvet's goal for our two countries. This new friendship and unexpected comradeship will serve to benefit both of our countries for years to come."
  RUS_Glory_union:0 "Glory of the Union"
- RUS_Glory_union_desc:0 "Of course, the Soviet Union have a dark past with execution and deportation, we must acknowledge them and remember them. But the Soviet Union also achieved great thing, it fought and finally killed the Nazi beast, it sent the first object in space, the first Human in space! If the Union have changed a lot with our reforms, we shall not forget our past."
- RUS_finishing_touch:0 "Finishing touch of the reforms"
- RUS_finishing_touch_desc:0 "If the reform changed the Soviet society in depth, there are still some minor problem that where not solved. Let’s take care of them."
+ RUS_Glory_union_desc:0 "Of course, the Soviet Union has a dark past with execution and deportation, and we must acknowledge it, remember it, and learn from our mistakes. But the Soviet Union has also achieved great things! It fought and finally killed the Nazi beast, it sent the first object in space, the first Human in space, and so many glorious achievements! The Union has changed with our reforms, and we shall never forget our past."
+ RUS_finishing_touch:0 "Finishing Touch of the Reforms"
+ RUS_finishing_touch_desc:0 "The reforms Gorbachev has put into place and action has changed Soviet society in depth, and for the better. However, there are still some minor problems that were not solved in the initial reform process. Let’s take care of them and finish the transformation of the Soviet Union."
  RUS_gathering_storm:0 "Gathering Storm"
- RUS_gathering_storm_desc:0 "The world is on the verge of a war, we should take some initiative to prepare ourselves for what may be coming in the next weeks, months or years."
+ RUS_gathering_storm_desc:0 "As much as we tried to escape it and it's horrors, this world is on the verge of a major world war, and there is truly no way of stopping it. We should do our best to take some initiative to prepare ourselves and the country for what may be coming in the next few weeks, months or years."
  RUS_Precaution:0 "Precaution"
- RUS_Precaution_desc:0 "Its 1941 again... The Changeling at the north are getting restless we need to get our army ready and take precaution to protect our populations."
+ RUS_Precaution_desc:0 "Its 1941 all over again... The Changelings in the north are getting restless, and the Soviet Union is possibly the world's best hope to strike a devestating blow to Chrysalis and the enemies of this world. We must prepare the Red Army for war, and take the proper precautions to protect our population and allies."
 
  RUS_new_soviet_union:0 "The New Soviet Union"
- RUS_new_soviet_union_desc:0 "Transforming the Soviet Union into a more democratic country was not an easy task for Gorbachev, but thank to his hard work and dedication our country, is now proudly present on the international scene with our new friends."
+RUS_new_soviet_union_desc:0 "The Soviet Union has been transformed into something far greater and more free then ever before. The grand majesty of our banner shall shine like beacon of freedom and equality over this continent, attracting all those who wish for a better life and opportunity towards it. Transforming our Union was not an easy task for Gorbachev, but thanks to his hard work and dedication to our country, we are now free."
 
 ### Communist Branch ###
 
@@ -337,7 +337,7 @@
 
 ### Fascist Branch ###
 
- RUS_steppe:0 "A call from the Steppe"
+ RUS_steppe:0 "A Call from the Steppe"
  RUS_steppe_desc:0 "There was a time, where tribes in the now long gone, Mongolian people’s republic, conquered and installed the Largest empire on earth. I, Siergiej Zugij was the commander of a missile silo in Siberia, the government betrayed us, after what happened to my country... I swore vengeance against all those ‘politicians’ and ‘peacemaker’, We have the possibilities of conquering the world, we just need the guts and remove some obstacles..."
  RUS_assasinate_gorby:0 "Assassinate Gorbachev"
  RUS_assasinate_gorby_desc:0 "Gorbachev is just a weak puppet wanting to ‘democratise’ our country, we don’t need weak peoples like him, we need men’s who will take their weapons or hammer to make our country big and strong!"
