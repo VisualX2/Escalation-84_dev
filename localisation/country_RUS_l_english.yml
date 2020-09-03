@@ -299,11 +299,11 @@ RUS_new_soviet_union_desc:0 "The Soviet Union has been transformed into somethin
 ### Communist Branch ###
 
  RUS_soviet_reform:0 "Soviet Reform"
- RUS_soviet_reform_desc:0 "If we want the communist to conserve the power, we will need to go through a number of reforms for our country."
- RUS_support_agri:0 "Support agriculture"
- RUS_support_agri_desc:0 "Our agriculture system is good enough, funding it a little more will boost their efficiency."
+ RUS_soviet_reform_desc:0 "The dream of our communist system of government and way of life is at risk. Already, there are countless members of the government speaking of reforms that would essentially destroy the dream of the Soviet Union. This cannot happen. If we wish to preserve Lenin's dream of a true communist utopia, we must take proper control of the government and institute a number of proper reforms."
+ RUS_support_agri:0 "Support Agriculture"
+ RUS_support_agri_desc:0 "Our agriculture system is good enough, there is no need to change a system that has managed to get the job done. It just needs a bit more funding, that should help boost the efficiency of our farms a little bit."
  RUS_support_indus:0 "Support Industry"
- RUS_support_indus_desc:0 "Our industry will be more efficient if we invested money in it."
+ RUS_support_indus_desc:0 "Our industry has always been the heart of the Soviet Union and the communist system! But the fools in the government have been too focused on other pointless tasks to bother putting the proper care into the beating heart of our Union. Investing large amounts of funds into our industry will help it once again become the marvel of the world!"
  RUS_reform_army:0 "Reform the Army"
  RUS_reform_army_desc:0 "The Army will need manpower to defend us in this world! We need to reintroduce conscription."
  RUS_replace_gorby:0 "Replace Gorbachev"
