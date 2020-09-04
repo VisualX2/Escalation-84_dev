@@ -327,10 +327,10 @@ RUS_new_soviet_union_desc:0 "The Soviet Union has been transformed into somethin
  RUS_rebuild_kremlin_desc:0 "Built about 500 years ago during the days of Imperial Russia, the Kremlin has served as a symbol of our nation for hundreds of years. To Russia's horror, it was destroyed by a coordinated nuclear strike on Moscow in 1982, but to our luck we still have the plans of the whole area! Rebuilding the Kremlin will give hope to our people, and show that we can overcome this terrible time in our history."
  RUS_danger:0 "Danger from the North"
  RUS_danger_desc:0 "In the north, the wretched Changelings are preparing a grand army that will march across this continent, whether anyone else knows it or not. It's very likely they won't have much difficulty considering the miserable state of every other army on this continent, and there is no doubt those bugs will want to feed on our families like parasites! We must begin prepping for the worse!"
- RUS_reinforce_army:0 "Reinforce the army"
- RUS_reinforce_army_desc:0 "‘The germans didn’t kill us in 1941, those bugs won’t kill us today.’ \nComrades we need you in the army! For the sakes of humanity!"
+ RUS_reinforce_army:0 "Reinforce the Army"
+ RUS_reinforce_army_desc:0 "Hitler and his Germanic Reich didn’t conquer and murder us in 1941, and Queen Chrysalis and her Nazi bugs will fail to do the same! We will reinforce and give the Red Army everything it needs to wage a brutal and unforgiving war with the Changeling roaches. \nFor the sake of the Soviet Union and all of humanity, every comrade must do everything they can to help fuel our army! 
  RUS_ZHUKOV_2:0 "ZHUKOV 2"
- RUS_ZHUKOV_2_desc:0 "There is no doubt the enemy will attack, but we have a plan, named after one of our greatest general, we will crush those bugs, and send them feed on our emotions in the afterworld!"
+ RUS_ZHUKOV_2_desc:0 "There is no doubt the Changelings will attack anyday now, but we have a plan. Named after one of our greatest generals, we are prepared and ready to crush these parasitic bugs under our boots, and send them feed on the emotions of Hitler and his Nazi beasts in hell!"
 
  RUS_sov_superpower:0 "Soviet Superpower"
  RUS_sov_superpower_desc:0 "Our Flag wave proudly, we are once again one of the most powerful country, showing to all the might of our peoples. We are ready for the future."
