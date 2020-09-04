@@ -611,13 +611,13 @@ RUS_new_soviet_union_desc:0 "The Soviet Union has been transformed into somethin
  RUS.303.a:0 "We will need all the firepower possible"
  RUS.303.b:0 "We don’t need those worms"
 
- RUS.304.t:0 "Chrysalis accept"
+ RUS.304.t:0 "Chrysalis Accepts"
  RUS.304.d:0 "The Changeling are now allied with us, lets make the best out of this alliance."
  RUS.304.a:0 "A thoughtful decision"
 
- RUS.305.t:0 "Chrysalis refuse"
- RUS.305.d:0 "The Queen chrysalis have returned our offer of alliance, harshly."
- RUS.305.a:0 "Their time will come"
+ RUS.305.t:0 "Chrysalis Refuses"
+ RUS.305.d:0 "The Queen Chrysalis has returned our offer of alliance, harshly. How cute."
+ RUS.305.a:0 "Silly roach...wrong answer"
 
  RUS.306.t:0 "Soviet-Stalliongrad Pact"
  RUS.306.d:0 "Our comrade from the west are asking for support in face of the growing threat that the changeling represent. \nWe can’t leave them alone..."
