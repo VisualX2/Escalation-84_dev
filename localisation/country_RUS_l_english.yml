@@ -370,34 +370,34 @@ RUS_new_soviet_union_desc:0 "The Soviet Union has been transformed into somethin
  ### Ideas ###
 
  RUS_chemical:0 "Chemical Weapons"
- RUS_chemical_desc:0 "Using the deadliest gas in our arsenal will improve the impact of our artillery."
+ RUS_chemical_desc:0 "Using the deadliest gases in our arsenal will help improve the impact of our artillery against enemies on the battlefield."
 
- RUS_blinding_laser:0 "Blinding laser weapons"
- RUS_blinding_laser_desc:0 "By having specialized units and equipment’s in our arsenal we can disable the enemy’s surveillance equipment and disable their electronic... or with enough power, killing them."
+ RUS_blinding_laser:0 "Blinding Laser Weapons"
+ RUS_blinding_laser_desc:0 "By having specialized units equipped with laser weaponary at our disposal, we can disable the enemy's surveillance equipment and disable their electronics... or with enough power, killing anyone on the otherside of the laser beam."
 
- RUS_arab_dispute:0 "Arab ethnic dispute"
- RUS_arab_dispute_desc:0 "Because of religious and ethnic dispute our peoples from the middle east can’t bear each other."
+ RUS_arab_dispute:0 "Arab Ethnic Dispute"
+ RUS_arab_dispute_desc:0 "Because of centuries, and even millennia, of religious and ethnic disputes, our people from the Middle East simply cannot bear each other."
 
- RUS_the_banner_fly:0 "The banner is still flying"
- RUS_the_banner_fly_desc:0 "Despite everything our flag still flies."
+ RUS_the_banner_fly:0 "The Banner is Still Flying"
+ RUS_the_banner_fly_desc:0 "Despite everything and all of the struggles we have been through, our flag still flies proudly over our land."
 
- RUS_red_banner:0 "the red Banner"
- RUS_red_banner_desc:0 "The red army, despite everything is still a proud force with many brave soldiers."
+ RUS_red_banner:0 "The Red Banner"
+ RUS_red_banner_desc:0 "The Red Army, once fractured and disbanded, is alive and well once again. With all of our reforms and affection we have given to our grand army, it is once again a proud and mighty fighting force with many brave young soldiers willing to die for their country."
 
  RUS_kgb:0 "KGB"
- RUS_kgb_desc:0 "Our agents from the KGB are very experimented, they are constantly keeping us informed about enemy movement and strength."
+ RUS_kgb_desc:0 "Our agents from the KGB are some of the most experienced ones in the entire world. Masters of subversion and intelligence, they're all over in the shadows, and are constantly keeping us informed about enemy movements and strengths."
 
- RUS_new_union:0 "The new Soviet Union"
- RUS_new_union_desc:0 "While retaining our integrity we managed to gain more liberties! Thank you Gorby!"
+ RUS_new_union:0 "The New Soviet Union"
+ RUS_new_union_desc:0 "While retaining the integrity of the Union, the Soviet people have managed to gain more liberties and freedoms then ever before! Thank you Gorby!"
 
  RUS_soviet_superpower:0 "Soviet Superpower"
- RUS_soviet_superpower_desc:0 "Starting from nothing, we are once again a superpower. Nothing can stop the peoples of the Soviet Union and their allies!"
+ RUS_soviet_superpower_desc:0 "We started from nothing but scraps, but the Soviet phoenix has risen from the ashes, and we're are once again a superpower. Nothing can stop the people of the Soviet Union and their allies!"
 
  RUS_new_empire:0 "A New Empire"
- RUS_new_empire_desc:0 "This world will now, understand the power of our empire. "
+ RUS_new_empire_desc:0 "This puny and pathetic world filled with childish and naive abominations of nature, will cower amd scream in fear at the glorious and mighty power of our empire and Tsar. No one will be spared from our march of glory across this world."
 
- RUS_soviet_domination:0 "Soviet domination"
- RUS_soviet_domination_desc:0 "Nothing can stop the union."
+ RUS_soviet_domination:0 "Soviet Domination"
+ RUS_soviet_domination_desc:0 "No matter how great the struggle our country faces, we have and will always prevail. Nothing can or will ever stop the Union."
 
  ### Advisors ###
 
@@ -637,23 +637,23 @@ RUS_new_soviet_union_desc:0 "The Soviet Union has been transformed into somethin
  RUS.309.a:0 "Accept"
  RUS.309.b:0 "Refuse"
 
- RUS.310.t:0 "The United states join the United Nations"
+ RUS.310.t:0 "The United States joins the United Nations"
  RUS.310.d:0 "The Americans have accepted our proposal to join our faction"
- RUS.310.a:0 "Welcome back old friend"
+ RUS.310.a:0 "Welcome to the alliance, old friend."
 
- RUS.311.t:0 "The United states decline the offer"
+ RUS.311.t:0 "The United States declines the offer"
  RUS.311.d:0 "The Americans have refused the proposal to join our faction"
- RUS.311.a:0 "That’s disappointing"
+ RUS.311.a:0 "So much for building bridges..."
 
  RUS.312.t:0 "Invitation to the United Nations"
  RUS.312.d:0 "The Soviets are inviting us to their alliance, what should we respond?"
  RUS.312.a:0 "Accept"
  RUS.312.b:0 "Refuse"
 
- RUS.313.t:0 "The Soviet Union join the United Nations"
- RUS.313.d:0 "The Soviets have accepted our proposal to join our faction"
- RUS.313.a:0 "Greeting, comrades"
+ RUS.313.t:0 "The Union of European Nations joins the United Nations"
+ RUS.313.d:0 "The Europeans have accepted our proposal to join our faction"
+ RUS.313.a:0 "Greetings, comrades!"
 
- RUS.314.t:0 "The Soviet union decline the offer"
- RUS.314.d:0 "The Soviets have refused the proposal to join our faction"
- RUS.314.a:0 "That’s disappointing"
+ RUS.314.t:0 "The Union of European Nations declines the offer"
+ RUS.314.d:0 "The Europeans have refused the proposal to join our faction"
+ RUS.314.a:0 "What happened to being in this together...?"
