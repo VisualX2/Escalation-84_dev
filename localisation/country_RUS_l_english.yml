@@ -464,40 +464,40 @@ RUS_new_soviet_union_desc:0 "The Soviet Union has been transformed into somethin
  volunteers_hum:0 "Send volunteers to the selected nation."
 
  RUS_Mobilization:0 "Mobilization"
- RUS_Mobilization_desc:0 "Our army is totally disbanded or unorganized, we don't know what await us in this world... We need to remobilize our army fast!"
+ RUS_Mobilization_desc:0 "Since our arrival here on this new world, the Red Army has been totally disbanded and any remnants of it are extremely unorganized. We don't know what even awaits us in this world... We need to remobilize our army fast!"
 
- RUS_Mobilize_Line:0 "Mobilize of Category A divisions"
- RUS_Mobilize_Line_desc:0 "Category A division are the active of our army, mostly formed by guard unit, they are the spearhead of our army. We should reform them as fast a we can."
+ RUS_Mobilize_Line:0 "Mobilize of Category A Divisions"
+ RUS_Mobilize_Line_desc:0 "Category A divisions are the most active part of our army, mostly formed by guard units. They're the spearhead of our army, and we'll need to reform them as fast as we can if we wanna begin the first steps of reorganizing the Red Army."
 
- RUS_Mobilize_reserve:0 "Mobilize Category B divisions"
- RUS_Mobilize_reserve_desc:0 "Category B division are division composed with a mix of active soldier and Reservist, they can be called up to bolster our army."
+ RUS_Mobilize_reserve:0 "Mobilize Category B Divisions"
+ RUS_Mobilize_reserve_desc:0 "Category B divisions are units composed with a mix of active soldiers and reservists. They can be called up to bolster our army and give us some extra flak."
 
- RUS_Mobilize_militia:0 "Mobilize Category C and D divisions"
- RUS_Mobilize_militia_desc:0 "Those division only have the cadre and some active personnel who have a military, most of the fighting force will be drafted from the population to help ours army."
+ RUS_Mobilize_militia:0 "Mobilize Category C and D Divisions"
+ RUS_Mobilize_militia_desc:0 "These divisions are merely cadre, civilians trained on how to work a firearm as well as equipping them with quick military training. However, some personnel have a military experience, which makes our job easier. Most of this fighting force will be drafted from the population to help the rearmament of the Red Army."
 
  ### Events ###
 
  RUS.20.t:0 "Mobilization of Category A Units"
- RUS.20.d:0 "Category A Guard division were re-mobilized, many disbanded soldier came back and are eager to serve again."
+ RUS.20.d:0 "Category A Guard division has been sucessfully re-mobilized. Many soldiers that disbanded from the Red Army came back, and are eager to serve once again."
  RUS.20.a:0 "The Guard is back."
 
  RUS.21.t:0 "Mobilization of Category B Units"
- RUS.21.d:0 "The reservists have finished their refreshement training in their respective unit and are now operationnal."
+ RUS.21.d:0 "The reservists have finished their refreshement training in their respective unit, and are now fully operational and ready for battle."
  RUS.21.a:0 "Great, put them into service."
 
  RUS.22.t:0 "Mobilization of Category C and D Units"
- RUS.22.d:0 "We have equipped our population with military equipement and trained them in light division, those units will support the effort of our army."
- RUS.22.a:0 "For the Motherland."
+ RUS.22.d:0 "We have sucessfully equipped selected members of the population with military equipement, and trained them as light divisions. These units will help provide that needed additional support the Red Army needs in the coming days."
+ RUS.22.a:0 "For the Motherland, comrades!"
 
  RUS.23.t:0 "Volunteering"
- RUS.23.d:0 "Accommodating the peoples of those land to our society, had the unexpected effect of bringing the deers closer to our peoples, there are already some volunteer for our armed forces! \nActually, we have two promising officer that finished their course, we taught them all that we can, and they actually taught us what they could about their species abilities. \nThis is a great news for our country, meaning that our civilization can integrate in this world."
- RUS.23.a:0 "Very good."
+ RUS.23.d:0 "Accommodating the Deer of Olenia into Soviet society, has had the rather unexpected effect of bringing the Deer closer to our people. There are actually already some volunteers for our armed forces! It was quite a shocker when our recruiting office recieved several recruitment requests from the first few Deer who wanted to incooperate themselves into the Red Army. \nBetter yet, we actually have two promising Deer officers that recently finished their course at boot camp. We taught them everything we knew, and they actually taught us a lot about themselves, and how we could take the best advantages over the abilities they uniquely possess. \nThis is a great news and a great day for the Soviet Union! This really shows that humanity can integrate in this world with the natives."
+ RUS.23.a:0 "That's spectacular! Spread the news across the Union, and deploy those promising officers."
 
- RUS.101.t:0 "First exploration report"
- RUS.101.d:0 "Our comrades from the scouting party have returned. \nThere’s aren’t many differences with our home world, at least from what we currently know. \nWe arrived in an almost empty land, there is a vast forest to our north, and a coast full of fjord to the south where some scout reported seeing smoke, like from a chimney, we should continue the exploration in this direction."
+ RUS.101.t:0 "First Exploration Report"
+ RUS.101.d:0 "Our comrades from the scouting party have returned. \nFrom the reports so far, there aren’t many differences with this world and Earth, more specially Russia...at least from what we currently know. \nWe arrived in an almost empty land, there is a vast forest to our north, and a coast full of fjords to the south, and it's here where one of the scouts reported seeing smoke, like from a chimney. We should continue our exploration in this direction...and just hope it's a small bushfire."
  RUS.101.a:0 "Continue the exploration."
 
- RUS.102.t:0 "First contact"
+ RUS.102.t:0 "First Contact"
  RUS.102.d:0 "[This.GetNewspaperHeader]‘General Secretary! Our scouts has made contact with some locals!’\n\nSome minutes before, the scouting party that was sent to the southwest when they arrived in front of a village. The BTR-40 and the BMP-1 stopped near the first houses as the soldiers cautiously dismounted from their vehicles and observed the village until one creature showed up. A deer, who called his friends, in a language that looked like Finnish, more deer-like creatures appeared, showing no ill intention, the scouts didn’t raise their weapons, as the officer in charge ordered to relay this information. \n\nThey had made a contact."
  RUS.102.a:0 "Incredible... what should we do?"
 
