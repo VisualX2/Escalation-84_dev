@@ -142,7 +142,7 @@
  RUS_Cold_war_turned_hot:0 "Cold War Turned Hot"
  RUS_Cold_war_turned_hot_desc:0 "This cold war has caused the Soviet people to suffer for long enough! Our proud people are ready for this great struggle, for everything that was lost to our shall be repaid in blood! The Americans, the Europeans, and any natives who stand in our way from vengence shall be crushed, and their blood will paint the banners of the world red!"
  RUS_destroy_bugs:0 "Exterminate the Bugs"
- RUS_destroy_bugs_desc:0 "Vile insects...they're an abomination to every living thing; an aberration of nature and life! They're monsters that feed off our emotions and life force like parasites. Abominations like this do not deserve to live...we must eradicate them from the surface of this world and crush them under our boot!"
+ RUS_destroy_bugs_desc:0 "Vile insects...they're an abomination to every living thing; an aberration of nature and life! They're monsters that feed off our emotions and life force like parasites. Abominations like this do not deserve to live...we must eradicate them from the surface of this planet and crush them under our boot!"
  RUS_invade_south:0 "Invade the South"
  RUS_invade_south_desc:0 "One of the countries that gained independence from Equestria, this nation is all to familiar to the imperialist slavers of the American Confederacy. Backwards and barbaric, invading this rebel state will be an easy task; we will put their land to use better then they ever could.."
  RUS_olenia_invasion:0 "Get Rid of the Deer"
@@ -198,7 +198,7 @@
  RUS_chemical_warfare:0 "Chemical Warfare"
  RUS_chemical_warfare_desc:0 "Chemical Warfare has always been a very controversial method of warfare ever since it's use in World War I, and even then it drew controversy. But these are desperate times for our great nation and humanity, and desperate times call for desperate measures. We shall use the most toxic gases and chemicals against our foes, but criticism and controvery is guaranteed."
  RUS_blinding_laser:0 "Blinding Laser Weapons"
- RUS_blinding_laser_desc:0 "In the 1980's, our scientists and technicians were working on laser equipped vehicles like the 1K11 ‘Stilet’, and with our rearmament efforts, we have been approached by these individuals. They are proposing many new ideas involving high powered lasers that can destroy anything it's aimed at, and with enough power, killing someone. Advanced weapons of war like this will strike fear into our enemies...but also our people "
+ RUS_blinding_laser_desc:0 "In the 1980's, our scientists and technicians were working on laser equipped vehicles like the 1K11 ‘Stilet’, and with our rearmament efforts, we have been approached by these individuals. They are proposing many new ideas involving high powered lasers that can destroy anything it's aimed at, and with enough power, killing someone. Advanced weapons of war like this will strike fear into our enemies...but also our people."
  RUS_red_banner:0 "The Red Banner"
  RUS_red_banner_desc:0 "The Red Army has fought and triumphed through the deadliest war in history before, and with the Red Army fully rearmed and established, we are ready for anything. From the infantryman, to our tanks, to the artillerymen, and to the Radar operator, our proud soldiers will do anything for the Soviet people, and will show this world the might of Russia!"
 
@@ -394,7 +394,7 @@ RUS_new_soviet_union_desc:0 "The Soviet Union has been transformed into somethin
  RUS_soviet_superpower_desc:0 "We started from nothing but scraps, but the Soviet phoenix has risen from the ashes, and we're are once again a superpower. Nothing can stop the people of the Soviet Union and their allies!"
 
  RUS_new_empire:0 "A New Empire"
- RUS_new_empire_desc:0 "This puny and pathetic world filled with childish and naive abominations of nature, will cower amd scream in fear at the glorious and mighty power of our empire and Tsar. No one will be spared from our march of glory across this world."
+ RUS_new_empire_desc:0 "This puny and pathetic world filled with childish and naive abominations of nature, will cower and scream in fear at the glorious and mighty power of our empire and Tsar. No one will be spared from our march of glory across this world."
 
  RUS_soviet_domination:0 "Soviet Domination"
  RUS_soviet_domination_desc:0 "No matter how great the struggle our country faces, we have and will always prevail. Nothing can or will ever stop the Union."
@@ -633,27 +633,27 @@ RUS_new_soviet_union_desc:0 "The Soviet Union has been transformed into somethin
  RUS.308.a:0 "They are too far..."
 
  RUS.309.t:0 "Invitation to the United Nations"
- RUS.309.d:0 "The Soviets are inviting us to their alliance, how should we respond?"
- RUS.309.a:0 "Accept"
- RUS.309.b:0 "Refuse"
+ RUS.309.d:0 "Many thought they wouldn't ever do it, but they did. Several weeks ago, the Soviet Ambassador here in the United States, approached us with the purposal of a 'grand alliance' between us and the Soviet Union, a purposal sent from Gorbachev himself. The leaders of our country have been debating these past few weeks on the Soviet's purposal for an alliance, but with the decades of rivalry and war between our two nations, many leaders have remained stubborn on distancing ourselves from the Soviets in this new world. However, many realize that an alliance between the United States and the Soviet Union may be humanity's best chance of survival in this new world. After 70 days of bickering back and forth, we're ready to send the Soviets our answer. What will it be?"
+ RUS.309.a:0 "Accept their invitation, together we will secure our future."
+ RUS.309.b:0 "Refuse their invitation, those commies will never change."
 
- RUS.310.t:0 "The United States joins the United Nations"
- RUS.310.d:0 "The Americans have accepted our proposal to join our faction"
+ RUS.310.t:0 "The United States Joins the United Nations"
+ RUS.310.d:0 "We have recieved some absolutely outstanding news from New Washington! Our ambassador has relyed the Americans response to our purposal, and the Americans have accepted our proposal to join our grand alliance! Today marks a new day for humanity and our future!"
  RUS.310.a:0 "Welcome to the alliance, old friend."
 
- RUS.311.t:0 "The United States declines the offer"
- RUS.311.d:0 "The Americans have refused the proposal to join our faction"
+ RUS.311.t:0 "The United States Declines the Offer"
+ RUS.311.d:0 "This morning, we recieved a phone call from our ambassador in the United States, and he unfortunately had to deliver us some regretful news. The Americans have refused the proposal to join our alliance. Maybe we can try again some other day, but for now, the United States isn't ready to put aside the past."
  RUS.311.a:0 "So much for building bridges..."
 
  RUS.312.t:0 "Invitation to the United Nations"
- RUS.312.d:0 "The Soviets are inviting us to their alliance, how should we respond?"
- RUS.312.a:0 "Accept"
- RUS.312.b:0 "Refuse"
+ RUS.312.d:0 "We've been in contact with the Soviet Union for quite some time now, and we've had the opportunity to warm up to them a lot,(Or for Eastern Europe, warm back up to them) especially with Gorbachev at the helm. However, the day we were all expecting came, with the Soviet Ambassador informing us that the Soviet Union wanted to form a 'grand alliance' with Europe and her nations. Many of our leaders realize the good that can come from an alliance with the Soviets, especially for the good of humanity, and many Western European leaders have warmed up to this idea now that Gorbachev has been enacting his democratic reforms. But their are still many Europeans that don't trust the Soviets, and fear a communist takeover. But what shall our answer be to the Soviets? They're expecting it today."
+ RUS.312.a:0 "Accept, only a united Europe will guide humanity to prosperity."
+ RUS.312.b:0 "Refuse, we can never trust the Russians."
 
- RUS.313.t:0 "The Union of European Nations joins the United Nations"
- RUS.313.d:0 "The Europeans have accepted our proposal to join our faction"
+ RUS.313.t:0 "The Union of European Nations Joins the United Nations"
+ RUS.313.d:0 "We have recieved some great news from our ambassador in Europe! After meeting with the European Council, almost every nation agreed to enter into an alliance with the Soviet Union expect for a few, but the general consensus of the council was to accepted our proposal to join the alliance! This is a historic day for not only Russia, but for all of Europe, because for the first time every European stands united against a common foe!"
  RUS.313.a:0 "Greetings, comrades!"
 
- RUS.314.t:0 "The Union of European Nations declines the offer"
- RUS.314.d:0 "The Europeans have refused the proposal to join our faction"
+ RUS.314.t:0 "The Union of European Nations Declines the Offer"
+ RUS.314.d:0 "Our ambassador has unfortunately had to inform us of some regretful news. The purposal for an alliance with the Soviet Union went to the council today, and it seems a majority of the nations voted not to enter into an aliiance with us. The general consensus of the council was to decline our alliance proposal. It appears that once again, Russia stands alone against our enemies."
  RUS.314.a:0 "What happened to being in this together...?"
