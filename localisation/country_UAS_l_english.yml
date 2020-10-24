@@ -266,7 +266,7 @@ l_english:
  UAS_DU_Shell_desc:0 "‘Depleted uranium round is vastly used in heavy ammo to enhance the penetrating capacity against armoured target.’ Our talented military engineers managed to developed a powerful and effective anti-tank ammo with depleted uranium. Adding depleted uranium into our anti-tank munitions will without a doubt increase the effectiveness of it. However, before taking this step forward, we should be aware that this will result in contamination of the impact zone, and may harm our ground troops in the long term."
 
  UAS_reform_USMC:0 "Reform the USMC"
- UAS_reform_USMC_desc:0 "The USMC, or The United States Marine Corps, is one of our finest branches of military. Mostly used to fight in landing zones, and as a naval infantry, it’s quite an autonomous and proud branch. With having access to its own air, artillery, and armored branch, its already an incredible fighting force in itself. But, in order to make the USMC an envy of the world once more, we will need to make it even more effective than it once was."
+ UAS_reform_USMC_desc:0 "The USMC, or The United States Marine Corps, is one of our finest branches of military. Mostly used to fight in naval landing zones or overseas, it’s quite an autonomous and proud branch. With having access to its own military assets, its already an incredible fighting force in itself. In order to make the USMC an envy of the world once more, we will need to make it more effective than it once was."
 
  UAS_the_new_army:0 "The New Army"
  UAS_the_new_army_desc:0 "The Armed Forces of the United States have come a long way since we began the reforms. While she isn't as powerful as she once was before the war, our proud military is still very well strong enough to accomplish its job of protecting and preserving the freedom of all Americans! \n\n‘First to fight for the right, and to build the Nation’s might, And the Army Goes Rolling Along...’"
@@ -284,7 +284,7 @@ l_english:
  UAS_helicopters_desc:0 "An advantage we have currently have against the nations of this world, is we know how to create aircraft like helicopters. Massively used in the Vietnam War, combat and transport helicopters have a massive advantage for our army, and it would be wise to begin building helicopters once more."
 
  UAS_naval_patrol_aircraft:0 "Maritime Patrol Aircraft"
- UAS_naval_patrol_aircraft_desc:0 "The surveillance of our coasts is far more important then we like to think. In a world where pirates seem far more present on the high seas, a the issue of privateering uncertain, we need to have aircraft patrolling the coast of our country. Next thing we want to deal with is a raid or surprise attack by our enemies."
+ UAS_naval_patrol_aircraft_desc:0 "The surveillance of our coasts is far more important then we like to think. In a world where pirates seem far more present on the high seas, and the issue of privateering uncertain, we need to have aircraft patrolling the coast of our country. Next thing we want to deal with is a raid or surprise attack by our enemies."
  UAS_tactical_bomber:0 "Bomber"
  UAS_tactical_bomber_desc:0 "Helicopters won't be good enough if we wish to strike behind enemy lines and large group of enemies. If we're to see sucess in our air campaign, we need bomber aircrafts back on the production line!"
  UAS_strategic_bomber:0 "Strategic Bomber"
