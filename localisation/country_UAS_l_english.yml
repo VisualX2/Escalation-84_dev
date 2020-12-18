@@ -437,42 +437,42 @@ l_english:
  UAS_invade_wingbardy:0 "Invade Wingbardy"
  UAS_invade_wingbardy_desc:0 "Wingbardy is a nation that mocks greatness by attempting their own pathetic little attempt at it. It's only logical that the next step would be to take care of Wingbardy, and remove this tumor from the planet! Due to their size, it will be a big challenge, but once we are done with them, we will have a good position on the continent and access to a decent oil reserve. They stand no chance against mighty American troops!"
  UAS_new_order:0 "New Order of the Ages"
- UAS_new_order_desc:0 "While we have completely crushed the legacy and dreams of the Founding Fathers under our mighty boot, The United States of America is done with pathetic and weak things such as democracy and republicanism! From this day onward, America has entered a new age, an age of imperialism, strength, and power, a TRUE Empire of Liberty as Jefferson should've envisioned it! The United States will no longer hold restrain on our true power and potentinal for the sake of freedom and justice! Our troops will march across this world in an everlasting glory, a glory that will echo through the very fabric of time and space! This is merely the beginning, we will redem ourselves as the true and opulent superpower, and this world will enter a new age under the mighty supremacy of America!"
+ UAS_new_order_desc:0 "While we have completely crushed the legacy and dreams of the Founding Fathers under our mighty boot, The United States of America is done with pathetic and weak things such as democracy! From this day onward, America has entered a new age, an age of imperialism, strength, and might! Our troops will march across this world in an everlasting glory, a glory that will echo through the very fabric of time and space!"
 
  ### Ideas ###
 
- UAS_biological:0 "Bio Weapons"
- UAS_biological_desc:0 "Carefully choosing our toxin and target, we can drastically decrease the ability of enemies forces to fight."
+ UAS_biological:0 "Bio-Weapons"
+ UAS_biological_desc:0 "Through the careful use of various bacterium and viruses, we can ravage entire native cities and enemy forces with deadly plagues and agonizing illnesses. Organic toxins such as phorbol will also be used to poison our enemies and render them unable to fight, or at the very least drastically decreasing the ability of enemies forces to fight. Through whatever means, all who dare threaten the United States or humanity will be met with nature's kiss of death."
 
  UAS_napalm:0 "Napalm"
- UAS_napalm_desc:0 "Our bombers are now equipped with napalm bombs. They will be far more useful in their missions against light targets. Its 1969 again baby. \n\n'I love the smell of napalm in the morning.'"
+ UAS_napalm_desc:0 "A sticky and gooey flammable gel, Napalm is a prominent and infamous chemical weapon used during the Vietnam War. Capable of burning at thousands of degrees, the sticky goo will burn our enemies to the bone and melt away all resistance in our path. With our bombers now equipped with napalm bombs, our offenses against light targets will prove far more deadly and powerful. Its 1969 again baby. \n\n'I love the smell of napalm in the morning.'"
 
  UAS_white_phosphorus:0 "White Phosphorus"
- UAS_white_phosphorus_desc:0 "White phosphorus is an incendiary weapon extremely useful when attacking an entrenched enemy. The weapon is delivered by a hand grenade or artillery shell." 
+ UAS_white_phosphorus_desc:0 "White phosphorus is an incendiary weapon that is extremely useful when attacking a deeply entrenched enemy. Leaving serious chemical burns all over the victim's body, it will leave anyone in agonizing and mind numbing pain, making them wish for death and a quick end. The weapon is delivered by a hand grenade or artillery shell, and even by air." 
 
  UAS_DU_round:0 "DU Round"
- UAS_DU_round_desc:0 "Having our tanks loaded with these shells increases their performance in tank to tank battle. The drawback is the radiation emitted by the remnants of the shell, which can still affect our troops."
+ UAS_DU_round_desc:0 "Having our tanks loaded with these shells increases their performance in tank to tank battle. The only drawback to these powerful rounds is the radiation emitted by the remnants of the shells, which has the ability to affect our troops negatively."
 
  UAS_SA_rebels:0 "South American Rebels"
- UAS_SA_rebels_desc:0 "'Patria o muerte, venceremos!'  \n\nEven if we saved them from a certain death back on Earth, the Latin populations of our country didn’t take well to the invasion of their homeland. We need to take care of those rebels at some point." 
+ UAS_SA_rebels_desc:0 "'Patria o muerte, venceremos!'  \n\nEven if we saved them from a certain death back on Earth, the Latin populations of our country didn’t take well to the invasion of their homeland. At some point in the future we'll need to take care of these radical and enraged rebels, otherwise they'll spread their posionous socialist and communist ideals like a rabid virus across this country." 
 
  UAS_canadian_resistance:0 "Canadian Resistance"
- UAS_canadian_resistance_desc:0 "'From sea to sea!' \n\nEven if we saved them from a certain death back on Earth, The Canadian minority of our country is resisting against our government. We should take care of this resistance when we can." 
+ UAS_canadian_resistance_desc:0 "'From sea to sea!' \n\nYou think they would be more thankful, wouldn't you? Though we saved our Canadian friends from a certain death back on Earth, The Canadian minority of our country is resisting against the will of our government. While they don't pose as much of a threat as the Latin American Rebels, we should take care of the Canadian resistance when we can before it grows more widespread." 
 
  UAS_star_sprangled:0 "Star-Spangled Banner"
- UAS_star_sprangled_desc:0 "Even if the states represented by the stars on our flag don’t exist anymore, it’s still our ragged old flag." 
+ UAS_star_sprangled_desc:0 "Even if the states represented by the stars on our flag don’t exist anymore, it’s still our ragged old flag. We'll take good care of her in this new and daring world, and one day she will rise above these lands more proud and mighty then ever before."
 
  UAS_new_army:0 "The New Army"
- UAS_new_army_desc:0 "Uncle Sam is once again ready to show his strength with an army, now stronger than ever." 
+ UAS_new_army_desc:0 "Uncle Sam is once again ready to show his strength with an army now stronger than ever. The natives of this world will tremble before the might of the US of A. 
 
  UAS_land_free:0 "Land of the Free"
- UAS_land_free_desc:0 "Our country is a beacon of democracy in this world. We will defend it ‘til the last drop of blood." 
+ UAS_land_free_desc:0 "Lady Liberty once again rises her torch of freedom over our land, enlightening our country and the world with the promise of liberty and justice for all. All the huddled masses of Griffonia who yearn to breath free, shall be welcomed here to these United States, as Lady Liberty lifts her lamp beside the golden door. The United States of America is now a beacon of democracy in this world, and just like back on Earth we will defend it ‘til the last drop of blood." 
 
  UAS_new_america:0 "A New America"
- UAS_new_america_desc:0 "Thanks to our Latin friends who showed us the way, America is now a country with equality for everyone."
+ UAS_new_america_desc:0 "Our Latin American friends have showed us the way to an idealogy that we have long demonized and turned a blind eye to. No longer do the chains of the bourgeoisie of Corporate America clench around the ankles of free men and women, the proletariets have broken free from their odious grasp! The working class have ceased their rightful place as the ruling class of this country, and with their hard work and effort, America is now a country with equality for all! Workers of the world, unite!"
 
  UAS_new_order_of_ages:0 "New Order of the Ages"
- UAS_new_order_of_ages_desc:0 "No more Peace. There is only vengeance. Anger and rage guide us." 
+ UAS_new_order_of_ages_desc:0 "No more peace, there will only be vengeance. Anger and rage consume our souls and the very fabric of our beings. The power and everlasting glory of our true lord and savior, Jesus Christ, will ENCHANT our soldiers and workers with a godly power that no degenerate native could EVER muster! The United States will no longer hold restrain on our true power and potential for the sake of freedom and justice! We will destroy and decimate all those who DARE stand in the way of our holy crusade for this new promised land almighty God has gifted us, and the crusade against this degeneracy that plagues this planet won't stop until the borders of our realm stretch from every single corner on this planet! A TRUE Empire of Liberty as Jefferson should've envisioned it! This is merely the beginning, we will redeem ourselves as the true opulent superpower, and this world will enter a new age under the mighty supremacy of America! Next, will be the stars." 
 
  UAS_poor_training:0 "Poorly Trained Infantry"
  UAS_poor_training_desc:0 "Unlike our mechanized units, our infantry is composed mostly of poorly trained and motived conscripts." 
