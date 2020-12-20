@@ -442,7 +442,7 @@ l_english:
  ### Ideas ###
 
  UAS_biological:0 "Bio-Weapons"
- UAS_biological_desc:0 "Through the careful use of various bacterium and viruses, we can ravage entire native cities and enemy forces with deadly plagues and agonizing illnesses. Organic toxins such as phorbol will also be used to poison our enemies and render them unable to fight, or at the very least drastically decreasing the ability of enemies forces to fight. Through whatever means, all who dare threaten the United States or humanity will be met with nature's kiss of death."
+ UAS_biological_desc:0 "Through the careful use of various bacterium and viruses, we can ravage entire native cities and enemy forces with deadly plagues and agonizing illnesses. Organic toxins such as phorbol will also be used to poison our enemies and render them unable to fight, or at the very least drastically decreasing the ability of enemy forces to fight. Through whatever means, all who dare threaten the United States or humanity will be met with nature's kiss of death."
 
  UAS_napalm:0 "Napalm"
  UAS_napalm_desc:0 "A sticky and gooey flammable gel, Napalm is a prominent and infamous chemical weapon used during the Vietnam War. Capable of burning at thousands of degrees, the sticky goo will burn our enemies to the bone and melt away all resistance in our path. With our bombers now equipped with napalm bombs, our offenses against light targets will prove far more deadly and powerful. Its 1969 again baby. \n\n'I love the smell of napalm in the morning.'"
@@ -546,16 +546,16 @@ l_english:
  volunteers_hum:0 "Send volunteers to the selected nation."
 
  UAS_Mobilization:0 "Mobilization"
- UAS_Mobilization_desc:0 "Our army is totally disbanded or unorganized, we don't know what awaits us in this world... We need to remobilize our army fast!"
+ UAS_Mobilization_desc:0 "Upon entry into this new world, many members of the US Armed Forces stepped away from their sworn duty in the hopes of settling down into a calmer life. But the cruel reality is that all of this is far from over. What remains of our military is unorganized and largely made up of milita groups that help keep the peace and provide security. This world and it's mythological qualities reminds us that the unknown always holds risk and uncertainty. If the United States is to survive on this strange new world, we'll need to begin remobilizing our army ASAP!"
 
- UAS_Mobilize_Line:0 "Mobilize Active units"
- UAS_Mobilize_Line_desc:0 "Most of our active units were disbanded after our arrival, we should reform them as fast as we can."
+ UAS_Mobilize_Line:0 "Mobilize Active Units"
+ UAS_Mobilize_Line_desc:0 "Majority of our active units were disbanded after our arrival in order to seek lives away from warfare. As much as they probably don't wish to do so, we need to reform them as fast as we can."
 
- UAS_Mobilize_reserve:0 "Mobilize the National guards."
- UAS_Mobilize_reserve_desc:0 "The reservists and conscripts of the Home guard are ready to be called up if needed"
+ UAS_Mobilize_reserve:0 "Mobilize the National Guard."
+ UAS_Mobilize_reserve_desc:0 "The reservists and conscripts of the Home guard are ready to be called up if needed. We should begin deployment now rather than later."
 
- UAS_Mobilize_militia:0 "Form Militia"
- UAS_Mobilize_militia_desc:0 "By calling up the police, volunteers, and older conscripts, we could be able to form militia units in no time."
+ UAS_Mobilize_militia:0 "Form Militias"
+ UAS_Mobilize_militia_desc:0 "Militias are the lifeblood of American freedom and our last resort against tyrants who dare threaten our liberty. By calling up the police, patriotic volunteers, and older conscripts, we should be able to form large amounts of militia units in no time."
 
  ### Events ###
 
