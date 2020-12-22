@@ -560,15 +560,15 @@ l_english:
  ### Events ###
 
  UAS.20.t:0 "Mobilization of Active Units"
- UAS.20.d:0 "Most of our active units were disbanded after our arrival. We've reformed them as fast as we could, and they're now forming a small but experimental base for our army."
+ UAS.20.d:0 "After a bit of trouble and persuasion towards getting our former active units back into the field. A vast majority of them have returned to their duties in the military due to the threat of outside invasion and insuring the stablity of the United States. They weren't thrilled to be serving under the 'tyrannical generals' once more, but we'll ensure they're whipped into shape. Even though the reformation of these divisions were quick and rushed, they have successfully formed a small but experimental base for our army."
  UAS.20.a:0 "This we'll defend."
 
  UAS.21.t:0 "Mobilization of the National Guard"
- UAS.21.d:0 "Our units from the National Guard are now ready to be deployed if needed."
+ UAS.21.d:0 "The mobilization of the remanants of the national guard has been completed. The national guard from the great states of Texas, South Carolina, Maine, and Washington are all that remain of all 50 state national guards. However, these brave men are filled with a patrotic fervor and vehement determination to protect those they love and have left, and that spirit is the very spirit that brings civilizations back from the ashes. To our surprise however, a division of Brazilian national guards have offered their assistance to us in our remobilization efforts, and all the generals were quick to accept the offer of assistance. All units are now on standby."
  UAS.21.a:0 "Always ready, always there."
 
  UAS.22.t:0 "Formation of Militia"
- UAS.22.d:0 "We have hastily formed militia units by equipping our population and police. Let’s hope Washington's spirit guides our milita to victory."
+ UAS.22.d:0 "Men and woman from all walks of life have come together to mobilize large and heavily armed militias across the country. Coming from all different races and nationalites, all of these men and women are motived by one thing. Protect us from the aliens beyond our borders, and ensure the security of the United States and it's people. Many police officers have also volunteered to step away from their duties and protect the country whenever the call comes. Let’s hope Washington's spirit guides our militas to victory."
  UAS.22.a:0 "Everyone to the frontline!"
 
  UAS.23.t:0 "Ponies and Griffons Volunteers"
