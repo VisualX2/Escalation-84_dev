@@ -616,11 +616,11 @@ l_english:
  UAS.110.a:0 "I look forward to this meeting."
 
  UAS.111.t:0 "The Canterlot Summit"
- UAS.111.d:0 "[This.GetNewspaperHeader]After a welcoming arrival of the representants at Canterlot, the representants of UEN, USSR, and USA were taken into a room, specially prepared for them, and were left alone to discuss political matters... \nMany hours later, the discussion was over, with an official cease-fire from all parties signed. Maybe peace was finally achieved... \nThe war claimed the lives of several billion humans and our home. Earth."
+ UAS.111.d:0 "[This.GetNewspaperHeader]After a warm and welcoming arrival from the representatives at Canterlot, the representatives of UEN, USSR, and USA were taken into a room specially prepared for them by the courtesy of Princess Celestia, and were left alone to discuss political matters and their situation... \nMany hours later, the discussion was over, with an official cease-fire from all parties signed. Maybe peace was finally achieved between all these superpowers... \nThe war claimed the lives of several billion humans, but most importantly our home...Earth."
  UAS.111.a:0 "Peace at last."
 
  UAS.112.t:0 "The Red Cross is Back in the Action!"
- UAS.112.d:0 "[This.GetNewspaperHeader]Today, the first batch of the human Red Cross volunteers left to their assigned regions! In the past few months, many volunteers showed up after a big marketing campaign, and these same volunteers will travel in this new world and do what their former colleagues did. Helping peoples in need across the world, no matter the side they are on, belief, or species."
+ UAS.112.d:0 "[This.GetNewspaperHeader]Today, the first batch of Human Red Cross volunteers left to their assigned regions in various war torn countries in Griffonia. In the past few months, many volunteers ranging from human, pony, and griffon, showed up after a big marketing campaign promoting the Red Cross. The Red Cross quickly recieved hundreds of volunteer requests from many spectacular and amazing people, and hundreds were quickly enlisted. These individuals will travel this new world and do the same as their former colleagues, helping peoples in need across the world, no matter the side they're on, belief, or species."
  UAS.112.a:0 "'With humanity, towards peace'"
 
  UAS.113.t:0 "The Blue Helmet Resurection"
