@@ -588,16 +588,16 @@ l_english:
  UAS.103.a:0 "Home Sweet Home."
 
  UAS.104.t:0 "Laboratory of Science and Magic"
- UAS.104.d:0 "[This.GetNewspaperHeader]The tall, white building was finally revealed to the public today, the striped banner with the American seal in the place of the stars, flying proudly on top of the building. Within this laboratory, many scientists from around the world will work together to bring our species toward a better future. For now, all efforts will be directed to find a cure for irradiated humans."
- UAS.104.a:0 "We can still save many of them."
+ UAS.104.d:0 "[This.GetNewspaperHeader]The tall, white building was finally revealed to the public today, the American flag flying proudly on top of the building in all it's glory and magnificence. Within this laboratory, many scientists from the United States, Canada, Latin American, and many natives ponies and griffons will work together to bring our species towards a better future. For now, all efforts will be directed to find a cure for irradiated humans."
+ UAS.104.a:0 "We can still save many Americans."
 
  UAS.105.t:0 "Down with the Radiation"
- UAS.105.d:0 "[This.GetNewspaperHeader]The laboratory finally managed to find a cure for our sick! Serial production have only begun, but we can hope for massive distribution in the next weeks! \nWhile there aren’t any short-term side effects, we know nothing about the long term. According to the scientists, it's without danger. \nImagine how many of our citizens are going to be saved with this discovery!"
+ UAS.105.d:0 "[This.GetNewspaperHeader]A miracle out of New Washington today! The laboratory has finally managed to find a cure for our sick! Serial production have only begun, but we can hope for massive distribution in the next few weeks! \nWhile there aren’t any short-term side effects on our test volunteers, we know nothing about the long-term side effects. According to the scientists, it's not dangerous. \nImagine how many of our citizens are going to be saved with this discovery!"
  UAS.105.a:0 "Begin the treatment ASAP!"
 
- UAS.106.t:0 "Star-Spangled Banner"
- UAS.106.d:0 "[This.GetNewspaperHeader]Today at New Freeside, took place a ceremony. All the representants of America's countries were present, and spoke about the unity of the American people in face of hardship, and the courage it took to achieve the goal of founding a new civilization in this world. When the speech finished there was at first only shy applauds, which quickly erupted with cries of joy, songs, and music... Even with what happened in the past, the American people are still alive..."
- UAS.106.a:0 "There is still hope."
+ UAS.106.t:0 "The Star-Spangled Banner"
+ UAS.106.d:0 "[This.GetNewspaperHeader]Today at the city of New Washington, took place a ceremony. Within the ceremony were all the representatives of the US Congress and generals of the Junta, along with the hundreads of thousands of people in attendence. These men and women spoke about the unity of the American people in face of hardship, and the courage it took to achieve the goal of founding a new civilization in this world. Despite all the odds being stacked against us, and being beaten and burned with nuclear fire and armageddon, the spirit of the American people was unwavered and we survived. Just like the pilgrams before us, when they landed upon the shores of Plymouth with barely anything, they would eventually come to establish one of the most prosperous and powerful nations on planet Earth. When the speech finished there was at first only shy applauds, which quickly erupted with cries of joy, songs, and music... Even with what happened in the past, the American people are still alive... \nThe American spirit... the human spirit... has shown its true power today."
+ UAS.106.a:0 "There is still hope for Ol' Glory."
 
  UAS.107.t:0 "American Embassy in Sunset"
  UAS.107.d:0 "[This.GetNewspaperHeader]After many papers signed, and construction work, the flag of the USA flys proudly in front of the new embassy building of Sunset. Many members of Congress and New Mareland representants came to the opening ceremony; Which took place without any incident, and both sides felt incredibly satisfied with how it went. \nThis Embassy will give the United States the opportunity to open up to the world."
