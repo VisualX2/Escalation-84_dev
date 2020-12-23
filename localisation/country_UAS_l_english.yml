@@ -608,11 +608,11 @@ l_english:
  UAS.108.a:0 "Mission accomplished."
 
  UAS.109.t:0 "The Empire"
- UAS.109.d:0 "[This.GetNewspaperHeader]One of our diplomats went to the Imperial City in the middle of the Griffonian Empire. \nThe country is actually in the middle of a serious crisis, and it was a challenge to contact an authority, but finally the first contact was established with the empire. \nThat being said, back on earth, when big empires had problem like this, things escaladed very quickly. We should find a solution to protect ourselves."
+ UAS.109.d:0 "[This.GetNewspaperHeader]One of our diplomats went to the Imperial City of Griffinheim located withn the heart of the Griffonian Empire, at the confluence of the Grifking River. \nDespite our diplomat sending back pictures of a gorgeous and spectacularly stunning city with thriving architecture, the country is actually in the middle of a serious crisis. It was a challenge to contact an authority, but finally first contact was established with the Empire. We were greeted warmly and with curiosity. \nThat being said, back on Earth when big empires had problems like this, things escalate very quickly. The eruption of conflict between the Roman tetrarchy established by Diocletian in the 3rd century is a grand example. We should find a solution to protect ourselves against the inevitable total collapse of the Griffonian Empire."
  UAS.109.a:0 "If the empires begins to crumble..."
 
  UAS.110.t:0 "Contact with Other Humans"
- UAS.110.d:0 "[This.GetNewspaperHeader]Our diplomats returned with news from the USSR and UEN, the contact was peaceful. We mutually explained our current situation, and promised to prepare a summit with all the human representants in a neutral country."
+ UAS.110.d:0 "[This.GetNewspaperHeader]Our diplomats returned with news from the USSR and UEN, the contact was thankfully peaceful. We mutually explained our current situation, and promised to prepare a summit with all the human representants in a neutral country. As for how it goes? God only knows, all we can do is pray and hope for the best."
  UAS.110.a:0 "I look forward to this meeting."
 
  UAS.111.t:0 "The Canterlot Summit"
