@@ -104,7 +104,7 @@ l_english:
  UAS_negotiate_with_the_locals_desc:0 "New Mareland is a mostly homogeneous colony, yet there are still Griffons minorities living all across the country. They themselves aren't bothering us much, in fact many have actually taken a liking to us, however their old rivalry with Ponies is still rampent. Perhaps we can try to open a dialogue between the two parties, and figure something out."
 
  UAS_pony_council:0 "Ponies and Griffons in the Government?"
- UAS_pony_council_desc:0 "The demand that many have feared and looked forward to, has arrived. Ponies and Griffons have united together in one voice to announce they want positions in the US Government, espcially to represent their communities. Should we show the world the shining beacon of liberty and justice we are? Or is America, let alone humanity, just not ready for this yet?"
+ UAS_pony_council_desc:0 "The demand that many have feared and looked forward to, has arrived. Ponies and Griffons have united together in one voice to announce they want positions in the US Government, especially to represent their communities. Should we show the world the shining beacon of liberty and justice we are? Or is America, let alone humanity, just not ready for this yet?"
 
  UAS_Aquilean_civil_war:0 "Revolution in Aquileia"
  UAS_Aquilean_civil_war_desc:0 "To our north lies Aquileia, a country plagued by a domestic conflict between Republicans and Royalists. From what we're told, this is the second time it has scaled into a full blown civil war. Given whoever the victor of the civil war could be, there's a great possibly we could be invaded by an expansionist government. We can't just stay idle, we need to take action!"
@@ -654,24 +654,24 @@ l_english:
  UAS.119.a:0 "Don’t worry, it will be back soon!"
 
  UAS.200.t:0 "Deal with the Locals"
- UAS.200.d:0 "The leaders of the Pony and Griffon communities await our response..."
+ UAS.200.d:0 "Today, representatives from Congress met with the griffon and pony leaders of the countless protests organized by the natives. The griffons were fiery and blunt with the representatives, asking directly if humanity and the US government was going to treat them with the same discrimination as the ponies have. Meanwhile, while the ponies were much more calm and controlled, they were still stern and strict with their demands. While both parties listed their demands and expressed their worries with the representatives, there was one thing they both were incredibly concerned about. They believe us humans are going to force them to adapt to our way of life and customs.\nThe griffons are fed up with being ignored and discriminated against, and the ponies want certainty that they will be safe and treated the same way as humans. Our people our suffering, and everyone agrees that getting humanity back on it's feet takes priority, but ignoring the natives could make our situation much worse and unstable. What are we going to do?""
  UAS.200.a:0 "Our primary objective is the American people!"
  UAS.200.b:0 "We will do what’s possible!"
 
  UAS.201.t:0 "The Griffons"
- UAS.201.d:0 "What side should we take?"
+ UAS.201.d:0 "New Mareland has always been a mostly homogeneous colony, even before our arrival. Yet there are still Griffon minorities living all across New Mareland, and we got our fair share of this Griffon minority when the borders were established. They themselves aren't bothering us much, in fact many have seemed to have actually taken a bit of liking to us. This is likely due to the fact that both of our species actually have a lot in common, especially when it comes to warfare and culture. But when it comes to griffons and ponies, they share barely any similarities. Without the New Mareland government to monitor the situation, the rivalry between ponies and griffons has gone rampant across the US, and has reached a boiling point. Many have gotten hurt, and ponies and griffons are now calling upon the government to take a side on the issue. A majority in the government are urging to stand above this rivalry and find a compromise between the two groups; open a diplomatic dialogue between them and sort it out. However, such an endeavor would take time and put strain on the government, but taking a side would put strain on the stablity of the nation. What do we do?"
  UAS.201.a:0 "Support the Ponies"
- UAS.201.b:0 "Support the Griffon"
+ UAS.201.b:0 "Support the Griffons"
  UAS.201.c:0 "Find a compromise"
 
- UAS.202.t:0 "Ponies and Griffons in the government?"
- UAS.202.d:0 "What is your verdict?"
+ UAS.202.t:0 "Ponies and Griffons in the Government?"
+ UAS.202.d:0 "The demand that many have feared and looked forward to, has arrived. Ponies and Griffons have united together in one voice to announce they want positions in the US Government, especially to represent their communities properly. Should we show the world the shining beacon of liberty and justice we are? Or is America, let alone humanity, just not ready for this yet? After all, it's aliens in our government. What is your verdict?"
  UAS.202.a:0 "Accept, we aren't the only species living here..."
  UAS.202.b:0 "Refuse, America is not ready for this change yet."
 
  UAS.203.t:0 "Love"
- UAS.203.d:0 "Even if we knew that there was interspecies relations between humans and the locals within our country, they were not official, because the lovers feared the consequence of such union going public. That was until a couple decided to have an official certificate at the town hall, but there is no law for an interspecies couple, but it was refused and the couple was violently expulsed. It now begins to be a serious issue, as voices from both sides are rising. \nEither those who want to keep “each species in their quarters”, and those who consider “that we can’t intervene in mutual love between two living beings” ... Our government needs to be clear and take a position."
- UAS.203.a:0 "This is America, they have the freedom to love who they want?"
+ UAS.203.d:0 "Even if we knew that there was interspecies relationships between humans and the locals within our country, they were not official. This is because the lovers feared the consequence of such a union going public. That was until a few days ago, when a couple decided to request an official marriage at the town hall. While there is no law for an interspecies couple, the request was refused and the couple was violently expulsed. It's now become a serious and explosive issue, one that our media is oh so happy to exploit for viewership and cash, but makes our job even harder. As voices from both sides are rising and growing more passionate, the government needs to step in and make a decision. \nWe either take the side of those who want to keep “each species in their own quarters”, or those who say that “that we can’t intervene in mutual love between two living beings” ... Our government needs to be clear and take a position on this, otherwise the situation will get out of control."
+ UAS.203.a:0 "This is America, they have the freedom to love who they want."
  UAS.203.b:0 "Don’t you think we have more pressing matters?"
  UAS.203.c:0 "A griffon and a human together!? BAH! What's next?"
 
