@@ -676,9 +676,9 @@ l_english:
  UAS.203.c:0 "A griffon and a human together!? BAH! What's next?"
 
  UAS.300.t:0 "Friends from The Other Side of the Ocean"
- UAS.300.d:0 "Quite an unexpected surprise, the peoples of the United states have expressed the wish to make an alliance with us. If one of us was to be attacked, the other could quickly send help... \nWhat should we do?"
- UAS.300.a:0 "We need to mutually watch our back"
- UAS.300.b:0 "Sadly, we can’t do much"
+ UAS.300.d:0 "Quite an unexpected surprise, especially since we've learned the United States is traditionally very anti-communist. It appears that the people of the United states have expressed the wish to make an alliance with us. If one of us was to be attacked, the other could quickly send help... but we're quite far away from one another, and it would be difficult for us or them to send military assistance in a quick amount of time. \nWhat should we do, General Secretary?"
+ UAS.300.a:0 "We need to mutually watch our back, we're all comrades and in this together!"
+ UAS.300.b:0 "Sadly, we can’t do much... but we'll try our best to help them."
 
  UAS.301.t:0 "Stalliongrad Accepts!"
  UAS.301.d:0 "We are now allied with our comrade on the other side of the ocean! Nothing can separate the working class!"
