@@ -681,17 +681,17 @@ l_english:
  UAS.300.b:0 "Sadly, we can’t do much... but we'll try our best to help them."
 
  UAS.301.t:0 "Stalliongrad Accepts!"
- UAS.301.d:0 "We are now allied with our comrade on the other side of the ocean! Nothing can separate the working class!"
+ UAS.301.d:0 "Spectacular news from our comrades across the ocean! Stalliongrad has enthusiastically accepted our purposal to form a grand socialist alliance! Now that we're allied with our comrades across the sea, government officals from both sides are purposing joint military excercises to take place to prepare for the liberation of Equestria and Griffonia from the bourgeoisie menace! Nothing can separate the working class!"
  UAS.301.a:0 "Viva Stalliongrad!"
 
  UAS.302.t:0 "Stalliongrad Refuses!"
- UAS.302.d:0 "Stalliongrad has refused our alliance. The fact that we are too far from each other is probably the reason, we will have to look elsewhere."
- UAS.302.a:0 "An ocean too far"
+ UAS.302.d:0 "Unfortunate news from our comrades across the ocean. Stalliongrad has reluctently refused our purposal for an alliance. While they're eager to work with us, the fact that we are too far from each other is the reason why they declined. However, they did say they will try their best to support us rebuild and send equipment and supplies in the case of war, and other means. We will have to look elsewhere."
+ UAS.302.a:0 "An ocean too far..."
 
  UAS.312.t:0 "Invitation to the United Nations"
- UAS.312.d:0 "The Americans are inviting us to their alliance, what should we respond?"
- UAS.312.a:0 "Accept"
- UAS.312.b:0 "Refuse"
+ UAS.312.d:0 "We have recieved a shocking purposal that we thought once laid in the realm of fantasy and make believe. There were theories and rumors circulating across the US and our country about a possible alliance being purposed sometime soon between us. We dismissed it as just that, rumors...but theories and fantasy has turned into reality. Several weeks ago, the American Ambassador here in Russia approached us with the purposal of a formal military alliance between us and the United States. It was a purposal sent from the President of the United States himself. Government officals across Russia have been fiercely debating these past few weeks on the American's purposal for an alliance, and each side has very passionate opinions and arguments. But with the decades of rivalry and war between our two nations, many officals have remained stubborn on distancing ourselves from the Americans in this new world. However, many realize that an alliance between Russia and the United States may be humanity's best chance of survival in this new world; a united front with the worlds two greatest superpowers. After 70 days of bickering back and forth, we're ready to send the Americans our answer. What will it be?"
+ UAS.312.a:0 "Accept their purposal! The Russian and American man have been enemies long enough!"
+ UAS.312.b:0 "Refuse their purposal. Those filthy pigs will never change!"
 
  UAS.313.t:0 "The Soviet Union joins the United Nations"
  UAS.313.d:0 "The Soviets have accepted our proposal to join our faction"
