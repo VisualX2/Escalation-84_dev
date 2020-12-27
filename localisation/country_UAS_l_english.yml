@@ -693,18 +693,18 @@ l_english:
  UAS.312.a:0 "Accept their purposal! The Russian and American man have been enemies long enough!"
  UAS.312.b:0 "Refuse their purposal. Those filthy pigs will never change!"
 
- UAS.313.t:0 "The Soviet Union joins the United Nations"
- UAS.313.d:0 "The Soviets have accepted our proposal to join our faction"
- UAS.313.a:0 "Greeting, comrades"
+ UAS.313.t:0 "The Soviet Union Joins the United Nations"
+ UAS.313.d:0 "Many once doubted the possiblity of the United States and the Soviet Union coming together to fight for a common future, and rightfully so. But this morning, we recieved some absolutely astonishing news from New Moscow. Our ambassador has relyed the Soviet's response to our purposal, and their offical statement is that they have accepted our proposal to join our alliance! Today marks a new day for humanity and our future!"
+ UAS.313.a:0 "Together we will manifest mankind's destiny."
 
- UAS.314.t:0 "The Soviet Union declines the offer"
- UAS.314.d:0 "The Soviets have refused the proposal to join our faction"
+ UAS.314.t:0 "The Soviet Union Declines the Offer"
+ UAS.314.d:0 "This morning, we recieved a phone call from our ambassador in the Soviet Union, and he unfortunately had to deliver us some regretful news. The Russians have refused the proposal to join our alliance. It was an answer that many saw coming from a light-year away, but it was worth a shot. There's still too much bad blood between us and the Soviets to truly consider an alliance, maybe one day though."
  UAS.314.a:0 "Not surprising..."
 
  UAS.315.t:0 "Invitation to the United Nations"
- UAS.315.d:0 "The Americans are inviting us to their alliance, what should we respond?"
- UAS.315.a:0 "Accept"
- UAS.315.b:0 "Refuse"
+ UAS.315.d:0 "We've had back and forth communication with the United States across the sea for quite some time now. With the Junta ousted and the Republic restored, we've been warming back up to them now that the military isn't there to cause tension, especially since we now know they had plans to invade Europe. However, the day we were all expecting came, with the American Ambassador informing us that the United States wished to restablish the North Atlantic Treaty Organization(NATO) with Europe and her nations, but under a new name. It seems a majority of the leaders within the European Council are overwhelmingly in support of restablishing our alliance with the United States, citing that we had enormous success with the Americans and our alliance will be even more powerful and strong in this world. But there are those that worry if the United States still truly has the best intentions of Europe in mind. Back on Earth, American influence on European society was seeping into nearly every crevice it could get into. Many now worry that by restablishing this close bond with the Americans, we could see those cultural influences magnified by dozens of times, especially since we're more vulnerable. After countless weeks of debates, what shall our answer be to the Americans? They're expecting it today."
+ UAS.315.a:0 "Accept, we're strongest when the West is united in common interest!"
+ UAS.315.b:0 "Refuse, Europe no longer needs American babysitting."
 
  UAS.316.t:0 "The UEN joins the United Nations"
  UAS.316.d:0 "The Europeans have accepted our proposal to join our faction"
